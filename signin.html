@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In - StudentHub-AI</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="auth-page">
+    <div class="auth-container">
+        <div class="auth-header">
+            <div class="logo">
+                <i class="fas fa-graduation-cap"></i>
+                <span>StudentHub-AI</span>
+            </div>
+            <h2 id="formTitle">Welcome Back!</h2>
+            <p id="formSubtitle">Sign in to continue your learning journey</p>
+        </div>
+
+        <div id="errorMessage" class="error-message"></div>
+        <div id="successMessage" class="success-message"></div>
+
+        <!-- Sign In Form -->
+        <form id="signInForm" class="auth-form">
+            <input type="email" id="signInEmail" placeholder="Email Address" required>
+            <input type="password" id="signInPassword" placeholder="Password" required>
+            <button type="submit" id="signInBtn">Sign In</button>
+        </form>
+
+        <!-- Sign Up Form (hidden by default) -->
+        <form id="signUpForm" class="auth-form" style="display: none;">
+            <input type="text" id="signUpUsername" placeholder="Username" required>
+            <input type="email" id="signUpEmail" placeholder="Email Address" required>
+            <input type="password" id="signUpPassword" placeholder="Password" required>
+            <button type="submit" id="signUpBtn">Create Account</button>
+        </form>
+
+        <div class="auth-toggle">
+            <span id="toggleText">Don't have an account?</span>
+            <a id="toggleLink">Sign Up</a>
+        </div>
+
+        <a href="index.html" class="back-link">
+            <i class="fas fa-arrow-left"></i> Back to Home
+        </a>
+    </div>
+
+    <!-- All JavaScript is now in script.js -->
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,6 +1,7 @@
 // script.js
 const API_BASE = 'https://studenthub-ai-lj46.onrender.com/api';
 
+// ========== COURSE TOPICS DATA ==========
 const COURSES_DATA = {
     "Accountancy / Accounting": {
         degree: "B.Sc. Accounting",
@@ -157,7 +158,7 @@ function requireAuth(event) {
     return true;
 }
 
-// ========== TOPICS MODAL ==========
+// ========== TOPICS MODAL (IMPROVED VERSION) ==========
 function openTopicsModal(courseName, courseData) {
     const modal = document.getElementById('topicsModal');
     const title = document.getElementById('modalTitle');
@@ -165,28 +166,53 @@ function openTopicsModal(courseName, courseData) {
 
     if (!modal || !title || !content) return;
 
-    // Set title
     title.textContent = `${courseName} – ${courseData.degree}`;
 
-    // Build HTML
     let html = '';
-    courseData.levels.forEach(level => {
-        html += `<div class="level-block">`;
-        html += `<h4 class="level-title">${level.level}</h4>`;
-        level.semesters.forEach(sem => {
-            html += `<div class="semester-block">`;
-            html += `<h5 class="semester-title">${sem.semester}</h5>`;
-            html += `<ul class="course-list">`;
+    courseData.levels.forEach((level, levelIndex) => {
+        html += `<div class="level-card">`;
+        html += `<div class="level-header"><i class="fas fa-layer-group"></i> ${level.level}</div>`;
+        level.semesters.forEach((sem, semIndex) => {
+            const semId = `sem-${levelIndex}-${semIndex}`;
+            html += `<div class="semester-group">`;
+            html += `<div class="semester-header" data-target="${semId}">`;
+            html += `<span><i class="fas fa-chevron-right"></i> ${sem.semester}</span>`;
+            html += `<span class="course-count">${sem.courses.length} courses</span>`;
+            html += `</div>`;
+            html += `<div id="${semId}" class="semester-courses">`;
             sem.courses.forEach(course => {
-                html += `<li>${course}</li>`;
+                const parts = course.split(':');
+                const code = parts[0].trim();
+                const titleText = parts.length > 1 ? parts[1].trim() : '';
+                html += `<div class="course-item">`;
+                html += `<span class="course-code">${code}</span>`;
+                if (titleText) html += `<span class="course-title">${titleText}</span>`;
+                html += `</div>`;
             });
-            html += `</ul>`;
+            html += `</div>`;
             html += `</div>`;
         });
         html += `</div>`;
     });
 
     content.innerHTML = html;
+
+    // Attach click handlers for accordion
+    document.querySelectorAll('.semester-header').forEach(header => {
+        header.addEventListener('click', function() {
+            const targetId = this.dataset.target;
+            const body = document.getElementById(targetId);
+            const icon = this.querySelector('.fa-chevron-right');
+            if (body) {
+                body.classList.toggle('open');
+                icon.classList.toggle('rotated');
+            }
+        });
+    });
+
+    // Open all semesters by default (optional – comment out to start closed)
+    document.querySelectorAll('.semester-courses').forEach(el => el.classList.add('open'));
+
     modal.style.display = 'flex';
     document.body.style.overflow = 'hidden';
 }

@@ -1,7 +1,6 @@
 // script.js
 const API_BASE = 'https://studenthub-ai-lj46.onrender.com/api';
 
-// ========== COURSE TOPICS DATA ==========
 const COURSES_DATA = {
     "Accountancy / Accounting": {
         degree: "B.Sc. Accounting",

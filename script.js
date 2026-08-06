@@ -158,7 +158,7 @@ function requireAuth(event) {
     return true;
 }
 
-// ========== TOPICS MODAL (IMPROVED VERSION) ==========
+// ========== TOPICS MODAL – REDESIGNED ==========
 function openTopicsModal(courseName, courseData) {
     const modal = document.getElementById('topicsModal');
     const title = document.getElementById('modalTitle');
@@ -169,49 +169,37 @@ function openTopicsModal(courseName, courseData) {
     title.textContent = `${courseName} – ${courseData.degree}`;
 
     let html = '';
+    const iconColors = ['#6e45e2', '#4361ee', '#00d4ff', '#2ecc71', '#f39c12', '#e74c3c', '#9b59b6', '#1abc9c'];
+    
     courseData.levels.forEach((level, levelIndex) => {
-        html += `<div class="level-card">`;
-        html += `<div class="level-header"><i class="fas fa-layer-group"></i> ${level.level}</div>`;
+        html += `<div class="modal-level">`;
+        html += `<div class="modal-level-header"><i class="fas fa-layer-group"></i> ${level.level}</div>`;
         level.semesters.forEach((sem, semIndex) => {
-            const semId = `sem-${levelIndex}-${semIndex}`;
-            html += `<div class="semester-group">`;
-            html += `<div class="semester-header" data-target="${semId}">`;
-            html += `<span><i class="fas fa-chevron-right"></i> ${sem.semester}</span>`;
-            html += `<span class="course-count">${sem.courses.length} courses</span>`;
-            html += `</div>`;
-            html += `<div id="${semId}" class="semester-courses">`;
+            html += `<div class="modal-semester">`;
+            html += `<div class="modal-semester-header"><i class="fas fa-calendar-alt"></i> ${sem.semester}</div>`;
+            html += `<div class="modal-topics-grid">`;
             sem.courses.forEach(course => {
                 const parts = course.split(':');
                 const code = parts[0].trim();
                 const titleText = parts.length > 1 ? parts[1].trim() : '';
-                html += `<div class="course-item">`;
-                html += `<span class="course-code">${code}</span>`;
-                if (titleText) html += `<span class="course-title">${titleText}</span>`;
+                // pick a consistent color based on course code
+                const colorIndex = (code.length + titleText.length) % iconColors.length;
+                const bgColor = iconColors[colorIndex];
+                html += `<div class="modal-topic-card">`;
+                html += `<div class="modal-topic-icon" style="background: ${bgColor};"><i class="fas fa-book-open"></i></div>`;
+                html += `<div class="modal-topic-info">`;
+                html += `<h4>${code}</h4>`;
+                if (titleText) html += `<p>${titleText}</p>`;
+                html += `</div>`;
                 html += `</div>`;
             });
-            html += `</div>`;
-            html += `</div>`;
+            html += `</div>`; // close topics grid
+            html += `</div>`; // close semester
         });
-        html += `</div>`;
+        html += `</div>`; // close level
     });
 
     content.innerHTML = html;
-
-    // Attach click handlers for accordion
-    document.querySelectorAll('.semester-header').forEach(header => {
-        header.addEventListener('click', function() {
-            const targetId = this.dataset.target;
-            const body = document.getElementById(targetId);
-            const icon = this.querySelector('.fa-chevron-right');
-            if (body) {
-                body.classList.toggle('open');
-                icon.classList.toggle('rotated');
-            }
-        });
-    });
-
-    // Open all semesters by default (optional – comment out to start closed)
-    document.querySelectorAll('.semester-courses').forEach(el => el.classList.add('open'));
 
     modal.style.display = 'flex';
     document.body.style.overflow = 'hidden';

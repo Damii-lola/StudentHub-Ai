@@ -1,7 +1,126 @@
 // script.js
 const API_BASE = 'https://studenthub-ai-lj46.onrender.com/api';
 
-// ========== UTILITY FUNCTIONS (shared) ==========
+// ========== COURSE TOPICS DATA ==========
+const COURSES_DATA = {
+    "Accountancy / Accounting": {
+        degree: "B.Sc. Accounting",
+        levels: [
+            {
+                level: "100 Level (Foundation Year)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "ACC 101: Introduction to Financial Accounting I",
+                            "AMS / BUA 101: Principles of Management / Introduction to Business I",
+                            "ECO 101: Principles of Economics I (Microeconomics)",
+                            "FIN 101: Introduction to Finance",
+                            "AMS 103: Introduction to Computing / Computer Applications",
+                            "GST 111: Communication in English Language",
+                            "ACC 103 / AMS 102: Mathematics for Management & Accounting I"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "ACC 102: Introduction to Financial Accounting II",
+                            "ACC 106: Accounting Theory & Foundations",
+                            "ECO 102: Principles of Economics II (Macroeconomics)",
+                            "MKT 101: Elements of Marketing",
+                            "GST 112: Nigerian Peoples and Culture",
+                            "AMS 104: Principles of Project Management"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "200 Level (Core Accounting Principles)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "ACC 201: Financial Accounting I",
+                            "ACC 203: Corporate Governance & Accounting Ethics",
+                            "ACC 205 / ACC 211: Introduction to Cost & Management Accounting",
+                            "ACC 233 / AMS 201: Business Statistics I",
+                            "ECN / ECO 201: Microeconomic Theory",
+                            "ENT 211: Entrepreneurship and Innovation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "ACC 202: Financial Accounting II",
+                            "ACC 204: Cost Accounting",
+                            "ACC 206: Accounting Laboratory / Computerized Accounting Systems",
+                            "ACC 214: Management Accounting I",
+                            "GST 212: Philosophy, Logic, and Human Existence",
+                            "ACC 213 / ACC 226: Mathematics / Quantitative Techniques for Accounting"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "300 Level (Professional Core & Applications)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "ACC 301: Financial Reporting I",
+                            "ACC 303: Management Accounting II",
+                            "ACC 305: Taxation I (Personal & Corporate Taxation Principles)",
+                            "ACC 307: Auditing & Assurance I",
+                            "ACC 311: Entrepreneurship in Accounting / Business Development",
+                            "ACC 313: Business Research Methodology"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "ACC 302: Financial Reporting II",
+                            "ACC 306: Taxation II (Advanced Taxation & Tax Management)",
+                            "ACC 308: Public Sector Accounting & Reporting (IPSAS)",
+                            "ACC 314: Company Law & Corporate Practice",
+                            "GST 312: Peace Studies and Conflict Resolution",
+                            "ENT 312: Venture Creation",
+                            "ACC 310: Accounting SIWES / Industrial Training / Internship"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "400 Level (Advanced & Final Year)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "ACC 401: Advanced Financial Reporting (IFRS Standards)",
+                            "ACC 403: Auditing & Assurance II (Audit Practice, Special Investigations, & IT Audit)",
+                            "ACC 405: Corporate Bankruptcy, Liquidation, & Reorganisation",
+                            "ACC 407: Oil & Gas / Petroleum Accounting",
+                            "ACC 409: International Accounting & Financial Systems",
+                            "ACC 413: Business Decision Analysis & Quantitative Models"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "ACC 402: Corporate Reporting & Governance",
+                            "ACC 404: Financial Management & Strategic Corporate Finance",
+                            "ACC 406: Strategic Management Accounting & Performance Management",
+                            "ACC 408: Multidisciplinary Case Study / Accounting Theory",
+                            "ACC 490: Research Project / Dissertation"
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+    // Add more courses here later
+};
+
+// ========== UTILITY FUNCTIONS ==========
 function getCurrentUser() {
     const userStr = localStorage.getItem('studenthub_user');
     if (!userStr) return null;
@@ -39,6 +158,48 @@ function requireAuth(event) {
     return true;
 }
 
+// ========== TOPICS MODAL ==========
+function openTopicsModal(courseName, courseData) {
+    const modal = document.getElementById('topicsModal');
+    const title = document.getElementById('modalTitle');
+    const content = document.getElementById('modalContent');
+
+    if (!modal || !title || !content) return;
+
+    // Set title
+    title.textContent = `${courseName} – ${courseData.degree}`;
+
+    // Build HTML
+    let html = '';
+    courseData.levels.forEach(level => {
+        html += `<div class="level-block">`;
+        html += `<h4 class="level-title">${level.level}</h4>`;
+        level.semesters.forEach(sem => {
+            html += `<div class="semester-block">`;
+            html += `<h5 class="semester-title">${sem.semester}</h5>`;
+            html += `<ul class="course-list">`;
+            sem.courses.forEach(course => {
+                html += `<li>${course}</li>`;
+            });
+            html += `</ul>`;
+            html += `</div>`;
+        });
+        html += `</div>`;
+    });
+
+    content.innerHTML = html;
+    modal.style.display = 'flex';
+    document.body.style.overflow = 'hidden';
+}
+
+function closeTopicsModal() {
+    const modal = document.getElementById('topicsModal');
+    if (modal) {
+        modal.style.display = 'none';
+        document.body.style.overflow = '';
+    }
+}
+
 // ========== MAIN PAGE LOGIC ==========
 function initMainPage() {
     const authBtn = document.getElementById('signInBtn');
@@ -59,11 +220,43 @@ function initMainPage() {
         el.addEventListener('click', function(e) {
             if (!requireAuth(e)) return;
             // Proceed with action – you can add custom logic here
-            // For example, alert('Access granted!');
         });
     });
 
-    // Update UI on load
+    // Course cards – open topics modal
+    document.querySelectorAll('.course-card').forEach(card => {
+        card.addEventListener('click', function(e) {
+            if (!requireAuth(e)) return;
+
+            const titleEl = this.querySelector('.course-info h4');
+            if (!titleEl) return;
+            const courseName = titleEl.textContent.trim();
+
+            const data = COURSES_DATA[courseName];
+            if (!data) {
+                alert('Course topics not yet available for this program.');
+                return;
+            }
+
+            openTopicsModal(courseName, data);
+        });
+    });
+
+    // Modal close handlers
+    const modal = document.getElementById('topicsModal');
+    if (modal) {
+        modal.addEventListener('click', function(e) {
+            if (e.target === this) {
+                closeTopicsModal();
+            }
+        });
+
+        const closeBtn = document.getElementById('closeTopicsModalBtn');
+        if (closeBtn) {
+            closeBtn.addEventListener('click', closeTopicsModal);
+        }
+    }
+
     updateAuthUI();
 }
 
@@ -78,7 +271,7 @@ function initSigninPage() {
     const errorMessage = document.getElementById('errorMessage');
     const successMessage = document.getElementById('successMessage');
 
-    if (!signInForm) return; // Not on signin page
+    if (!signInForm) return;
 
     let isSignUp = false;
 
@@ -99,7 +292,6 @@ function initSigninPage() {
         successMessage.style.display = 'none';
     }
 
-    // Toggle between sign in and sign up
     toggleLink.addEventListener('click', (e) => {
         e.preventDefault();
         isSignUp = !isSignUp;
@@ -122,7 +314,6 @@ function initSigninPage() {
         hideMessages();
     });
 
-    // Sign In
     signInForm.addEventListener('submit', async (e) => {
         e.preventDefault();
         hideMessages();
@@ -166,7 +357,6 @@ function initSigninPage() {
         }
     });
 
-    // Sign Up
     signUpForm.addEventListener('submit', async (e) => {
         e.preventDefault();
         hideMessages();
@@ -229,7 +419,6 @@ function initSigninPage() {
 
 // ========== INITIALIZE BASED ON PAGE ==========
 document.addEventListener('DOMContentLoaded', function() {
-    // Check if we are on the signin page (by presence of auth container)
     const isSigninPage = document.querySelector('.auth-container') !== null;
 
     if (isSigninPage) {

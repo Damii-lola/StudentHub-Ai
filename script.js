@@ -6707,6 +6707,630 @@ const COURSES_DATA = {
                 ]
             }
         ]
+    },
+    // ===== BASIC MEDICAL SCIENCES =====
+    "Human Anatomy": {
+        degree: "B.Sc. Human Anatomy",
+        levels: [
+            // ... (full data as previously provided)
+        ]
+    },
+    "Human Physiology": {
+        degree: "B.Sc. Human Physiology",
+        levels: [
+            // ... (full data as previously provided)
+        ]
+    },
+    "Medical Biochemistry": {
+        degree: "B.Sc. Medical Biochemistry",
+        levels: [
+            // ... (full data as previously provided)
+        ]
+    },
+    "Pharmacology & Therapeutics": {
+        degree: "B.Sc. Pharmacology & Therapeutics",
+        levels: [
+            // ... (full data as previously provided)
+        ]
+    },
+    "Human Nutrition & Environmental Health": {
+        degree: "B.Sc. Human Nutrition & Environmental Health",
+        levels: [
+            // ... (full data as previously provided)
+        ]
+    },
+    // ===== COMMUNICATION & MEDIA STUDIES =====
+    "Advertising": {
+        degree: "B.Sc. Advertising",
+        levels: [
+            // ... (full data as previously provided)
+        ]
+    },
+    "Broadcasting": {
+        degree: "B.Sc. Broadcasting",
+        levels: [
+            // ... (full data as previously provided)
+        ]
+    },
+    "Development Communication": {
+        degree: "B.Sc. Development Communication",
+        levels: [
+            // ... (full data as previously provided)
+        ]
+    },
+    "Digital Media & Communication": {
+        degree: "B.Sc. Digital Media & Communication",
+        levels: [
+            // ... (full data as previously provided)
+        ]
+    },
+    "Film & Multimedia Studies": {
+        degree: "B.Sc. Film & Multimedia Studies",
+        levels: [
+            // ... (full data as previously provided)
+        ]
+    },
+    "Journalism & Media Studies": {
+        degree: "B.Sc. Journalism & Media Studies",
+        levels: [
+            // ... (full data as previously provided)
+        ]
+    },
+    "Mass Communication": {
+        degree: "B.Sc. Mass Communication",
+        levels: [
+            // ... (full data as previously provided)
+        ]
+    },
+    "Public Relations": {
+        degree: "B.Sc. Public Relations",
+        levels: [
+            // ... (full data as previously provided)
+        ]
+    },
+    "Telecommunication Science": {
+        degree: "B.Sc. Telecommunication Science",
+        levels: [
+            // ... (full data as previously provided)
+        ]
+    },
+    // ===== COMPUTING PROGRAMS =====
+    "Artificial Intelligence": {
+        degree: "B.Sc. Artificial Intelligence",
+        levels: [
+            {
+                level: "100 Level (Foundations in Mathematics, Programming & Computing)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "AIF 101: Introduction to Artificial Intelligence & Intelligent Agents",
+                            "COS 101: Introduction to Computing Sciences",
+                            "COS 103: Computer Programming I (Python for Computing)",
+                            "MTH 101: Elementary Mathematics I (Algebra & Trigonometry)",
+                            "MTH 103: Discrete Mathematics & Logic",
+                            "PHY 101: General Physics I (Mechanics, Thermal Physics & Waves)",
+                            "GST 111: Communication in English Language"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "COS 102: Computer Programming II (Object-Oriented Programming in Python/C++)",
+                            "MTH 102: Elementary Mathematics II (Calculus & Linear Algebra)",
+                            "STA 102: Probability & Descriptive Statistics for Data Science",
+                            "PHY 102: General Physics II (Electricity, Magnetism & Modern Physics)",
+                            "GST 112: Nigerian Peoples and Culture"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "200 Level (Data Structures, AI Algorithms & Mathematical Foundations)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "AIF 201: Foundations of Artificial Intelligence & Search Algorithms",
+                            "AIF 203: Linear Algebra & Vector Calculus for Machine Learning",
+                            "CSC 201: Computer Architecture & Organization",
+                            "CSC 203: Data Structures & Algorithms",
+                            "STA 201: Inferential Statistics & Probability Models",
+                            "ENT 211: Entrepreneurship and Innovation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "AIF 202: Machine Learning Fundamentals (Supervised & Unsupervised Learning)",
+                            "AIF 204: Knowledge Representation, Reasoning & Expert Systems",
+                            "CSC 202: Database Management Systems (SQL & Vector Databases)",
+                            "CSC 204: Software Engineering & Systems Design",
+                            "GST 212: Philosophy, Logic, and Human Existence"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "300 Level (Deep Learning, NLP, Computer Vision & SIWES)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "AIF 301: Deep Learning & Neural Networks Architectures (PyTorch/TensorFlow)",
+                            "AIF 303: Natural Language Processing (NLP) & Computational Linguistics",
+                            "AIF 305: Computer Vision, Pattern Recognition & Image Processing",
+                            "AIF 307: Optimization Techniques for AI & Convex Analysis",
+                            "CSC 301: Operating Systems & Parallel Computing",
+                            "ENT 312: Venture Creation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "AIF 302: Reinforcement Learning, Multi-Agent Systems & Game Theory",
+                            "AIF 304: SIWES / Industrial Attachment (6 Months Field Attachment at AI Labs, Tech Companies, Software Agencies, or Enterprise R&D Units)",
+                            "AIF 306: SIWES Technical Logbook Evaluation, Industrial Defense & Seminar",
+                            "GST 312: Peace Studies and Conflict Resolution"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "400 Level (Generative AI, MLOps, AI Ethics & Capstone Project)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "AIF 401: Generative AI, Large Language Models (LLMs) & Transformer Architectures",
+                            "AIF 403: MLOps, AI Model Deployment, Cloud Infrastructure & Pipelines",
+                            "AIF 405: Robotics, Autonomous Systems & Spatial AI",
+                            "AIF 407: Ethics, Governance, Explainable AI (XAI) & Algorithmic Bias",
+                            "AIF 409: AI Research Methodology, Grant Writing & Seminar"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "AIF 402: AI in Healthcare, Finance, Agriculture & Emerging Systems",
+                            "AIF 404: Edge AI, Hardware Acceleration & Embedded Machine Learning",
+                            "AIF 406: AI Startup Operations, Product Design & Commercialization",
+                            "AIF 490: Final Year Undergraduate Research Project / Practical System Implementation"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "Computer Science": {
+        degree: "B.Sc. Computer Science",
+        levels: [
+            {
+                level: "100 Level (Foundations in Mathematics, Programming & Science)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "CSC 101: Introduction to Computer Science & Computing Systems",
+                            "COS 101: Introduction to Computing Sciences",
+                            "COS 103: Computer Programming I (Structured Programming in Python/C)",
+                            "MTH 101: Elementary Mathematics I (Algebra & Trigonometry)",
+                            "MTH 103: Discrete Mathematics & Logic",
+                            "PHY 101: General Physics I (Mechanics, Thermal Physics & Waves)",
+                            "GST 111: Communication in English Language"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "CSC 102: Computer Programming II (Object-Oriented Programming in Java/C++)",
+                            "MTH 102: Elementary Mathematics II (Calculus & Linear Algebra)",
+                            "STA 102: Probability & Descriptive Statistics for Computing",
+                            "PHY 102: General Physics II (Electricity, Magnetism & Modern Physics)",
+                            "GST 112: Nigerian Peoples and Culture"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "200 Level (Data Structures, Algorithms & Computer Architecture)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "CSC 201: Computer Architecture & Organization",
+                            "CSC 203: Data Structures & Algorithms",
+                            "CSC 205: Digital Logic Design & Assembly Language",
+                            "MTH 201: Mathematical Methods I (Differential Equations)",
+                            "STA 201: Inferential Statistics & Probability Models",
+                            "ENT 211: Entrepreneurship and Innovation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "CSC 202: Database Management Systems (SQL & Relational Models)",
+                            "CSC 204: Software Engineering Principles & System Design",
+                            "CSC 206: Web Technologies & Front-End/Back-End Systems",
+                            "CSC 208: Operating Systems Principles & Process Management",
+                            "GST 212: Philosophy, Logic, and Human Existence"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "300 Level (Networks, Systems Programming, Security & SIWES)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "CSC 301: Operating Systems Internals & Systems Programming",
+                            "CSC 303: Computer Networks & Internet Protocols (TCP/IP Architecture)",
+                            "CSC 305: Theory of Computation & Automata Theory",
+                            "CSC 307: Artificial Intelligence & Machine Learning Basics",
+                            "CSC 309: Research Methodology in Computer Science",
+                            "ENT 312: Venture Creation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "CSC 302: Compiler Construction & Programming Language Concepts",
+                            "CSC 304: SIWES / Industrial Attachment (6 Months Field Attachment at Software Companies, Tech Hubs, Telecoms, or IT Departments)",
+                            "CSC 306: SIWES Technical Logbook Evaluation, Industrial Defense & Seminar",
+                            "GST 312: Peace Studies and Conflict Resolution"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "400 Level (Advanced Software Engineering, Cybersecurity & Thesis)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "CSC 401: Distributed Systems & Cloud Computing",
+                            "CSC 403: Cybersecurity, Cryptography & Network Security",
+                            "CSC 405: Advanced Database Systems (NoSQL, Big Data & Query Optimization)",
+                            "CSC 407: Algorithm Design, Complexity Analysis & Optimization",
+                            "CSC 409: Human-Computer Interaction (HCI) & UI/UX Principles"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "CSC 402: Mobile Application Development (Android/iOS)",
+                            "CSC 404: Software Quality Assurance, Testing & DevOps Pipelines",
+                            "CSC 406: Computing Ethics, IT Law & Professional Practice",
+                            "CSC 490: Final Year Undergraduate Research Project / Practical System Implementation"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "Cyber Security": {
+        degree: "B.Sc. Cyber Security",
+        levels: [
+            {
+                level: "100 Level (Foundations in Mathematics, Programming & Computing)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "CYB 101: Introduction to Cybersecurity & Information Assurance",
+                            "COS 101: Introduction to Computing Sciences",
+                            "COS 103: Computer Programming I (Python/C for Computing)",
+                            "MTH 101: Elementary Mathematics I (Algebra & Trigonometry)",
+                            "MTH 103: Discrete Mathematics & Logic",
+                            "PHY 101: General Physics I (Mechanics, Thermal Physics & Waves)",
+                            "GST 111: Communication in English Language"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "CYB 102: Computer Networking Fundamentals & Protocols",
+                            "COS 102: Computer Programming II (Object-Oriented Programming in C++/Python)",
+                            "MTH 102: Elementary Mathematics II (Calculus & Linear Algebra)",
+                            "STA 102: Probability & Descriptive Statistics for Computing",
+                            "PHY 102: General Physics II (Electricity, Magnetism & Modern Physics)",
+                            "GST 112: Nigerian Peoples and Culture"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "200 Level (System Architecture, Network Security & Cryptography Basics)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "CYB 201: Principles of Information Security & Risk Management",
+                            "CYB 203: Cryptography & Data Hiding Techniques I",
+                            "CSC 201: Computer Architecture & Assembly Language",
+                            "CSC 203: Data Structures & Algorithms",
+                            "STA 201: Inferential Statistics & Probability Models",
+                            "ENT 211: Entrepreneurship and Innovation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "CYB 202: Network Security, Firewalls & Intrusion Detection Systems",
+                            "CYB 204: Operating Systems Security & Administration (Linux/Windows)",
+                            "CSC 202: Database Management Systems & SQL Security",
+                            "CSC 204: Secure Software Engineering & Code Auditing",
+                            "GST 212: Philosophy, Logic, and Human Existence"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "300 Level (Ethical Hacking, Digital Forensics, Malware Analysis & SIWES)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "CYB 301: Vulnerability Assessment, Ethical Hacking & Penetration Testing",
+                            "CYB 303: Digital Forensics, Chain of Custody & Evidence Analysis",
+                            "CYB 305: Applied Cryptography, PKI & Wireless Security",
+                            "CYB 307: Reverse Engineering & Malware Analysis Fundamentals",
+                            "CYB 309: Research Methodology in Cybersecurity",
+                            "ENT 312: Venture Creation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "CYB 302: Practical Offensive & Defensive Cyber Operations Lab",
+                            "CYB 304: SIWES / Industrial Attachment (6 Months Field Attachment at SOCs, Cyber Agencies, Banking Tech Units, or Telecom Firms)",
+                            "CYB 306: SIWES Technical Logbook Evaluation, Security Portfolio Defense & Seminar",
+                            "GST 312: Peace Studies and Conflict Resolution"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "400 Level (Cloud Security, Threat Intelligence, Cyberlaw & Thesis)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "CYB 401: Cloud, Virtualization & Container Security",
+                            "CYB 403: Cyber Threat Intelligence, Threat Hunting & SIEM Analytics",
+                            "CYB 405: Incident Response, Disaster Recovery & Business Continuity",
+                            "CYB 407: Critical Infrastructure, IoT & Industrial Control Systems (ICS/SCADA) Security",
+                            "CYB 409: Cyber Crime, Cyberlaw, Digital Rights & Ethics (NDPA/Cybercrime Act)"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "CYB 402: Cybersecurity Governance, Compliance & Audit (ISO 27001, NIST)",
+                            "CYB 404: Security Operations Center (SOC) Management & Security Automation",
+                            "CYB 406: AI in Cybersecurity, Biometrics & Emerging Threat Vectors",
+                            "CYB 490: Final Year Undergraduate Research Project / Practical System Implementation"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "Data Science": {
+        degree: "B.Sc. Data Science",
+        levels: [
+            {
+                level: "100 Level (Foundations in Mathematics, Programming & Statistics)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "DTS 101: Introduction to Data Science & Analytics",
+                            "COS 101: Introduction to Computing Sciences",
+                            "COS 103: Computer Programming I (Python for Data Science)",
+                            "MTH 101: Elementary Mathematics I (Algebra & Trigonometry)",
+                            "MTH 103: Discrete Mathematics & Logic",
+                            "PHY 101: General Physics I (Mechanics, Thermal Physics & Waves)",
+                            "GST 111: Communication in English Language"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "COS 102: Computer Programming II (Data Structures & Object-Oriented Python/R)",
+                            "MTH 102: Elementary Mathematics II (Calculus & Linear Algebra)",
+                            "STA 102: Probability & Descriptive Statistics",
+                            "PHY 102: General Physics II (Electricity, Magnetism & Modern Physics)",
+                            "GST 112: Nigerian Peoples and Culture"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "200 Level (Data Wrangling, Applied Statistics & Database Systems)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "DTS 201: Data Wrangling, Cleaning & Exploratory Data Analysis (EDA)",
+                            "DTS 203: Linear Algebra & Multivariate Calculus for Data Science",
+                            "CSC 201: Computer Architecture & Systems",
+                            "CSC 203: Data Structures & Algorithms",
+                            "STA 201: Inferential Statistics & Statistical Distributions",
+                            "ENT 211: Entrepreneurship and Innovation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "DTS 202: Applied Machine Learning I (Regression, Classification & Clustering)",
+                            "DTS 204: Data Visualization & Storytelling (PowerBI, Tableau & Matplotlib/Seaborn)",
+                            "CSC 202: Relational Database Management Systems & SQL",
+                            "CSC 204: Software Engineering Principles for Data Products",
+                            "GST 212: Philosophy, Logic, and Human Existence"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "300 Level (Big Data, Machine Learning, Deep Learning & SIWES)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "DTS 301: Big Data Technologies & Distributed Computing (Hadoop, Spark & PySpark)",
+                            "DTS 303: Applied Machine Learning II & Deep Learning Fundamentals",
+                            "DTS 305: NoSQL Databases & Unstructured Data Management (MongoDB, Cassandra)",
+                            "DTS 307: Time Series Analysis & Predictive Forecasting",
+                            "CSC 309: Research Methodology & Experimental Design for Data Science",
+                            "ENT 312: Venture Creation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "DTS 302: Practical Data Science Lab & Analytics Portfolio Workshop",
+                            "DTS 304: SIWES / Industrial Attachment (6 Months Field Attachment at FinTechs, Data Consultancies, Telecoms, or Tech Companies)",
+                            "DTS 306: SIWES Technical Logbook Evaluation, Industrial Defense & Seminar",
+                            "GST 312: Peace Studies and Conflict Resolution"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "400 Level (Data Engineering, MLOps, Data Ethics & Thesis)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "DTS 401: Data Engineering, ETL Pipelines & Cloud Warehousing (Snowflake, BigQuery)",
+                            "DTS 403: MLOps, Model Monitoring & Automated Machine Learning (AutoML)",
+                            "DTS 405: Natural Language Processing (NLP) & Text Analytics",
+                            "DTS 407: Data Ethics, Privacy Laws, Governance & Data Protection (NDPA/GDPR)",
+                            "DTS 409: Business Intelligence, Decision Science & Domain Analytics"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "DTS 402: Advanced Spatial Data Science & GIS Analytics",
+                            "DTS 404: Reinforcement Learning & A/B Testing Methodologies",
+                            "DTS 406: Data Science Startup Operations & Commercialization",
+                            "DTS 490: Final Year Undergraduate Research Project / End-to-End Data System Implementation"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "Information & Communication Technology": {
+        degree: "B.Sc. Information & Communication Technology",
+        levels: [
+            {
+                level: "100 Level (Foundations in Computing, Mathematics & Communication Systems)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "ICT 101: Introduction to Information & Communication Technology",
+                            "COS 101: Introduction to Computing Sciences",
+                            "COS 103: Computer Programming I (Python/C)",
+                            "MTH 101: Elementary Mathematics I (Algebra & Trigonometry)",
+                            "MTH 103: Discrete Mathematics & Logic",
+                            "PHY 101: General Physics I (Mechanics, Thermal Physics & Waves)",
+                            "GST 111: Communication in English Language"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "ICT 102: Basics of Telecommunication & Signal Systems",
+                            "COS 102: Computer Programming II (Object-Oriented Programming)",
+                            "MTH 102: Elementary Mathematics II (Calculus & Linear Algebra)",
+                            "STA 102: Probability & Descriptive Statistics for Computing",
+                            "PHY 102: General Physics II (Electricity, Magnetism & Electronics)",
+                            "GST 112: Nigerian Peoples and Culture"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "200 Level (Networking, Digital Logic, Web Tech & Database Systems)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "ICT 201: Computer Communications & Networking Fundamentals",
+                            "ICT 203: Web Design & Front-End Technologies (HTML5, CSS3, JavaScript)",
+                            "CSC 201: Computer Architecture & Assembly Language",
+                            "CSC 203: Data Structures & Algorithms",
+                            "STA 201: Inferential Statistics for ICT Applications",
+                            "ENT 211: Entrepreneurship and Innovation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "ICT 202: Wireless Communications & Mobile Networks",
+                            "ICT 204: Internet & Web Application Development (Server-side & APIs)",
+                            "CSC 202: Relational Database Management Systems & SQL",
+                            "CSC 204: System Analysis, Design & UML Modeling",
+                            "GST 212: Philosophy, Logic, and Human Existence"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "300 Level (Enterprise Systems, Cloud Computing, Cybersecurity & SIWES)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "ICT 301: Enterprise Network Architecture, Routing & Switching",
+                            "ICT 303: Mobile Application Development (Android/Flutter)",
+                            "ICT 305: Information Systems Security & Cryptography",
+                            "ICT 307: Cloud Computing Infrastructure & Virtualization",
+                            "CSC 309: Research Methodology in ICT & Computing",
+                            "ENT 312: Venture Creation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "ICT 302: Practical ICT Network Lab & Systems Admin Workshop",
+                            "ICT 304: SIWES / Industrial Attachment (6 Months Field Attachment at Telecoms, ISPs, IT Firms, or Enterprise Tech Units)",
+                            "ICT 306: SIWES Technical Logbook Evaluation, Presentation & Defense",
+                            "GST 312: Peace Studies and Conflict Resolution"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "400 Level (IoT, IT Governance, Broadcast/Multimedia Tech & Thesis)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "ICT 401: Internet of Things (IoT) & Embedded Communication Systems",
+                            "ICT 403: Multimedia Systems, Audio/Video Streaming Protocols & Digital Signal Processing",
+                            "ICT 405: IT Infrastructure Governance, Service Management & Policy (ITIL, COBIT)",
+                            "ICT 407: Network Security, Firewalls & Intrusion Prevention",
+                            "ICT 409: Telecommunication Laws, Spectrum Regulation & Cyber Ethics"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "ICT 402: Satellite Communications, Fiber Optics & Microwave Systems",
+                            "ICT 404: E-Commerce Systems, Digital Transformation & FinTech Infrastructure",
+                            "ICT 406: Emerging ICT Technologies (5G/6G, Edge Computing & AI Integration)",
+                            "ICT 490: Final Year Undergraduate Research Project / Practical System Implementation"
+                        ]
+                    }
+                ]
+            }
+        ]
     }
 };
 

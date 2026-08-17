@@ -347,7 +347,6 @@ const COURSES_DATA = {
             }
         ]
     },
-    // ===== BUSINESS & MANAGEMENT PROGRAMS =====
     "Business Administration / Management": {
         degree: "B.Sc. Business Administration / Management",
         levels: [
@@ -6712,86 +6711,1501 @@ const COURSES_DATA = {
     "Human Anatomy": {
         degree: "B.Sc. Human Anatomy",
         levels: [
-            // ... (full data as previously provided)
+            {
+                level: "100 Level (Pre-Medical Foundations)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "BIO 101: General Biology I (Cell Biology & Genetics)",
+                            "CHM 101: General Chemistry I (Inorganic & Physical Chemistry)",
+                            "PHY 101: General Physics I (Mechanics, Thermal Physics & Waves)",
+                            "MAT 101: General Mathematics I (Algebra & Trigonometry)",
+                            "GST 111: Communication in English Language",
+                            "GST 113: Nigerian Peoples and Culture"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "BIO 102: General Biology II (Organismal Biology & Ecology)",
+                            "CHM 102: General Chemistry II (Organic & Analytical Chemistry)",
+                            "PHY 102: General Physics II (Electricity, Magnetism & Optics)",
+                            "GST 112: Philosophy, Logic, and Human Existence",
+                            "AMS 102: Introduction to Computing & Information Technology"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "200 Level (Basic Medical Sciences & Systemic Anatomy)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "ANA 201: Gross Anatomy I: Upper Limb, Lower Limb & Thorax",
+                            "ANA 203: General Histology & Tissue Biology",
+                            "ANA 205: General Embryology & Teratology",
+                            "PIO 201: General Human Physiology I (Blood, Excitable Tissues & CVS)",
+                            "BCH 201: General Biochemistry I (Biomolecules & Enzymology)",
+                            "ENT 211: Entrepreneurship and Innovation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "ANA 202: Gross Anatomy II: Abdomen, Pelvis & Perineum",
+                            "ANA 204: Systemic Histology (Organ Systems)",
+                            "ANA 206: Systemic Embryology & Organogenesis",
+                            "PIO 202: General Human Physiology II (Respiration, Renal & GI Systems)",
+                            "BCH 202: General Biochemistry II (Metabolism & Energetics)",
+                            "STA 202: Biostatistics for Health Sciences"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "300 Level (Advanced Anatomy, Neuroanatomy & SIWES)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "ANA 301: Gross Anatomy III: Head and Neck",
+                            "ANA 303: Neuroanatomy (Central & Peripheral Nervous Systems)",
+                            "ANA 305: Histochemistry & Cytochemistry Techniques",
+                            "ANA 307: Radiological & Imaging Anatomy (X-Ray, CT, MRI, Ultrasound)",
+                            "ANA 309: Research Methodology in Basic Medical Sciences",
+                            "ENT 312: Venture Creation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "ANA 302: Practical Cadaveric Dissection & Museum Preparation Techniques",
+                            "ANA 304: SIWES / Industrial Training (6 Months Attachment in Teaching Hospitals, Diagnostic Centers, Histopathology Labs, Mortuaries, or Research Hubs)",
+                            "ANA 306: SIWES Technical Logbook Evaluation, Laboratory Reports & Departmental Seminar",
+                            "GST 312: Peace Studies and Conflict Resolution"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "400 Level (Specialized Anatomy, Physical Anthropology & Thesis)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "ANA 401: Physical Anthropology, Comparative Anatomy & Forensic Anatomy",
+                            "ANA 403: Advanced Neurobiology & Clinical Neuroanatomy",
+                            "ANA 405: Electron Microscopy, Modern Histological Techniques & Microtomy",
+                            "ANA 407: Clinical & Applied Anatomy (Surgical & Surface Anatomy)",
+                            "ANA 409: Molecular Biology, Genetics & Cytogenetics"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "ANA 402: Developmental & Reproductive Biology",
+                            "ANA 404: Mortuary Technology, Embalming Techniques & Forensic Histology",
+                            "ANA 406: Laboratory Management, Bioethics & Safety Standards",
+                            "ANA 490: Final Year Undergraduate Research Thesis & Practical Defense"
+                        ]
+                    }
+                ]
+            }
         ]
     },
     "Human Physiology": {
         degree: "B.Sc. Human Physiology",
         levels: [
-            // ... (full data as previously provided)
+            {
+                level: "100 Level (Pre-Medical Foundations)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "BIO 101: General Biology I (Cell Biology & Genetics)",
+                            "CHM 101: General Chemistry I (Inorganic & Physical Chemistry)",
+                            "PHY 101: General Physics I (Mechanics, Thermal Physics & Waves)",
+                            "MAT 101: General Mathematics I (Algebra & Trigonometry)",
+                            "GST 111: Communication in English Language",
+                            "GST 113: Nigerian Peoples and Culture"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "BIO 102: General Biology II (Organismal Biology & Ecology)",
+                            "CHM 102: General Chemistry II (Organic & Analytical Chemistry)",
+                            "PHY 102: General Physics II (Electricity, Magnetism & Optics)",
+                            "GST 112: Philosophy, Logic, and Human Existence",
+                            "AMS 102: Introduction to Computing & Information Technology"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "200 Level (Basic Medical Sciences & Systemic Physiology)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "PIO 201: General Physiology, Cell Physiology & Excitable Tissues",
+                            "PIO 203: Blood, Body Fluids & Cardiovascular Physiology",
+                            "ANA 201: Gross Anatomy I (Limbs, Thorax & General Histology)",
+                            "BCH 201: General Biochemistry I (Biomolecules & Enzymology)",
+                            "STA 201: Biostatistics for Health Sciences",
+                            "ENT 211: Entrepreneurship and Innovation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "PIO 202: Respiratory Physiology & Renal Physiology",
+                            "PIO 204: Gastrointestinal Physiology & Nutrition",
+                            "ANA 202: Gross Anatomy II (Abdomen, Pelvis & Histology)",
+                            "BCH 202: General Biochemistry II (Metabolism & Energetics)",
+                            "PIO 206: Biophysics & Physiological Instrumentation",
+                            "GST 212: Nigerian Peoples and Culture II"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "300 Level (Advanced Physiology, Neurophysiology & SIWES)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "PIO 301: Neurophysiology (Central, Peripheral & Autonomic Nervous Systems)",
+                            "PIO 303: Endocrinological Physiology & Metabolic Homeostasis",
+                            "PIO 305: Reproductive Physiology & Developmental Biology",
+                            "PIO 307: Special Senses (Vision, Hearing, Gustation, Olfaction)",
+                            "PIO 309: Research Methodology & Experimental Design in Physiology",
+                            "ENT 312: Venture Creation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "PIO 302: Practical Physiological Techniques & Laboratory Diagnostics",
+                            "PIO 304: SIWES / Industrial Training (6 Months Attachment in Teaching Hospitals, Diagnostic Centers, Medical Research Institutes, or Fitness/Sports Science Labs)",
+                            "PIO 306: SIWES Technical Logbook Evaluation, Experimental Reports & Departmental Seminar",
+                            "GST 312: Peace Studies and Conflict Resolution"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "400 Level (Specialized & Environmental Physiology, Pathophysiology & Thesis)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "PIO 401: Pathophysiology & Applied Clinical Physiology",
+                            "PIO 403: Environmental, Exercise & Sports Physiology",
+                            "PIO 405: Aviation, Space & Underwater Physiology",
+                            "PIO 407: Comparative & Evolutionary Physiology",
+                            "PIO 409: Molecular Biology, Genetics & Cellular Signaling Pathways"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "PIO 402: Chronobiology, Psychophysiology & Behavioral Neuroscience",
+                            "PIO 404: Neuropharmacology & Autonomic Regulation",
+                            "PIO 406: Bioethics, Laboratory Safety & Medical Equipment Calibration",
+                            "PIO 490: Final Year Undergraduate Research Project / Thesis Defense"
+                        ]
+                    }
+                ]
+            }
         ]
     },
     "Medical Biochemistry": {
         degree: "B.Sc. Medical Biochemistry",
         levels: [
-            // ... (full data as previously provided)
+            {
+                level: "100 Level (Pre-Medical Foundations)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "BIO 101: General Biology I (Cell Biology & Genetics)",
+                            "CHM 101: General Chemistry I (Inorganic & Physical Chemistry)",
+                            "PHY 101: General Physics I (Mechanics, Thermal Physics & Waves)",
+                            "MAT 101: General Mathematics I (Algebra & Trigonometry)",
+                            "GST 111: Communication in English Language",
+                            "GST 113: Nigerian Peoples and Culture"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "BIO 102: General Biology II (Organismal Biology & Ecology)",
+                            "CHM 102: General Chemistry II (Organic & Analytical Chemistry)",
+                            "PHY 102: General Physics II (Electricity, Magnetism & Optics)",
+                            "GST 112: Philosophy, Logic, and Human Existence",
+                            "AMS 102: Introduction to Computing & Information Technology"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "200 Level (Core Biochemistry & Basic Medical Sciences)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "BCH 201: General Biochemistry I (Chemistry of Biomolecules: Proteins, Lipids, Nucleic Acids & Carbohydrates)",
+                            "BCH 203: Bioenergetics & Thermodynamics",
+                            "ANA 201: Gross Anatomy I (General Anatomy & Histology)",
+                            "PIO 201: General Human Physiology I (Cell, Blood & Excitable Tissues)",
+                            "CHM 211: Physical & Organic Chemistry for Life Sciences",
+                            "ENT 211: Entrepreneurship and Innovation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "BCH 202: General Biochemistry II (Metabolism of Carbohydrates & Lipids)",
+                            "BCH 204: Enzymology & Enzyme Kinetics",
+                            "BCH 206: Biochemical Methods & Analytical Techniques I",
+                            "ANA 202: Gross Anatomy II (Abdomen, Pelvis & Systemic Histology)",
+                            "PIO 202: General Human Physiology II (CVS, Renal & GI Systems)",
+                            "STA 202: Biostatistics for Health Sciences"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "300 Level (Clinical Biochemistry, Molecular Biology & SIWES)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "MBC 301: Clinical Biochemistry I (Metabolic Disorders, Liver & Kidney Function Tests)",
+                            "MBC 303: Metabolism of Amino Acids, Nucleotides & Inborn Errors of Metabolism",
+                            "MBC 305: Molecular Biology I (DNA Replication, Transcription, Translation & Gene Expression)",
+                            "MBC 307: Biochemical Instrumentation & Spectrophotometry",
+                            "MBC 309: Research Methodology & Experimental Design in Medical Biochemistry",
+                            "ENT 312: Venture Creation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "MBC 302: Practical Medical Biochemistry & Diagnostic Laboratory Procedures",
+                            "MBC 304: SIWES / Industrial Training (6 Months Attachment in Diagnostic Hospitals, Clinical Reference Labs, Pharmaceutical Companies, or Research Institutes)",
+                            "MBC 306: SIWES Logbook Evaluation, Laboratory Reports & Departmental Seminar Presentation",
+                            "GST 312: Peace Studies and Conflict Resolution"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "400 Level (Advanced Clinical Biochemistry, Molecular Diagnostics & Thesis)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "MBC 401: Advanced Clinical Biochemistry (Endocrine Functions, Tumor Markers & Disease Diagnostics)",
+                            "MBC 403: Molecular Diagnostics, Recombinant DNA Technology & Genomics",
+                            "MBC 405: Biochemical Toxicology, Xenobiotics & Drug Metabolism",
+                            "MBC 407: Immunology & Immunochemistry",
+                            "MBC 409: Neurochemistry & Biochemical Endocrinology"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "MBC 402: Nutritional Biochemistry & Food Toxicology",
+                            "MBC 404: Pharmacology, Natural Products & Drug Discovery",
+                            "MBC 406: Bioethics, Laboratory Management & Quality Assurance",
+                            "MBC 490: Final Year Undergraduate Research Thesis & Oral Defense"
+                        ]
+                    }
+                ]
+            }
         ]
     },
     "Pharmacology & Therapeutics": {
         degree: "B.Sc. Pharmacology & Therapeutics",
         levels: [
-            // ... (full data as previously provided)
+            {
+                level: "100 Level (Pre-Medical Foundations)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "BIO 101: General Biology I (Cell Biology & Genetics)",
+                            "CHM 101: General Chemistry I (Inorganic & Physical Chemistry)",
+                            "PHY 101: General Physics I (Mechanics, Thermal Physics & Waves)",
+                            "MAT 101: General Mathematics I (Algebra & Trigonometry)",
+                            "GST 111: Communication in English Language",
+                            "GST 113: Nigerian Peoples and Culture"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "BIO 102: General Biology II (Organismal Biology & Ecology)",
+                            "CHM 102: General Chemistry II (Organic & Analytical Chemistry)",
+                            "PHY 102: General Physics II (Electricity, Magnetism & Optics)",
+                            "GST 112: Philosophy, Logic, and Human Existence",
+                            "AMS 102: Introduction to Computing & Information Technology"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "200 Level (Basic Medical Sciences & Introductory Pharmacology)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "PHA 201: General Principles of Pharmacology & Pharmacokinetics",
+                            "ANA 201: Gross Anatomy I (General Anatomy & Histology)",
+                            "PIO 201: General Human Physiology I (Cell, Blood & Excitable Tissues)",
+                            "BCH 201: General Biochemistry I (Biomolecules & Enzymology)",
+                            "STA 201: Biostatistics for Health Sciences",
+                            "ENT 211: Entrepreneurship and Innovation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "PHA 202: Autonomic & Peripheral Nervous System Pharmacology",
+                            "PHA 204: Pharmacodynamics & Receptor Theory",
+                            "ANA 202: Gross Anatomy II (Abdomen, Pelvis & Systemic Histology)",
+                            "PIO 202: General Human Physiology II (CVS, Renal & GI Systems)",
+                            "BCH 202: General Biochemistry II (Metabolism & Energetics)",
+                            "GST 212: Nigerian Peoples and Culture II"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "300 Level (Systemic Pharmacology, Bioassays & SIWES)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "PHA 301: Cardiovascular & Renal Pharmacology",
+                            "PHA 303: Central Nervous System & Neuropharmacology",
+                            "PHA 305: Endocrine & Reproductive Pharmacology",
+                            "PHA 307: Gastrointestinal & Respiratory Pharmacology",
+                            "PHA 309: Research Methodology & Experimental Bioassays",
+                            "ENT 312: Venture Creation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "PHA 302: Practical Pharmacological Screening & Bioassay Techniques",
+                            "PHA 304: SIWES / Industrial Training (6 Months Attachment in Pharmaceutical Manufacturing, Clinical Trial Units, NFDAC/SON, Teaching Hospitals, or Diagnostic Labs)",
+                            "PHA 306: SIWES Technical Logbook Evaluation, Experimental Reports & Departmental Seminar Presentation",
+                            "GST 312: Peace Studies and Conflict Resolution"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "400 Level (Chemotherapy, Toxicology, Clinical Therapeutics & Thesis)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "PHA 401: Chemotherapy I: Antimicrobial, Antifungal & Antiviral Agents",
+                            "PHA 403: Chemotherapy II: Cancer Chemotherapy & Immunopharmacology",
+                            "PHA 405: Toxicology, Xenobiotics & Environmental Health",
+                            "PHA 407: Clinical Pharmacology & Rational Therapeutics",
+                            "PHA 409: Molecular Pharmacology & Pharmacogenomics"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "PHA 402: Drug Discovery, Design & Development",
+                            "PHA 404: Ethnopharmacology & Phytomedicine Development",
+                            "PHA 406: Pharmacovigilance, Regulatory Affairs & Bioethics",
+                            "PHA 490: Final Year Undergraduate Research Project / Thesis Defense"
+                        ]
+                    }
+                ]
+            }
         ]
     },
     "Human Nutrition & Environmental Health": {
         degree: "B.Sc. Human Nutrition & Environmental Health",
         levels: [
-            // ... (full data as previously provided)
+            {
+                level: "100 Level (Pre-Medical & Environmental Foundations)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "BIO 101: General Biology I (Cell Biology & Genetics)",
+                            "CHM 101: General Chemistry I (Inorganic & Physical Chemistry)",
+                            "PHY 101: General Physics I (Mechanics, Thermal Physics & Waves)",
+                            "MAT 101: General Mathematics I (Algebra & Trigonometry)",
+                            "GST 111: Communication in English Language",
+                            "GST 113: Nigerian Peoples and Culture"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "BIO 102: General Biology II (Organismal Biology & Ecology)",
+                            "CHM 102: General Chemistry II (Organic & Analytical Chemistry)",
+                            "PHY 102: General Physics II (Electricity, Magnetism & Optics)",
+                            "GST 112: Philosophy, Logic, and Human Existence",
+                            "AMS 102: Introduction to Computing & Information Technology"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "200 Level (Nutritional Biochemistry, Physiology & Environmental Systems)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "HNE 201: Fundamentals of Human Nutrition & Food Science",
+                            "HNE 203: Introduction to Environmental Health & Ecology",
+                            "ANA 201: Basic Human Anatomy (Systemic & Histology)",
+                            "PIO 201: General Human Physiology I (Cell, Blood & Circulation)",
+                            "BCH 201: General Biochemistry I (Biomolecules & Enzymology)",
+                            "ENT 211: Entrepreneurship and Innovation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "HNE 202: Nutritional Biochemistry & Metabolism",
+                            "HNE 204: Environmental Sanitation, Hygiene & Housing Standards",
+                            "HNE 206: Human Anatomy & Physiology II (GI, Renal & Endocrine Systems)",
+                            "BCH 202: General Biochemistry II (Metabolic Pathways)",
+                            "STA 202: Biostatistics for Health Sciences",
+                            "GST 212: Nigerian Peoples and Culture II"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "300 Level (Clinical Nutrition, Food Safety, Assessment & SIWES)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "HNE 301: Nutritional Assessment Techniques (Anthropometry, Biochemical & Clinical)",
+                            "HNE 303: Food Safety, Hygiene, Inspection & Quality Assurance (HACCP)",
+                            "HNE 305: Clinical Nutrition & Dietetics I (Nutritional Therapy in Disease)",
+                            "HNE 307: Water Quality, Wastewater Treatment & Vector Control",
+                            "HNE 309: Research Methodology in Public Health & Epidemiology",
+                            "ENT 312: Venture Creation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "HNE 302: Practical Laboratory Analysis of Foods & Water",
+                            "HNE 304: SIWES / Industrial Training (6 Months Attachment in Tertiary Teaching Hospitals, Public Health Agencies, NAFDAC, SON, Environmental Protection Agencies, or Food Processing Industries)",
+                            "HNE 306: SIWES Technical Logbook Evaluation, Field Assessment & Seminar Presentation",
+                            "GST 312: Peace Studies and Conflict Resolution"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "400 Level (Community Health, Toxicology, Environmental Policy & Thesis)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "HNE 401: Community Nutrition, Food Security & Public Health Interventions",
+                            "HNE 402: Environmental Toxicology, Air Pollution & Industrial Hygiene",
+                            "HNE 403: Clinical Nutrition & Dietetics II (Metabolic & Chronic Diseases)",
+                            "HNE 405: Disaster Management, Emergency Nutrition & Climate Change",
+                            "HNE 407: Environmental Impact Assessment (EIA) & Health Safety Policy"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "HNE 404: Maternal, Infant & Child Nutrition",
+                            "HNE 406: Food Processing, Preservation & Biotechnology",
+                            "HNE 408: Health Economics, Bioethics & Public Health Legislation",
+                            "HNE 490: Final Year Undergraduate Research Thesis & Oral Defense"
+                        ]
+                    }
+                ]
+            }
         ]
     },
     // ===== COMMUNICATION & MEDIA STUDIES =====
     "Advertising": {
         degree: "B.Sc. Advertising",
         levels: [
-            // ... (full data as previously provided)
+            {
+                level: "100 Level (Foundations in Mass Communication & Advertising)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "ADV 101: Introduction to Advertising & Brand Communication",
+                            "ADV 103: Introduction to Mass Communication & Media Systems",
+                            "ADV 105: History & Evolution of Advertising in Nigeria & Globally",
+                            "SOC 101: Introduction to Sociology",
+                            "PSY 101: Introduction to Psychology",
+                            "GST 111: Communication in English Language",
+                            "AMS 103: Introduction to Computing & Information Technology"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "ADV 102: Principles of Marketing Communications",
+                            "ADV 104: Basic Copywriting & Creative Writing",
+                            "ADV 106: Visual Communication & Basic Graphic Design",
+                            "SOC 102: Introduction to Social Psychology",
+                            "GST 112: Nigerian Peoples and Culture"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "200 Level (Consumer Behavior, Media Planning & Creative Production)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "ADV 201: Consumer Behavior & Audience Psychology",
+                            "ADV 203: Advertising Copywriting & Scriptwriting (TV, Radio, Print & Digital)",
+                            "ADV 205: Media Planning, Strategy & Buying",
+                            "ADV 207: Creative Art Direction, Typography & Layout",
+                            "ADV 209: Public Relations & Corporate Communication",
+                            "ENT 211: Entrepreneurship and Innovation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "ADV 202: Commercial Radio & Television Advertising Production",
+                            "ADV 204: Advertising Agency Management & Account Planning",
+                            "ADV 206: Brand Management & Strategic Product Positioning",
+                            "ADV 208: Photography & Video Production for Advertising",
+                            "GST 212: Philosophy, Logic, and Human Existence"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "300 Level (Digital Advertising, Research & SIWES)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "ADV 301: Digital Advertising, Social Media Marketing & SEO/SEM",
+                            "ADV 303: Advertising Research Methodology & Data Analytics",
+                            "ADV 305: Integrated Marketing Communications (IMC) Strategies",
+                            "ADV 307: Advertising Law, Ethics & Regulatory Bodies (ARCON, APCON, NBC)",
+                            "ADV 309: Political Advertising, Public Diplomacy & Advocacy Campaigns",
+                            "ENT 312: Venture Creation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "ADV 302: Practical Campaign Development & Pitch Presentation Workshop",
+                            "ADV 304: SIWES / Practical Attachment (6 Months Attachment at Advertising Agencies, Media Buying Houses, Corporate Brand Marketing Departments, or Digital Agencies)",
+                            "ADV 306: SIWES Logbook Evaluation, Portfolio Defense & Seminar Presentation",
+                            "GST 312: Peace Studies and Conflict Resolution"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "400 Level (Advanced Strategy, Global Branding & Thesis)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "ADV 401: Strategic Brand Building & Equity Management",
+                            "ADV 403: Global & Cross-Cultural Advertising Strategies",
+                            "ADV 405: Programmatic Advertising, AdTech & Performance Marketing",
+                            "ADV 407: Event Management, Sponsorship & Activation Strategies",
+                            "ADV 409: Contemporary Issues in Advertising & Consumer Culture"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "ADV 402: Financial Management & Entrepreneurship in Ad Agencies",
+                            "ADV 404: Crisis Communication & Reputation Management",
+                            "ADV 406: Final Year Creative Campaign Exhibition & Jury Defense",
+                            "ADV 490: Final Year Undergraduate Research Project / Thesis Defense"
+                        ]
+                    }
+                ]
+            }
         ]
     },
     "Broadcasting": {
         degree: "B.Sc. Broadcasting",
         levels: [
-            // ... (full data as previously provided)
+            {
+                level: "100 Level (Foundations in Communication & Mass Media)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "BRC 101: Introduction to Broadcasting (Radio & Television Systems)",
+                            "BRC 103: Introduction to Mass Communication",
+                            "BRC 105: History & Evolution of Broadcasting in Nigeria & Internationally",
+                            "BRC 107: Voice & Diction for Broadcasters",
+                            "SOC 101: Introduction to Sociology",
+                            "GST 111: Communication in English Language",
+                            "AMS 103: Introduction to Computing & Information Technology"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "BRC 102: Writing for Radio & Television",
+                            "BRC 104: Announcing & Broadcast Presentation Techniques",
+                            "BRC 106: Basic Acoustics & Sound Production Mechanics",
+                            "SOC 102: Introduction to Social Psychology",
+                            "GST 112: Nigerian Peoples and Culture"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "200 Level (Radio & TV Production, Technical Operations & Editing)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "BRC 201: Radio Production Processes & Studio Engineering",
+                            "BRC 203: Television Production Processes & Studio Directing",
+                            "BRC 205: Broadcast News Writing, Reporting & Editing",
+                            "BRC 207: Camera Operations, Lighting & Visual Composition",
+                            "BRC 209: Audio Editing & Multi-Track Sound Engineering",
+                            "ENT 211: Entrepreneurship and Innovation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "BRC 202: Non-Linear Video Editing & Post-Production Workflows",
+                            "BRC 204: Documentary & Special Program Production (Radio & TV)",
+                            "BRC 206: Broadcast Station Operations, Programming & Scheduling",
+                            "BRC 208: Interviewing & Discussion Program Production",
+                            "GST 212: Philosophy, Logic, and Human Existence"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "300 Level (Digital Broadcasting, Podcasting, Law & SIWES)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "BRC 301: Digital Broadcasting, Podcasting & Web Streaming Technologies",
+                            "BRC 303: Broadcast Investigative Journalism & Field Reporting",
+                            "BRC 305: Broadcast Law, Ethics & Regulatory Agencies (NBC Code)",
+                            "BRC 307: Media Economics, Commercials & Broadcast Sales",
+                            "BRC 309: Research Methodology in Mass Communication & Broadcasting",
+                            "ENT 312: Venture Creation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "BRC 302: Campus Radio/TV Station Practical Workshop & Transmission",
+                            "BRC 304: SIWES / Practical Field Attachment (6 Months Attachment at Radio/TV Stations, Production Houses, Streaming Hubs, or Media Agencies)",
+                            "BRC 306: SIWES Technical Logbook Evaluation, Portfolio Defense & Departmental Seminar",
+                            "GST 312: Peace Studies and Conflict Resolution"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "400 Level (Advanced Directing, Station Management & Thesis)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "BRC 401: Advanced Radio Production & Sound Design",
+                            "BRC 403: Advanced TV Directing & Live Broadcast Coverage",
+                            "BRC 405: Broadcast Station Management, Leadership & Policy Formulation",
+                            "BRC 407: Comparative Broadcasting Systems & International Media Dynamics",
+                            "BRC 409: Contemporary Issues in Mass Media & Digital Disruption"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "BRC 402: Drama Production & Creative Performance for Broadcast Media",
+                            "BRC 404: Broadcast Audience Measurement, Analytics & Ratings",
+                            "BRC 406: Final Graduation Broadcast Production Portfolio Exhibition & Defense",
+                            "BRC 490: Final Year Undergraduate Research Project / Thesis Defense"
+                        ]
+                    }
+                ]
+            }
         ]
     },
     "Development Communication": {
         degree: "B.Sc. Development Communication",
         levels: [
-            // ... (full data as previously provided)
+            {
+                level: "100 Level (Foundations in Communication & Social Sciences)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "DCM 101: Introduction to Development Communication",
+                            "DCM 103: Introduction to Mass Communication",
+                            "DCM 105: History & Theories of Social & Economic Development",
+                            "SOC 101: Introduction to Sociology",
+                            "PSY 101: Introduction to Psychology",
+                            "GST 111: Communication in English Language",
+                            "AMS 103: Introduction to Computing & Information Technology"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "DCM 102: Communication for Social Change & Behavioral Transformation",
+                            "DCM 104: Basic Media Writing for Community Engagement",
+                            "DCM 106: Cultural Dynamics, Indigenous Knowledge & Rural Communication",
+                            "SOC 102: Introduction to Social Psychology",
+                            "GST 112: Nigerian Peoples and Culture"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "200 Level (Participatory Media, Health & Environmental Communication)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "DCM 201: Health Communication, Public Health Campaigns & Epidemic Advocacy",
+                            "DCM 202: Environmental Communication, Climate Change & Sustainability",
+                            "DCM 203: Participatory Media Systems & Community Radio/TV Operations",
+                            "DCM 205: Gender, Diversity & Inclusive Development Communication",
+                            "DCM 207: Graphic Design, Visual Literacy & Material Production for Advocacy",
+                            "ENT 211: Entrepreneurship and Innovation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "DCM 204: Educational & Instructional Media Design",
+                            "DCM 206: Population Communication, Migration & Demographics",
+                            "DCM 208: Audio-Visual Production for Social Advocacy & Campaigns",
+                            "DCM 210: Public Relations, Advocacy & Mobilization in NGOs",
+                            "GST 212: Philosophy, Logic, and Human Existence"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "300 Level (Campaign Design, Digital Advocacy & SIWES)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "DCM 301: Digital Communication, Social Media Activism & Mobile Advocacy",
+                            "DCM 303: Social & Behavioral Change Communication (SBCC) Campaign Strategy",
+                            "DCM 305: Research Methods in Development Communication & Monitoring/Evaluation",
+                            "DCM 307: Peacebuilding, Conflict Transformation & Humanitarian Communication",
+                            "DCM 309: Public Policy Analysis, Governance & Democratic Engagement",
+                            "ENT 312: Venture Creation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "DCM 302: Fieldwork Workshop: Community Entry, Diagnostics & Asset Mapping",
+                            "DCM 304: SIWES / Practical Field Attachment (6 Months Attachment at International NGOs, Civil Society Organizations, Government Development Agencies, or UN Agencies)",
+                            "DCM 306: SIWES Technical Logbook Evaluation, Portfolio Defense & Departmental Seminar",
+                            "GST 312: Peace Studies and Conflict Resolution"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "400 Level (Advanced Strategy, Monitoring/Evaluation & Thesis)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "DCM 401: Monitoring, Evaluation, Accountability & Learning (MEAL) in Communication",
+                            "DCM 403: Strategic Communication in International Development & Donor Relations",
+                            "DCM 405: Disaster Risk Reduction, Emergency & Crisis Communication",
+                            "DCM 407: Communication for Agricultural Development & Rural Extension",
+                            "DCM 409: Contemporary Issues & Emerging Trends in Development Communication"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "DCM 402: NGO Management, Fundraising & Grant Proposal Writing",
+                            "DCM 404: Digital Rights, Open Data & Information Accessibility in Development",
+                            "DCM 406: Development Communication Campaign Portfolio & Community Project Defense",
+                            "DCM 490: Final Year Undergraduate Research Project / Thesis Defense"
+                        ]
+                    }
+                ]
+            }
         ]
     },
     "Digital Media & Communication": {
         degree: "B.Sc. Digital Media & Communication",
         levels: [
-            // ... (full data as previously provided)
+            {
+                level: "100 Level (Foundations in Communication & Digital Literacy)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "DMC 101: Introduction to Digital Media & Communication",
+                            "DMC 103: Foundations of Mass Communication & New Media",
+                            "DMC 105: Fundamentals of Digital Technology & Web Infrastructure",
+                            "SOC 101: Introduction to Sociology",
+                            "PSY 101: Introduction to Psychology",
+                            "GST 111: Communication in English Language",
+                            "AMS 103: Introduction to Computing & Information Technology"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "DMC 102: Writing & Storytelling for Digital Platforms",
+                            "DMC 104: Basic Graphic Design, Vector Art & Visual Aesthetics",
+                            "DMC 106: Digital Culture, Cyber-Psychology & Social Networks",
+                            "SOC 102: Introduction to Social Psychology",
+                            "GST 112: Nigerian Peoples and Culture"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "200 Level (Content Creation, UI/UX & Interactive Media Production)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "DMC 201: Digital Content Creation: Podcasting, Blogging & Audio Design",
+                            "DMC 203: User Experience (UX) & User Interface (UI) Design for Media",
+                            "DMC 205: Digital Photography & Commercial Image Editing",
+                            "DMC 207: Web Design & Front-End Media Publishing (HTML/CSS/CMS)",
+                            "DMC 209: Digital Advertising, SEO & Performance Marketing",
+                            "ENT 211: Entrepreneurship and Innovation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "DMC 202: Motion Graphics, Animation & Visual Effects (VFX)",
+                            "DMC 204: Digital Video Production & Non-Linear Editing Workflows",
+                            "DMC 206: Social Media Management, Strategy & Community Building",
+                            "DMC 208: Game Design, Interactive Narrative & Virtual Environments",
+                            "GST 212: Philosophy, Logic, and Human Existence"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "300 Level (Analytics, Mobile Media, Cyberlaw & SIWES)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "DMC 301: Media Analytics, Big Data & Audience Measurement",
+                            "DMC 303: Mobile Media, App Publishing & Content Distribution",
+                            "DMC 305: Cyberlaw, Intellectual Property, Digital Rights & Ethics",
+                            "DMC 307: Artificial Intelligence, Automation & Code-Driven Media",
+                            "DMC 309: Research Methodology in Digital Media & Communication",
+                            "ENT 312: Venture Creation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "DMC 302: Digital Media Studio Lab & Interactive Prototype Exhibition",
+                            "DMC 304: SIWES / Practical Field Attachment (6 Months Attachment at Digital Agencies, Tech Hubs, Media Houses, or Product Design Studios)",
+                            "DMC 306: SIWES Technical Logbook Evaluation, Portfolio Defense & Departmental Seminar",
+                            "GST 312: Peace Studies and Conflict Resolution"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "400 Level (Advanced Strategy, Tech Entrepreneurship & Thesis)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "DMC 401: Strategic Digital Communication & Brand Innovation",
+                            "DMC 403: Immersive Media: AR, VR & Spatial Computing Applications",
+                            "DMC 405: Programmatic Media Buying, AdTech & Platform Monetization",
+                            "DMC 407: Information Warfare, Fact-Checking & Combating Misinformation",
+                            "DMC 409: Contemporary Issues & Disruptive Trends in Digital Media"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "DMC 402: Media Entrepreneurship, Startup Product Management & Venture Pitching",
+                            "DMC 404: Transmedia Storytelling & Cross-Platform Campaign Design",
+                            "DMC 406: Final Year Capstone Digital Product Exhibition & Portfolio Jury Defense",
+                            "DMC 490: Final Year Undergraduate Research Project / Thesis Defense"
+                        ]
+                    }
+                ]
+            }
         ]
     },
     "Film & Multimedia Studies": {
         degree: "B.Sc. Film & Multimedia Studies",
         levels: [
-            // ... (full data as previously provided)
+            {
+                level: "100 Level (Foundations in Film, Arts & Media)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "FMS 101: Introduction to Film & Multimedia Studies",
+                            "FMS 103: History of Global & African Cinema (Nollywood Focus)",
+                            "FMS 105: Fundamentals of Screenwriting & Visual Storytelling",
+                            "SOC 101: Introduction to Sociology",
+                            "PSY 101: Introduction to Psychology",
+                            "GST 111: Communication in English Language",
+                            "AMS 103: Introduction to Computing & Information Technology"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "FMS 102: Visual Language, Composition & Film Aesthetics",
+                            "FMS 104: Basic Photography & Motion Picture Optics",
+                            "FMS 106: Introduction to Digital Media & Computer Graphics",
+                            "SOC 102: Introduction to Social Psychology",
+                            "GST 112: Nigerian Peoples and Culture"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "200 Level (Craft Skills: Directing, Cinematography, Sound & Editing)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "FMS 201: Film Directing I: Blocking, Staging & Actor Guidance",
+                            "FMS 203: Cinematography & Lighting Techniques",
+                            "FMS 205: Intermediate Screenwriting (Short Film & Feature Structure)",
+                            "FMS 207: Sound Design, Production Audio Recording & Foley",
+                            "FMS 209: Digital Graphic Design & Concept Art for Film",
+                            "ENT 211: Entrepreneurship and Innovation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "FMS 202: Non-Linear Video Editing & Post-Production Workflows",
+                            "FMS 204: Multi-Camera Studio Production & Directing",
+                            "FMS 206: Documentary Film & Non-Fiction Media Production",
+                            "FMS 208: Production Design, Art Direction & Set Construction",
+                            "GST 212: Philosophy, Logic, and Human Existence"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "300 Level (VFX, Interactive Media, Film Law & SIWES)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "FMS 301: Motion Graphics, Visual Effects (VFX) & Compositing",
+                            "FMS 303: Film & Media Research Methodology",
+                            "FMS 305: Interactive Multimedia, Web Video & Streaming Tech",
+                            "FMS 307: Film Economics, Distribution, Marketing & Exhibition",
+                            "FMS 309: Entertainment Law, Copyright, Intellectual Property & Censorship (NFVCB)",
+                            "ENT 312: Venture Creation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "FMS 302: Short Film Production Workshop (Group Project)",
+                            "FMS 304: SIWES / Practical Field Attachment (6 Months Attachment at Film Studios, Post-Production Houses, TV Networks, or VFX/Animation Agencies)",
+                            "FMS 306: SIWES Technical Logbook Evaluation, Portfolio Defense & Seminar",
+                            "GST 312: Peace Studies and Conflict Resolution"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "400 Level (Advanced Directing, Business, Capstone Film & Thesis)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "FMS 401: Advanced Film Directing & Cinematic Style",
+                            "FMS 403: Color Grading, Finishing & Master Editing",
+                            "FMS 405: Film Producing, Budgeting, Financing & Unit Production Management",
+                            "FMS 407: Emerging Technologies: Virtual Production, AR/VR & AI in Film",
+                            "FMS 409: Contemporary Issues in African Cinema & Cultural Critique"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "FMS 402: Transmedia Storytelling, Gaming & World-Building",
+                            "FMS 404: Film Festival Strategy, Pitching & Global Sales",
+                            "FMS 406: Final Year Capstone Film Project Screening & Jury Defense",
+                            "FMS 490: Final Year Undergraduate Research Project / Thesis Defense"
+                        ]
+                    }
+                ]
+            }
         ]
     },
     "Journalism & Media Studies": {
         degree: "B.Sc. Journalism & Media Studies",
         levels: [
-            // ... (full data as previously provided)
+            {
+                level: "100 Level (Foundations in Communication & News Reporting)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "JMS 101: Introduction to Journalism & Mass Media",
+                            "JMS 103: History of Nigerian & African Press Systems",
+                            "JMS 105: Basic News Writing & Reporting",
+                            "SOC 101: Introduction to Sociology",
+                            "PSY 101: Introduction to Psychology",
+                            "GST 111: Communication in English Language",
+                            "AMS 103: Introduction to Computing & Information Technology"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "JMS 102: Specialized News Writing & Feature Writing",
+                            "JMS 104: Photojournalism & Visual Storytelling",
+                            "JMS 106: Print & Digital Layout, Design & Typography",
+                            "SOC 102: Introduction to Social Psychology",
+                            "GST 112: Nigerian Peoples and Culture"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "200 Level (Broadcasting News, Editing & Data Journalism)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "JMS 201: Broadcast News Reporting, Writing & Anchoring",
+                            "JMS 203: Newspaper & Magazine Editing and Production",
+                            "JMS 205: Data Journalism, Infographics & Visualization Techniques",
+                            "JMS 207: Public Affairs Reporting & Political Journalism",
+                            "JMS 209: Digital Publishing & Content Management Systems",
+                            "ENT 211: Entrepreneurship and Innovation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "JMS 202: Mobile Journalism (MoJo) & Multi-Platform Newsroom Operations",
+                            "JMS 204: Business, Financial & Economic Reporting",
+                            "JMS 206: Environmental, Science & Health Journalism",
+                            "JMS 208: Interviewing Techniques & Source Verification",
+                            "GST 212: Philosophy, Logic, and Human Existence"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "300 Level (Investigative Journalism, Media Law & SIWES)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "JMS 301: Investigative Journalism, Open-Source Intelligence (OSINT) & Fact-Checking",
+                            "JMS 303: Media Law, Ethics, Freedom of Information (FOI Act) & Defamation",
+                            "JMS 305: Conflict-Sensitive Reporting, Peace Journalism & Safety of Journalists",
+                            "JMS 307: Media Economics, Digital Monetization & Media Entrepreneurship",
+                            "JMS 309: Research Methodology in Journalism & Mass Communication",
+                            "ENT 312: Venture Creation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "JMS 302: Practical Campus Newspaper / Digital Newsroom Production",
+                            "JMS 304: SIWES / Practical Field Attachment (6 Months Attachment at Newspaper Houses, TV/Radio Stations, Online News Outlets, or Media Agencies)",
+                            "JMS 306: SIWES Technical Logbook Evaluation, News Portfolio Defense & Seminar",
+                            "GST 312: Peace Studies and Conflict Resolution"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "400 Level (Global Media, AI in Newsrooms & Research Thesis)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "JMS 401: Global Journalism, International News Systems & Foreign Correspondence",
+                            "JMS 402: Artificial Intelligence, Automation & Algorithmic Newsrooms",
+                            "JMS 403: Advanced Investigative & Depth Reporting Workshop",
+                            "JMS 405: Media Criticism, Audience Analysis & Public Sphere Theory",
+                            "JMS 407: Contemporary Issues & Disruption in Global Media"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "JMS 404: Newsroom Leadership, Management & Executive Publishing",
+                            "JMS 406: Final Year Capstone Journalism Portfolio & Multi-Media Exhibition",
+                            "JMS 490: Final Year Undergraduate Research Project / Thesis Defense"
+                        ]
+                    }
+                ]
+            }
         ]
     },
     "Mass Communication": {
         degree: "B.Sc. Mass Communication",
         levels: [
-            // ... (full data as previously provided)
+            {
+                level: "100 Level (Foundations in Mass Communication & Social Sciences)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "MAC 101: Introduction to Mass Communication",
+                            "MAC 103: History of Nigerian & African Mass Media",
+                            "MAC 105: Writing for the Mass Media I",
+                            "SOC 101: Introduction to Sociology",
+                            "PSY 101: Introduction to Psychology",
+                            "GST 111: Communication in English Language",
+                            "AMS 103: Introduction to Computing & Information Technology"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "MAC 102: Writing for the Mass Media II",
+                            "MAC 104: Basic Photography & Visual Communication",
+                            "MAC 106: African Communication Systems & Indigenous Media",
+                            "SOC 102: Introduction to Social Psychology",
+                            "GST 112: Nigerian Peoples and Culture"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "200 Level (Media Production, Reporting & PR/Advertising Basics)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "MAC 201: News Writing & Reporting (Print & Digital)",
+                            "MAC 203: Radio & Television Production Techniques",
+                            "MAC 205: Principles of Public Relations",
+                            "MAC 207: Principles of Advertising",
+                            "MAC 209: Graphic Communication, Desktop Publishing & Layout",
+                            "ENT 211: Entrepreneurship and Innovation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "MAC 202: Feature Writing & Editorial Writing",
+                            "MAC 204: Broadcast Announcing, Presentation & Voice Training",
+                            "MAC 206: Theories of Mass Communication",
+                            "MAC 208: Media Management, Economics & Station Operations",
+                            "GST 212: Philosophy, Logic, and Human Existence"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "300 Level (Specialization Tracks, Media Law & SIWES)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "MAC 301: Mass Communication Research Methodology",
+                            "MAC 303: Media Law, Ethics & Freedom of Information (FOI Act)",
+                            "MAC 305: Digital Media, Online Journalism & Web Production",
+                            "MAC 307: Specialized Reporting (Environment, Business, Health & Politics)",
+                            "MAC 309: Integrated Marketing Communications (IMC) Strategies",
+                            "ENT 312: Venture Creation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "MAC 302: Practical Campus Media Workshop (Campus Newspaper / Radio Broadcasting)",
+                            "MAC 304: SIWES / Practical Field Attachment (6 Months Attachment at Newspaper Houses, TV/Radio Stations, PR Agencies, or Digital Media Houses)",
+                            "MAC 306: SIWES Technical Logbook Evaluation, Media Portfolio Review & Seminar",
+                            "GST 312: Peace Studies and Conflict Resolution"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "400 Level (Advanced Communication Strategy, Global Media & Thesis)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "MAC 401: International Communication & Global Media Systems",
+                            "MAC 403: Public Relations Campaigns, Event Management & Crisis Communication",
+                            "MAC 405: Advertising Campaign Planning, Execution & Media Buying",
+                            "MAC 407: Investigative Journalism & Fact-Checking Workflows",
+                            "MAC 409: Contemporary Issues in Mass Communication & Digital Disruption"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "MAC 402: Media Criticism, Content Analysis & Audience Studies",
+                            "MAC 404: Media Entrepreneurship, Startup Publishing & Agency Operations",
+                            "MAC 406: Final Year Practical Media Exhibition & Portfolio Jury Defense",
+                            "MAC 490: Final Year Undergraduate Research Project / Thesis Defense"
+                        ]
+                    }
+                ]
+            }
         ]
     },
     "Public Relations": {
         degree: "B.Sc. Public Relations",
         levels: [
-            // ... (full data as previously provided)
+            {
+                level: "100 Level (Foundations in Public Relations & Social Sciences)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "PUR 101: Introduction to Public Relations & Corporate Communication",
+                            "PUR 103: Introduction to Mass Communication",
+                            "PUR 105: History & Evolution of Public Relations Globally & in Nigeria",
+                            "SOC 101: Introduction to Sociology",
+                            "PSY 101: Introduction to Psychology",
+                            "GST 111: Communication in English Language",
+                            "AMS 103: Introduction to Computing & Information Technology"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "PUR 102: Principles of Marketing Communications & Branding",
+                            "PUR 104: Basic PR Writing, Speechwriting & Press Releases",
+                            "PUR 106: Visual Communication, Photography & Graphic Design Basics",
+                            "SOC 102: Introduction to Social Psychology",
+                            "GST 112: Nigerian Peoples and Culture"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "200 Level (Media Relations, Crisis PR & Stakeholder Management)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "PUR 201: Media Relations, Press Conferences & Spokesperson Training",
+                            "PUR 203: Corporate Identity, Reputation Management & Brand Equity",
+                            "PUR 205: Public Relations Writing for Print, Broadcast & Web",
+                            "PUR 207: Internal & Employee Communication Strategies",
+                            "PUR 209: Principles of Advertising & Integrated Communications",
+                            "ENT 211: Entrepreneurship and Innovation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "PUR 202: Crisis Communication & Risk Management",
+                            "PUR 204: Stakeholder Engagement, Investor & Financial Public Relations",
+                            "PUR 206: Event Planning, Trade Shows & Sponsorship Management",
+                            "PUR 208: Community Relations, CSR & Sustainable Development",
+                            "GST 212: Philosophy, Logic, and Human Existence"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "300 Level (Digital PR, Research, Ethics & SIWES)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "PUR 301: Digital Public Relations, Social Media Strategy & Online Reputation",
+                            "PUR 303: Public Relations Research Methodology & Sentiment Analysis",
+                            "PUR 305: Ethics, Professional Standards & Regulatory Bodies in PR (NIPR, IPRA)",
+                            "PUR 307: Public Affairs, Government Relations, Advocacy & Lobbying",
+                            "PUR 309: Integrated Marketing Communications (IMC) Strategies",
+                            "ENT 312: Venture Creation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "PUR 302: Practical PR Campaign Strategy & Client Pitch Workshop",
+                            "PUR 304: SIWES / Practical Field Attachment (6 Months Attachment at PR Agencies, Corporate Communications Departments, NGOs, or Public Sector Agencies)",
+                            "PUR 306: SIWES Technical Logbook Evaluation, PR Portfolio Defense & Seminar",
+                            "GST 312: Peace Studies and Conflict Resolution"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "400 Level (Global PR, Public Diplomacy, Agency Leadership & Thesis)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "PUR 401: Global Public Relations & Cross-Cultural Communication",
+                            "PUR 403: Public Diplomacy, Nation Branding & International Affairs",
+                            "PUR 405: Measurement, Evaluation & Data Analytics in Public Relations",
+                            "PUR 407: Issue Management, Political PR & Election Campaign Strategy",
+                            "PUR 409: Contemporary Issues & Emerging Trends in Strategic Communication"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "PUR 402: Consultancy Management, Entrepreneurship & PR Agency Operations",
+                            "PUR 404: Strategic Communication for Non-Profits, NGOs & Development",
+                            "PUR 406: Final Year Practical PR Campaign Exhibition & Jury Defense",
+                            "PUR 490: Final Year Undergraduate Research Project / Thesis Defense"
+                        ]
+                    }
+                ]
+            }
         ]
     },
     "Telecommunication Science": {
         degree: "B.Sc. Telecommunication Science",
         levels: [
-            // ... (full data as previously provided)
+            {
+                level: "100 Level (Foundations in Physics, Mathematics & Computing)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "TCS 101: Introduction to Telecommunication Science & Technology",
+                            "COS 101: Introduction to Computing Sciences",
+                            "MTH 101: Elementary Mathematics I (Algebra & Trigonometry)",
+                            "PHY 101: General Physics I (Mechanics, Thermal Physics & Waves)",
+                            "CHM 101: General Chemistry I",
+                            "GST 111: Communication in English Language"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "TCS 102: Fundamentals of Data Communication & Computer Networks",
+                            "MTH 102: Elementary Mathematics II (Calculus)",
+                            "PHY 102: General Physics II (Electricity, Magnetism & Modern Physics)",
+                            "PHY 108: General Physics Practical II",
+                            "COS 102: Problem Solving & Structured Programming (C/Python)",
+                            "GST 112: Nigerian Peoples and Culture"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "200 Level (Signals, Network Architecture & Telecommunication Circuits)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "TCS 201: Analog & Digital Communication Systems",
+                            "TCS 203: Signals and Systems Analysis",
+                            "TCS 205: Telecommunication Circuits & Systems Laboratory",
+                            "CSC 201: Computer Architecture & Organization",
+                            "STA 201: Probability & Mathematical Statistics for Computing",
+                            "MTH 201: Mathematical Methods I (Differential Equations)",
+                            "ENT 211: Entrepreneurship and Innovation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "TCS 202: Electromagnetic Waves, Transmission Lines & Waveguides",
+                            "TCS 204: Computer Network Protocols, Architectures & Routing Fundamentals",
+                            "TCS 206: Telecommunication Software Systems & Scripting",
+                            "TCS 208: Switching Systems, IP Telephony & VoIP Engineering",
+                            "CSC 204: Object-Oriented Programming (Java/C++)",
+                            "GST 212: Philosophy, Logic, and Human Existence"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "300 Level (Wireless Communications, Network Security & SIWES)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "TCS 301: Wireless & Mobile Communication Systems (3G/4G/5G Architectures)",
+                            "TCS 303: Antenna Theory, Propagation & Radio Frequency (RF) Engineering",
+                            "TCS 305: Network Computing & Cloud Infrastructure",
+                            "TCS 307: Network and Information Security, Cryptography & Firewalls",
+                            "TCS 309: Telecommunication Research Methodology & Data Analysis",
+                            "ENT 312: Venture Creation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "TCS 302: Optical Fiber Communication & Satellite Systems",
+                            "TCS 304: SIWES / Practical Industrial Attachment (6 Months Field Training at Telecom Operators like MTN/Airtel, ISPs, Fiber Networks, or Network Engineering Firms)",
+                            "TCS 306: SIWES Technical Logbook Evaluation, Industrial Report & Seminar",
+                            "GST 312: Peace Studies and Conflict Resolution"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "400 Level (Advanced Networks, IoT, Policy & Capstone Thesis)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "TCS 401: Advanced Cellular Systems, 5G/6G Networks & Network Slicing",
+                            "TCS 402: Internet of Things (IoT), Wireless Sensor Networks & Embedded Systems",
+                            "TCS 403: Telecommunication Network Planning, Analysis & Optimization",
+                            "TCS 405: Network Management, Traffic Engineering & Quality of Service (QoS)",
+                            "TCS 407: Telecommunication Policy, Regulations (NCC Benchmarks) & Spectrum Management"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "TCS 404: Software-Defined Networking (SDN) & Network Function Virtualization (NFV)",
+                            "TCS 406: Telecommunication Project Management & Tech Entrepreneurship",
+                            "TCS 408: Emerging Trends in Optical, Quantum & Satellite Telecommunications",
+                            "TCS 490: Final Year Undergraduate Capstone Research Project / Practical System Implementation"
+                        ]
+                    }
+                ]
+            }
         ]
     },
     // ===== COMPUTING PROGRAMS =====

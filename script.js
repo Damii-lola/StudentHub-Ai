@@ -43,6 +43,38 @@ function requireAuth(event) {
     return true;
 }
 
+function escapeHtmlAttr(str) {
+    return String(str)
+        .replace(/&/g, '&amp;')
+        .replace(/"/g, '&quot;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;');
+}
+
+// Shared header wiring (sign-in/out button, protected-link gating) used on every page
+function initHeader() {
+    const authBtn = document.getElementById('signInBtn');
+    if (authBtn) {
+        authBtn.addEventListener('click', () => {
+            if (isLoggedIn()) {
+                if (confirm('Are you sure you want to sign out?')) {
+                    signOut();
+                }
+            } else {
+                window.location.href = 'signin.html';
+            }
+        });
+    }
+
+    document.querySelectorAll('[data-protected="true"]').forEach(el => {
+        el.addEventListener('click', function(e) {
+            if (!requireAuth(e)) return;
+        });
+    });
+
+    updateAuthUI();
+}
+
 // ========== TOPICS MODAL – REDESIGNED ==========
 function openTopicsModal(courseName, courseData) {
     const modal = document.getElementById('topicsModal');
@@ -69,7 +101,7 @@ function openTopicsModal(courseName, courseData) {
                 const titleText = parts.length > 1 ? parts[1].trim() : '';
                 const colorIndex = (code.length + titleText.length) % iconColors.length;
                 const bgColor = iconColors[colorIndex];
-                html += `<div class="modal-topic-card">`;
+                html += `<div class="modal-topic-card" data-code="${escapeHtmlAttr(code)}" data-title="${escapeHtmlAttr(titleText)}">`;
                 html += `<div class="modal-topic-icon" style="background: ${bgColor};"><i class="fas fa-book-open"></i></div>`;
                 html += `<div class="modal-topic-info">`;
                 html += `<h4>${code}</h4>`;
@@ -85,6 +117,17 @@ function openTopicsModal(courseName, courseData) {
 
     content.innerHTML = html;
 
+    content.querySelectorAll('.modal-topic-card').forEach(card => {
+        card.addEventListener('click', () => {
+            const params = new URLSearchParams({
+                program: courseName,
+                code: card.dataset.code || '',
+                title: card.dataset.title || ''
+            });
+            window.location.href = `topic.html?${params.toString()}`;
+        });
+    });
+
     modal.style.display = 'flex';
     document.body.style.overflow = 'hidden';
 }
@@ -99,24 +142,7 @@ function closeTopicsModal() {
 
 // ========== MAIN PAGE LOGIC ==========
 function initMainPage() {
-    const authBtn = document.getElementById('signInBtn');
-    if (authBtn) {
-        authBtn.addEventListener('click', () => {
-            if (isLoggedIn()) {
-                if (confirm('Are you sure you want to sign out?')) {
-                    signOut();
-                }
-            } else {
-                window.location.href = 'signin.html';
-            }
-        });
-    }
-
-    document.querySelectorAll('[data-protected="true"]').forEach(el => {
-        el.addEventListener('click', function(e) {
-            if (!requireAuth(e)) return;
-        });
-    });
+    initHeader();
 
     document.querySelectorAll('.course-card').forEach(card => {
         card.addEventListener('click', async function(e) {
@@ -156,8 +182,26 @@ function initMainPage() {
             closeBtn.addEventListener('click', closeTopicsModal);
         }
     }
+}
 
-    updateAuthUI();
+// ========== TOPIC PAGE LOGIC ==========
+function initTopicPage() {
+    initHeader();
+
+    const params = new URLSearchParams(window.location.search);
+    const program = params.get('program') || '';
+    const code = params.get('code') || '';
+    const title = params.get('title') || '';
+
+    const titleEl = document.getElementById('topicTitle');
+    const subtitleEl = document.getElementById('topicSubtitle');
+
+    if (titleEl) {
+        titleEl.textContent = title ? `${code}: ${title}` : (code || 'Topic');
+    }
+    if (subtitleEl) {
+        subtitleEl.textContent = program;
+    }
 }
 
 // ========== SIGNIN PAGE LOGIC ==========
@@ -318,10 +362,10 @@ function initSigninPage() {
 
 // ========== INITIALIZE BASED ON PAGE ==========
 document.addEventListener('DOMContentLoaded', function() {
-    const isSigninPage = document.querySelector('.auth-container') !== null;
-
-    if (isSigninPage) {
+    if (document.querySelector('.auth-container')) {
         initSigninPage();
+    } else if (document.getElementById('topicTitle')) {
+        initTopicPage();
     } else {
         initMainPage();
     }

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0.85">
+    <title>StudentHub-AI</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="sidebar">
+        <div class="logo">
+            <i class="fas fa-graduation-cap"></i>
+            <span>StudentHub-AI</span>
+        </div>
+        <ul class="nav-menu">
+            <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
+            <li><a href="index.html" data-protected="true"><i class="fas fa-book-open"></i> Courses</a></li>
+            <li><a href="#" data-protected="true"><i class="fas fa-robot"></i> Ai tutor</a></li>
+            <li><a href="#" data-protected="true"><i class="fas fa-graduation-cap"></i> My learning</a></li>
+            <li><a href="#" data-protected="true"><i class="fas fa-question-circle"></i> Support</a></li>
+            <li><a href="#" data-protected="true"><i class="fas fa-cog"></i> Settings</a></li>
+        </ul>
+    </div>
+
+    <div class="main-content">
+        <div class="header">
+            <a href="index.html" class="back-to-courses"><i class="fas fa-arrow-left"></i> Back to courses</a>
+            <button class="sign-in-btn" id="signInBtn">
+                <i class="fas fa-sign-in-alt"></i>
+                <span id="authBtnText">Sign In</span>
+            </button>
+        </div>
+
+        <div class="topic-page-content">
+            <h1 id="topicTitle">Topic</h1>
+            <p id="topicSubtitle" class="topic-page-subtitle"></p>
+            <div class="topic-page-placeholder">
+                <i class="fas fa-tools"></i>
+                <p>This page is coming soon.</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -757,7 +757,7 @@ body {
     border: 1px solid #e5e7eb;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.04);
     transition: all 0.2s ease;
-    cursor: default;
+    cursor: pointer;
 }
 
 .modal-topic-card:hover {
@@ -807,6 +807,71 @@ body {
 
 #closeTopicsModalBtn:hover {
     color: var(--danger);
+}
+
+/* ========================
+   TOPIC PAGE (blank placeholder, built out later)
+   ======================== */
+.back-to-courses {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: var(--dark);
+    font-size: 15px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.back-to-courses:hover {
+    color: var(--primary);
+    transform: translateX(-3px);
+}
+
+.topic-page-content {
+    background: white;
+    padding: 40px;
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.topic-page-content h1 {
+    font-size: 28px;
+    color: var(--dark);
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.topic-page-subtitle {
+    font-size: 15px;
+    color: var(--primary);
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.topic-page-placeholder {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    color: #9ca3af;
+    border: 2px dashed #e5e7eb;
+    border-radius: var(--radius);
+    min-height: 300px;
+}
+
+.topic-page-placeholder i {
+    font-size: 40px;
+}
+
+.topic-page-placeholder p {
+    font-size: 15px;
+    font-weight: 500;
 }
 
 /* Responsive tweaks for modal */

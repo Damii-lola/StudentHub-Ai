@@ -112,6 +112,45 @@ body {
     text-align: center;
 }
 
+/* Sidebar tabs: Master-Note / Past-Questions selector */
+.sidebar-tabs {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding: 0 15px;
+}
+
+.sidebar-tab {
+    display: block;
+    width: 100%;
+    text-align: left;
+    background: rgba(255, 255, 255, 0.08);
+    border: 2px solid transparent;
+    color: rgba(255, 255, 255, 0.9);
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    letter-spacing: 0.2px;
+    padding: 16px 18px;
+    border-radius: var(--radius-sm);
+    cursor: pointer;
+    transition: all 0.25s ease;
+}
+
+.sidebar-tab:hover {
+    background: rgba(255, 255, 255, 0.18);
+    color: white;
+    transform: translateX(3px);
+}
+
+.sidebar-tab.active {
+    background: white;
+    color: var(--primary-dark);
+    border-color: var(--accent);
+    box-shadow: var(--shadow);
+    transform: translateX(3px);
+}
+
 /* Sidebar - Mobile */
 @media (max-width: 768px) {
     .sidebar {
@@ -161,6 +200,24 @@ body {
     .nav-menu a:hover, .nav-menu a.active {
         transform: none;
         background: rgba(255, 255, 255, 0.1);
+    }
+
+    .sidebar-tabs {
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-around;
+        padding: 0 10px;
+        gap: 8px;
+    }
+
+    .sidebar-tab {
+        text-align: center;
+        font-size: 13px;
+        padding: 10px 12px;
+    }
+
+    .sidebar-tab:hover, .sidebar-tab.active {
+        transform: none;
     }
 
     .nav-menu i {
@@ -354,6 +411,12 @@ body {
 .continue-learning-btn:hover {
     transform: translateY(-2px);
     box-shadow: var(--shadow);
+}
+
+.page-heading {
+    font-size: 28px;
+    color: var(--dark);
+    font-weight: 700;
 }
 
 /* Main Layout */

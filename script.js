@@ -141,8 +141,29 @@ function closeTopicsModal() {
 }
 
 // ========== MAIN PAGE LOGIC ==========
+function initSidebarTabs() {
+    const masterNoteTab = document.getElementById('masterNoteTab');
+    const pastQuestionsTab = document.getElementById('pastQuestionsTab');
+    const masterNoteView = document.getElementById('masterNoteView');
+    const pastQuestionsView = document.getElementById('pastQuestionsView');
+
+    if (!masterNoteTab || !pastQuestionsTab) return;
+
+    function selectTab(tab) {
+        const isMasterNote = tab === 'master-note';
+        masterNoteTab.classList.toggle('active', isMasterNote);
+        pastQuestionsTab.classList.toggle('active', !isMasterNote);
+        if (masterNoteView) masterNoteView.style.display = isMasterNote ? '' : 'none';
+        if (pastQuestionsView) pastQuestionsView.style.display = isMasterNote ? 'none' : '';
+    }
+
+    masterNoteTab.addEventListener('click', () => selectTab('master-note'));
+    pastQuestionsTab.addEventListener('click', () => selectTab('past-questions'));
+}
+
 function initMainPage() {
     initHeader();
+    initSidebarTabs();
 
     document.querySelectorAll('.course-card').forEach(card => {
         card.addEventListener('click', async function(e) {

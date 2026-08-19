@@ -6170,7 +6170,7 @@ const COURSES_DATA = {
             }
         ]
     },
-    "Music": {
+    "B.A. Music": {
         degree: "B.A. Music",
         levels: [
             {
@@ -6493,7 +6493,7 @@ const COURSES_DATA = {
             }
         ]
     },
-    "Religious Studies": {
+    "B.A. Religious Studies": {
         degree: "B.A. Religious Studies",
         levels: [
             {
@@ -8316,7 +8316,7 @@ const COURSES_DATA = {
             }
         ]
     },
-    "Computer Science": {
+    "B.Sc. Computer Science": {
         degree: "B.Sc. Computer Science",
         levels: [
             {
@@ -8740,6 +8740,14050 @@ const COURSES_DATA = {
                             "ICT 404: E-Commerce Systems, Digital Transformation & FinTech Infrastructure",
                             "ICT 406: Emerging ICT Technologies (5G/6G, Edge Computing & AI Integration)",
                             "ICT 490: Final Year Undergraduate Research Project / Practical System Implementation"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "Information Systems": {
+        degree: "B.Sc. Information Systems",
+        levels: [
+            {
+                level: "100 Level (Foundations in Mathematics, Programming & Computing)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "IFS 101: Introduction to Information Systems & Organizations",
+                            "COS 101: Introduction to Computing Sciences",
+                            "COS 103: Computer Programming I (Python/Java for Application Development)",
+                            "MTH 101: Elementary Mathematics I (Algebra & Trigonometry)",
+                            "MTH 103: Discrete Mathematics & Logic",
+                            "PHY 101: General Physics I (Mechanics, Thermal Physics & Waves)",
+                            "GST 111: Communication in English Language"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "IFS 102: Fundamentals of Business Organizations & Systems",
+                            "COS 102: Computer Programming II (Object-Oriented Programming & Data Structures)",
+                            "MTH 102: Elementary Mathematics II (Calculus & Linear Algebra)",
+                            "STA 102: Probability & Descriptive Statistics for Business Computing",
+                            "PHY 102: General Physics II (Electricity, Magnetism & Modern Physics)",
+                            "GST 112: Nigerian Peoples and Culture"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "200 Level (Database Systems, Systems Analysis & IT Infrastructure)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "IFS 201: Systems Analysis & Design Methodologies",
+                            "IFS 203: Data Communications & Computer Networks",
+                            "CSC 201: Computer Architecture & Systems",
+                            "CSC 203: Data Structures & Algorithms",
+                            "STA 201: Quantitative Methods & Inferential Statistics",
+                            "ENT 211: Entrepreneurship and Innovation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "IFS 202: Database Management Systems & SQL Application",
+                            "IFS 204: Management Information Systems (MIS) & Enterprise Systems",
+                            "IFS 206: Web Application Development & User Experience Design (UX/UI)",
+                            "CSC 204: Secure Software Design & Object-Oriented Analysis",
+                            "GST 212: Philosophy, Logic, and Human Existence"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "300 Level (Enterprise Systems, IT Project Management, Business Intelligence & SIWES)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "IFS 301: Enterprise Architecture & Integration Systems (ERP/CRM)",
+                            "IFS 303: IT Project Management & Agile Methodologies",
+                            "IFS 305: Information Systems Security, Control & Audit",
+                            "IFS 307: Business Intelligence, Data Warehousing & Analytics",
+                            "CSC 309: Research Methodology in Information Systems",
+                            "ENT 312: Venture Creation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "IFS 302: Practical Information Systems Lab & Prototype Defense Workshop",
+                            "IFS 304: SIWES / Industrial Attachment (6 Months Field Attachment at FinTechs, Software Firms, Enterprise IT Departments, or Consultancies)",
+                            "IFS 306: SIWES Technical Logbook Evaluation, Industrial Defense & Seminar",
+                            "GST 312: Peace Studies and Conflict Resolution"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "400 Level (IT Strategy, Cloud Computing, Governance & Thesis)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "IFS 401: Information Systems Strategy, Governance & Management (COBIT/ITIL)",
+                            "IFS 403: E-Commerce Infrastructure, Cloud Computing & Web Services",
+                            "IFS 405: Big Data Analytics, Decision Support Systems (DSS) & AI in Business",
+                            "IFS 407: Information Privacy, Data Protection Law & Cyber Ethics (NDPA/GDPR)",
+                            "IFS 409: Business Process Modeling, Re-engineering & Optimization"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "IFS 402: Enterprise Resource Planning (ERP) Systems & SAP/Odoo Implementation",
+                            "IFS 404: Human-Computer Interaction (HCI) & Information Systems Usability",
+                            "IFS 406: Digital Transformation, IT Innovation & Tech Entrepreneurship",
+                            "IFS 490: Final Year Undergraduate Research Project / End-to-End Enterprise Solution Implementation"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "Information Technology": {
+        degree: "B.Sc. Information Technology",
+        levels: [
+            {
+                level: "100 Level (Foundations in Mathematics, Programming & Computing)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "IFT 101: Introduction to Information Technology & Computing Systems",
+                            "COS 101: Introduction to Computing Sciences",
+                            "COS 103: Computer Programming I (Structured Programming in Python/C)",
+                            "MTH 101: Elementary Mathematics I (Algebra & Trigonometry)",
+                            "MTH 103: Discrete Mathematics & Logic",
+                            "PHY 101: General Physics I (Mechanics, Thermal Physics & Waves)",
+                            "GST 111: Communication in English Language"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "IFT 102: Fundamentals of Computer Networks & Telecommunications",
+                            "COS 102: Computer Programming II (Object-Oriented Programming in Java/C++)",
+                            "MTH 102: Elementary Mathematics II (Calculus & Linear Algebra)",
+                            "STA 102: Probability & Descriptive Statistics for Computing",
+                            "PHY 102: General Physics II (Electricity, Magnetism & Electronics)",
+                            "GST 112: Nigerian Peoples and Culture"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "200 Level (Database Systems, Web Technologies & Systems Architecture)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "IFT 201: Systems Analysis & IT Infrastructure Design",
+                            "IFT 203: Web Technologies & Front-End Development (HTML/CSS/JS)",
+                            "CSC 201: Computer Architecture & Assembly Language",
+                            "CSC 203: Data Structures & Algorithms",
+                            "STA 201: Inferential Statistics & Quantitative Analysis",
+                            "ENT 211: Entrepreneurship and Innovation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "IFT 202: Database Management Systems (SQL & Relational Databases)",
+                            "IFT 204: Server-Side Web Development & API Integration",
+                            "IFT 206: Operating Systems Administration (Linux/Windows Server)",
+                            "CSC 204: Software Engineering Principles & System Security",
+                            "GST 212: Philosophy, Logic, and Human Existence"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "300 Level (Networks, Cloud Computing, Cybersecurity & SIWES)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "IFT 301: Enterprise Network Architecture, Routing & Switching",
+                            "IFT 303: Cloud Computing Infrastructure, Virtualization & Storage",
+                            "IFT 305: Information Systems Security, Cryptography & Threat Mitigation",
+                            "IFT 307: Mobile Application Development & Responsive Systems",
+                            "CSC 309: Research Methodology in IT & Computing",
+                            "ENT 312: Venture Creation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "IFT 302: Practical IT Service Lab & Network Admin Workshop",
+                            "IFT 304: SIWES / Industrial Attachment (6 Months Field Attachment at IT Companies, Telecoms, FinTechs, or Corporate Tech Departments)",
+                            "IFT 306: SIWES Technical Logbook Evaluation, Presentation & Defense",
+                            "GST 312: Peace Studies and Conflict Resolution"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "400 Level (IT Governance, IoT, Cybersecurity Operations & Thesis)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "IFT 401: IT Service Management, Governance & Audit (ITIL, COBIT)",
+                            "IFT 403: Internet of Things (IoT) & Embedded Computing Infrastructure",
+                            "IFT 405: Network Security, Firewalls, Penetration Testing & Defense",
+                            "IFT 407: Big Data Management & Enterprise Data Warehousing",
+                            "IFT 409: Cyberlaw, Data Protection (NDPA/GDPR) & Professional Ethics"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "IFT 402: Enterprise Resource Planning (ERP) & Business Process Automation",
+                            "IFT 404: Human-Computer Interaction (HCI) & UI/UX Principles",
+                            "IFT 406: Emerging IT Trends (DevOps, AI Integration & Edge Computing)",
+                            "IFT 490: Final Year Undergraduate Research Project / Practical System Implementation"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "Software Engineering": {
+        degree: "B.Sc. Software Engineering",
+        levels: [
+            {
+                level: "100 Level (Computing Foundations & Mathematical Rigor)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "SEN 101: Introduction to Software Engineering & Computing Systems",
+                            "CSC 101: Introduction to Computer Science & Problem Solving",
+                            "MAT 101: Elementary Mathematics I (Algebra & Trigonometry)",
+                            "MAT 103: Vector, Geometry & Mathematical Analysis",
+                            "PHY 101: General Physics I (Mechanics, Thermal Physics)",
+                            "GST 111: Communication in English",
+                            "AMS 101: Principles of Management & Information Systems"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "SEN 102: Introduction to Programming Principles (Python / C)",
+                            "CSC 102: Computer Hardware & System Architecture Foundations",
+                            "MAT 102: Elementary Mathematics II (Calculus & Integration)",
+                            "MAT 104: Discrete Mathematics & Logic for Computer Science",
+                            "PHY 102: General Physics II (Electricity, Magnetism & Electronics)",
+                            "GST 112: Nigerian Peoples and Culture"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "200 Level (Data Structures, Object-Oriented Design & Databases)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "SEN 201: Object-Oriented Programming (Java / C++)",
+                            "SEN 203: Software Requirements Engineering & Specification",
+                            "CSC 201: Data Structures & Algorithms",
+                            "CSC 203: Computer Organization & Assembly Language",
+                            "MAT 201: Linear Algebra",
+                            "ENT 211: Entrepreneurship and Innovation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "SEN 202: Software Architecture & Design Patterns (MVC, Microservices, SOLID)",
+                            "SEN 204: Human-Computer Interaction (HCI) & UI/UX Principles",
+                            "CSC 202: Database Systems & SQL Modeling",
+                            "CSC 204: Operating Systems & Systems Programming",
+                            "STA 202: Probability & Statistics for Engineers",
+                            "GST 212: Philosophy, Logic, and Human Existence"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "300 Level (Full-Stack Engineering, Cloud, QA & SIWES)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "SEN 301: Full-Stack Web Application Development (RESTful APIs, Client/Server)",
+                            "SEN 303: Software Testing, Quality Assurance & Verification",
+                            "SEN 305: Mobile Application Engineering (Android / iOS / Cross-Platform)",
+                            "SEN 307: Software Project Management & Agile Methodologies",
+                            "CSC 301: Object-Oriented Systems Analysis and Design (UML)",
+                            "ENT 312: Venture Creation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "SEN 302: SIWES / Industrial Training Attachment (6-Month Placement in Tech Companies/Dev Shops)",
+                            "SEN 304: SIWES Comprehensive Logbook Evaluation, Technical Seminar & Defense",
+                            "GST 312: Peace Studies and Conflict Resolution"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "400 Level (Advanced Systems, DevOps, Security & Capstone)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "SEN 401: Distributed Systems & Cloud Infrastructure (AWS/GCP, Docker, Kubernetes)",
+                            "SEN 403: Software Security, Cryptography & Secure Coding Standards",
+                            "SEN 405: DevOps, CI/CD Pipelines & Site Reliability Engineering (SRE)",
+                            "SEN 407: Formal Methods & Domain-Driven Design in Software Engineering",
+                            "SEN 491: Final Year Capstone Project I (Requirements, Specification & Architecture Prototype)"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "SEN 402: Enterprise Application Architecture & Component-Based Software Engineering",
+                            "SEN 404: Software Evolution, Refactoring & Maintenance",
+                            "SEN 406: AI, Machine Learning Systems Engineering & MLOps",
+                            "SEN 408: Professional Ethics, IP & Law in Software Engineering",
+                            "SEN 492: Final Year Capstone Project II (Implementation, Testing, Deployment & Oral Defense)"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "Adult Education": {
+        degree: "B.Ed. Adult Education",
+        levels: [
+            {
+                level: "100 Level (Foundations of Education, Andragogy & Community Service)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "ADE 101: Introduction to Adult Education & Lifelong Learning",
+                            "ADE 103: History and Philosophy of Adult Education",
+                            "ADE 105: Psychology of Adult Learning (Andragogical Foundations)",
+                            "EDU 101: Foundations of Education & Teaching Profession",
+                            "HIS 101: History of Nigeria & West Africa",
+                            "GST 111: Communication in English Language",
+                            "AMS 103: Introduction to Computing & Information Technology"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "ADE 102: Basic Literacy, Numeracy & Non-Formal Education",
+                            "ADE 104: Community Development & Social Change",
+                            "ADE 106: Communication Skills in Adult Education",
+                            "EDU 102: Educational Psychology: Child & Adolescent Development",
+                            "GST 112: Nigerian Peoples and Culture"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "200 Level (Curriculum Development, Vocational Training & Teaching Practice I)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "ADE 201: Curriculum Development in Adult & Non-Formal Education",
+                            "ADE 203: Vocational, Technical & Occupational Education for Adults",
+                            "ADE 205: Distance Education, Open Learning & E-Learning Systems",
+                            "EDU 201: Educational Sociology & Human Learning",
+                            "EDU 203: Educational Technology & Media Resources",
+                            "ENT 211: Entrepreneurship and Innovation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "ADE 202: Organization, Administration & Management of Adult Education",
+                            "ADE 204: Women Education, Gender Studies & Sustainable Development",
+                            "ADE 206: Youth Work, Continuing Education & Community Leadership",
+                            "EDU 202: Micro-Teaching & Classroom Practice",
+                            "EDU 204: Practical Teaching Practice I (Observation & Peer Teaching)",
+                            "GST 212: Philosophy, Logic, and Human Existence"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "300 Level (Advanced Community Work, Program Planning & Teaching Practice II)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "ADE 301: Planning, Monitoring & Evaluation of Adult Education Programs",
+                            "ADE 303: Rural Development & Rural Extension Services",
+                            "ADE 305: Adult Literacy Methods, Materials & Instructional Design",
+                            "ADE 307: Research Methodology & Statistics in Education",
+                            "EDU 301: Educational Tests, Measurement & Evaluation",
+                            "ENT 312: Venture Creation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "ADE 302: Practical Community Extension & Out-of-School Youth Project",
+                            "EDU 302: Teaching Practice II (6-Month Field Attachment in Schools, Adult Literacy Centers, Community Development Agencies, or NGOs)",
+                            "EDU 304: Teaching Practice Assessment Report & Seminar Presentation",
+                            "GST 312: Peace Studies and Conflict Resolution"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "400 Level (Policy, Comparative Education, Administration & Thesis)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "ADE 401: Policy, Law & Economics of Adult Education in Nigeria",
+                            "ADE 403: Comparative Adult Education (Global & African Perspectives)",
+                            "ADE 405: Health Literacy, Environmental Education & Public Health Promotion",
+                            "EDU 401: Educational Administration, Planning & School Supervision",
+                            "EDU 403: Special Education & Inclusive Learning Systems"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "ADE 402: NGO Management, Resource Mobilization & Grant Writing",
+                            "ADE 404: Contemporary Issues in Adult Education & Globalization",
+                            "ADE 406: Social Work, Corrections Education & Peacebuilding",
+                            "ADE 490: Final Year Undergraduate Research Thesis & Defense"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "Business Education": {
+        degree: "B.Ed. Business Education",
+        levels: [
+            {
+                level: "100 Level (Foundations of Business, Education & Office Skills)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "BED 101: Introduction to Business Education & Office Occupations",
+                            "BED 103: Word Processing & Keyboard / Document Production I",
+                            "ACC 101: Principles of Accounting I",
+                            "BUS 101: Introduction to Business Administration I",
+                            "EDU 101: Foundations of Education & Teaching Profession",
+                            "GST 111: Communication in English Language",
+                            "AMS 103: Introduction to Computing & Information Technology"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "BED 102: Fundamentals of Marketing & Commerce",
+                            "BED 104: Word Processing & Document Production II",
+                            "ACC 102: Principles of Accounting II",
+                            "BUS 102: Introduction to Business Administration II",
+                            "EDU 102: Educational Psychology: Child & Adolescent Development",
+                            "GST 112: Nigerian Peoples and Culture"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "200 Level (Accounting, Office Technology, Curriculum & Teaching Practice I)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "BED 201: Financial Accounting for Business Educators I",
+                            "BED 203: Office Information Technology & Management Systems",
+                            "BED 205: Business Mathematics & Statistics",
+                            "EDU 201: Educational Sociology & Human Learning",
+                            "EDU 203: Educational Technology & Instructional Media",
+                            "ENT 211: Entrepreneurship and Innovation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "BED 202: Financial Accounting for Business Educators II",
+                            "BED 204: Business Communication & Report Writing",
+                            "BED 206: Consumer Economics & Personal Finance",
+                            "EDU 202: Micro-Teaching & Classroom Skills Acquisition",
+                            "EDU 204: Practical Teaching Practice I (Peer Teaching & Observation)",
+                            "GST 212: Philosophy, Logic, and Human Existence"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "300 Level (Methods of Teaching Business Subjects, Management & Teaching Practice II)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "BED 301: Methodology of Teaching Business Subjects (Accounting, Commerce, Office Tech)",
+                            "BED 303: Cost & Management Accounting for Educators",
+                            "BED 305: Curriculum Development in Business Education",
+                            "BED 307: Measurement & Evaluation in Business Education",
+                            "EDU 301: Research Methodology & Educational Statistics",
+                            "ENT 312: Venture Creation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "BED 302: Office Administrative Practice & Records Management",
+                            "EDU 302: Teaching Practice II (6-Month Teaching Internship in Secondary Schools or Technical Colleges)",
+                            "EDU 304: Teaching Practice Evaluation, Assessment Logbook & Seminar Presentation",
+                            "GST 312: Peace Studies and Conflict Resolution"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "400 Level (Advanced Business Management, Policy, ICT & Thesis)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "BED 401: Administration & Organization of Business Education Programs",
+                            "BED 403: Business Law & Corporate Ethics",
+                            "BED 405: E-Commerce, Digital Marketing & Web Applications",
+                            "EDU 401: Educational Administration, Planning & School Supervision",
+                            "EDU 403: Special Education & Inclusive Learning Systems"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "BED 402: Seminar & Contemporary Issues in Business Education",
+                            "BED 404: Small Business Management & Enterprise Development",
+                            "BED 406: Data Processing & Information Systems Management",
+                            "BED 490: Final Year Undergraduate Research Thesis & Defense"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "Christian Education": {
+        degree: "B.Ed. Christian Education",
+        levels: [
+            {
+                level: "100 Level (Foundations of Education, Biblical History & Language)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "CRE 101: Introduction to Christian Education & Religious Pedagogy",
+                            "CRE 103: Old Testament Background & History I (Patriarchs to Kingdom Period)",
+                            "CRE 105: New Testament Background & History I (Gospels & Synoptic Studies)",
+                            "EDU 101: Foundations of Education & Teaching Profession",
+                            "HIS 101: History of Nigeria & West Africa",
+                            "GST 111: Communication in English Language",
+                            "AMS 103: Introduction to Computing & Information Technology"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "CRE 102: Old Testament History II (Prophets & Wisdom Literature)",
+                            "CRE 104: New Testament History II (Acts, Pauline Epistles & General Epistles)",
+                            "CRE 106: Introduction to Biblical Languages (Elementary Greek / Hebrew)",
+                            "EDU 102: Educational Psychology: Child & Adolescent Development",
+                            "GST 112: Nigerian Peoples and Culture"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "200 Level (Theology, Church History, Curriculum & Teaching Practice I)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "CRE 201: Christian Theology & Doctrine I (God, Creation, Humanity & Sin)",
+                            "CRE 203: History of the Christian Church I (Early Church to the Reformation)",
+                            "CRE 205: Religion, Ethics & Moral Education in Schools",
+                            "EDU 201: Educational Sociology & Human Learning",
+                            "EDU 203: Educational Technology & Instructional Media",
+                            "ENT 211: Entrepreneurship and Innovation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "CRE 202: Christian Theology & Doctrine II (Christology, Pneumatology & Soteriology)",
+                            "CRE 204: History of Christianity in West Africa & Nigeria",
+                            "CRE 206: Curriculum Planning in Christian Religious Knowledge (CRK)",
+                            "EDU 202: Micro-Teaching & Classroom Skills Acquisition",
+                            "EDU 204: Practical Teaching Practice I (Observation & Peer Teaching)",
+                            "GST 212: Philosophy, Logic, and Human Existence"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "300 Level (Pedagogy, Comparative Religion, Administration & Teaching Practice II)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "CRE 301: Methodology of Teaching Christian Religious Studies / Knowledge",
+                            "CRE 303: Psychology of Religious Development & Moral Growth",
+                            "CRE 305: African Traditional Religion (ATR) & Inter-Faith Relations",
+                            "CRE 307: Measurement & Evaluation in Religious Education",
+                            "EDU 301: Research Methodology & Educational Statistics",
+                            "ENT 312: Venture Creation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "CRE 302: Youth Ministry, Counseling & Family Life Education",
+                            "EDU 302: Teaching Practice II (6-Month Teaching Internship in Secondary Schools or Colleges)",
+                            "EDU 304: Teaching Practice Assessment Logbook & Seminar Presentation",
+                            "GST 312: Peace Studies and Conflict Resolution"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "400 Level (Advanced Theology, School Administration, Ethics & Thesis)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "CRE 401: Administration & Management of Christian Educational Institutions",
+                            "CRE 403: Contemporary Social & Ethical Issues in Christian Perspective",
+                            "CRE 405: Hermeneutics & Biblical Exegesis for Educators",
+                            "EDU 401: Educational Administration, Planning & School Supervision",
+                            "EDU 403: Special Education & Inclusive Learning Systems"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "CRE 402: Ecumenism, Inter-Religious Dialogue & Peacebuilding",
+                            "CRE 404: Seminar on Contemporary Trends in Christian Religious Education",
+                            "CRE 406: Media, Technology & Digital Tools in Gospel Communication",
+                            "CRE 490: Final Year Undergraduate Research Thesis & Defense"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "Early Childhood & Primary Education": {
+        degree: "B.Ed. Early Childhood & Primary Education",
+        levels: [
+            {
+                level: "100 Level (Child Development, Pedagogy & Foundations of Education)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "ECE 101: Introduction to Early Childhood & Primary Education",
+                            "ECE 103: Child Growth & Development I (Prenatal to Early Childhood)",
+                            "ECE 105: Play, Creative Arts & Music in Early Childhood Education",
+                            "EDU 101: Foundations of Education & Teaching Profession",
+                            "HIS 101: History of Nigeria & West Africa",
+                            "GST 111: Communication in English Language",
+                            "AMS 103: Introduction to Computing & Information Technology"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "ECE 102: Child Growth & Development II (Middle Childhood & Primary Years)",
+                            "ECE 104: Language Development, Emergent Literacy & Phonics",
+                            "ECE 106: Primary School Science & Mathematics Concepts",
+                            "EDU 102: Educational Psychology: Learning Theories & Motivation",
+                            "GST 112: Nigerian Peoples and Culture"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "200 Level (Curriculum Design, Special Needs & Teaching Practice I)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "ECE 201: Curriculum Development in Early Childhood & Primary Education",
+                            "ECE 203: Health, Safety, Nutrition & First Aid for Young Children",
+                            "ECE 205: Methods of Teaching Primary School Social Studies & Values Education",
+                            "EDU 201: Educational Sociology & Human Learning",
+                            "EDU 203: Educational Technology, Instructional Media & Toy Making",
+                            "ENT 211: Entrepreneurship and Innovation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "ECE 202: Identification & Management of Learning Difficulties in Young Children",
+                            "ECE 204: Parent-Community Relationships & Family Life Education",
+                            "ECE 206: Environmental Education & Outdoor Learning for Children",
+                            "EDU 202: Micro-Teaching & Classroom Management Skills",
+                            "EDU 204: Practical Teaching Practice I (Observation & Peer Teaching)",
+                            "GST 212: Philosophy, Logic, and Human Existence"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "300 Level (Methods, Assessment, Administration & Teaching Practice II)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "ECE 301: Methods of Teaching Reading, Writing & English in Primary Schools",
+                            "ECE 302: Methods of Teaching Primary Mathematics & Basic Science",
+                            "ECE 305: Educational Measurement & Evaluation in Primary Schools",
+                            "ECE 307: Guidance & Counseling for Primary School Children",
+                            "EDU 301: Research Methodology & Educational Statistics",
+                            "ENT 312: Venture Creation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "ECE 304: Organization & Administration of Nursery and Primary Schools",
+                            "EDU 302: Teaching Practice II (6-Month Teaching Internship in Nursery/Primary Schools)",
+                            "EDU 304: Teaching Practice Assessment Logbook & Seminar Presentation",
+                            "GST 312: Peace Studies and Conflict Resolution"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "400 Level (Advanced Child Care, Educational Policy, ICT & Thesis)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "ECE 401: Rights, Law & Protection of the Child in Nigeria",
+                            "ECE 403: ICT, Digital Literacy & Multimedia Tools in Primary Education",
+                            "ECE 405: Comparative Early Childhood & Primary Education",
+                            "EDU 401: Educational Administration, Planning & School Supervision",
+                            "EDU 403: Special Education & Inclusive Education Systems"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "ECE 402: Seminar on Contemporary Issues & Innovations in Primary Education",
+                            "ECE 404: Management of Creches, Daycare & Pre-Primary Centers",
+                            "ECE 406: Continuous Assessment, Record Keeping & School Report Writing",
+                            "ECE 490: Final Year Undergraduate Research Thesis & Defense"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "Educational Technology": {
+        degree: "B.Ed. Educational Technology",
+        levels: [
+            {
+                level: "100 Level (Foundations of Education, Computer Systems & Learning Theories)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "EDT 101: Introduction to Educational Technology & Instructional Media",
+                            "EDT 103: Computer Fundamentals & Office Applications for Educators",
+                            "EDT 105: Graphic Design & Visual Communication in Education",
+                            "EDU 101: Foundations of Education & Teaching Profession",
+                            "HIS 101: History of Nigeria & West Africa",
+                            "GST 111: Communication in English Language",
+                            "AMS 103: Introduction to Computing & Information Technology"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "EDT 102: Communication Theory & Instructional Systems",
+                            "EDT 104: Audio Visual Hardware Systems, Operation & Maintenance",
+                            "EDT 106: Psychology of Learning & Instructional Design Foundations",
+                            "EDU 102: Educational Psychology: Child & Adolescent Development",
+                            "GST 112: Nigerian Peoples and Culture"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "200 Level (Instructional Design, Audio/Video Production & Teaching Practice I)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "EDT 201: Instructional Systems Design (ISD) & ADDIE Model",
+                            "EDT 203: Educational Audio Production & Broadcasting Techniques",
+                            "EDT 205: Photography, Graphics Production & Visual Media",
+                            "EDU 201: Educational Sociology & Human Learning",
+                            "EDU 203: Educational Technology & Classroom Media",
+                            "ENT 211: Entrepreneurship and Innovation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "EDT 202: Educational Television & Video Production",
+                            "EDT 204: Web Design & Digital Content Creation for Education",
+                            "EDT 206: Material Resources Production & Local Crafting for Instruction",
+                            "EDU 202: Micro-Teaching & Classroom Presentation Skills",
+                            "EDU 204: Practical Teaching Practice I (Observation & Peer Teaching)",
+                            "GST 212: Philosophy, Logic, and Human Existence"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "300 Level (E-Learning, Software Engineering, Assessment & Teaching Practice II)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "EDT 301: E-Learning Platforms, LMS (Moodle, Canvas) & Virtual Learning",
+                            "EDT 303: Educational Software Development & Computer-Assisted Instruction (CAI)",
+                            "EDT 305: Interactive Multimedia Design & Courseware Development",
+                            "EDT 307: Educational Measurement, Evaluation & EdTech Assessment",
+                            "EDU 301: Research Methodology & Educational Statistics",
+                            "ENT 312: Venture Creation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "EDT 302: Educational Technology Center (ETC) Setup & Management",
+                            "EDU 302: Teaching Practice II (6-Month Industrial Attachment / Teaching Internship in Schools, EdTech Firms, or Media Centers)",
+                            "EDU 304: Teaching Practice Assessment Logbook & Seminar Presentation",
+                            "GST 312: Peace Studies and Conflict Resolution"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "400 Level (Emerging EdTech, System Administration, Policy & Thesis)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "EDT 401: Emerging Technologies in Education (AI, AR/VR, Gamification)",
+                            "EDT 403: Educational Technology Policy, Planning & System Administration",
+                            "EDT 405: Distance Education, Telecommunication & Mobile Learning (m-Learning)",
+                            "EDU 401: Educational Administration, Planning & School Supervision",
+                            "EDU 403: Special Education & Assistive Technology"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "EDT 402: Seminar on Innovations and Trends in Educational Technology",
+                            "EDT 404: Project Management in Instructional Design & EdTech Product Development",
+                            "EDT 406: Intellectual Property, Copyright & Digital Rights in E-Learning",
+                            "EDT 490: Final Year Undergraduate Research Project & Defense"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "Educational Management / Planning": {
+        degree: "B.Ed. Educational Management / Planning",
+        levels: [
+            {
+                level: "100 Level (Foundations of Education, Management & Administrative Principles)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "EDM 101: Introduction to Educational Management & Administration",
+                            "EDM 103: Principles and Practice of School Management",
+                            "EDM 105: Fundamentals of Educational Planning",
+                            "EDU 101: Foundations of Education & Teaching Profession",
+                            "HIS 101: History of Nigeria & West Africa",
+                            "GST 111: Communication in English Language",
+                            "AMS 103: Introduction to Computing & Information Technology"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "EDM 102: Administrative Thought & Organizational Behavior in Education",
+                            "EDM 104: History of Educational Development in Nigeria",
+                            "EDM 106: Communication & Public Relations in School Management",
+                            "EDU 102: Educational Psychology: Child & Adolescent Development",
+                            "GST 112: Nigerian Peoples and Culture"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "200 Level (School Finance, Personnel Management & Teaching Practice I)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "EDM 201: School Finance, Budgeting & Resource Allocation",
+                            "EDM 203: Human Resource & Personnel Management in Education",
+                            "EDM 205: Educational Statistics & Data Analysis for Planners",
+                            "EDU 201: Educational Sociology & Human Learning",
+                            "EDU 203: Educational Technology & Instructional Media",
+                            "ENT 211: Entrepreneurship and Innovation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "EDM 202: School Plant Management, Safety & Physical Facilities Planning",
+                            "EDM 204: School Records, Information Systems & Database Management",
+                            "EDM 206: Legal Foundations & School Law in Nigeria",
+                            "EDU 202: Micro-Teaching & Classroom Skills Acquisition",
+                            "EDU 204: Practical Teaching Practice I (Observation & Peer Teaching)",
+                            "GST 212: Philosophy, Logic, and Human Existence"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "300 Level (Demography, Policy Analysis, Supervision & Teaching Practice II)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "EDM 301: Educational Demography & Population Projection for School Planning",
+                            "EDM 303: School Inspection, Supervision & Quality Assurance",
+                            "EDM 305: Economics of Education & Human Capital Development",
+                            "EDM 307: Measurement & Evaluation in Educational Management",
+                            "EDU 301: Research Methodology in Education",
+                            "ENT 312: Venture Creation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "EDM 302: Administrative Practicum & Industrial Attachment in Educational Agencies (Ministry of Education, SUBEB, Teaching Service Board)",
+                            "EDU 302: Teaching Practice II (6-Month Teaching Internship in Secondary Schools / Colleges)",
+                            "EDU 304: Teaching Practice Assessment Logbook & Seminar Presentation",
+                            "GST 312: Peace Studies and Conflict Resolution"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "400 Level (Strategic Planning, Higher Education, Policy Analysis & Thesis)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "EDM 401: Strategic Planning & Institutional Leadership in Education",
+                            "EDM 403: Politics, Policy Analysis & Decision Making in Education",
+                            "EDM 405: Comparative Educational Management & Global Practices",
+                            "EDU 401: Systems Approach to Educational Management",
+                            "EDU 403: Special Education & Inclusive Education Leadership"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "EDM 402: Seminar on Contemporary Issues in Educational Management",
+                            "EDM 404: Management of Higher Education & Professional Institutions",
+                            "EDM 406: Operations Research & Project Management in Education",
+                            "EDM 490: Final Year Undergraduate Research Thesis & Defense"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "Guidance & Counselling": {
+        degree: "B.Ed. Guidance & Counselling",
+        levels: [
+            {
+                level: "100 Level (Foundations of Education, Psychology & Counselling)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "GNC 101: Introduction to Guidance & Counselling",
+                            "GNC 103: Personal-Social Development & Human Adjustment",
+                            "GNC 105: Fundamentals of Psychology for Counsellors",
+                            "EDU 101: Foundations of Education & Teaching Profession",
+                            "HIS 101: History of Nigeria & West Africa",
+                            "GST 111: Communication in English Language",
+                            "AMS 103: Introduction to Computing & Information Technology"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "GNC 102: Career Development, Vocational Choice & World of Work",
+                            "GNC 104: Developmental Psychology (Life-Span Human Development)",
+                            "GNC 106: Communication Skills & Helping Relationships in Counselling",
+                            "EDU 102: Educational Psychology: Child & Adolescent Development",
+                            "GST 112: Nigerian Peoples and Culture"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "200 Level (Counselling Theories, Techniques, Appraisal & Teaching Practice I)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "GNC 201: Theories of Counselling & Psychotherapy",
+                            "GNC 203: Techniques & Micro-Skills in Individual Counselling",
+                            "GNC 205: Psychological Testing & Student Appraisal Methods",
+                            "EDU 201: Educational Sociology & Human Learning",
+                            "EDU 203: Educational Technology & Instructional Media",
+                            "ENT 211: Entrepreneurship and Innovation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "GNC 202: Group Counselling Dynamics & Process",
+                            "GNC 204: Educational & Academic Counselling Services",
+                            "GNC 206: Adolescent Psychology & Behaviour Modification Techniques",
+                            "EDU 202: Micro-Teaching & Practicum Preparation",
+                            "EDU 204: Practical Teaching Practice I (Observation & Peer Teaching)",
+                            "GST 212: Philosophy, Logic, and Human Existence"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "300 Level (Practicum, Family & Health Counselling, Teaching Practice II)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "GNC 301: Counselling Practicum I (Simulated & Supervised School Counselling Practice)",
+                            "GNC 303: Marriage, Family & Relationship Counselling",
+                            "GNC 305: Substance Abuse, Addiction & Rehabilitation Counselling",
+                            "GNC 307: Measurement, Evaluation & Statistics in Guidance",
+                            "EDU 301: Research Methodology in Education",
+                            "ENT 312: Venture Creation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "GNC 302: Counselling Practicum II (Fieldwork Attachment in Schools, Rehabilitation Centers, or Social Welfare Agencies)",
+                            "EDU 302: Teaching Practice II (6-Month Teaching/Counselling Internship in Secondary Schools)",
+                            "EDU 304: Teaching Practice Assessment Logbook & Seminar Presentation",
+                            "GST 312: Peace Studies and Conflict Resolution"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "400 Level (Advanced Counselling, Ethics, Clinical Issues & Thesis)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "GNC 401: Professional Ethics, Legal Issues & Practice of Counselling in Nigeria",
+                            "GNC 403: Organization & Administration of Guidance Services in Schools & Agencies",
+                            "GNC 405: Crisis Intervention, Trauma & Grief Counselling",
+                            "EDU 401: Educational Administration, Planning & School Supervision",
+                            "EDU 403: Special Education & Counselling for Exceptional Children"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "GNC 402: Seminar on Contemporary Issues in Guidance & Counselling",
+                            "GNC 404: Cross-Cultural, Gender & Community Counselling",
+                            "GNC 406: Career Information Systems, Computer-Assisted Guidance & Placement",
+                            "GNC 490: Final Year Undergraduate Research Thesis & Defense"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "Health Education": {
+        degree: "B.Ed. Health Education",
+        levels: [
+            {
+                level: "100 Level (Human Anatomy, Foundations of Health & Education)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "HED 101: Foundations & Philosophy of Health Education",
+                            "HED 103: Human Anatomy & Physiology I (Skeletal, Muscular & Circulatory Systems)",
+                            "HED 105: Personal Health, Wellness & Hygiene",
+                            "EDU 101: Foundations of Education & Teaching Profession",
+                            "HIS 101: History of Nigeria & West Africa",
+                            "GST 111: Communication in English Language",
+                            "AMS 103: Introduction to Computing & Information Technology"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "HED 102: Human Anatomy & Physiology II (Nervous, Digestive, Respiratory & Endocrine Systems)",
+                            "HED 104: Community Health, Environmental Sanitation & Pollution Control",
+                            "HED 106: First Aid, Emergency Care & Safety Education",
+                            "EDU 102: Educational Psychology: Child & Adolescent Development",
+                            "GST 112: Nigerian Peoples and Culture"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "200 Level (Nutrition, Communicable Diseases, Curriculum & Teaching Practice I)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "HED 201: Human Nutrition, Dietetics & Consumer Health Education",
+                            "HED 203: Prevention & Control of Communicable & Non-Communicable Diseases",
+                            "HED 205: Reproductive Health, Family Life & Sex Education",
+                            "EDU 201: Educational Sociology & Human Learning",
+                            "EDU 203: Educational Technology & Health Media Instructional Design",
+                            "ENT 211: Entrepreneurship and Innovation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "HED 202: School Health Services, Health Instruction & Environment (HPE Framework)",
+                            "HED 204: Mental Health, Emotional Well-being & Stress Management",
+                            "HED 206: Substance Abuse, Drug Education & Alcoholism",
+                            "EDU 202: Micro-Teaching & Health Communication Skills",
+                            "EDU 204: Practical Teaching Practice I (Observation & Peer Teaching)",
+                            "GST 212: Philosophy, Logic, and Human Existence"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "300 Level (Epidemiology, Health Promotion Methods & Teaching Practice II)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "HED 301: Principles of Epidemiology & Disease Surveillance in Schools/Communities",
+                            "HED 303: Methods & Strategies of Teaching Health Education",
+                            "HED 305: Maternal, Child & Adolescent Health Care",
+                            "HED 307: Measurement, Evaluation & Statistics in Health Education",
+                            "EDU 301: Research Methodology in Education",
+                            "ENT 312: Venture Creation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "HED 302: Fieldwork Practicum in Public Health Agencies & Primary Healthcare Centers (PHCs)",
+                            "EDU 302: Teaching Practice II (6-Month Teaching Internship in Secondary Schools)",
+                            "EDU 304: Teaching Practice Assessment Logbook & Seminar Presentation",
+                            "GST 312: Peace Studies and Conflict Resolution"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "400 Level (Health Policy, Administration, Global Health & Thesis)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "HED 401: Organization, Administration & Supervision of School & Community Health Programs",
+                            "HED 403: Health Policy, Laws, Ethics & Advocacy in Nigeria",
+                            "HED 405: Global Health Issues, Tropical Diseases & Disaster Management",
+                            "EDU 401: Educational Administration, Planning & School Supervision",
+                            "EDU 403: Special Education & Inclusive Health Care"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "HED 402: Seminar on Contemporary Issues in Health Education & Disease Outbreaks",
+                            "HED 404: Occupational Health, Safety Engineering & Industrial Hygiene",
+                            "HED 406: Health Communication, Mass Media Campaign & Public Relations",
+                            "HED 490: Final Year Undergraduate Research Thesis & Defense"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "Islamic Education": {
+        degree: "B.Ed. Islamic Education",
+        levels: [
+            {
+                level: "100 Level (Foundations of Islamic Studies, Arabic Literacy & Education)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "ISE 101: Introduction to Quranic Science & Recitation (Tajweed)",
+                            "ISE 103: Introduction to Hadith & Principles of Hadith Criticism (Mustalah al-Hadith)",
+                            "ISE 105: Arabic Grammar & Reading Comprehension for Islamic Studies I",
+                            "EDU 101: Foundations of Education & Teaching Profession",
+                            "HIS 101: History of Nigeria & West Africa",
+                            "GST 111: Communication in English Language",
+                            "AMS 103: Introduction to Computing & Information Technology"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "ISE 102: Studies on the Text of Quran: Selected Surahs & Exegesis (Tafsir)",
+                            "ISE 104: History of Islam: Life of Prophet Muhammad (Sira) & Orthodox Caliphate",
+                            "ISE 106: Foundations of Islamic Jurisprudence (Fiqh: Acts of Worship - Ibadat)",
+                            "EDU 102: Educational Psychology: Child & Adolescent Development",
+                            "GST 112: Nigerian Peoples and Culture"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "200 Level (Islamic Law, Theology, Educational Technology & Teaching Practice I)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "ISE 201: Islamic Theology & Creed ('Aqidah and Tawhid)",
+                            "ISE 203: Textual Study of Hadith: Collections of An-Nawawi & Al-Bukhari/Muslim",
+                            "ISE 205: Islamic Family Law (Fiqh al-Mu'amalat & Personal Status)",
+                            "EDU 201: Educational Sociology & Human Learning",
+                            "EDU 203: Educational Technology & Instructional Media Design for Religious Studies",
+                            "ENT 211: Entrepreneurship and Innovation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "ISE 202: History of Islam in West Africa & Nigeria (Sokoto Caliphate to Present)",
+                            "ISE 204: Principles of Islamic Jurisprudence (Usul al-Fiqh)",
+                            "ISE 206: Arabic Grammar & Syntax for Islamic Text Analysis II",
+                            "EDU 202: Micro-Teaching & Instructional Delivery Skills",
+                            "EDU 204: Practical Teaching Practice I (Observation & Peer Teaching)",
+                            "GST 212: Philosophy, Logic, and Human Existence"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "300 Level (Methodology, Classical Intellectual History & Teaching Practice II)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "ISE 301: Methods & Strategies of Teaching Islamic Studies in Schools",
+                            "ISE 303: Advanced Exegesis (Tafsir): Comparative Classical & Modern Commentaries",
+                            "ISE 305: History of Islamic Intellectualism: Umayyad, Abbasid & Golden Age Scholars",
+                            "ISE 307: Measurement, Evaluation & Test Construction in Islamic Education",
+                            "EDU 301: Research Methodology in Education",
+                            "ENT 312: Venture Creation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "ISE 302: Moral Philosophy & Ethics in Islam (Akhlaq and Tasawwuf)",
+                            "EDU 302: Teaching Practice II (6-Month Teaching Internship in Secondary Schools)",
+                            "EDU 304: Teaching Practice Assessment Logbook & Seminar Presentation",
+                            "GST 312: Peace Studies and Conflict Resolution"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "400 Level (Contemporary Issues, Islamic Educational Thought & Thesis)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "ISE 401: Philosophy of Islamic Education & Comparative Educational Systems",
+                            "ISE 403: Islamic Political Thought, Constitutionalism & Governance Systems",
+                            "ISE 405: Islamic Economics, Financial System (Zakat, Waqf, Sukuk) & Inheritance Law (Mawarith)",
+                            "EDU 401: Educational Administration, Planning & School Supervision",
+                            "EDU 403: Special Education & Inclusive Classroom Management"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "ISE 402: Contemporary Issues & Challenges in the Muslim World (Modernism, Globalization & Inter-Faith Relations)",
+                            "ISE 404: Islam in the Modern World & Revivalist Movements",
+                            "ISE 406: Curriculum Development & Evaluation in Islamic Education",
+                            "ISE 490: Final Year Undergraduate Research Thesis & Defense"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "Physical & Health Education (Kinesiology)": {
+        degree: "B.Ed. Physical & Health Education (Kinesiology)",
+        levels: [
+            {
+                level: "100 Level (Foundations of Human Movement, Anatomy & Education)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "PHE 101: Foundations & History of Physical Education & Sports",
+                            "PHE 103: Human Anatomy & Physiology I (Musculoskeletal & Cardiovascular Systems)",
+                            "PHE 105: Fundamental Movement Patterns, Physical Fitness & Conditioning",
+                            "PHE 107: Rules, Coaching & Practical Performance in Track & Field (Athletics I)",
+                            "EDU 101: Foundations of Education & Teaching Profession",
+                            "GST 111: Communication in English Language",
+                            "AMS 103: Introduction to Computing & Information Technology"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "PHE 102: Human Anatomy & Physiology II (Nervous, Respiratory & Neuromuscular Systems)",
+                            "PHE 104: Personal, School & Community Health Education",
+                            "PHE 106: Rules, Coaching & Practical Performance in Ball Games (Soccer, Basketball, Volleyball)",
+                            "EDU 102: Educational Psychology: Child & Adolescent Development",
+                            "HIS 101: History of Nigeria & West Africa",
+                            "GST 112: Nigerian Peoples and Culture"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "200 Level (Kinesiology, Exercise Physiology, Biomechanics & Teaching Practice I)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "KIN 201: Structural & Applied Kinesiology (Anatomical Analysis of Human Movement)",
+                            "KIN 203: Physiology of Exercise I (Energy Systems, Neuromuscular & Metabolic Adaptation)",
+                            "KIN 205: Sports Nutrition, Metabolism & Ergogenic Aids",
+                            "PHE 207: Rules, Coaching & Performance in Racket Sports (Tennis, Badminton, Table Tennis)",
+                            "EDU 201: Educational Sociology & Human Learning",
+                            "EDU 203: Educational Technology & Instructional Media Design",
+                            "ENT 211: Entrepreneurship and Innovation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "KIN 202: Introductory Biomechanics of Human Movement (Kinematics & Kinetics)",
+                            "KIN 204: Motor Learning, Control & Motor Skill Acquisition",
+                            "KIN 206: First Aid, Sports Injuries, Prevention & Rehabilitation Procedures",
+                            "PHE 208: Gymnastics, Aquatics & Combative Sports",
+                            "EDU 202: Micro-Teaching & Practical Demonstration Skills",
+                            "EDU 204: Practical Teaching Practice I (Observation & Peer Coaching)",
+                            "GST 212: Philosophy, Logic, and Human Existence"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "300 Level (Advanced Biomechanics, Sports Psychology & Teaching Practice II)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "KIN 301: Advanced Biomechanics & Quantitative Movement Analysis",
+                            "KIN 303: Advanced Exercise Physiology & Exercise Testing/Prescription",
+                            "KIN 305: Sports & Exercise Psychology (Motivation, Anxiety & Performance Enhancement)",
+                            "KIN 307: Measurement, Statistics & Performance Evaluation in Physical Education",
+                            "EDU 301: Research Methodology in Physical Education & Sports Science",
+                            "ENT 312: Venture Creation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "KIN 302: Fieldwork & Clinical Internship in Sports Science / Athletic Performance Centers",
+                            "EDU 302: Teaching Practice II (6-Month Internship in Secondary Schools / Sports Academies)",
+                            "EDU 304: Teaching Practice Assessment Logbook & Seminar Presentation",
+                            "GST 312: Peace Studies and Conflict Resolution"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "400 Level (Strength & Conditioning, Sports Management & Thesis)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "KIN 401: Science of Strength, Conditioning & Periodization Programming",
+                            "KIN 403: Adaptations to Special Populations (Adapted Physical Education & Clinical Kinesiology)",
+                            "PHE 405: Organization, Administration & Facilities Management in Sports & Recreation",
+                            "EDU 401: Educational Administration, Planning & School Supervision",
+                            "EDU 403: Inclusive Physical Education for Exceptional Learners"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "KIN 402: Contemporary Seminar on Kinesiology, Doping & Sports Technology",
+                            "KIN 404: Corrective Exercise, Postural Assessment & Movement Rehabilitation",
+                            "PHE 406: Sociology of Sports, Gender & Physical Activity in Society",
+                            "KIN 490: Final Year Undergraduate Research Thesis & Defense"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "Special Education": {
+        degree: "B.Ed. Special Education",
+        levels: [
+            {
+                level: "100 Level (Foundations of Special Needs, Psychology & General Education)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "SPE 101: Introduction to Exceptionalities & Special Education",
+                            "SPE 103: Foundations of Speech, Language & Communication Development",
+                            "SPE 105: Psychology of Human Exceptionalities & Individual Differences",
+                            "EDU 101: Foundations of Education & Teaching Profession",
+                            "HIS 101: History of Nigeria & West Africa",
+                            "GST 111: Communication in English Language",
+                            "AMS 103: Introduction to Computing & Information Technology"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "SPE 102: Introduction to Visual Impairments & Mobility Orientation",
+                            "SPE 103: Introduction to Hearing Impairments & Basic Sign Language",
+                            "SPE 106: Foundations of Intellectual Disabilities & Developmental Delays",
+                            "EDU 102: Educational Psychology: Child & Adolescent Development",
+                            "GST 112: Nigerian Peoples and Culture"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "200 Level (Braille, Sign Language, Assessment & Teaching Practice I)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "SPE 201: Mechanics of Braille Reading, Writing & Embossing",
+                            "SPE 203: Intermediate Nigerian Sign Language & Total Communication Methods",
+                            "SPE 205: Learning Disabilities: Identification, Characteristics & Intervention Strategies",
+                            "EDU 201: Educational Sociology & Human Learning",
+                            "EDU 203: Educational Technology & Assistive Technology Devices in Special Education",
+                            "ENT 211: Entrepreneurship and Innovation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "SPE 202: Psycho-Educational Assessment, Diagnostic Testing & IEP Design",
+                            "SPE 204: Emotional & Behavioral Disorders: Management & Behavior Modification",
+                            "SPE 206: Physical, Health, Multiple Disabilities & Neuromuscular Conditions",
+                            "EDU 202: Micro-Teaching & Differentiated Instructional Delivery",
+                            "EDU 204: Practical Teaching Practice I (Observation in Special Schools & Inclusive Settings)",
+                            "GST 212: Philosophy, Logic, and Human Existence"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "300 Level (Giftedness, Inclusive Education Practicum & Teaching Practice II)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "SPE 301: Education of Gifted, Talented & Creative Individuals",
+                            "SPE 303: Inclusive Classroom Management & Differentiated Curriculum Strategies",
+                            "SPE 305: Speech-Language Pathology & Communication Disorders Intervention",
+                            "SPE 307: Educational Measurement, Evaluation & Statistics in Special Education",
+                            "EDU 301: Research Methodology in Education",
+                            "ENT 312: Venture Creation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "SPE 302: Clinical Fieldwork Practicum in Special Schools, Rehabilitation & Resource Centers",
+                            "EDU 302: Teaching Practice II (6-Month Teaching Internship in Special / Inclusive Schools)",
+                            "EDU 304: Teaching Practice Assessment Logbook & Seminar Presentation",
+                            "GST 312: Peace Studies and Conflict Resolution"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "400 Level (Advanced Intervention, Ethics, Advocacy & Thesis)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "SPE 401: Organization, Administration & Legislation in Special Education",
+                            "SPE 403: Early Childhood Special Education & Early Intervention Models",
+                            "SPE 405: Counseling, Family Support & Transition Planning for Individuals with Disabilities",
+                            "EDU 401: Educational Administration, Planning & School Supervision",
+                            "EDU 403: Rehabilitation Medicine, Assistive Tech Integration & Community-Based Support"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "SPE 402: Contemporary Issues, Advocacy & Legal Policies in Special Education in Nigeria",
+                            "SPE 404: Autism Spectrum Disorders (ASD) & Neurodevelopmental Support",
+                            "SPE 406: Curriculum Adaptation & Resource Room Management",
+                            "SPE 490: Final Year Undergraduate Research Thesis & Defense"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "Technology / Technical Education": {
+        degree: "B.Ed. Technology / Technical Education",
+        levels: [
+            {
+                level: "100 Level (Foundations of Technology, Engineering Workshop & Mathematics)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "TED 101: Introduction to Technical/Vocational Education & Technology Philosophy",
+                            "TED 103: Technical Drawing & Descriptive Geometry I",
+                            "TED 105: General Engineering Workshop Practice I (Benchwork, Fitting & Carpentry)",
+                            "MAT 101: General Mathematics I (Algebra & Trigonometry)",
+                            "PHY 101: General Physics I (Mechanics & Thermal Physics)",
+                            "EDU 101: Foundations of Education & Teaching Profession",
+                            "GST 111: Communication in English Language",
+                            "AMS 103: Introduction to Computing & Information Technology"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "TED 102: Applied Electricity & Electrical Fundamentals",
+                            "TED 104: Technical Drawing & Machine Drawing II",
+                            "TED 106: General Engineering Workshop Practice II (Machining, Welding & Electrical Wiring)",
+                            "PHY 102: General Physics II (Electricity, Magnetism & Optics)",
+                            "EDU 102: Educational Psychology: Child & Adolescent Development",
+                            "HIS 101: History of Nigeria & West Africa",
+                            "GST 112: Nigerian Peoples and Culture"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "200 Level (Applied Engineering Fundamentals, Materials & Teaching Practice I) — Students begin focusing on an option: Automobile, Building/Woodwork, Electrical/Electronics, or Metalwork/Mechanical",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "TED 201: Engineering Materials, Properties & Testing Techniques",
+                            "TED 203: Workshop Safety, First Aid & Environmental Health Management",
+                            "TED 205: Fluid Mechanics & Applied Thermodynamics Fundamentals",
+                            "TED 207: Circuit Theory & Electronics Fundamentals",
+                            "EDU 201: Educational Sociology & Human Learning",
+                            "EDU 203: Educational Technology & Instructional Media Design",
+                            "ENT 211: Entrepreneurship and Innovation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "TED 202: Applied Mechanics & Strength of Materials",
+                            "TED 204: Computer-Aided Design (CAD / Drafting Software)",
+                            "TED 206: Specialization Workshop Practice I (Selected Technical Option)",
+                            "EDU 202: Micro-Teaching & Practical Demonstration Skills",
+                            "EDU 204: Practical Teaching Practice I (Observation & Peer Workshop Demonstration)",
+                            "GST 212: Philosophy, Logic, and Human Existence"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "300 Level (Technical Pedagogy, Advanced Workshop & Teaching Practice II)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "TED 301: Methods & Strategies of Teaching Technical/Vocational Subjects",
+                            "TED 303: Workshop Design, Facility Planning & Maintenance Management",
+                            "TED 305: Specialization Workshop Practice II (Advanced Production & Fabrication)",
+                            "TED 307: Measurement, Evaluation & Practical Skill Assessment in TVET",
+                            "EDU 301: Research Methodology & Educational Statistics",
+                            "ENT 312: Venture Creation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "TED 302: Industrial Attachment / SIWES (6-Month Technical Field Attachment in Engineering Workshops, Manufacturing Plants, or Construction Sites)",
+                            "EDU 302: Teaching Practice II (6-Month Teaching Internship in Technical Colleges or Secondary Schools)",
+                            "EDU 304: Teaching Practice Assessment Logbook & Seminar Presentation",
+                            "GST 312: Peace Studies and Conflict Resolution"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "400 Level (TVET Administration, Emerging Tech, Policy & Thesis)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "TED 401: Organization, Administration & Supervision of Technical Education",
+                            "TED 403: Curriculum Development & Evaluation in TVET (Technical and Vocational Education)",
+                            "TED 405: Advanced Specialized Engineering/Technical Design Project",
+                            "EDU 401: Educational Administration, Planning & School Supervision",
+                            "EDU 403: Special Education & Inclusive Technical Training"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "TED 402: Seminar on Contemporary Trends & Innovations in Technology Education",
+                            "TED 404: Vocational Guidance, Entrepreneurship & Small Business Management in TVET",
+                            "TED 406: Automation, Computer-Numerical Control (CNC) & Digital Fabrication",
+                            "TED 490: Final Year Undergraduate Research & Fabrication Thesis Defense"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "Vocational & Technical Education": {
+        degree: "B.Ed. Vocational & Technical Education",
+        levels: [
+            {
+                level: "100 Level (Foundations of TVET, Applied Sciences & Workshop Practice)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "VTE 101: Foundations & Philosophy of Vocational & Technical Education (TVET)",
+                            "VTE 103: Applied Mathematics for Vocational & Technical Educators",
+                            "VTE 105: General Workshop Practice I & Safety Fundamentals",
+                            "EDU 101: Foundations of Education & Teaching Profession",
+                            "HIS 101: History of Nigeria & West Africa",
+                            "GST 111: Communication in English Language",
+                            "AMS 103: Introduction to Computing & Information Technology"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "VTE 102: Technical Drawing, Geometry & Blueprint Reading",
+                            "VTE 104: Applied Physics & Electricity Fundamentals for TVET",
+                            "VTE 106: General Workshop Practice II (Basic Machining, Woodworking & Electronics)",
+                            "EDU 102: Educational Psychology: Child & Adolescent Development",
+                            "GST 112: Nigerian Peoples and Culture"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "200 Level (Area of Specialization, Materials Science & Teaching Practice I) — Students begin core technical courses in their declared track: Agric, Auto, Building/Woodwork, Electrical, Home Econ, or Metalwork",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "VTE 201: Materials Science, Engineering Properties & Testing",
+                            "VTE 203: Occupational Health, Environmental Safety & Ergonomics",
+                            "VTE 205: Technical Option Specialization Course I",
+                            "EDU 201: Educational Sociology & Human Learning",
+                            "EDU 203: Educational Technology & Instructional Media Design",
+                            "ENT 211: Entrepreneurship and Innovation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "VTE 202: Computer-Aided Design (CAD) & Digital Drafting Tools",
+                            "VTE 204: Technical Option Specialization Course II & Studio/Practical Lab",
+                            "VTE 206: Entrepreneurship in Vocational Occupations & Small Enterprise Setup",
+                            "EDU 202: Micro-Teaching & Practical Demonstration Skills",
+                            "EDU 204: Practical Teaching Practice I (Observation & Peer Coaching)",
+                            "GST 212: Philosophy, Logic, and Human Existence"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "300 Level (TVET Pedagogy, Workshop Planning & Teaching Practice II)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "VTE 301: Methods & Instructional Strategies for Teaching TVET Subjects",
+                            "VTE 303: Workshop Design, Facility Management & Machine Maintenance",
+                            "VTE 305: Performance Measurement, Practical Skill Assessment & Testing in TVET",
+                            "VTE 307: Advanced Specialization Production & Fabrication Workshop",
+                            "EDU 301: Research Methodology & Educational Statistics",
+                            "ENT 312: Venture Creation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "VTE 302: SIWES / Industrial Work Experience (6 Months Field Attachment in Technical Workshops, Industries, Construction Sites, or Agricultural Complexes)",
+                            "EDU 302: Teaching Practice II (6-Month Teaching Internship in Technical Colleges or Vocational Centers)",
+                            "EDU 304: Teaching Practice Assessment Logbook & Seminar Presentation",
+                            "GST 312: Peace Studies and Conflict Resolution"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "400 Level (TVET Administration, Curriculum, Policy & Research Thesis)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "VTE 401: Organization, Administration & Supervision of TVET Programs",
+                            "VTE 403: Curriculum Development, Design & Evaluation in TVET",
+                            "VTE 405: Advanced Specialization Design & Prototype Fabrication Project",
+                            "EDU 401: Educational Administration, Planning & School Supervision",
+                            "EDU 403: Special Education & Inclusive Vocational Training"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "VTE 402: Contemporary Trends, Emerging Technologies & Automation in TVET",
+                            "VTE 404: Vocational Guidance, Career Pathways & Workforce Development",
+                            "VTE 406: Non-Formal Vocational Education & Community Skills Empowerment",
+                            "VTE 490: Final Year Undergraduate Research Thesis, Design Project & Defense"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "Library & Information Science": {
+        degree: "B.HLIS / B.LIS Library & Information Science",
+        levels: [
+            {
+                level: "100 Level (Foundations of Information, Media & Computing)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "LIS 101: Introduction to Library & Information Science",
+                            "LIS 103: History of Libraries, Books & Information Systems",
+                            "LIS 105: Reference Sources, Services & Information Retrieval",
+                            "LIS 107: User Information Needs, Behavior & Services",
+                            "EDU 101 / GST 111: Communication in English Language",
+                            "HIS 101: History of Nigeria & West Africa",
+                            "AMS 103: Introduction to Computing & Information Technology"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "LIS 102: Introduction to Information Technology & Computer Systems",
+                            "LIS 104: Basics of Cataloging & Classification Systems (DDC & LCC)",
+                            "LIS 106: Preservation, Conservation & Restoration of Information Resources",
+                            "LIS 108: Media Literacy, Publishing & Book Trade in Africa",
+                            "GST 112: Nigerian Peoples and Culture"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "200 Level (Information Organization, Metadata & Database Management)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "LIS 201: Knowledge Organization I: Cataloging Practices & Standards (RDA, MARC 21)",
+                            "LIS 203: Knowledge Organization II: Classification Systems & Subject Headings",
+                            "LIS 205: Database Design, Management Systems & SQL for Information Professionals",
+                            "LIS 207: Archives & Records Management Principles",
+                            "ENT 211: Entrepreneurship and Innovation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "LIS 202: Collection Development, Selection & Acquisition Policies",
+                            "LIS 204: Indexing, Abstracting & Thesaurus Construction",
+                            "LIS 206: Web Design, Digital Content Management & CMS (WordPress, Omeka)",
+                            "GST 212: Philosophy, Logic, and Human Existence"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "300 Level (Digital Libraries, Open Source Systems & SIWES Internship)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "LIS 301: Digital Libraries, Institutional Repositories (DSpace, Koha) & Open Access",
+                            "LIS 303: Information Networks, Resource Sharing & Consortium Management",
+                            "LIS 305: Research Methodology & Informatics Statistics",
+                            "LIS 307: Management of Libraries & Information Centers",
+                            "ENT 312: Venture Creation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "LIS 302: Practical SIWES / Industrial Work Experience (6 Months Attachment in Academic/National Libraries, Corporate Archives, Tech Hubs, or Data Centers)",
+                            "LIS 304: SIWES Technical Logbook Evaluation, Fieldwork Report & Seminar Presentation",
+                            "GST 312: Peace Studies and Conflict Resolution"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "400 Level (Advanced Knowledge Management, Data Curation & Research Thesis)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "LIS 401: Knowledge Management Principles & Organizational Intelligence",
+                            "LIS 403: Information Architecture, UX & Search Engine Optimization (SEO)",
+                            "LIS 405: Cybernetics, Information Security & Intellectual Property / Copyright Law",
+                            "LIS 407: Data Curation, Big Data Analytics & Research Data Management"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "LIS 402: Contemporary Issues, Trends & Innovations in LIS",
+                            "LIS 404: Informetrics, Bibliometrics & Altmetrics",
+                            "LIS 406: Information Entrepreneurship, Consultancy & Freelancing",
+                            "LIS 490: Final Year Research Dissertation / Thesis & Defense"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "Fine Arts": {
+        degree: "B.A. (Ed.) Fine Arts",
+        levels: [
+            {
+                level: "100 Level (Foundations of Art, Studio Basics & Educational Theory)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "FAR 101: Basic Drawing I (Observation, Contour & Gesture)",
+                            "FAR 103: Two-Dimensional Design & Color Theory",
+                            "FAR 105: History of Art I (Prehistoric to Renaissance)",
+                            "EDU 101: Foundations of Education & Teaching Profession",
+                            "HIS 101: History of Nigeria & West Africa",
+                            "GST 111: Communication in English Language",
+                            "AMS 103: Introduction to Computing & Information Technology"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "FAR 102: Basic Drawing II (Life Drawing, Perspective & Anatomy)",
+                            "FAR 104: Three-Dimensional Design (Sculpture & Modeling Basics)",
+                            "FAR 106: African Art History & Visual Culture",
+                            "EDU 102: Educational Psychology: Child & Adolescent Development",
+                            "GST 112: Nigerian Peoples and Culture"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "200 Level (Studio Specializations, Art History & Teaching Practice I) — Students explore core studio disciplines: Painting, Sculpture, Graphics/Visual Communication, Textiles, or Ceramics",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "FAR 201: Intermediate Life & Figure Drawing",
+                            "FAR 203: Painting & Color Composition I",
+                            "FAR 205: Graphic Design, Typography & Printmaking Basics",
+                            "FAR 207: Ceramics & Clay Modeling Techniques",
+                            "EDU 201: Educational Sociology & Human Learning",
+                            "EDU 203: Educational Technology & Instructional Media Design",
+                            "ENT 211: Entrepreneurship and Innovation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "FAR 202: Sculpture, Carving & Metal Fabrication Techniques",
+                            "FAR 204: Textile Design, Dyeing & Weaving",
+                            "FAR 206: Nigerian Art History (Traditional & Contemporary Masters)",
+                            "EDU 202: Micro-Teaching & Practical Demonstration Skills",
+                            "EDU 204: Practical Teaching Practice I (Observation & Peer Coaching)",
+                            "GST 212: Philosophy, Logic, and Human Existence"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "300 Level (Advanced Studio Exploration, Art Pedagogy & Teaching Practice II)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "FAR 301: Advanced Studio Specialization I (Selected Major Track)",
+                            "FAR 303: Methods & Instructional Strategies for Teaching Fine & Applied Arts",
+                            "FAR 305: Computer Graphics, Digital Art & Media Tools (Adobe Suite, CAD)",
+                            "FAR 307: Art Gallery Management, Exhibition Planning & Curation",
+                            "EDU 301: Research Methodology & Educational Statistics",
+                            "ENT 312: Venture Creation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "EDU 302: Teaching Practice II (6-Month Full-Time Internship in Secondary Schools or Art Academies)",
+                            "EDU 304: Teaching Practice Logbook, Portfolio Assessment & Seminar Presentation",
+                            "FAR 302: Industrial Fieldwork / Studio Attachment (Creative Workshops & Graphic Houses)",
+                            "GST 312: Peace Studies and Conflict Resolution"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "400 Level (Studio Project, Art Criticism, Policy & Research Thesis)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "FAR 401: Advanced Studio Specialization II (Major Track Studio Production)",
+                            "FAR 403: Art Education Curriculum Development, Assessment & Evaluation",
+                            "FAR 405: Art Criticism, Aesthetics & Philosophy of Visual Arts",
+                            "EDU 401: Educational Administration, Planning & School Supervision",
+                            "EDU 403: Special Education & Inclusive Creative Training"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "FAR 402: Seminar on Contemporary Issues in African & Global Visual Arts",
+                            "FAR 404: Creative Entrepreneurship, Studio Setup & Art Marketing",
+                            "FAR 406: Final Year Studio Project Exhibition & Creative Portfolio Defense",
+                            "FAR 490: Undergraduate Research Thesis & Oral Defense"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "French": {
+        degree: "B.A. (Ed.) French",
+        levels: [
+            {
+                level: "100 Level (Language Foundations, Grammar & Educational Theory)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "FRE 101: Practical French I (Grammar, Comprehension & Composition)",
+                            "FRE 103: Spoken French & Phonetics I (Pronunciation & Intonation)",
+                            "FRE 105: Introduction to Francophone Literature & Culture",
+                            "EDU 101: Foundations of Education & Teaching Profession",
+                            "HIS 101: History of Nigeria & West Africa",
+                            "GST 111: Communication in English Language",
+                            "AMS 103: Introduction to Computing & Information Technology"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "FRE 102: Practical French II (Advanced Structure & Writing Skills)",
+                            "FRE 104: Spoken French & Laboratory Practice II",
+                            "FRE 106: Introduction to French Literature (17th - 19th Century Overview)",
+                            "EDU 102: Educational Psychology: Child & Adolescent Development",
+                            "GST 112: Nigerian Peoples and Culture"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "200 Level (Linguistics, Literature, Village Français Immersion & Teaching Practice I)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "FRE 201: Advanced French Grammar & Syntax I",
+                            "FRE 203: French Phonology & Morphology",
+                            "FRE 205: African Literature in French (Negritude & Post-Colonial Prose)",
+                            "FRE 207: Introduction to Translation Studies (French ↔ English)",
+                            "EDU 201: Educational Sociology & Human Learning",
+                            "EDU 203: Educational Technology & Instructional Media Design",
+                            "ENT 211: Entrepreneurship and Innovation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "FRE 202: Immersion Program / French Language Village (Village Français, Badagry or Out-of-Country Immersion)",
+                            "FRE 204: Advanced French Composition & Stylistics",
+                            "EDU 202: Micro-Teaching & Language Lab Practical Skills",
+                            "EDU 204: Practical Teaching Practice I (Observation & Peer Demonstration)",
+                            "GST 212: Philosophy, Logic, and Human Existence"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "300 Level (Advanced Pedagogy, Translation & Teaching Practice II)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "FRE 301: Methods & Instructional Strategies for Teaching French as a Foreign Language (FLE)",
+                            "FRE 303: Advanced Translation Theory & Applied Practice",
+                            "FRE 305: 20th Century French Literature & Drama",
+                            "FRE 307: Francophone African Drama & Poetry",
+                            "EDU 301: Research Methodology & Educational Statistics",
+                            "ENT 312: Venture Creation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "EDU 302: Teaching Practice II (6-Month Full-Time Internship in Secondary Schools or Language Centers)",
+                            "EDU 304: Teaching Practice Assessment Logbook & Seminar Presentation",
+                            "GST 312: Peace Studies and Conflict Resolution"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "400 Level (Applied Linguistics, Curriculum, Literature Analysis & Research Thesis)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "FRE 401: Applied French Linguistics & Error Analysis in Language Teaching",
+                            "FRE 403: French Language Curriculum Development, Testing & Evaluation",
+                            "FRE 405: Francophone Caribbean & Diaspora Literature",
+                            "EDU 401: Educational Administration, Planning & School Supervision",
+                            "EDU 403: Special Education & Inclusive Language Instruction"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "FRE 402: Contemporary Issues in the Francophone World & International Relations",
+                            "FRE 404: French for Specific Purposes (FOS: Business, Diplomacy & Media)",
+                            "FRE 406: Oral Defense & Portfolio Evaluation",
+                            "FRE 490: Undergraduate Research Dissertation / Thesis (Written in French) & Defense"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "History": {
+        degree: "B.A. (Ed.) History",
+        levels: [
+            {
+                level: "100 Level (Foundations of History, Historiography & Educational Theory)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "HIS 101: Introduction to History & Historiography",
+                            "HIS 103: Nigeria from Early Times to 1800 I",
+                            "HIS 105: History of West Africa (1000–1800 AD)",
+                            "EDU 101: Foundations of Education & Teaching Profession",
+                            "GST 111: Communication in English Language",
+                            "AMS 103: Introduction to Computing & Information Technology"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "HIS 102: Nigeria from Early Times to 1800 II",
+                            "HIS 104: Africa & the Outside World up to 1800",
+                            "HIS 106: Introduction to Archaeology & Historical Sources",
+                            "EDU 102: Educational Psychology: Child & Adolescent Development",
+                            "GST 112: Nigerian Peoples and Culture"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "200 Level (Nineteenth-Century Transformations, European History & Teaching Practice I)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "HIS 201: Nigeria in the 19th Century (Islamic Revolutions, British Penetration & Socio-Political Changes)",
+                            "HIS 203: History of West Africa from 1800 to Independence",
+                            "HIS 205: European History (1789–1914: French Revolution to WWI)",
+                            "HIS 207: History of Southern Africa since 1800",
+                            "EDU 201: Educational Sociology & Human Learning",
+                            "EDU 203: Educational Technology & Instructional Media Design",
+                            "ENT 211: Entrepreneurship and Innovation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "HIS 202: History of the United States of America / Latin America",
+                            "HIS 204: Economic History of Nigeria in the 19th and 20th Centuries",
+                            "HIS 206: History of Russia / Soviet Union in the 20th Century",
+                            "EDU 202: Micro-Teaching & Practical Demonstration Skills",
+                            "EDU 204: Practical Teaching Practice I (Observation & Peer Coaching)",
+                            "GST 212: Philosophy, Logic, and Human Existence"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "300 Level (Modern Nigerian History, International Relations & Teaching Practice II)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "HIS 301: History of Nigeria from 1900 to 1960 (Colonial Rule, Nationalist Movements & Independence)",
+                            "HIS 303: Methods & Instructional Strategies for Teaching History & Social Studies",
+                            "HIS 305: Research Methodology & Historical Writing",
+                            "HIS 307: History of International Relations & Organisations (League of Nations, UN, AU, ECOWAS)",
+                            "EDU 301: Educational Research Methodology & Statistics",
+                            "ENT 312: Venture Creation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "EDU 302: Teaching Practice II (6-Month Full-Time Internship in Secondary Schools)",
+                            "EDU 304: Teaching Practice Logbook, Field Assessment & Seminar Presentation",
+                            "GST 312: Peace Studies and Conflict Resolution"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "400 Level (Contemporary History, Foreign Policy, Curriculum & Thesis)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "HIS 401: History of Nigeria since 1960 (Post-Independence Politics, Civil War & Military Rule)",
+                            "HIS 403: Nigerian Foreign Policy & Diplomacy",
+                            "HIS 405: History Curriculum Development, Testing & Assessment Methods",
+                            "EDU 401: Educational Administration, Planning & School Supervision",
+                            "EDU 403: Special Education & Inclusive Humanities Instruction"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "HIS 402: Comparative Revolutions (American, French, Bolshevik, Chinese)",
+                            "HIS 404: Philosophy of History & Comparative Historiography",
+                            "HIS 406: War and Peace in the 20th Century (Cold War, Decolonization & Global Conflicts)",
+                            "HIS 490: Final Year Undergraduate Research Project / Thesis & Defense"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "Hausa / Igbo / Yoruba": {
+        degree: "B.A. (Ed.) Hausa / Igbo / Yoruba",
+        levels: [
+            {
+                level: "100 Level (Language Foundations, Literature & Educational Theory)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "NLG 101: Introduction to the Study of Language & Linguistics",
+                            "NLG 103: Language Orthography, Phonetics & Phonology I (Hausa / Igbo / Yoruba)",
+                            "NLG 105: Introduction to Oral Literature & Folklore (Prose, Poetry & Drama)",
+                            "EDU 101: Foundations of Education & Teaching Profession",
+                            "HIS 101: History of Nigeria & West Africa",
+                            "GST 111: Communication in English Language",
+                            "AMS 103: Introduction to Computing & Information Technology"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "NLG 102: Morphology & Basic Syntax of Selected Language (Hausa / Igbo / Yoruba)",
+                            "NLG 104: Introduction to Written Literature (Selected Classical & Modern Texts)",
+                            "NLG 106: Culture, Social Institutions & Customs of the People (Hausa / Igbo / Yoruba)",
+                            "EDU 102: Educational Psychology: Child & Adolescent Development",
+                            "GST 112: Nigerian Peoples and Culture"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "200 Level (Advanced Grammar, Dialectology, Culture & Teaching Practice I)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "NLG 201: Advanced Syntax & Sentence Structure (Hausa / Igbo / Yoruba)",
+                            "NLG 203: Dialectology & Dialectical Variations",
+                            "NLG 205: Literary Appreciation & Prose Analysis in Selected Language",
+                            "NLG 207: Translation Principles & Applied Translation (English ↔ Hausa / Igbo / Yoruba)",
+                            "EDU 201: Educational Sociology & Human Learning",
+                            "EDU 203: Educational Technology & Instructional Media Design",
+                            "ENT 211: Entrepreneurship and Innovation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "NLG 202: Phonology II: Suprasegmental Features & Tone Systems",
+                            "NLG 204: Poetry & Dramatic Literature in Selected Language",
+                            "NLG 206: Material Culture, Belief Systems & Performing Arts of the People",
+                            "EDU 202: Micro-Teaching & Practical Demonstration Skills",
+                            "EDU 204: Practical Teaching Practice I (Observation & Peer Coaching)",
+                            "GST 212: Philosophy, Logic, and Human Existence"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "300 Level (Language Pedagogy, Semantics & Teaching Practice II)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "NLG 301: Methods & Instructional Strategies for Teaching Nigerian Languages (L1 & L2 Pedagogy)",
+                            "NLG 303: Semantics, Pragmatics & Lexicography in Selected Language",
+                            "NLG 305: Modern Literary Movements & Contemporary Authors",
+                            "NLG 307: Contrastive Analysis (English vs. Hausa / Igbo / Yoruba)",
+                            "EDU 301: Research Methodology & Educational Statistics",
+                            "ENT 312: Venture Creation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "EDU 302: Teaching Practice II (6-Month Full-Time Internship in Secondary Schools)",
+                            "EDU 304: Teaching Practice Logbook, Field Assessment & Seminar Presentation",
+                            "GST 312: Peace Studies and Conflict Resolution"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "400 Level (Applied Linguistics, Curriculum, Media & Research Thesis)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "NLG 401: Applied Linguistics & Error Analysis in Language Teaching",
+                            "NLG 403: Language Curriculum Development, Testing & Assessment Methods",
+                            "NLG 405: Traditional & Contemporary Oral Performance / Chanted Poetry",
+                            "EDU 401: Educational Administration, Planning & School Supervision",
+                            "EDU 403: Special Education & Inclusive Language Instruction"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "NLG 402: Language Policy, Standardization & Development in Nigeria",
+                            "NLG 404: Indigenous Language in Broadcasting, Digital Media & Publishing",
+                            "NLG 406: Seminar on Contemporary Issues in Nigerian Languages & Culture",
+                            "NLG 490: Undergraduate Research Dissertation / Thesis (Written in Hausa / Igbo / Yoruba) & Defense"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "B.Sc. (Ed.) Economics": {
+        degree: "B.Sc. (Ed.) Economics",
+        levels: [
+            {
+                level: "100 Level (Foundations of Economics, Mathematics & Educational Theory)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "ECO 101: Principles of Economics I (Microeconomics Foundations)",
+                            "ECO 103: Introductory Mathematics for Economists I",
+                            "ECO 105: Introduction to Statistics for Social Sciences I",
+                            "EDU 101: Foundations of Education & Teaching Profession",
+                            "HIS 101: History of Nigeria & West Africa",
+                            "GST 111: Communication in English Language",
+                            "AMS 103: Introduction to Computing & Information Technology"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "ECO 102: Principles of Economics II (Macroeconomics Foundations)",
+                            "ECO 104: Introductory Mathematics for Economists II",
+                            "ECO 106: Introduction to Statistics for Social Sciences II",
+                            "EDU 102: Educational Psychology: Child & Adolescent Development",
+                            "GST 112: Nigerian Peoples and Culture"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "200 Level (Intermediate Theory, Structure of Nigerian Economy & Teaching Practice I)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "ECO 201: Intermediate Microeconomic Theory I",
+                            "ECO 203: Intermediate Macroeconomic Theory I",
+                            "ECO 205: Structure of the Nigerian Economy",
+                            "ECO 207: Mathematics for Economists",
+                            "EDU 201: Educational Sociology & Human Learning",
+                            "EDU 203: Educational Technology & Instructional Media Design",
+                            "ENT 211: Entrepreneurship and Innovation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "ECO 202: Intermediate Microeconomic Theory II",
+                            "ECO 204: Intermediate Macroeconomic Theory II",
+                            "ECO 206: Applied Statistics for Economists",
+                            "EDU 202: Micro-Teaching & Practical Classroom Skills",
+                            "EDU 204: Practical Teaching Practice I (Observation & Peer Teaching)",
+                            "GST 212: Philosophy, Logic, and Human Existence"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "300 Level (Pedagogy, Public Finance, Econometrics & Teaching Practice II)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "ECO 301: Methods & Instructional Strategies for Teaching Economics",
+                            "ECO 303: Public Finance & Fiscal Policy",
+                            "ECO 305: Introduction to Econometrics I",
+                            "ECO 307: History of Economic Thought",
+                            "EDU 301: Research Methodology & Educational Statistics",
+                            "ENT 312: Venture Creation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "EDU 302: Teaching Practice II (6-Month Full-Time Internship in Secondary Schools)",
+                            "EDU 304: Teaching Practice Logbook, Assessment & Seminar Presentation",
+                            "GST 312: Peace Studies and Conflict Resolution"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "400 Level (Development Economics, Advanced Theory, Policy & Thesis)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "ECO 401: Advanced Microeconomics / Macroeconomics",
+                            "ECO 403: Economics of Development & Planning",
+                            "ECO 405: International Economics & Trade Relations",
+                            "ECO 407: Economics Curriculum Development & Assessment Methods",
+                            "EDU 401: Educational Administration, Planning & School Supervision",
+                            "EDU 403: Special Education & Inclusive Social Science Instruction"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "ECO 402: Monetary Economics & Financial Institutions in Nigeria",
+                            "ECO 404: Health & Human Capital Economics",
+                            "ECO 406: Seminar on Contemporary Issues in Nigerian Economic Policy",
+                            "ECO 490: Final Year Undergraduate Research Project / Thesis & Defense"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "Geography": {
+        degree: "B.Sc. (Ed.) Geography",
+        levels: [
+            {
+                level: "100 Level (Foundations of Geography, Earth Systems & Educational Theory)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "GEO 101: Elements of Physical Geography I (Geomorphology & Geology Foundations)",
+                            "GEO 103: Elements of Human Geography I (Population, Settlement & Cultural Systems)",
+                            "GEO 105: Practical Geography I (Map Reading, Scales & Topographical Analysis)",
+                            "EDU 101: Foundations of Education & Teaching Profession",
+                            "HIS 101: History of Nigeria & West Africa",
+                            "GST 111: Communication in English Language",
+                            "AMS 103: Introduction to Computing & Information Technology"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "GEO 102: Elements of Physical Geography II (Climatology, Meteorology & Hydrology)",
+                            "GEO 104: Elements of Human Geography II (Economic Activities & Spatial Organisation)",
+                            "GEO 106: Practical Geography II (Elementary Surveying & Graphical Representation)",
+                            "EDU 102: Educational Psychology: Child & Adolescent Development",
+                            "GST 112: Nigerian Peoples and Culture"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "200 Level (Spatial Analysis, Regional Geography of Nigeria & Teaching Practice I)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "GEO 201: Spatial Organisation & Quantitative Geography I",
+                            "GEO 203: Geomorphology & Biogeography",
+                            "GEO 205: Geography of Nigeria I (Physical Environment, Natural Resources & Regions)",
+                            "GEO 207: Fundamentals of Remote Sensing & Aerial Photo Interpretation",
+                            "EDU 201: Educational Sociology & Human Learning",
+                            "EDU 203: Educational Technology & Instructional Media Design",
+                            "ENT 211: Entrepreneurship and Innovation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "GEO 202: Climatology & Oceanography",
+                            "GEO 204: Geography of Nigeria II (Population, Urbanisation & Economic Development)",
+                            "GEO 206: Basic Cartography & Map Making Techniques",
+                            "EDU 202: Micro-Teaching & Practical Classroom Demonstration",
+                            "EDU 204: Practical Teaching Practice I (Observation & Peer Coaching)",
+                            "GST 212: Philosophy, Logic, and Human Existence"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "300 Level (GIS Applications, Pedagogy, Fieldwork & Teaching Practice II)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "GEO 301: Methods & Instructional Strategies for Teaching Geography & Social Studies",
+                            "GEO 303: Introduction to Geographic Information Systems (GIS) & Spatial Data",
+                            "GEO 305: Fieldwork Techniques & Research Methods in Geography",
+                            "GEO 307: Population, Migration & Settlement Dynamics",
+                            "EDU 301: Educational Research Methodology & Statistics",
+                            "ENT 312: Venture Creation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "EDU 302: Teaching Practice II (6-Month Full-Time Internship in Secondary Schools)",
+                            "EDU 304: Teaching Practice Logbook, Field Assessment & Seminar Presentation",
+                            "GST 312: Peace Studies and Conflict Resolution"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "400 Level (Environmental Management, Applied GIS, Curriculum & Thesis)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "GEO 401: Advanced Geographic Information Systems (GIS) & Spatial Analysis",
+                            "GEO 403: Environmental Resource Management, Degradation & Conservation",
+                            "GEO 405: Urban & Regional Planning Concepts",
+                            "GEO 407: Geography Curriculum Development, Assessment & Field Trip Organisation",
+                            "EDU 401: Educational Administration, Planning & School Supervision",
+                            "EDU 403: Special Education & Inclusive Humanities Instruction"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "GEO 402: Climate Change, Disaster Risk Reduction & Environmental Impact Assessment (EIA)",
+                            "GEO 404: Political Geography & Geopolitics of West Africa",
+                            "GEO 406: Regional Development & Spatial Planning in Developing Nations",
+                            "GEO 490: Final Year Undergraduate Research Project / Thesis & Defense"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "B.Sc. (Ed.) Political Science": {
+        degree: "B.Sc. (Ed.) Political Science",
+        levels: [
+            {
+                level: "100 Level (Foundations of Political Science, Government & Educational Theory)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "POL 101: Introduction to Political Science I",
+                            "POL 103: Nigerian Constitutional Development I (Pre-Colonial to 1960)",
+                            "POL 105: Organization of Government (Executive, Legislature, Judiciary & Federalism)",
+                            "EDU 101: Foundations of Education & Teaching Profession",
+                            "HIS 101: History of Nigeria & West Africa",
+                            "GST 111: Communication in English Language",
+                            "AMS 103: Introduction to Computing & Information Technology"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "POL 102: Introduction to Political Science II (Concepts, Power & Authority)",
+                            "POL 104: Nigerian Constitutional Development II (1960 to Present)",
+                            "POL 106: Citizen & State Relationships (Civic Rights, Duties & Responsibilities)",
+                            "EDU 102: Educational Psychology: Child & Adolescent Development",
+                            "GST 112: Nigerian Peoples and Culture"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "200 Level (Political Thought, Public Administration & Teaching Practice I)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "POL 201: Classical Political Thought (Plato, Aristotle, Machiavelli, Hobbes, Locke, Rousseau)",
+                            "POL 203: Introduction to Public Administration",
+                            "POL 205: Political Ideas & Ideologies (Democracy, Socialism, Capitalism, Nationalism)",
+                            "POL 207: Local Government Administration in Nigeria",
+                            "EDU 201: Educational Sociology & Human Learning",
+                            "EDU 203: Educational Technology & Instructional Media Design",
+                            "ENT 211: Entrepreneurship and Innovation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "POL 202: Modern Political Thought & African Political Theory",
+                            "POL 204: Comparative Politics & Government Systems",
+                            "POL 206: Nigerian Politics & Government (Federalism, Ethnic Politics & Elections)",
+                            "EDU 202: Micro-Teaching & Practical Classroom Demonstration",
+                            "EDU 204: Practical Teaching Practice I (Observation & Peer Coaching)",
+                            "GST 212: Philosophy, Logic, and Human Existence"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "300 Level (International Relations, Pedagogy & Teaching Practice II)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "POL 301: Methods & Instructional Strategies for Teaching Government & Civic Education",
+                            "POL 303: International Relations & Global Politics (League of Nations, UN, AU, ECOWAS)",
+                            "POL 305: Political Analysis & Research Methodology",
+                            "POL 307: Public Policy Analysis & Implementation",
+                            "EDU 301: Educational Research Methodology & Statistics",
+                            "ENT 312: Venture Creation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "EDU 302: Teaching Practice II (6-Month Full-Time Internship in Secondary Schools)",
+                            "EDU 304: Teaching Practice Logbook, Field Assessment & Seminar Presentation",
+                            "GST 312: Peace Studies and Conflict Resolution"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "400 Level (Nigerian Foreign Policy, Comparative Politics, Curriculum & Thesis)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "POL 401: Nigerian Foreign Policy & Diplomacy",
+                            "POL 403: Contemporary Political Analysis & Global Security Issues",
+                            "POL 405: Political Parties, Pressure Groups & Public Opinion in Nigeria",
+                            "POL 407: Political Science/Civic Education Curriculum Development & Evaluation",
+                            "EDU 401: Educational Administration, Planning & School Supervision",
+                            "EDU 403: Special Education & Inclusive Social Science Instruction"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "POL 402: Politics of Development & Underdevelopment in the Third World",
+                            "POL 404: Human Rights, Civil Society & Democratic Governance",
+                            "POL 406: Seminar on Contemporary Issues in Nigerian Politics",
+                            "POL 490: Final Year Undergraduate Research Project / Thesis & Defense"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "Social Studies": {
+        degree: "B.Sc. (Ed.) Social Studies",
+        levels: [
+            {
+                level: "100 Level (Foundations of Social Studies, Man & Environment)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "SST 101: Foundations & Philosophy of Social Studies Education",
+                            "SST 103: Man and His Social Environment (Family, Kinship & Community Dynamics)",
+                            "SST 105: Nigerian Heritage & Cultural Diversity",
+                            "EDU 101: Foundations of Education & Teaching Profession",
+                            "HIS 101: History of Nigeria & West Africa",
+                            "GST 111: Communication in English Language",
+                            "AMS 103: Introduction to Computing & Information Technology"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "SST 102: Man and His Physical Environment (Landforms, Climate & Natural Resources)",
+                            "SST 104: Elements of Social Life, Norms & Social Stratification",
+                            "SST 106: Basic Economic Principles & Consumer Education",
+                            "EDU 102: Educational Psychology: Child & Adolescent Development",
+                            "GST 112: Nigerian Peoples and Culture"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "200 Level (Civic Dynamics, Socio-Economic Issues & Teaching Practice I)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "SST 201: Social Change, Modernization & Social Problems in Nigeria",
+                            "SST 203: Marriage, Family Life & Reproductive Health Education",
+                            "SST 205: Civic Rights, Responsibilities & Constitutional Governance in Nigeria",
+                            "SST 207: Dynamics of Human Growth & Socialization Process",
+                            "EDU 201: Educational Sociology & Human Learning",
+                            "EDU 203: Educational Technology & Instructional Media Design",
+                            "ENT 211: Entrepreneurship and Innovation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "SST 202: Environmental Education, Resource Conservation & Sanitation",
+                            "SST 204: Substance Abuse, Crime Prevention & Youth Empowerment",
+                            "SST 206: Cross-Cultural Studies & Inter-Group Relations in Nigeria",
+                            "EDU 202: Micro-Teaching & Practical Classroom Skills",
+                            "EDU 204: Practical Teaching Practice I (Observation & Peer Coaching)",
+                            "GST 212: Philosophy, Logic, and Human Existence"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "300 Level (Pedagogy, Global Studies, Peace Education & Teaching Practice II)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "SST 301: Methods & Instructional Strategies for Teaching Social Studies",
+                            "SST 303: Peace Studies, Conflict Resolution & Social Harmony",
+                            "SST 305: Globalization, International Understanding & World Organizations (UN, AU, ECOWAS)",
+                            "SST 307: Measurement, Evaluation & Test Construction in Social Studies",
+                            "EDU 301: Educational Research Methodology & Statistics",
+                            "ENT 312: Venture Creation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "EDU 302: Teaching Practice II (6-Month Full-Time Internship in Secondary Schools)",
+                            "EDU 304: Teaching Practice Logbook, Field Assessment & Seminar Presentation",
+                            "GST 312: Peace Studies and Conflict Resolution"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "400 Level (Curriculum Design, Policy, Applied Research & Thesis)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "SST 401: Social Studies Curriculum Development, Innovation & Assessment",
+                            "SST 403: Population Education, Urbanization & Migration Patterns",
+                            "SST 405: Science, Technology & Society (STS) Integration in Social Studies",
+                            "EDU 401: Educational Administration, Planning & School Supervision",
+                            "EDU 403: Special Education & Inclusive Social Science Instruction"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "SST 402: Contemporary Issues & Challenges in Nigerian Society (Corruption, Security & Governance)",
+                            "SST 404: Community Development, Social Work & Leadership Training",
+                            "SST 406: Seminar on Current Trends in Social Science Education",
+                            "SST 490: Final Year Undergraduate Research Project / Thesis & Defense"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "Agricultural Science Education": {
+        degree: "B.Sc. (Ed.) Agricultural Science Education",
+        levels: [
+            {
+                level: "100 Level (Foundations of Agriculture, Biological Sciences & Educational Theory)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "AGR 101: Introductory Agriculture & History of Agricultural Development",
+                            "BIO 101: General Biology I (Cell Biology & Genetics)",
+                            "CHM 101: General Chemistry I (Inorganic & Physical Chemistry)",
+                            "EDU 101: Foundations of Education & Teaching Profession",
+                            "HIS 101: History of Nigeria & West Africa",
+                            "GST 111: Communication in English Language",
+                            "AMS 103: Introduction to Computing & Information Technology"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "AGR 102: Principles of Crop Production & Botany",
+                            "AGR 104: Principles of Animal Production & Physiology",
+                            "CHM 102: General Chemistry II (Organic Chemistry Basics)",
+                            "EDU 102: Educational Psychology: Child & Adolescent Development",
+                            "GST 112: Nigerian Peoples and Culture"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "200 Level (Practical Farm Year, Agronomy, Animal Husbandry & Teaching Practice I)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "AGE 201: Principles of Agricultural Economics & Farm Management",
+                            "AGP 203: Introduction to Soil Science & Soil Fertility Management",
+                            "AGP 205: Crop Production Technologies (Arable, Permanent & Horticultural Crops)",
+                            "ANS 207: Principles of Animal Health, Disease Control & Livestock Management",
+                            "EDU 201: Educational Sociology & Human Learning",
+                            "EDU 203: Educational Technology & Instructional Media Design",
+                            "ENT 211: Entrepreneurship and Innovation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "AGE 202: Agricultural Extension, Rural Development & Communication",
+                            "AGE 204: Farm Power, Machinery & Workshop Technology",
+                            "AGP 206: Practical Farm Demonstration & Student Farm Project (Practical Crop/Animal Management)",
+                            "EDU 202: Micro-Teaching & Practical Classroom Demonstration Skills",
+                            "EDU 204: Practical Teaching Practice I (Observation & Peer Coaching)",
+                            "GST 212: Philosophy, Logic, and Human Existence"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "300 Level (Pedagogy, Agribusiness, Field Attachment & Teaching Practice II)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "AGE 301: Methods & Instructional Strategies for Teaching Agricultural Science",
+                            "AGE 303: Agribusiness Management, Agricultural Marketing & Cooperatives",
+                            "AGP 305: Pest, Weed & Plant Disease Management",
+                            "ANS 307: Poultry, Small Ruminant & Aquaculture Production",
+                            "EDU 301: Educational Research Methodology & Statistics",
+                            "ENT 312: Venture Creation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "EDU 302: Teaching Practice II (6-Month Full-Time Internship in Secondary Schools / Agricultural Colleges)",
+                            "AGE 302: SIWES / Farm Practical Attachment (Practical Training on Commercial Farms / Research Institutes)",
+                            "EDU 304: Teaching Practice Logbook, Field Assessment & Seminar Presentation",
+                            "GST 312: Peace Studies and Conflict Resolution"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "400 Level (Curriculum Design, Modern Farming Tech, Extension & Thesis)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "AGE 401: Agricultural Education Curriculum Development, Innovation & Assessment",
+                            "AGE 403: Extension Administration, Program Planning & Rural Sociology",
+                            "AGP 405: Post-Harvest Processing, Storage Technology & Food Preservation",
+                            "EDU 401: Educational Administration, Planning & School Supervision",
+                            "EDU 403: Special Education & Inclusive Vocational Agriculture Instruction"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "AGE 402: Biotechnology, Climate-Smart Agriculture & Precision Farming",
+                            "AGE 404: Seminar on Contemporary Issues in Agricultural Education & Food Security",
+                            "AGE 406: Agro-Forestry, Soil Conservation & Environmental Protection",
+                            "AGE 490: Final Year Undergraduate Research Project / Thesis & Defense"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "B.Sc. (Ed.) Biology": {
+        degree: "B.Sc. (Ed.) Biology",
+        levels: [
+            {
+                level: "100 Level (General Biological Sciences, Physical Sciences & Educational Foundations)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "BIO 101: General Biology I (Cell Biology, Genetics & Molecular Foundations)",
+                            "CHM 101: General Chemistry I (Inorganic & Physical Chemistry)",
+                            "PHY 101: General Physics I (Mechanics, Thermal Physics & Waves)",
+                            "MAT 101: General Mathematics I (Algebra & Trigonometry)",
+                            "EDU 101: Foundations of Education & Teaching Profession",
+                            "GST 111: Communication in English Language",
+                            "AMS 103: Introduction to Computing & Information Technology"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "BIO 102: General Biology II (Introductory Botany, Zoology & Ecology)",
+                            "CHM 102: General Chemistry II (Organic Chemistry Basics)",
+                            "PHY 102: General Physics II (Electricity, Magnetism & Modern Physics)",
+                            "EDU 102: Educational Psychology: Child & Adolescent Development",
+                            "HIS 101: History of Nigeria & West Africa",
+                            "GST 112: Nigerian Peoples and Culture"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "200 Level (Invertebrate/Vertebrate Zoology, Plant Form, Genetics & Teaching Practice I)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "BIO 201: General Genetics I (Mendelian Genetics & Chromosomal Mechanics)",
+                            "BOT 203: Plant Morphology, Anatomy & Systematics",
+                            "ZOO 205: Invertebrate Zoology & Functional Biology",
+                            "BIO 207: Biological Laboratory Techniques, Safety & Microscopy",
+                            "EDU 201: Educational Sociology & Human Learning",
+                            "EDU 203: Educational Technology & Science Media Instructional Design",
+                            "ENT 211: Entrepreneurship and Innovation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "BIO 202: Introductory Ecology, Ecosystems & Environmental Biology",
+                            "BOT 204: Cryptogamic Botany (Algae, Fungi, Bryophytes & Pteridophytes)",
+                            "ZOO 206: Vertebrate Anatomy, Comparative Physiology & Adaptation",
+                            "EDU 202: Micro-Teaching & Practical Science Demonstration Skills",
+                            "EDU 204: Practical Teaching Practice I (Observation & Peer Laboratory Teaching)",
+                            "GST 212: Philosophy, Logic, and Human Existence"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "300 Level (Physiology, Microbiology, Pedagogy & Teaching Practice II)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "SED 301: Methods & Instructional Strategies for Teaching Biological Sciences",
+                            "BIO 303: General Microbiology & Immunology Fundamentals",
+                            "BOT 305: Plant Physiology, Water Relations & Photosynthesis",
+                            "ZOO 307: Animal Physiology & Homeostatic Mechanisms",
+                            "EDU 301: Research Methodology & Educational Statistics",
+                            "ENT 312: Venture Creation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "EDU 302: Teaching Practice II (6-Month Teaching Internship in Secondary Schools)",
+                            "EDU 304: Teaching Practice Assessment Logbook & Seminar Presentation",
+                            "BIO 302: Field Course / Industrial Attachment (Ecosystem Sampling & Applied Biology Practicum)",
+                            "GST 312: Peace Studies and Conflict Resolution"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "400 Level (Molecular Biology, Evolution, Science Curriculum & Research Thesis)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "BIO 401: Cytology, Molecular Biology & Recombinant DNA Technology",
+                            "BIO 403: Evolutionary Biology, Biogeography & Systematics",
+                            "BIO 405: Hydrobiology, Limnology & Aquatic Ecosystems",
+                            "SED 407: Science Education Curriculum Design, Assessment & Laboratory Management",
+                            "EDU 401: Educational Administration, Planning & School Supervision",
+                            "EDU 403: Special Education & Inclusive Science Classroom Instruction"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "BIO 402: Applied Parasitology, Entomology & Vector Control",
+                            "BIO 404: Environmental Pollution, Conservation & Climate Change",
+                            "BIO 406: Seminar on Contemporary Issues in Biological Sciences & Science Education",
+                            "BIO 490: Final Year Undergraduate Research Project / Thesis & Defense"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "B.A. (Ed.) Music": {
+        degree: "B.A. (Ed.) Music",
+        levels: [
+            {
+                level: "100 Level (Foundations of Music, Rudiments & Educational Theory)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "MUS 101: Rudiments of Music & Sight Reading I",
+                            "MUS 103: African Music: History, Culture & Instruments I",
+                            "MUS 105: Practical Musicianship: Principal Instrument / Voice Studies I",
+                            "EDU 101: Foundations of Education & Teaching Profession",
+                            "HIS 101: History of Nigeria & West Africa",
+                            "GST 111: Communication in English Language",
+                            "AMS 103: Introduction to Computing & Information Technology"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "MUS 102: Basic Harmony, Counterpoint & Sight Singing II",
+                            "MUS 104: History of Western Music (Antiquity to Baroque)",
+                            "MUS 106: Practical Musicianship: Principal Instrument / Voice Studies II & Ensemble",
+                            "EDU 102: Educational Psychology: Child & Adolescent Development",
+                            "GST 112: Nigerian Peoples and Culture"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "200 Level (Advanced Harmony, Choral Conducting, Technology & Teaching Practice I)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "MUS 201: Intermediate Harmony, Counterpoint & Tonal Analysis",
+                            "MUS 203: History of Western Music (Classical & Romantic Eras)",
+                            "MUS 205: Choral Conducting, Sight Reading & Choir Management",
+                            "MUS 207: Music Technology: Digital Audio Workstations (DAWs) & MIDI Basics",
+                            "EDU 201: Educational Sociology & Human Learning",
+                            "EDU 203: Educational Technology & Instructional Media Design",
+                            "ENT 211: Entrepreneurship and Innovation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "MUS 202: African Music Performance, Dance & Ensemble",
+                            "MUS 204: Keyboard Skills & Accompaniment Techniques",
+                            "MUS 206: Orchestration & Arrangement for School Ensembles",
+                            "EDU 202: Micro-Teaching & Practical Music Pedagogy",
+                            "EDU 204: Practical Teaching Practice I (Observation & Peer Coaching)",
+                            "GST 212: Philosophy, Logic, and Human Existence"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "300 Level (Music Pedagogy, Ethnomusicology, Composition & Teaching Practice II)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "MUE 301: Methods & Instructional Strategies for Teaching Music Education",
+                            "MUS 303: Ethnomusicology & Fieldwork Research Methodology",
+                            "MUS 305: Modern Compositional Techniques & African Art Music",
+                            "MUS 307: History of 20th/21st Century Music & Popular Music Genres",
+                            "EDU 301: Educational Research Methodology & Statistics",
+                            "ENT 312: Venture Creation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "EDU 302: Teaching Practice II (6-Month Full-Time Internship in Secondary Schools)",
+                            "EDU 304: Teaching Practice Logbook, Field Assessment & Seminar Presentation",
+                            "MUS 302: Practical Music Recital / Public Performance Assessment",
+                            "GST 312: Peace Studies and Conflict Resolution"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "400 Level (Curriculum Design, Advanced Performance & Research Thesis)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "MUE 401: Music Curriculum Development, Assessment & School Music Administration",
+                            "MUS 403: Advanced Orchestration, Score Reading & Conducting",
+                            "MUS 405: Psychology & Sociology of Music Education",
+                            "EDU 401: Educational Administration, Planning & School Supervision",
+                            "EDU 403: Special Education & Inclusive Arts Instruction"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "MUE 402: Seminar on Contemporary Issues in Music Education & Cultural Heritage",
+                            "MUS 404: Final Senior Recital / Practical Solo Performance",
+                            "MUS 406: Music Business, Copyright Law & Studio Entrepreneurship",
+                            "MUE 490: Final Year Undergraduate Research Thesis & Defense"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "B.A. (Ed.) Religious Studies": {
+        degree: "B.A. (Ed.) Religious Studies",
+        levels: [
+            {
+                level: "100 Level (Foundations of Religion, World Religions & Educational Theory)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "REL 101: Introduction to the Study of Religion & Religious Terminology",
+                            "CRS 101 / ISS 101: Introduction to Old Testament Studies / Introduction to Islamic Faith (Tawhid)",
+                            "REL 103: African Traditional Religion: Worldview, Myths & Rituals",
+                            "EDU 101: Foundations of Education & Teaching Profession",
+                            "HIS 101: History of Nigeria & West Africa",
+                            "GST 111: Communication in English Language",
+                            "AMS 103: Introduction to Computing & Information Technology"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "REL 102: Introduction to Comparative Religion (Judaism, Christianity, Islam, Asian Traditions)",
+                            "CRS 102 / ISS 102: Introduction to New Testament Studies / Introduction to Hadith & Sunnah",
+                            "REL 104: Religion, Ethics & Moral Education in Society",
+                            "EDU 102: Educational Psychology: Child & Adolescent Development",
+                            "GST 112: Nigerian Peoples and Culture"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "200 Level (Hermeneutics, Socio-Religious Issues & Teaching Practice I)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "REL 201: Philosophy of Religion & Critical Thinking",
+                            "CRS 201 / ISS 201: Synoptic Gospels & Early Church History / Fiqh (Islamic Jurisprudence)",
+                            "REL 203: Religion, Social Institutions & Cultural Heritage in Nigeria",
+                            "REL 205: Scriptural Languages I (Biblical Hebrew / Basic Quranic Arabic)",
+                            "EDU 201: Educational Sociology & Human Learning",
+                            "EDU 203: Educational Technology & Instructional Media Design",
+                            "ENT 211: Entrepreneurship and Innovation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "REL 202: Sociology of Religion & Social Movements",
+                            "CRS 202 / ISS 202: Pauline Epistles / Islamic History & Civilization",
+                            "REL 204: Religion, Inter-Faith Dialogue & Peacebuilding in Pluralistic Societies",
+                            "EDU 202: Micro-Teaching & Practical Classroom Delivery Skills",
+                            "EDU 204: Practical Teaching Practice I (Observation & Peer Teaching)",
+                            "GST 212: Philosophy, Logic, and Human Existence"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "300 Level (Pedagogy, Religious Philosophy, Ethics & Teaching Practice II)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "RED 301: Methods & Instructional Strategies for Teaching Religious Studies",
+                            "REL 303: Contemporary Religious Movements & Sectarian Dynamics in West Africa",
+                            "REL 305: Religion, Gender & Human Rights Issues",
+                            "REL 307: Measurement, Evaluation & Test Construction in Humanities",
+                            "EDU 301: Educational Research Methodology & Statistics",
+                            "ENT 312: Venture Creation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "EDU 302: Teaching Practice II (6-Month Full-Time Internship in Secondary Schools)",
+                            "EDU 304: Teaching Practice Logbook, Field Assessment & Seminar Presentation",
+                            "GST 312: Peace Studies and Conflict Resolution"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "400 Level (Curriculum Design, Applied Research & Senior Thesis)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "RED 401: Religious Education Curriculum Development, Innovation & Assessment",
+                            "REL 403: Religion, Politics & State Governance in Modern Nigeria",
+                            "REL 405: Advanced Ethics, Medical Bioethics & Contemporary Moral Dilemmas",
+                            "EDU 401: Educational Administration, Planning & School Supervision",
+                            "EDU 403: Special Education & Inclusive Humanities Instruction"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "RED 402: Seminar on Current Trends & Debates in Religious Education",
+                            "REL 404: Religion, Globalization & Digital Culture",
+                            "REL 406: Comparative Religious Thought & Inter-Religious Relations",
+                            "RED 490: Final Year Undergraduate Research Thesis & Defense"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "B.Sc. (Ed.) Chemistry": {
+        degree: "B.Sc. (Ed.) Chemistry",
+        levels: [
+            {
+                level: "100 Level (General Physical Sciences, Mathematics & Educational Foundations)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "CHM 101: General Chemistry I (Inorganic & Physical Chemistry Foundations)",
+                            "CHM 107: General Chemistry Practical I (Qualitative & Quantitative Analysis)",
+                            "PHY 101: General Physics I (Mechanics, Thermal Physics & Waves)",
+                            "MAT 101: General Mathematics I (Algebra & Trigonometry)",
+                            "EDU 101: Foundations of Education & Teaching Profession",
+                            "GST 111: Communication in English Language",
+                            "AMS 103: Introduction to Computing & Information Technology"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "CHM 102: General Chemistry II (Organic Chemistry Basics & Reaction Mechanisms)",
+                            "CHM 108: General Chemistry Practical II (Volumetric & Organic Synthesis Basics)",
+                            "PHY 102: General Physics II (Electricity, Magnetism & Modern Physics)",
+                            "MAT 102: General Mathematics II (Calculus & Analytical Geometry)",
+                            "EDU 102: Educational Psychology: Child & Adolescent Development",
+                            "HIS 101: History of Nigeria & West Africa",
+                            "GST 112: Nigerian Peoples and Culture"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "200 Level (Inorganic, Organic, Physical Chemistry & Teaching Practice I)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "CHM 201: Inorganic Chemistry I (Periodic Table, Main Group Elements & Chemical Bonding)",
+                            "CHM 203: Organic Chemistry I (Stereochemistry, Functional Groups & Reaction Mechanisms)",
+                            "CHM 205: Physical Chemistry I (Thermodynamics, Chemical Kinetics & Equilibria)",
+                            "CHM 207: Experimental Chemistry I (Qualitative Inorganic & Organic Analysis Laboratory)",
+                            "EDU 201: Educational Sociology & Human Learning",
+                            "EDU 203: Educational Technology & Science Media Instructional Design",
+                            "ENT 211: Entrepreneurship and Innovation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "CHM 202: Analytical Chemistry I (Classical Methods of Analysis & Data Evaluation)",
+                            "CHM 204: Environmental Chemistry & Industrial Chemical Processes",
+                            "CHM 208: Experimental Chemistry II (Quantitative Chemical Analysis & Physical Measurements)",
+                            "EDU 202: Micro-Teaching & Practical Science Demonstration Skills",
+                            "EDU 204: Practical Teaching Practice I (Observation & Peer Laboratory Teaching)",
+                            "GST 212: Philosophy, Logic, and Human Existence"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "300 Level (Instrumental Analysis, Spectroscopy, Pedagogy & Teaching Practice II)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "SED 301: Methods & Instructional Strategies for Teaching Chemical Sciences",
+                            "CHM 301: Inorganic Chemistry II (Coordination Chemistry & Transition Metals)",
+                            "CHM 303: Organic Chemistry II (Heterocyclic Chemistry & Aromatic Synthesis)",
+                            "CHM 305: Instrumental Methods of Analysis (UV-Vis, IR, Atomic Absorption Spectroscopy & Chromatography)",
+                            "EDU 301: Research Methodology & Educational Statistics",
+                            "ENT 312: Venture Creation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "EDU 302: Teaching Practice II (6-Month Teaching Internship in Secondary Schools)",
+                            "EDU 304: Teaching Practice Assessment Logbook & Seminar Presentation",
+                            "CHM 302: Industrial Field Work / Laboratory Attachment (Chemical Manufacturing or Quality Control)",
+                            "GST 312: Peace Studies and Conflict Resolution"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "400 Level (Quantum Chemistry, Polymer Science, Science Curriculum & Research Thesis)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "CHM 401: Quantum Chemistry & Atomic/Molecular Structure",
+                            "CHM 403: Polymer Chemistry & Industrial Synthetic Materials",
+                            "CHM 405: Applied Surface Chemistry, Colloid Science & Catalysis",
+                            "SED 407: Science Education Curriculum Design, Assessment & Laboratory Management",
+                            "EDU 401: Educational Administration, Planning & School Supervision",
+                            "EDU 403: Special Education & Inclusive Science Classroom Instruction"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "CHM 402: Advanced Organic Reaction Mechanisms & Natural Products",
+                            "CHM 404: Petroleum Chemistry, Petrochemicals & Renewable Energy",
+                            "CHM 406: Seminar on Contemporary Issues in Chemical Sciences & Science Education",
+                            "CHM 490: Final Year Undergraduate Research Project / Thesis & Defense"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "B.Sc. (Ed.) Computer Science": {
+        degree: "B.Sc. (Ed.) Computer Science",
+        levels: [
+            {
+                level: "100 Level (Foundations of Computing, Mathematics & Educational Theory)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "CSC 101: Introduction to Computer Science & Programming Fundamentals (Python/C)",
+                            "CSC 103: Computer Hardware Systems & Digital Logic Foundations",
+                            "MAT 101: General Mathematics I (Algebra & Trigonometry)",
+                            "PHY 101: General Physics I (Mechanics, Thermal Physics & Waves)",
+                            "EDU 101: Foundations of Education & Teaching Profession",
+                            "GST 111: Communication in English Language",
+                            "AMS 103: Introduction to Computing & Information Technology"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "CSC 102: Object-Oriented Programming (Java/C++)",
+                            "CSC 104: Discrete Mathematics & Mathematical Structures for Computing",
+                            "MAT 102: General Mathematics II (Calculus & Analytical Geometry)",
+                            "PHY 102: General Physics II (Electricity, Magnetism & Modern Physics)",
+                            "EDU 102: Educational Psychology: Child & Adolescent Development",
+                            "HIS 101: History of Nigeria & West Africa",
+                            "GST 112: Nigerian Peoples and Culture"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "200 Level (Data Structures, Databases, Web Technologies & Teaching Practice I)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "CSC 201: Data Structures & Algorithms",
+                            "CSC 203: Database Management Systems (SQL, Relational Modeling & Normalization)",
+                            "CSC 205: Computer Architecture & Organization",
+                            "CSC 207: Web Development & Internet Technologies (HTML5, CSS3, JavaScript & APIs)",
+                            "EDU 201: Educational Sociology & Human Learning",
+                            "EDU 203: Educational Technology & Instructional Media Design",
+                            "ENT 211: Entrepreneurship and Innovation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "CSC 202: Operating Systems Concepts & System Programming",
+                            "CSC 204: Software Engineering Principles & System Analysis",
+                            "CSC 206: Object-Oriented Analysis, Design & UML",
+                            "EDU 202: Micro-Teaching & Practical Demonstration Skills",
+                            "EDU 204: Practical Teaching Practice I (Observation & Peer Teaching)",
+                            "GST 212: Philosophy, Logic, and Human Existence"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "300 Level (Networking, Cybersecurity, Pedagogy & Teaching Practice II)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "SED 301: Methods & Instructional Strategies for Teaching Computer Science & ICT",
+                            "CSC 301: Data Communications & Computer Networks (TCP/IP, Routing & Protocols)",
+                            "CSC 303: Survey of Programming Languages & Compiler Construction Basics",
+                            "CSC 305: Cybersecurity Fundamentals, Cryptography & Network Safety",
+                            "EDU 301: Educational Research Methodology & Statistics",
+                            "ENT 312: Venture Creation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "EDU 302: Teaching Practice II (6-Month Full-Time Internship in Secondary Schools)",
+                            "EDU 304: Teaching Practice Assessment Logbook & Seminar Presentation",
+                            "CSC 302: SIWES / Industrial Attachment (Software Houses, IT Departments, or Network Labs)",
+                            "GST 312: Peace Studies and Conflict Resolution"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "400 Level (AI/EdTech, Curriculum Design, Systems & Research Thesis)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "CSC 401: Artificial Intelligence & Machine Learning Fundamentals in Education",
+                            "CSC 403: Mobile Application Development (Android/iOS)",
+                            "CSC 405: Human-Computer Interaction (HCI) & User Experience (UX) Design",
+                            "SED 407: Computer Science Curriculum Design, Assessment & ICT Lab Management",
+                            "EDU 401: Educational Administration, Planning & School Supervision",
+                            "EDU 403: Special Education & Inclusive Digital Learning"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "CSC 402: Cloud Computing, Distributed Systems & Infrastructure",
+                            "CSC 404: E-Learning Platforms, Instructional Systems Design & Educational Software",
+                            "CSC 406: Seminar on Contemporary Issues in Computer Science & Educational Technology",
+                            "CSC 490: Final Year Undergraduate Research Project / System Development Thesis & Defense"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "Human Kinetics (Sport Management)": {
+        degree: "B.Sc. (Ed.) Human Kinetics (Sport Management)",
+        levels: [
+            {
+                level: "100 Level (Foundations of Human Kinetics, Anatomy & Educational Theory)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "HKE 101: Foundations & Philosophy of Human Kinetics, Physical Education & Sports",
+                            "HKE 103: Human Anatomy & Physiology I (Skeletal, Muscular & Cardiovascular Systems)",
+                            "HKE 105: Practical Athletics: Track & Field Events (Sprints, Jumps & Throws)",
+                            "HKE 107: Introduction to Sport Management & Athletic Administration",
+                            "EDU 101: Foundations of Education & Teaching Profession",
+                            "GST 111: Communication in English Language",
+                            "AMS 103: Introduction to Computing & Information Technology"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "HKE 102: Human Anatomy & Physiology II (Nervous, Respiratory & Endocrine Systems)",
+                            "HKE 104: Practical Ball Games I (Soccer, Basketball, Volleyball & Hand Games)",
+                            "HKE 106: First Aid, Sports Safety & Injury Prevention Fundamentals",
+                            "EDU 102: Educational Psychology: Child & Adolescent Development",
+                            "HIS 101: History of Nigeria & West Africa",
+                            "GST 112: Nigerian Peoples and Culture"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "200 Level (Kinesiology, Sport Marketing, Facility Design & Teaching Practice I)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "HKE 201: Kinesiology & Biomechanics of Human Movement",
+                            "HKE 203: Principles of Sport Management & Organizational Behavior in Sports",
+                            "HKE 205: Sport Marketing, Sponsorship & Public Relations",
+                            "HKE 207: Practical Racket Games & Gymnastics (Tennis, Badminton, Table Tennis & Apparatus)",
+                            "EDU 201: Educational Sociology & Human Learning",
+                            "EDU 203: Educational Technology & Instructional Media Design",
+                            "ENT 211: Entrepreneurship and Innovation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "HKE 202: Exercise Physiology & Conditioning Programs",
+                            "HKE 204: Planning, Design & Maintenance of Sports Facilities & Equipment",
+                            "HKE 206: Practical Swimming, Aquatics & Water Safety",
+                            "EDU 202: Micro-Teaching & Practical Gymnasium Demonstration",
+                            "EDU 204: Practical Teaching Practice I (Observation & Peer Coaching)",
+                            "GST 212: Philosophy, Logic, and Human Existence"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "300 Level (Event Management, Governance, Pedagogy & Teaching Practice II)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "HKE 301: Methods & Instructional Strategies for Teaching Physical Education & Human Kinetics",
+                            "HKE 303: Organization, Planning & Execution of Sports Events, Tournaments & Festivals",
+                            "HKE 305: Legal Aspects of Sports, Contract Law & Risk Management in Athletic Programs",
+                            "HKE 307: Financial Management & Budgeting in Sports Organizations",
+                            "EDU 301: Research Methodology & Educational Statistics",
+                            "ENT 312: Venture Creation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "EDU 302: Teaching Practice II (6-Month Full-Time Internship in Secondary Schools or Sports Academies)",
+                            "EDU 304: Teaching Practice Assessment Logbook & Seminar Presentation",
+                            "HKE 302: Industrial Fieldwork / Sports Agency & Sports Council Attachment",
+                            "GST 312: Peace Studies and Conflict Resolution"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "400 Level (Advanced Sport Governance, Curriculum, Policy & Senior Thesis)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "HKE 401: Strategic Leadership, Governance & Policy in Global & Nigerian Sports",
+                            "HKE 403: Human Kinetics & Physical Education Curriculum Design, Testing & Evaluation",
+                            "HKE 405: Sports Psychology, Mental Conditioning & Athlete Motivation",
+                            "HKE 407: Sociology of Sports, Gender, Culture & Ethics in Athletics",
+                            "EDU 401: Educational Administration, Planning & School Supervision",
+                            "EDU 403: Special Education & Adapted Physical Education for Inclusive Learners"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "HKE 402: Contemporary Issues, Trends & Technology in Sports & Recreation",
+                            "HKE 404: Sports Tourism, Recreation & Community Sports Development",
+                            "HKE 406: Sports Entrepreneurship & Fitness Club Management",
+                            "HKE 490: Final Year Undergraduate Research Project / Thesis & Defense"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "Integrated Science": {
+        degree: "B.Sc. (Ed.) Integrated Science",
+        levels: [
+            {
+                level: "100 Level (Foundations of Natural Sciences, Mathematics & Educational Theory)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "ISC 101: Foundations & Nature of Integrated Science",
+                            "BIO 101: General Biology I (Cell Biology, Diversity & Physiology)",
+                            "CHM 101: General Chemistry I (Inorganic & Physical Chemistry Foundations)",
+                            "PHY 101: General Physics I (Mechanics, Thermal Physics & Waves)",
+                            "MAT 101: General Mathematics I (Algebra & Trigonometry)",
+                            "EDU 101: Foundations of Education & Teaching Profession",
+                            "GST 111: Communication in English Language",
+                            "AMS 103: Introduction to Computing & Information Technology"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "ISC 102: Integrated Science Practical & Laboratory Safety Techniques",
+                            "BIO 102: General Biology II (Genetics, Evolution & Ecology)",
+                            "CHM 102: General Chemistry II (Organic Chemistry Basics & Reaction Mechanisms)",
+                            "PHY 102: General Physics II (Electricity, Magnetism & Modern Physics)",
+                            "MAT 102: General Mathematics II (Calculus & Analytical Geometry)",
+                            "EDU 102: Educational Psychology: Child & Adolescent Development",
+                            "HIS 101: History of Nigeria & West Africa",
+                            "GST 112: Nigerian Peoples and Culture"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "200 Level (Unified Science Concepts, Environmental Systems & Teaching Practice I)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "ISC 201: Energy & Matter in the Environment",
+                            "ISC 203: Earth, Space & Astronomical Science",
+                            "BIO 201: General Ecology & Environmental Biology",
+                            "CHM 205: Environmental Chemistry & Pollution Control",
+                            "EDU 201: Educational Sociology & Human Learning",
+                            "EDU 203: Educational Technology & Instructional Media Design",
+                            "ENT 211: Entrepreneurship and Innovation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "ISC 202: Science, Technology, Society (STS) & Human Health",
+                            "ISC 204: Processes of Life, Nutrition & Human Development",
+                            "ISC 206: Improvisation & Construction of Basic Science Equipment",
+                            "EDU 202: Micro-Teaching & Practical Laboratory Demonstration Skills",
+                            "EDU 204: Practical Teaching Practice I (Observation & Peer Teaching)",
+                            "GST 212: Philosophy, Logic, and Human Existence"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "300 Level (Instructional Methodology, Workshop Practice & Teaching Practice II)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "SED 301: Methods & Instructional Strategies for Teaching Basic Science",
+                            "ISC 301: Advanced Integrated Science Concepts (Bio-Physical & Chemical Interactions)",
+                            "ISC 303: Science Workshop Practice, Apparatus Repair & Glass-Blowing Techniques",
+                            "ISC 305: History & Philosophy of Integrated Science Education",
+                            "EDU 301: Educational Research Methodology & Statistics",
+                            "ENT 312: Venture Creation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "EDU 302: Teaching Practice II (6-Month Full-Time Teaching Internship in Junior Secondary Schools)",
+                            "EDU 304: Teaching Practice Assessment Logbook & Seminar Presentation",
+                            "ISC 302: Industrial Fieldwork / Science Centre & Environmental Attachment",
+                            "GST 312: Peace Studies and Conflict Resolution"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "400 Level (Curriculum Design, Assessment, Special Topics & Senior Thesis)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "ISC 401: Science Curriculum Development, Evaluation & Quality Assurance",
+                            "ISC 403: Science Laboratory Management, Design & Safety Regulations",
+                            "ISC 405: Global Environmental Issues, Climate Change & Sustainability Education",
+                            "EDU 401: Educational Administration, Planning & School Supervision",
+                            "EDU 403: Special Education & Inclusive Science Instruction"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "ISC 402: Seminar on Contemporary Issues & Innovations in Integrated Science Education",
+                            "ISC 404: Applied Biotechnology, Renewable Energy & Technological Applications",
+                            "ISC 490: Final Year Undergraduate Research Project / Thesis & Defense"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "B.Sc. (Ed.) Mathematics": {
+        degree: "B.Sc. (Ed.) Mathematics",
+        levels: [
+            {
+                level: "100 Level (Foundations of Pure & Applied Mathematics, Physics & Educational Theory)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "MAT 101: General Mathematics I (Algebra & Trigonometry)",
+                            "MAT 103: Elementary Set Theory, Logic & Real Numbers",
+                            "PHY 101: General Physics I (Mechanics, Thermal Physics & Waves)",
+                            "CSC 101: Introduction to Computer Science & Programming Fundamentals",
+                            "EDU 101: Foundations of Education & Teaching Profession",
+                            "GST 111: Communication in English Language",
+                            "AMS 103: Introduction to Computing & Information Technology"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "MAT 102: General Mathematics II (Calculus & Analytical Geometry)",
+                            "MAT 104: Vectors, Mechanics & Coordinate Geometry",
+                            "PHY 102: General Physics II (Electricity, Magnetism & Modern Physics)",
+                            "EDU 102: Educational Psychology: Child & Adolescent Development",
+                            "HIS 101: History of Nigeria & West Africa",
+                            "GST 112: Nigerian Peoples and Culture"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "200 Level (Calculus, Linear Algebra, Real Analysis & Teaching Practice I)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "MAT 201: Linear Algebra I (Vector Spaces, Matrices & Linear Transformations)",
+                            "MAT 203: Advanced Calculus I (Sequences, Series & Differential Calculus)",
+                            "MAT 205: Mathematical Mathematical Mathematical Mathematical Methods I (Ordinary Differential Equations)",
+                            "STA 201: Probability & Statistics I",
+                            "EDU 201: Educational Sociology & Human Learning",
+                            "EDU 203: Educational Technology & Instructional Media Design",
+                            "ENT 211: Entrepreneurship and Innovation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "MAT 202: Linear Algebra II (Eigenvalues, Canonical Forms & Inner Product Spaces)",
+                            "MAT 204: Real Analysis I (Metric Spaces, Continuity & Limit Theory)",
+                            "MAT 206: Abstract Algebra I (Group Theory & Ring Theory Fundamentals)",
+                            "EDU 202: Micro-Teaching & Practical Mathematics Instructional Skills",
+                            "EDU 204: Practical Teaching Practice I (Observation & Peer Teaching)",
+                            "GST 212: Philosophy, Logic, and Human Existence"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "300 Level (Real Analysis, Complex Variables, Pedagogy & Teaching Practice II)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "SED 301: Methods & Instructional Strategies for Teaching Secondary School Mathematics",
+                            "MAT 301: Real Analysis II (Riemann Integration & Infinite Series)",
+                            "MAT 303: Complex Variables I (Analytic Functions & Cauchy-Riemann Equations)",
+                            "MAT 305: Numerical Analysis I (Iterative Methods & Interpolation Techniques)",
+                            "EDU 301: Educational Research Methodology & Statistics",
+                            "ENT 312: Venture Creation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "EDU 302: Teaching Practice II (6-Month Full-Time Internship in Secondary Schools)",
+                            "EDU 304: Teaching Practice Assessment Logbook & Seminar Presentation",
+                            "MAT 302: SIWES / Industrial Attachment (Statistical/Data Units, Financial Planning, or Educational Labs)",
+                            "GST 312: Peace Studies and Conflict Resolution"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "400 Level (Abstract Algebra, Differential Equations, Mathematics Curriculum & Research Thesis)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "MAT 401: Abstract Algebra II (Fields, Galois Theory & Modules)",
+                            "MAT 403: Partial Differential Equations & Boundary Value Problems",
+                            "MAT 405: Mathematical Modeling & Simulation in Science and Education",
+                            "SED 407: Mathematics Curriculum Design, Assessment & Diagnostic Testing",
+                            "EDU 401: Educational Administration, Planning & School Supervision",
+                            "EDU 403: Special Education & Inclusive Mathematics Instruction"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "MAT 402: Topology & Functional Analysis",
+                            "MAT 404: History & Development of Mathematical Ideas",
+                            "MAT 406: Seminar on Contemporary Issues & Innovations in Mathematics Education",
+                            "MAT 490: Final Year Undergraduate Research Project / Thesis & Defense"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "B.Sc. (Ed.) Physics": {
+        degree: "B.Sc. (Ed.) Physics",
+        levels: [
+            {
+                level: "100 Level (Foundations of Physics, Mathematics & Educational Theory)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "PHY 101: General Physics I (Mechanics, Thermal Physics & Waves)",
+                            "PHY 107: General Physics Practical I (Mechanics & Thermal Experiments)",
+                            "MAT 101: General Mathematics I (Algebra & Trigonometry)",
+                            "CHM 101: General Chemistry I (Inorganic & Physical Chemistry)",
+                            "EDU 101: Foundations of Education & Teaching Profession",
+                            "GST 111: Communication in English Language",
+                            "AMS 103: Introduction to Computing & Information Technology"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "PHY 102: General Physics II (Electricity, Magnetism & Modern Physics)",
+                            "PHY 108: General Physics Practical II (Optics & Electricity Experiments)",
+                            "MAT 102: General Mathematics II (Calculus & Analytical Geometry)",
+                            "EDU 102: Educational Psychology: Child & Adolescent Development",
+                            "HIS 101: History of Nigeria & West Africa",
+                            "GST 112: Nigerian Peoples and Culture"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "200 Level (Classical Mechanics, Electromagnetism, Modern Physics & Teaching Practice I)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "PHY 201: Classical Mechanics I (Vector Dynamics, Harmonic Oscillators & Central Forces)",
+                            "PHY 203: Electromagnetism I (Electrostatics, Magnetostatics & Maxwell's Equations)",
+                            "PHY 205: Optics & Wave Phenomena (Interference, Diffraction & Polarization)",
+                            "MAT 201: Linear Algebra I (Vector Spaces & Matrices)",
+                            "EDU 201: Educational Sociology & Human Learning",
+                            "EDU 203: Educational Technology & Science Media Instructional Design",
+                            "ENT 211: Entrepreneurship and Innovation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "PHY 202: Thermal & Statistical Physics (Thermodynamic Laws & Kinetic Theory)",
+                            "PHY 204: Modern Physics I (Special Relativity, Quantum Theory Foundations & Atomic Models)",
+                            "PHY 206: Practical Physics II (Advanced Laboratory Experiments)",
+                            "EDU 202: Micro-Teaching & Practical Science Demonstration Skills",
+                            "EDU 204: Practical Teaching Practice I (Observation & Peer Laboratory Teaching)",
+                            "GST 212: Philosophy, Logic, and Human Existence"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "300 Level (Quantum Mechanics, Electronics, Pedagogy & Teaching Practice II)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "SED 301: Methods & Instructional Strategies for Teaching Physical Sciences",
+                            "PHY 301: Quantum Mechanics I (Schrödinger Equation, Wave Functions & Operators)",
+                            "PHY 303: Analogue & Digital Electronics (Semiconductors, Amplifiers & Logic Gates)",
+                            "PHY 305: Mathematical Methods in Physics I (Differential Equations & Vector Calculus)",
+                            "EDU 301: Educational Research Methodology & Statistics",
+                            "ENT 312: Venture Creation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "EDU 302: Teaching Practice II (6-Month Teaching Internship in Secondary Schools)",
+                            "EDU 304: Teaching Practice Assessment Logbook & Seminar Presentation",
+                            "PHY 302: SIWES / Industrial Attachment (Physics Labs, Electronics Outfits, or Meteorological Units)",
+                            "GST 312: Peace Studies and Conflict Resolution"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "400 Level (Solid State, Nuclear Physics, Science Curriculum & Research Thesis)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "PHY 401: Solid State Physics (Crystal Structures, Band Theory & Semiconductor Physics)",
+                            "PHY 403: Nuclear & Particle Physics (Radioactivity, Nuclear Reactions & Elementary Particles)",
+                            "PHY 405: Electromagnetic Waves & Radiation Physics",
+                            "SED 407: Science Education Curriculum Design, Assessment & Physics Laboratory Management",
+                            "EDU 401: Educational Administration, Planning & School Supervision",
+                            "EDU 403: Special Education & Inclusive Science Classroom Instruction"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "PHY 402: Renewable Energy Physics & Environmental Geophysics",
+                            "PHY 404: History & Philosophy of Physics",
+                            "PHY 406: Seminar on Contemporary Issues in Physical Sciences & Physics Education",
+                            "PHY 490: Final Year Undergraduate Research Project / Thesis & Defense"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "Agricultural & Bio-Resources Engineering": {
+        degree: "B.Eng. / B.Sc. Agricultural & Bio-Resources Engineering",
+        levels: [
+            {
+                level: "100 Level (Engineering Foundations, Natural Sciences & Mathematics)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "ENG 101: Engineering Mathematics I (Calculus & Analytical Geometry)",
+                            "ENG 103: General Physics I (Mechanics, Thermal Physics & Waves)",
+                            "ENG 105: General Chemistry I (Inorganic & Physical Chemistry)",
+                            "ENG 107: Technical Drawing I (Descriptive Geometry & Geometrical Drawing)",
+                            "ENG 109: Introduction to Engineering & Engineering Profession",
+                            "GST 111: Communication in English Language",
+                            "AMS 103: Introduction to Computing & Information Technology"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "ENG 102: Engineering Mathematics II (Vector Algebra & Trigonometry)",
+                            "ENG 104: General Physics II (Electricity, Magnetism & Modern Physics)",
+                            "ENG 106: General Chemistry II (Organic Chemistry Basics & Electrochemistry)",
+                            "ENG 108: Technical Drawing II (Machine Drawing & CAD Foundations)",
+                            "ENG 110: Workshop Technology & Practice I",
+                            "HIS 101: History of Nigeria & West Africa",
+                            "GST 112: Nigerian Peoples and Culture"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "200 Level (General Engineering Core, Statics, Thermodynamics & Computer Programming)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "ENG 201: Engineering Mathematics III (Differential Equations & Vector Calculus)",
+                            "ENG 203: Engineering Statics & Applied Mechanics",
+                            "ENG 205: Engineering Thermodynamics I",
+                            "ENG 207: Engineering Materials & Metallurgy",
+                            "ENG 209: Computer Programming for Engineers (Python / C / C++)",
+                            "ABE 201: Introduction to Agricultural & Bio-Resources Engineering",
+                            "ENT 211: Entrepreneurship and Innovation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "ENG 202: Engineering Mathematics IV (Linear Algebra & Complex Variables)",
+                            "ENG 204: Engineering Dynamics & Mechanics of Machines",
+                            "ENG 206: Strength of Materials & Mechanics of Deformable Bodies",
+                            "ENG 208: Fluid Mechanics I",
+                            "ENG 210: Workshop Technology & Practice II (Machine Shop & Fabrication)",
+                            "ABE 202: Agricultural Fundamentals for Engineers (Crop & Animal Systems)",
+                            "GST 212: Philosophy, Logic, and Human Existence"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "300 Level (Soil Mechanics, Hydrology, Farm Power & Machine Design)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "ABE 301: Farm Power Mechanics & Internal Combustion Engines",
+                            "ABE 303: Soil Mechanics & Earthmoving Principles for Agriculture",
+                            "ABE 305: Applied Agricultural Hydrology & Watershed Dynamics",
+                            "ABE 307: Thermodynamics & Heat Transfer in Biological Systems",
+                            "ENG 301: Engineering Statistics, Probability & Numerical Analysis",
+                            "ENG 303: Electrical Machines & Power Systems for Agriculture",
+                            "ENT 312: Venture Creation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "ABE 302: Design of Agricultural Machine Components",
+                            "ABE 304: Irrigation Engineering & Water Resources Management",
+                            "ABE 306: Engineering Properties of Biological Materials (Physical, Thermal & Rheological)",
+                            "ABE 308: Drainage & Land Clearing Engineering",
+                            "ABE 310: Students Work Experience Scheme I (SWEP / Campus Workshop Attachment)",
+                            "GST 312: Peace Studies and Conflict Resolution"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "400 Level (Post-Harvest Technology, Farm Structures, Bioprocessing & 6-Month SIWES)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "ABE 401: Post-Harvest Processing Technology & Storage Engineering",
+                            "ABE 402: Farm Structures & Environmental Control (Livestock & Crop Housing)",
+                            "ABE 403: Soil & Water Conservation Engineering (Erosion Control Structures)",
+                            "ABE 404: Bioprocess Engineering & Renewable Energy Systems (Biogas, Biomass & Solar)",
+                            "ABE 405: Field Workshop Practice & Agricultural Instrumentation",
+                            "ENG 401: Engineering Management, Economics & Law"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "ABE 499: Student Industrial Work Experience Scheme II (6-Month Industrial Attachment in Agricultural Machinery Companies, Water Resources Boards, or Food Processing Plants)"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "500 Level (Advanced Design, Precision Agriculture, Environmental Control & Thesis)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "ABE 501: Advanced Tractor & Agricultural Equipment Design",
+                            "ABE 503: Precision Agriculture, GIS & Remote Sensing in Bio-Resources",
+                            "ABE 505: Waste Management, Environmental & Bio-Environmental Engineering",
+                            "ABE 507: Farm Operations, Mechanization Systems & Automation",
+                            "ABE 509: Applied Fluid Power Systems (Hydraulics & Pneumatics in Agriculture)",
+                            "ABE 597: Engineering Design Project I (Problem Formulation & Literature Review)"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "ABE 502: Food Engineering & Processing Plant Design",
+                            "ABE 504: Aqua-Cultural Engineering & Environmental Control Systems",
+                            "ABE 506: Seminar on Contemporary Issues in Bio-Resources Engineering",
+                            "ABE 508: Engineering Professional Ethics & COREN Practice Regulations",
+                            "ABE 598: Engineering Design Project II (Fabrication, Testing, Data Analysis & Thesis Defense)"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "Automotive Engineering": {
+        degree: "B.Eng. / B.Sc. Automotive Engineering",
+        levels: [
+            {
+                level: "100 Level (Engineering Foundations, Natural Sciences & Mathematics)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "ENG 101: Engineering Mathematics I (Calculus & Analytical Geometry)",
+                            "ENG 103: General Physics I (Mechanics, Thermal Physics & Waves)",
+                            "ENG 105: General Chemistry I (Inorganic & Physical Chemistry)",
+                            "ENG 107: Technical Drawing I (Descriptive Geometry & Geometrical Drawing)",
+                            "ENG 109: Introduction to Engineering & Engineering Profession",
+                            "GST 111: Communication in English Language",
+                            "AMS 103: Introduction to Computing & Information Technology"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "ENG 102: Engineering Mathematics II (Vector Algebra & Trigonometry)",
+                            "ENG 104: General Physics II (Electricity, Magnetism & Modern Physics)",
+                            "ENG 106: General Chemistry II (Organic Chemistry Basics & Electrochemistry)",
+                            "ENG 108: Technical Drawing II (Machine Drawing & CAD Foundations)",
+                            "ENG 110: Workshop Technology & Practice I",
+                            "HIS 101: History of Nigeria & West Africa",
+                            "GST 112: Nigerian Peoples and Culture"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "200 Level (General Engineering Core, Statics, Thermodynamics & Computer Programming)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "ENG 201: Engineering Mathematics III (Differential Equations & Vector Calculus)",
+                            "ENG 203: Engineering Statics & Applied Mechanics",
+                            "ENG 205: Engineering Thermodynamics I",
+                            "ENG 207: Engineering Materials & Automotive Metallurgy",
+                            "ENG 209: Computer Programming for Engineers (Python / C / C++)",
+                            "AUT 201: Introduction to Automotive Systems & Mobile Equipment",
+                            "ENT 211: Entrepreneurship and Innovation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "ENG 202: Engineering Mathematics IV (Linear Algebra & Complex Variables)",
+                            "ENG 204: Engineering Dynamics & Kinematics of Machines",
+                            "ENG 206: Strength of Materials & Mechanics of Deformable Bodies",
+                            "ENG 208: Fluid Mechanics I",
+                            "ENG 210: Workshop Technology & Practice II (Automotive Workshop Practices & Fabrication)",
+                            "AUT 202: Automotive Electrical & Electronic Principles",
+                            "GST 212: Philosophy, Logic, and Human Existence"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "300 Level (Engine Technology, Vehicle Dynamics, Component Design & SWEP)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "AUT 301: Internal Combustion Engines I (Thermodynamics, Air Standard Cycles & Combustion Mechanics)",
+                            "AUT 303: Vehicle Dynamics & Suspension Systems",
+                            "AUT 305: Automotive Chassis, Steering & Braking Systems",
+                            "AUT 307: Thermodynamics & Heat Transfer in Automotive Applications",
+                            "ENG 301: Engineering Statistics, Probability & Numerical Methods",
+                            "ENG 303: Automotive Electronics, Sensors & Instrumentation",
+                            "ENT 312: Venture Creation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "AUT 302: Design of Automotive Machine Elements (Gears, Shafts & Clutches)",
+                            "AUT 304: Internal Combustion Engines II (Fuel Injection, Turbocharging & Emissions)",
+                            "AUT 306: Vehicle Powertrain & Transmission Systems (Manual, Automatic & Dual-Clutch)",
+                            "AUT 308: Automotive Aerodynamics & Fluid Power Systems",
+                            "AUT 310: Students Work Experience Scheme I (SWEP / Automotive Maintenance & Assembly Attachment)",
+                            "GST 312: Peace Studies and Conflict Resolution"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "400 Level (Vehicle Electronics, EV Technology, Manufacturing & 6-Month SIWES)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "AUT 401: Electric & Hybrid Vehicle Technology (Batteries, Motors & Energy Management)",
+                            "AUT 402: Automotive Mechatronics, CAN Bus Networks & Microcontrollers",
+                            "AUT 403: Vehicle Body Structure, Crashworthiness & Automotive Safety",
+                            "AUT 404: Automotive Manufacturing Processes & Materials Selection",
+                            "AUT 405: Automotive Diagnostics, Testing & Quality Control",
+                            "ENG 401: Engineering Management, Economics & Law"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "AUT 499: Student Industrial Work Experience Scheme II (6-Month Industrial Attachment in Motor Assembly Plants, Auto Diagnostic Hubs, Fleet Management Firms, or R&D Centers)"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "500 Level (Advanced Vehicle Design, Autonomous Systems, Fleet Management & Thesis)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "AUT 501: Advanced Internal Combustion Engines & Alternative Fuels (Hydrogen, Biofuels & Synthetic Fuels)",
+                            "AUT 503: Autonomous Vehicle Systems, ADAS, Sensors & Computer Vision",
+                            "AUT 505: Vehicle Noise, Vibration, and Harshness (NVH) Engineering",
+                            "AUT 507: Fleet Management, Logistics & Vehicle Maintenance Engineering",
+                            "AUT 509: Computer-Aided Engineering (CAE), FEA & Computational Fluid Dynamics (CFD) in Automotive Design",
+                            "AUT 597: Engineering Design Project I (Problem Formulation, CAD Modeling & Simulation Plan)"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "AUT 502: Vehicle System Control Engineering & Automotive Embedded Software",
+                            "AUT 504: Sustainable Automotive Transportation & Environmental Life Cycle Assessment",
+                            "AUT 506: Seminar on Emerging Trends in Global Automotive Engineering",
+                            "AUT 508: Engineering Professional Ethics & COREN Practice Regulations",
+                            "AUT 598: Engineering Design Project II (Prototype Fabrication, Physical/Virtual Testing, Analysis & Thesis Defense)"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "Biomedical Engineering": {
+        degree: "B.Eng. / B.Sc. Biomedical Engineering",
+        levels: [
+            {
+                level: "100 Level (Engineering Foundations, Natural Sciences & Mathematics)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "ENG 101: Engineering Mathematics I (Calculus & Analytical Geometry)",
+                            "ENG 103: General Physics I (Mechanics, Thermal Physics & Waves)",
+                            "ENG 105: General Chemistry I (Inorganic & Physical Chemistry)",
+                            "ENG 107: Technical Drawing I (Descriptive Geometry & Geometrical Drawing)",
+                            "ENG 109: Introduction to Engineering & Engineering Profession",
+                            "GST 111: Communication in English Language",
+                            "AMS 103: Introduction to Computing & Information Technology"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "ENG 102: Engineering Mathematics II (Vector Algebra & Trigonometry)",
+                            "ENG 104: General Physics II (Electricity, Magnetism & Modern Physics)",
+                            "ENG 106: General Chemistry II (Organic Chemistry Basics & Electrochemistry)",
+                            "ENG 108: Technical Drawing II (Machine Drawing & CAD Foundations)",
+                            "ENG 110: Workshop Technology & Practice I",
+                            "HIS 101: History of Nigeria & West Africa",
+                            "GST 112: Nigerian Peoples and Culture"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "200 Level (General Engineering Core, Human Anatomy, Physiology & Programming)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "ENG 201: Engineering Mathematics III (Differential Equations & Vector Calculus)",
+                            "ENG 203: Engineering Statics & Applied Mechanics",
+                            "ENG 205: Engineering Thermodynamics I",
+                            "ENG 209: Computer Programming for Engineers (Python / C / C++)",
+                            "BME 201: Introduction to Biomedical Engineering & Medical Ethics",
+                            "ANA 201: Human Anatomy for Biomedical Engineers I (Skeletal, Muscular & Cardiovascular Systems)",
+                            "ENT 211: Entrepreneurship and Innovation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "ENG 202: Engineering Mathematics IV (Linear Algebra & Complex Variables)",
+                            "ENG 204: Engineering Dynamics & Kinematics",
+                            "ENG 206: Strength of Materials & Mechanics of Deformable Bodies",
+                            "ENG 208: Fluid Mechanics I",
+                            "PIO 202: Human Physiology for Biomedical Engineers I (Cellular, Neural & Organ Systems)",
+                            "BME 202: Biocompatible Materials & Fundamentals of Biomaterials",
+                            "GST 212: Philosophy, Logic, and Human Existence"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "300 Level (Biomechanics, Medical Electronics, Biofluid Mechanics & SWEP)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "BME 301: Biomechanics & Human Movement Analysis (Orthopedic Mechanics & Kinematics)",
+                            "BME 303: Medical Instrumentation I (Bio-Sensors, Electrodes & Transducers)",
+                            "BME 305: Biofluid Mechanics (Blood Flow Dynamics & Cardiovascular Transport)",
+                            "BME 307: Biological Signals & Systems Analysis",
+                            "ENG 301: Engineering Statistics, Probability & Numerical Methods",
+                            "ENG 303: Circuit Theory & Analog Electronics for Medical Devices",
+                            "ENT 312: Venture Creation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "BME 302: Medical Instrumentation II (ECG, EEG, EMG Systems & Signal Conditioning)",
+                            "BME 304: Biomaterials & Tissue Interactions (Implants, Prosthetics & Dental Materials)",
+                            "BME 306: Biomedical Transport Phenomena (Mass, Heat & Momentum Transfer in Biosystems)",
+                            "BME 308: Digital Electronics & Microcontrollers in Healthcare Equipment",
+                            "BME 310: Students Work Experience Scheme I (SWEP / Hospital Equipment Maintenance Attachment)",
+                            "GST 312: Peace Studies and Conflict Resolution"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "400 Level (Medical Imaging, Biotelemetry, Hospital Engineering & 6-Month SIWES)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "BME 401: Medical Imaging Systems (X-Ray, CT, MRI, Ultrasound & PET Scan Physics)",
+                            "BME 402: Clinical Engineering, Hospital Equipment Management & Safety Standards",
+                            "BME 403: Bio-Signal & Bio-Image Processing (Digital Signal Processing Applications)",
+                            "BME 404: Biotelemetry, Wearable Sensors & Healthcare Internet of Things (HIoT)",
+                            "BME 405: Physiological Control Systems & Biological Modeling",
+                            "ENG 401: Engineering Management, Economics & Law"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "BME 499: Student Industrial Work Experience Scheme II (6-Month Industrial Attachment in Tertiary Hospitals, Biomedical Device Companies, Radiology Hubs, or Medical Research Institutes)"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "500 Level (Prosthetics, Tissue Engineering, Medical AI & Engineering Thesis)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "BME 501: Prosthetics, Orthotics & Rehabilitation Engineering",
+                            "BME 503: Tissue Engineering, Regenerative Medicine & Biomimetic Materials",
+                            "BME 505: Artificial Intelligence, Machine Learning & Computer-Aided Diagnosis in Healthcare",
+                            "BME 507: Design of Medical Devices & Regulatory Affairs (ISO 13485, FDA & NAFDAC Protocols)",
+                            "BME 509: Artificial Organs, Dialysis Systems & Cardiovascular Assist Devices",
+                            "BME 597: Engineering Design Project I (Problem Formulation, Prototype Specification & Literature Review)"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "BME 502: Nanotechnology & Targeted Micro/Nano Drug Delivery Systems",
+                            "BME 504: Telemedicine, e-Health & Digital Health Information Systems",
+                            "BME 506: Seminar on Contemporary Advances in Biomedical Engineering",
+                            "BME 508: Engineering Professional Ethics & COREN Practice Regulations",
+                            "BME 598: Engineering Design Project II (Physical/Virtual Prototype Development, Laboratory Testing, Analysis & Thesis Defense)"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "Chemical Engineering": {
+        degree: "B.Eng. / B.Sc. Chemical Engineering",
+        levels: [
+            {
+                level: "100 Level (Engineering Foundations, Natural Sciences & Mathematics)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "ENG 101: Engineering Mathematics I (Calculus & Analytical Geometry)",
+                            "ENG 103: General Physics I (Mechanics, Thermal Physics & Waves)",
+                            "ENG 105: General Chemistry I (Inorganic & Physical Chemistry)",
+                            "ENG 107: Technical Drawing I (Descriptive Geometry & Geometrical Drawing)",
+                            "ENG 109: Introduction to Engineering & Engineering Profession",
+                            "GST 111: Communication in English Language",
+                            "AMS 103: Introduction to Computing & Information Technology"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "ENG 102: Engineering Mathematics II (Vector Algebra & Trigonometry)",
+                            "ENG 104: General Physics II (Electricity, Magnetism & Modern Physics)",
+                            "ENG 106: General Chemistry II (Organic Chemistry Basics & Electrochemistry)",
+                            "ENG 108: Technical Drawing II (Machine Drawing & CAD Foundations)",
+                            "ENG 110: Workshop Technology & Practice I",
+                            "HIS 101: History of Nigeria & West Africa",
+                            "GST 112: Nigerian Peoples and Culture"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "200 Level (Engineering Core, Physical Chemistry, Fluid Mechanics & Programming)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "ENG 201: Engineering Mathematics III (Differential Equations & Vector Calculus)",
+                            "ENG 203: Engineering Statics & Applied Mechanics",
+                            "ENG 205: Engineering Thermodynamics I",
+                            "ENG 207: Engineering Materials & Corrosion Science",
+                            "ENG 209: Computer Programming for Engineers (Python / C / C++)",
+                            "CHE 201: Introduction to Chemical Engineering Principles & Stoichiometry",
+                            "ENT 211: Entrepreneurship and Innovation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "ENG 202: Engineering Mathematics IV (Linear Algebra & Complex Variables)",
+                            "ENG 204: Physical Chemistry for Chemical Engineers (Phase Equilibria & Electrochemistry)",
+                            "ENG 206: Organic Chemistry for Chemical Engineers (Reaction Mechanisms & Industrial Synthesis)",
+                            "ENG 208: Fluid Mechanics I (Fluid Statics & Dynamics)",
+                            "ENG 210: Workshop Technology & Practice II (Machine Shop & Piping Systems)",
+                            "CHE 202: Chemical Engineering Process Calculations I (Material Balances)",
+                            "GST 212: Philosophy, Logic, and Human Existence"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "300 Level (Transport Phenomena, Unit Operations, Reaction Engineering & SWEP)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "CHE 301: Chemical Engineering Thermodynamics II (Phase & Chemical Reaction Equilibria)",
+                            "CHE 303: Fluid Flow Operations (Piping Networks, Pumps & Compressors)",
+                            "CHE 305: Heat Transfer Operations (Conduction, Convective Heat Exchangers & Radiation)",
+                            "CHE 307: Chemical Engineering Process Calculations II (Energy Balances)",
+                            "ENG 301: Engineering Statistics, Probability & Numerical Analysis",
+                            "ENG 303: Electrical Machines & Instrumentation for Chemical Plants",
+                            "ENT 312: Venture Creation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "CHE 302: Mass Transfer Operations I (Absorption, Distillation & Extraction)",
+                            "CHE 304: Chemical Reaction Engineering I (Kinetics & Ideal Reactor Design)",
+                            "CHE 306: Particulate Technology & Particle Mechanics (Size Reduction & Separation)",
+                            "CHE 308: Chemical Engineering Laboratory I (Fluid Mechanics & Heat Transfer Experiments)",
+                            "CHE 310: Students Work Experience Scheme I (SWEP / Chemical Workshop & Pilot Plant Attachment)",
+                            "GST 312: Peace Studies and Conflict Resolution"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "400 Level (Separation Processes, Process Dynamics, Plant Design & 6-Month SIWES)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "CHE 401: Mass Transfer Operations II (Humidification, Drying, Crystallization & Membrane Processes)",
+                            "CHE 402: Chemical Reaction Engineering II (Non-Ideal Flow & Heterogeneous Catalysis)",
+                            "CHE 403: Process Dynamics, Control & Instrumentation (PID Controllers & Automation)",
+                            "CHE 404: Chemical Engineering Equipment Design & Piping Layout",
+                            "CHE 405: Chemical Engineering Laboratory II (Mass Transfer & Reaction Kinetics Experiments)",
+                            "ENG 401: Engineering Management, Economics & Law"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "CHE 499: Student Industrial Work Experience Scheme II (6-Month Industrial Attachment in Petroleum Refineries, Petrochemical Plants, Fertilizer Manufacturing, Food & Beverage Plants, or Pharmaceutical Facilities)"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "500 Level (Plant Design, Process Optimization, Polymer Engineering & Thesis)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "CHE 501: Plant Design & Economics (Flowsheet Synthesis, Cost Estimation & Feasibility Analysis)",
+                            "CHE 503: Petroleum Refining & Petrochemical Technology",
+                            "CHE 505: Polymer Science & Chemical Process Technology",
+                            "CHE 507: Environmental Pollution Control & Chemical Safety Engineering",
+                            "CHE 509: Computer-Aided Chemical Process Simulation (Aspen Plus / HYSYS / DWSIM)",
+                            "CHE 597: Chemical Engineering Design Project I (Process Selection, Material/Energy Balances & Literature Review)"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "CHE 502: Biochemical Engineering & Industrial Biotechnology",
+                            "CHE 504: Energy Technology, Renewable Energy & Process Integration",
+                            "CHE 506: Seminar on Contemporary Advances in Chemical & Process Engineering",
+                            "CHE 508: Engineering Professional Ethics & COREN Practice Regulations",
+                            "CHE 598: Chemical Engineering Design Project II (Equipment Mechanical Design, Safety/HAZOP Review, Economic Evaluation & Thesis Defense)"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "Civil Engineering": {
+        degree: "B.Eng. / B.Sc. Civil Engineering",
+        levels: [
+            {
+                level: "100 Level (Engineering Foundations, Natural Sciences & Mathematics)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "ENG 101: Engineering Mathematics I (Calculus & Analytical Geometry)",
+                            "ENG 103: General Physics I (Mechanics, Thermal Physics & Waves)",
+                            "ENG 105: General Chemistry I (Inorganic & Physical Chemistry)",
+                            "ENG 107: Technical Drawing I (Descriptive Geometry & Geometrical Drawing)",
+                            "ENG 109: Introduction to Engineering & Engineering Profession",
+                            "GST 111: Communication in English Language",
+                            "AMS 103: Introduction to Computing & Information Technology"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "ENG 102: Engineering Mathematics II (Vector Algebra & Trigonometry)",
+                            "ENG 104: General Physics II (Electricity, Magnetism & Modern Physics)",
+                            "ENG 106: General Chemistry II (Organic Chemistry Basics & Electrochemistry)",
+                            "ENG 108: Technical Drawing II (Machine Drawing & CAD Foundations)",
+                            "ENG 110: Workshop Technology & Practice I",
+                            "HIS 101: History of Nigeria & West Africa",
+                            "GST 112: Nigerian Peoples and Culture"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "200 Level (General Engineering Core, Statics, Fluid Mechanics & Surveying)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "ENG 201: Engineering Mathematics III (Differential Equations & Vector Calculus)",
+                            "ENG 203: Engineering Statics & Applied Mechanics",
+                            "ENG 205: Engineering Thermodynamics I",
+                            "ENG 207: Engineering Materials & Construction Metallurgy",
+                            "ENG 209: Computer Programming for Engineers (Python / C / C++)",
+                            "CVE 201: Engineering Surveying & Photogrammetry I",
+                            "ENT 211: Entrepreneurship and Innovation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "ENG 202: Engineering Mathematics IV (Linear Algebra & Complex Variables)",
+                            "ENG 204: Engineering Dynamics & Kinematics",
+                            "ENG 206: Strength of Materials & Mechanics of Deformable Bodies",
+                            "ENG 208: Fluid Mechanics I (Fluid Statics & Dynamics)",
+                            "ENG 210: Workshop Technology & Practice II (Civil Construction & Woodwork Workshop)",
+                            "CVE 202: Civil Engineering Materials (Concrete Technology, Timber, Masonry & Bitumen)",
+                            "GST 212: Philosophy, Logic, and Human Existence"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "300 Level (Structural Analysis, Soil Mechanics, Hydraulics & SWEP)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "CVE 301: Structural Analysis I (Determinate Structures, Beams, Trusses & Frames)",
+                            "CVE 303: Soil Mechanics I (Index Properties, Soil Classification & Compaction)",
+                            "CVE 305: Hydraulics & Fluid Mechanics II (Pipe Flow, Pumps & Open Channel Flow)",
+                            "CVE 307: Engineering Surveying II (Leveling, Traverse & Tacheometry Practical Field Camp)",
+                            "ENG 301: Engineering Statistics, Probability & Numerical Analysis",
+                            "ENG 303: Geology for Engineers (Engineering Geology & Rock Mechanics)",
+                            "ENT 312: Venture Creation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "CVE 302: Design of Reinforced Concrete Structures I (Beams, Slabs & Columns to BS 8110 / Eurocode 2)",
+                            "CVE 304: Geotechnical Engineering I (Seepage, Shear Strength & Consolidation)",
+                            "CVE 306: Highway & Transportation Engineering I (Highway Geometric Design & Traffic Engineering)",
+                            "CVE 308: Water Resources & Environmental Engineering I (Water Supply, Quality & Treatment)",
+                            "CVE 310: Students Work Experience Scheme I (SWEP / Construction Site Attachment & Lab Work)",
+                            "GST 312: Peace Studies and Conflict Resolution"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "400 Level (Structural Steel Design, Foundation Engineering, Wastewater & 6-Month SIWES)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "CVE 401: Structural Analysis II (Indeterminate Structures, Moment Distribution & Energy Methods)",
+                            "CVE 402: Design of Structural Steel & Timber Elements (Trusses, Columns & Connections)",
+                            "CVE 403: Foundation Engineering I (Shallow & Deep Foundations, Bearing Capacity)",
+                            "CVE 404: Wastewater Engineering & Solid Waste Management",
+                            "CVE 405: Highway Engineering II (Pavement Design, Bituminous Mixes & Maintenance)",
+                            "ENG 401: Engineering Management, Economics & Law"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "CVE 499: Student Industrial Work Experience Scheme II (6-Month Industrial Attachment in Civil Construction Firms, Structural Consultancy Outfits, Ministry of Works, or Water Resource Agencies)"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "500 Level (Advanced Structural Design, Hydrology, Project Management & Thesis)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "CVE 501: Advanced Design of Reinforced Concrete & Prestressed Concrete Structures",
+                            "CVE 503: Advanced Foundation Engineering & Retaining Structures (Earth Retaining Walls & Sheet Piles)",
+                            "CVE 505: Applied Hydrology & Hydraulic Structures (Dams, Spillways, Culverts & Drainage Design)",
+                            "CVE 507: Construction Management, Quantity Surveying & Contract Administration",
+                            "CVE 509: Computer-Aided Civil Engineering Design & CAD (STAAD Pro / AutoCAD / Revit / ETABS)",
+                            "CVE 597: Civil Engineering Design Project I (Site Investigation, Structural Scheme & Preliminary Design)"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "CVE 502: Transportation Systems, Traffic Safety & Airport/Harbor Engineering",
+                            "CVE 504: Environmental Impact Assessment (EIA) & Sustainable Civil Infrastructure",
+                            "CVE 506: Seminar on Contemporary Issues in Civil Infrastructure & Coastal Engineering",
+                            "CVE 508: Engineering Professional Ethics & COREN Practice Regulations",
+                            "CVE 599: Civil Engineering Design Project II (Detailed Structural Calculations, Working Drawings, Bill of Quantities & Thesis Defense)"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "Computer Engineering": {
+        degree: "B.Eng. / B.Sc. Computer Engineering",
+        levels: [
+            {
+                level: "100 Level (Engineering Foundations, Natural Sciences & Mathematics)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "ENG 101: Engineering Mathematics I (Calculus & Analytical Geometry)",
+                            "ENG 103: General Physics I (Mechanics, Thermal Physics & Waves)",
+                            "ENG 105: General Chemistry I (Inorganic & Physical Chemistry)",
+                            "ENG 107: Technical Drawing I (Descriptive Geometry & Geometrical Drawing)",
+                            "ENG 109: Introduction to Engineering & Engineering Profession",
+                            "GST 111: Communication in English Language",
+                            "AMS 103: Introduction to Computing & Information Technology"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "ENG 102: Engineering Mathematics II (Vector Algebra & Trigonometry)",
+                            "ENG 104: General Physics II (Electricity, Magnetism & Modern Physics)",
+                            "ENG 106: General Chemistry II (Organic Chemistry Basics & Electrochemistry)",
+                            "ENG 108: Technical Drawing II (Machine Drawing & CAD Foundations)",
+                            "ENG 110: Workshop Technology & Practice I",
+                            "HIS 101: History of Nigeria & West Africa",
+                            "GST 112: Nigerian Peoples and Culture"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "200 Level (Circuit Theory, Discrete Math, Logic Design & Programming)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "ENG 201: Engineering Mathematics III (Differential Equations & Vector Calculus)",
+                            "ENG 203: Circuit Theory I (DC/AC Circuit Analysis & Network Theorems)",
+                            "ENG 205: Basic Physical Electronics (Semiconductor Physics, Diodes & Transistors)",
+                            "ENG 207: Engineering Materials & Electromagnetic Properties",
+                            "ENG 209: Computer Programming for Engineers I (C / C++)",
+                            "CPE 201: Digital Logic Design I (Boolean Algebra, Logic Gates & Combinational Circuits)",
+                            "ENT 211: Entrepreneurship and Innovation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "ENG 202: Engineering Mathematics IV (Linear Algebra & Complex Variables)",
+                            "ENG 204: Applied Electromagnetic Fields & Waves",
+                            "ENG 206: Signals & Systems",
+                            "ENG 208: Electrical Machines & Power Fundamentals",
+                            "ENG 210: Workshop Technology & Practice II (Hardware Assembly, Soldering & Circuit Testing)",
+                            "CPE 202: Discrete Mathematics & Structures for Computer Engineers",
+                            "GST 212: Philosophy, Logic, and Human Existence"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "300 Level (Microprocessors, Data Structures, Embedded Systems & SWEP)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "CPE 301: Microprocessor Systems & Assembly Language Programming (8086 / x86 Architecture)",
+                            "CPE 303: Digital Logic Design II (Sequential Circuits, Counters, Registers & FPGA/VHDL Foundations)",
+                            "CPE 305: Data Structures, Algorithms & Object-Oriented Design (Python / Java / C++)",
+                            "CPE 307: Analogue Electronics & Operational Amplifiers",
+                            "ENG 301: Engineering Statistics, Probability & Numerical Analysis",
+                            "ENG 303: Database Management Systems & SQL",
+                            "ENT 312: Venture Creation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "CPE 302: Embedded Systems Design & Microcontrollers (ARM Cortex, AVR, PIC, Arduino & ESP32)",
+                            "CPE 304: Computer Architecture & Organization (Pipelining, Memory Hierarchy & Cache Design)",
+                            "CPE 306: Operating System Concepts & System Programming",
+                            "CPE 308: Computer Engineering Laboratory I (Digital Circuits & Hardware Interfacing)",
+                            "CPE 310: Students Work Experience Scheme I (SWEP / Hardware Laboratory & Workshop Practice)",
+                            "GST 312: Peace Studies and Conflict Resolution"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "400 Level (Networks, Hardware Interfacing, Control Systems & 6-Month SIWES)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "CPE 401: Computer Networks, Protocols & Data Communications (TCP/IP, Ethernet & Wireless Networks)",
+                            "CPE 402: Microprocessor Interfacing & Peripheral Devices",
+                            "CPE 403: Control Engineering Systems (Transfer Functions, Stability & PID Controllers)",
+                            "CPE 404: Software Engineering Principles & Methodologies",
+                            "CPE 405: Computer Engineering Laboratory II (Embedded System Testing & Network Simulation)",
+                            "ENG 401: Engineering Management, Economics & Law"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "CPE 499: Student Industrial Work Experience Scheme II (6-Month Industrial Attachment in Telecoms, Hardware R&D, Embedded Systems Firms, Tech Enterprises, or Network Infrastructure Companies)"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "500 Level (VLSI Design, IoT, Robotics, AI Engineering & Capstone Thesis)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "CPE 501: Very Large Scale Integration (VLSI) System Design & Microelectronics",
+                            "CPE 503: Internet of Things (IoT), Wireless Sensor Networks & Edge Computing",
+                            "CPE 505: Robotics, Autonomous Systems & Mechatronics",
+                            "CPE 507: Cryptography, Cyber-Physical Security & Hardware Security",
+                            "CPE 509: Computer Hardware Simulation & CAD (Proteus / MATLAB / Verilog / HDL)",
+                            "CPE 597: Computer Engineering Design Project I (Problem Formulation, System Architecture & Literature Review)"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "CPE 502: Artificial Intelligence, Machine Learning & Computer Vision Engineering",
+                            "CPE 504: Real-Time Embedded Operating Systems (RTOS) & Parallel Processing",
+                            "CPE 506: Seminar on Contemporary Issues in Computer & Hardware Systems Engineering",
+                            "CPE 508: Engineering Professional Ethics & COREN Practice Regulations",
+                            "CPE 599: Computer Engineering Design Project II (Hardware Prototype Fabrication, Software Integration, Testing & Thesis Defense)"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "Electrical & Electronics Engineering": {
+        degree: "B.Eng. / B.Sc. Electrical & Electronics Engineering",
+        levels: [
+            {
+                level: "100 Level (Engineering Foundations, Natural Sciences & Mathematics)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "ENG 101: Engineering Mathematics I (Calculus & Analytical Geometry)",
+                            "ENG 103: General Physics I (Mechanics, Thermal Physics & Waves)",
+                            "ENG 105: General Chemistry I (Inorganic & Physical Chemistry)",
+                            "ENG 107: Technical Drawing I (Descriptive Geometry & Geometrical Drawing)",
+                            "ENG 109: Introduction to Engineering & Engineering Profession",
+                            "GST 111: Communication in English Language",
+                            "AMS 103: Introduction to Computing & Information Technology"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "ENG 102: Engineering Mathematics II (Vector Algebra & Trigonometry)",
+                            "ENG 104: General Physics II (Electricity, Magnetism & Modern Physics)",
+                            "ENG 106: General Chemistry II (Organic Chemistry Basics & Electrochemistry)",
+                            "ENG 108: Technical Drawing II (Machine Drawing & CAD Foundations)",
+                            "ENG 110: Workshop Technology & Practice I",
+                            "HIS 101: History of Nigeria & West Africa",
+                            "GST 112: Nigerian Peoples and Culture"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "200 Level (Circuit Analysis, Electromagnetic Fields, Physical Electronics & Programming)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "ENG 201: Engineering Mathematics III (Differential Equations & Vector Calculus)",
+                            "EEE 201: Circuit Theory I (DC & AC Circuit Theorems, Transient & Steady-State Analysis)",
+                            "EEE 203: Basic Physical Electronics (Semiconductor Physics, Diodes & Transistor Biasing)",
+                            "ENG 205: Engineering Thermodynamics I",
+                            "ENG 207: Engineering Materials & Electromagnetic Properties",
+                            "ENG 209: Computer Programming for Engineers (Python / C / C++)",
+                            "ENT 211: Entrepreneurship and Innovation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "ENG 202: Engineering Mathematics IV (Linear Algebra & Complex Variables)",
+                            "EEE 202: Electromagnetic Fields & Waves I (Electrostatics, Magnetostatics & Maxwell's Equations)",
+                            "EEE 204: Applied Electricity & Electrical Machines Fundamentals (DC Machines & Transformers)",
+                            "EEE 206: Digital Electronics I (Logic Gates, Boolean Algebra & Combinational Logic)",
+                            "ENG 208: Fluid Mechanics I",
+                            "ENG 210: Workshop Technology & Practice II (Electrical Wiring, Soldering & PCB Fabrication)",
+                            "GST 212: Philosophy, Logic, and Human Existence"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "300 Level (Signals, Power Systems, Telecommunications, Control Systems & SWEP)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "EEE 301: Circuit Theory II (Two-Port Networks, Graph Theory & Fourier/Laplace Transforms)",
+                            "EEE 303: Electric Machines I (Transformers, Synchronous & Induction Motors)",
+                            "EEE 305: Analogue Electronics & Operational Amplifiers (Active Filters & Oscillators)",
+                            "EEE 307: Electromagnetic Fields & Waves II (Transmission Lines & Waveguides)",
+                            "EEE 309: Signals & Systems (Continuous & Discrete Signals, Convolution & Z-Transforms)",
+                            "ENG 301: Engineering Statistics, Probability & Numerical Analysis",
+                            "ENT 312: Venture Creation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "EEE 302: Power System Engineering I (Generation, Transmission Line Parameters & Grid Architecture)",
+                            "EEE 304: Telecommunication Principles (Amplitude/Frequency Modulation & Signal Processing)",
+                            "EEE 306: Control Engineering I (Classical Control, Transfer Functions, Root Locus & Bode Plots)",
+                            "EEE 308: Digital Electronics II (Sequential Logic, Microprocessors & Microcontrollers)",
+                            "EEE 310: Electrical Engineering Laboratory I (Machines, Electronics & Power Circuit Labs)",
+                            "EEE 312: Students Work Experience Scheme I (SWEP / Electrical Workshop & Substation Attachment)",
+                            "GST 312: Peace Studies and Conflict Resolution"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "400 Level (Power Electronics, Modern Telecoms, Control Systems & 6-Month SIWES)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "EEE 401: Power Electronics & Drives (Rectifiers, Inverters, Choppers & Motor Drives)",
+                            "EEE 402: Power System Engineering II (Fault Analysis, Load Flow & Power System Protection)",
+                            "EEE 403: Digital Signal Processing (DSP, FFT, FIR/IIR Filter Design)",
+                            "EEE 404: Control Engineering II (State-Space Analysis, Digital Control & PID Tuning)",
+                            "EEE 405: Communication Systems Engineering (Digital Transmission, Multiplexing & Optical Fibers)",
+                            "ENG 401: Engineering Management, Economics & Law"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "EEE 499: Student Industrial Work Experience Scheme II (6-Month Industrial Attachment in Power Generation/Distribution Companies, Telecommunications Networks, Industrial Automation Plants, or Electronics Manufacturing Outfits)"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "500 Level (Specializations, High Voltage, Smart Grids, RF/Microwaves & Capstone Thesis)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "EEE 501: High Voltage Engineering & Insulation Technology",
+                            "EEE 503: Power System Operation, Control & Smart Grid Integration",
+                            "EEE 505: Wireless, Satellite & Mobile Communication Systems (5G/6G Architecture & RF Propagation)",
+                            "EEE 507: Industrial Automation, PLC, SCADA & Robotics",
+                            "EEE 509: Computer-Aided Electrical Engineering Design & Simulation (MATLAB/Simulink, ETAP, Proteus)",
+                            "EEE 597: Electrical Engineering Project I (Problem Formulation, System Modeling & Literature Review)"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "EEE 502: Renewable Energy Systems, Energy Storage & Power Quality",
+                            "EEE 504: Microwave Engineering, Antennas & Radar Systems",
+                            "EEE 506: Seminar on Contemporary Issues in Electrical & Electronics Engineering",
+                            "EEE 508: Engineering Professional Ethics & COREN Practice Regulations",
+                            "EEE 599: Electrical Engineering Project II (Hardware/Software Implementation, Experimental Validation & Thesis Defense)"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "Food Engineering": {
+        degree: "B.Eng. / B.Sc. Food Engineering",
+        levels: [
+            {
+                level: "100 Level (Engineering Foundations, Natural Sciences & Mathematics)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "ENG 101: Engineering Mathematics I (Calculus & Analytical Geometry)",
+                            "ENG 103: General Physics I (Mechanics, Thermal Physics & Waves)",
+                            "ENG 105: General Chemistry I (Inorganic & Physical Chemistry)",
+                            "ENG 107: Technical Drawing I (Descriptive Geometry & Geometrical Drawing)",
+                            "ENG 109: Introduction to Engineering & Engineering Profession",
+                            "GST 111: Communication in English Language",
+                            "AMS 103: Introduction to Computing & Information Technology"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "ENG 102: Engineering Mathematics II (Vector Algebra & Trigonometry)",
+                            "ENG 104: General Physics II (Electricity, Magnetism & Modern Physics)",
+                            "ENG 106: General Chemistry II (Organic Chemistry Basics & Electrochemistry)",
+                            "ENG 108: Technical Drawing II (Machine Drawing & CAD Foundations)",
+                            "ENG 110: Workshop Technology & Practice I",
+                            "HIS 101: History of Nigeria & West Africa",
+                            "GST 112: Nigerian Peoples and Culture"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "200 Level (Engineering Core, Physical Chemistry, Food Chemistry & Programming)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "ENG 201: Engineering Mathematics III (Differential Equations & Vector Calculus)",
+                            "ENG 203: Engineering Statics & Applied Mechanics",
+                            "ENG 205: Engineering Thermodynamics I",
+                            "ENG 207: Engineering Materials & Corrosion Science",
+                            "ENG 209: Computer Programming for Engineers (Python / C / C++)",
+                            "FDE 201: Introduction to Food Process Engineering & Principles",
+                            "ENT 211: Entrepreneurship and Innovation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "ENG 202: Engineering Mathematics IV (Linear Algebra & Complex Variables)",
+                            "FDE 202: Food Chemistry & Biochemistry (Proteins, Lipids, Carbohydrates & Enzymology)",
+                            "FDE 204: General Food Microbiology (Microbial Kinetics, Food Spoilage & Pathogens)",
+                            "ENG 208: Fluid Mechanics I (Fluid Statics & Dynamics)",
+                            "ENG 210: Workshop Technology & Practice II (Food Plant Piping, Sanitary Fittings & Machining)",
+                            "FDE 206: Material & Energy Balances in Food Processing",
+                            "GST 212: Philosophy, Logic, and Human Existence"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "300 Level (Transport Phenomena, Unit Operations, Rheology & SWEP)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "FDE 301: Heat Transfer in Food Processing (Thermal Processing, Pasteurization & Sterilization)",
+                            "FDE 302: Mass Transfer & Separation Processes in Food Systems (Evaporation, Distillation & Extraction)",
+                            "FDE 303: Fluid Flow Operations in Food Plants (Viscous Fluids, Pumping & Hydraulic Transport)",
+                            "FDE 305: Food Physical Properties & Rheology (Viscoelasticity, Texture & Flow Behavior)",
+                            "ENG 301: Engineering Statistics, Probability & Experimental Design",
+                            "ENG 303: Electrical Machines & Instrumentation for Processing Plants",
+                            "ENT 312: Venture Creation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "FDE 304: Dehydration, Freezing & Cold Storage Engineering (Psychrometrics & Refrigeration Systems)",
+                            "FDE 306: Size Reduction, Mixing & Particulate Technology in Food Manufacturing",
+                            "FDE 308: Food Processing & Preservation Engineering Operations",
+                            "FDE 310: Food Engineering Laboratory I (Thermal Processing, Fluid Mechanics & Rheology)",
+                            "FDE 312: Students Work Experience Scheme I (SWEP / Pilot Plant Attachment & Sanitary Maintenance)",
+                            "GST 312: Peace Studies and Conflict Resolution"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "400 Level (Process Control, Plant Design, Packaging & 6-Month SIWES)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "FDE 401: Process Dynamics, Automation & Control in Food Plants",
+                            "FDE 402: Food Plant Design, Hygienic Design & Equipment Selection",
+                            "FDE 403: Food Packaging Technology & Materials Engineering (Barrier Properties, Active & Intelligent Packaging)",
+                            "FDE 404: Quality Assurance, HACCP, Food Safety & Sanitation Engineering",
+                            "FDE 405: Food Engineering Laboratory II (Unit Operations & Food Quality Analysis)",
+                            "ENG 401: Engineering Management, Economics & Law"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "FDE 499: Student Industrial Work Experience Scheme II (6-Month Industrial Attachment in Food Processing Companies, Breweries, Dairy Plants, FMCG Manufacturers, or Beverage Facilities)"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "500 Level (Advanced Unit Operations, Biotechnology, Waste Management & Capstone Thesis)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "FDE 501: Advanced Food Process Engineering (Novel Thermal & Non-Thermal Processing Technologies: Pulsed Electric Field, High-Pressure Processing, Ultrasound)",
+                            "FDE 503: Post-Harvest Engineering & Agricultural Product Processing",
+                            "FDE 505: Extrusion Technology & Cereal/Grain Processing Engineering",
+                            "FDE 507: Food Biotechnology, Fermentation Engineering & Bioprocesses",
+                            "FDE 509: Computer-Aided Food Process Simulation & Optimization (Aspen / MATLAB / COMSOL Multiphysics)",
+                            "FDE 597: Food Engineering Design Project I (Process Flowsheet Design, Mass/Energy Balances & Literature Review)"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "FDE 502: Food Plant Waste Management, By-Product Utilization & Environmental Safety",
+                            "FDE 504: Energy Management & Utility Systems in Food Processing Industries (Steam, Boilers & Clean Energy)",
+                            "FDE 506: Seminar on Contemporary Advances in Food Engineering & Global Food Security",
+                            "FDE 508: Engineering Professional Ethics & COREN Practice Regulations",
+                            "FDE 599: Food Engineering Design Project II (Detailed Equipment Mechanical Design, HAZOP Analysis, Feasibility Study & Thesis Defense)"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "Gas Engineering": {
+        degree: "B.Eng. / B.Sc. Gas Engineering",
+        levels: [
+            {
+                level: "100 Level (Engineering Foundations, Natural Sciences & Mathematics)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "ENG 101: Engineering Mathematics I (Calculus & Analytical Geometry)",
+                            "ENG 103: General Physics I (Mechanics, Thermal Physics & Waves)",
+                            "ENG 105: General Chemistry I (Inorganic & Physical Chemistry)",
+                            "ENG 107: Technical Drawing I (Descriptive Geometry & Geometrical Drawing)",
+                            "ENG 109: Introduction to Engineering & Engineering Profession",
+                            "GST 111: Communication in English Language",
+                            "AMS 103: Introduction to Computing & Information Technology"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "ENG 102: Engineering Mathematics II (Vector Algebra & Trigonometry)",
+                            "ENG 104: General Physics II (Electricity, Magnetism & Modern Physics)",
+                            "ENG 106: General Chemistry II (Organic Chemistry Basics & Electrochemistry)",
+                            "ENG 108: Technical Drawing II (Machine Drawing & CAD Foundations)",
+                            "ENG 110: Workshop Technology & Practice I",
+                            "HIS 101: History of Nigeria & West Africa",
+                            "GST 112: Nigerian Peoples and Culture"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "200 Level (Engineering Core, Physical Chemistry, Thermodynamics & Fluid Mechanics)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "ENG 201: Engineering Mathematics III (Differential Equations & Vector Calculus)",
+                            "ENG 203: Engineering Statics & Applied Mechanics",
+                            "ENG 205: Engineering Thermodynamics I (Real Gas Laws & Equations of State)",
+                            "ENG 207: Engineering Materials & Metallurgy",
+                            "ENG 209: Computer Programming for Engineers (Python / C / C++)",
+                            "GSE 201: Introduction to Gas Engineering & Energy Resources",
+                            "ENT 211: Entrepreneurship and Innovation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "ENG 202: Engineering Mathematics IV (Linear Algebra & Complex Variables)",
+                            "ENG 204: Physical Chemistry for Gas Engineers (Hydrocarbon Phase Behavior)",
+                            "ENG 206: Geology for Petroleum & Gas Engineers",
+                            "ENG 208: Fluid Mechanics I (Compressible & Incompressible Fluid Statics/Dynamics)",
+                            "ENG 210: Workshop Technology & Practice II (Piping, Valves & Fitting Workshop)",
+                            "GSE 202: Natural Gas Process Calculations & Material Balances",
+                            "GST 212: Philosophy, Logic, and Human Existence"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "300 Level (Reservoir Gas Dynamics, Gas Processing, Transport Phenomena & SWEP)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "GSE 301: Gas Reservoir Engineering I (Volumetric & Material Balance Equations)",
+                            "GSE 303: Natural Gas Hydrates & Flow Assurance",
+                            "GSE 305: Heat & Mass Transfer Operations in Gas Processing",
+                            "GSE 307: Compressed Natural Gas (CNG) & Gas Compressors Engineering",
+                            "ENG 301: Engineering Statistics, Probability & Numerical Analysis",
+                            "ENG 303: Electrical Machines & Instrumentation for Gas Plants",
+                            "ENT 312: Venture Creation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "GSE 302: Natural Gas Processing I (Dehydration, Sweetening & Acid Gas Removal)",
+                            "GSE 304: Natural Gas Well Testing & Deliverability Analysis",
+                            "GSE 306: Gas Hydraulics & Multiphase Flow in Pipelines",
+                            "GSE 308: Gas Engineering Laboratory I (Gas Properties, Viscosity & PVT Analysis)",
+                            "GSE 310: Students Work Experience Scheme I (SWEP / Gas Field & Processing Plant Attachment)",
+                            "GST 312: Peace Studies and Conflict Resolution"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "400 Level (LNG Engineering, Pipeline Network Design, Process Control & 6-Month SIWES)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "GSE 401: Liquefied Natural Gas (LNG) Engineering & Cryogenic Technologies",
+                            "GSE 402: Natural Gas Pipeline Design, Operations & Maintenance",
+                            "GSE 403: Natural Gas Processing II (NGL Recovery, Fractionation & Gas-to-Liquids / GTL)",
+                            "GSE 404: Process Control, Automation & Safety Systems in Gas Plants",
+                            "GSE 405: Gas Engineering Laboratory II (Cryogenics & Gas Chromatography Experiments)",
+                            "ENG 401: Engineering Management, Economics & Law"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "GSE 499: Student Industrial Work Experience Scheme II (6-Month Industrial Attachment in LNG Plants, Gas Processing Facilities, Pipeline Transmission Companies, NLNG, or Energy Exploration & Production Firms)"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "500 Level (Gas Monetization, Plant Design, Energy Transition & Capstone Thesis)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "GSE 501: Gas Plant Design, Feasibility Analysis & Economics",
+                            "GSE 503: Underground Gas Storage (UGS) & Cavern Engineering",
+                            "GSE 505: Gas Utilization & Power Generation (Gas Turbines & Combined Cycle Plants)",
+                            "GSE 507: Environmental Safety, Gas Flaring Reduction & Carbon Capture, Utilization & Storage (CCUS)",
+                            "GSE 509: Computer-Aided Gas Process Simulation (Aspen HYSYS / PIPESIM / Petrel / PVTsim)",
+                            "GSE 597: Gas Engineering Design Project I (Process Synthesis, Hydraulics & Literature Review)"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "GSE 502: Hydrogen Energy, Biogas & Renewable Gas Integration",
+                            "GSE 504: Gas Contracts, Monetization Policies & International Gas Laws",
+                            "GSE 506: Seminar on Contemporary Issues in Gas Engineering & Global Energy Security",
+                            "GSE 508: Engineering Professional Ethics & COREN Practice Regulations",
+                            "GSE 599: Gas Engineering Design Project II (Detailed Facility Design, Safety/HAZOP Review, Economic Evaluation & Thesis Defense)"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "Geomatics": {
+        degree: "B.Eng. / B.Sc. Geomatics",
+        levels: [
+            {
+                level: "100 Level (Engineering Foundations, Natural Sciences & Mathematics)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "ENG 101: Engineering Mathematics I (Calculus & Analytical Geometry)",
+                            "ENG 103: General Physics I (Mechanics, Thermal Physics & Waves)",
+                            "ENG 105: General Chemistry I (Inorganic & Physical Chemistry)",
+                            "ENG 107: Technical Drawing I (Descriptive Geometry & Geometrical Drawing)",
+                            "ENG 109: Introduction to Engineering & Geomatics Profession",
+                            "GST 111: Communication in English Language",
+                            "AMS 103: Introduction to Computing & Information Technology"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "ENG 102: Engineering Mathematics II (Vector Algebra & Trigonometry)",
+                            "ENG 104: General Physics II (Electricity, Magnetism & Modern Physics)",
+                            "ENG 106: General Chemistry II (Organic Chemistry Basics & Electrochemistry)",
+                            "ENG 108: Technical Drawing II (Machine Drawing & CAD Foundations)",
+                            "ENG 110: Workshop Technology & Practice I",
+                            "HIS 101: History of Nigeria & West Africa",
+                            "GST 112: Nigerian Peoples and Culture"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "200 Level (Basic Surveying, Map Projections, Computer Programming & Spatial Fundamentals)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "ENG 201: Engineering Mathematics III (Differential Equations & Vector Calculus)",
+                            "ENG 203: Engineering Statics & Applied Mechanics",
+                            "GMT 201: Principles of Surveying & Measurement Theory (Plane Surveying, Taping, Compass & Leveling)",
+                            "GMT 203: Map Projections, Coordinates Systems & Datum Transformations",
+                            "ENG 209: Computer Programming for Geospatial Applications (Python / C / C++)",
+                            "GMT 205: Physical Geology & Geomorphology for Surveyors",
+                            "ENT 211: Entrepreneurship and Innovation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "ENG 202: Engineering Mathematics IV (Linear Algebra & Matrix Methods)",
+                            "GMT 202: Traverse Surveying, Theodolite Work & Tachymetry",
+                            "GMT 204: Fundamentals of Geographic Information Systems (GIS Data Models & Vector/Raster Analytics)",
+                            "GMT 206: Survey Adjustment Computation I (Errors, Propagation & Least Squares Fundamentals)",
+                            "ENG 210: Field Practical Surveying I (Cadastral & Leveling Field Work)",
+                            "GST 212: Philosophy, Logic, and Human Existence"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "300 Level (Geodesy, Photogrammetry, GNSS, Remote Sensing & SWEP)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "GMT 301: Geodetic Astronomy & Satellite Geodesy Fundamentals",
+                            "GMT 303: Photogrammetry I (Analog Photogrammetry, Airphoto Interpretation & Parallax)",
+                            "GMT 305: Global Navigation Satellite Systems (GNSS / GPS Field Methods, RTK & Static Surveying)",
+                            "GMT 307: Remote Sensing I (Electromagnetic Spectrum, Sensors & Aerial Platforms)",
+                            "GMT 309: Survey Adjustment Computation II (Least Squares Adjustment, Condition & Parametric Equations)",
+                            "ENG 301: Engineering Statistics & Spatial Probability Distributions",
+                            "ENT 312: Venture Creation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "GMT 302: Control Surveying & Triangulation Networks",
+                            "GMT 304: Digital Photogrammetry & UAV / Drone Mapping Systems",
+                            "GMT 306: Spatial Databases & Advanced GIS Analysis (PostGIS, QGIS & ArcGIS Workflows)",
+                            "GMT 308: Hydrographic Surveying I (Echosounding, Bathymetry & Coastal Mapping)",
+                            "GMT 310: Surveying Field Practical II (Geodetic Control Survey Camp)",
+                            "GMT 312: Students Work Experience Scheme I (SWEP / Survey Field Camp)",
+                            "GST 312: Peace Studies and Conflict Resolution"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "400 Level (Engineering Surveying, Digital Terrain Modeling, Cadastral Law & 6-Month SIWES)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "GMT 401: Engineering Surveying & Route Design (Setting Out Curves, Earthwork Volumes & Tunnels)",
+                            "GMT 402: Cadastral Surveying, Land Administration & Land Law (Land Use Act & Title Surveys)",
+                            "GMT 403: Digital Elevation Modeling (DEM / DTM) & Airborne LiDAR Technology",
+                            "GMT 404: Terrestrial Laser Scanning (TLS) & 3D Point Cloud Processing",
+                            "GMT 405: Spatial Data Infrastructure (SDI) & Web GIS Applications",
+                            "ENG 401: Engineering Management, Project Economics & Professional Practice"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "GMT 499: Student Industrial Work Experience Scheme II (6-Month Industrial Attachment in Geospatial Consultancies, Surveying Firms, Offshore Hydrographic Companies, Highway Authorities, or GIS Agencies)"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "500 Level (Physical Geodesy, Advanced Hydrography, Geospatial Analytics & Capstone Thesis)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "GMT 501: Physical Geodesy & Gravimetry (Geoid Modeling, Gravity Anomaly & Earth's Shape)",
+                            "GMT 503: Advanced Remote Sensing & Digital Image Processing (Object-Based Classification & Multispectral Analytics)",
+                            "GMT 505: Hydrographic Surveying II & Offshore Geomatics (Positioning, Sonar Systems & Seabed Mapping)",
+                            "GMT 507: Deformation Monitoring Engineering (Structural, Dam, High-Rise & Landslide Monitoring)",
+                            "GMT 509: Geospatial Scripting & Custom Software Development (Python for GIS / ArcPy / GDAL / GeoPandas)",
+                            "GMT 597: Geomatics Design Project I (Methodology, Network Design, Pre-Analysis & Literature Review)"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "GMT 502: Smart Cities, Urban Geoinformatics & Building Information Modeling (BIM-GIS Integration)",
+                            "GMT 504: Land Information Management Systems (LIMS) & Real Estate Geomatics",
+                            "GMT 506: Seminar on Contemporary Issues in Geomatics Engineering & Spatial AI",
+                            "GMT 508: SURCON / COREN Professional Ethics, Laws & Licensing Regulations",
+                            "GMT 599: Geomatics Design Project II (Fieldwork Execution, Data Processing, Quality Control & Thesis Defense)"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "Industrial & Production Engineering": {
+        degree: "B.Eng. / B.Sc. Industrial & Production Engineering",
+        levels: [
+            {
+                level: "100 Level (Engineering Foundations, Natural Sciences & Mathematics)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "ENG 101: Engineering Mathematics I (Calculus & Analytical Geometry)",
+                            "ENG 103: General Physics I (Mechanics, Thermal Physics & Waves)",
+                            "ENG 105: General Chemistry I (Inorganic & Physical Chemistry)",
+                            "ENG 107: Technical Drawing I (Descriptive Geometry & Geometrical Drawing)",
+                            "ENG 109: Introduction to Engineering & Industrial Profession",
+                            "GST 111: Communication in English Language",
+                            "AMS 103: Introduction to Computing & Information Technology"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "ENG 102: Engineering Mathematics II (Vector Algebra & Trigonometry)",
+                            "ENG 104: General Physics II (Electricity, Magnetism & Modern Physics)",
+                            "ENG 106: General Chemistry II (Organic Chemistry Basics & Electrochemistry)",
+                            "ENG 108: Technical Drawing II (Machine Drawing & CAD Foundations)",
+                            "ENG 110: Workshop Technology & Practice I",
+                            "HIS 101: History of Nigeria & West Africa",
+                            "GST 112: Nigerian Peoples and Culture"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "200 Level (Engineering Mechanics, Materials, Manufacturing & Computer Programming)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "ENG 201: Engineering Mathematics III (Differential Equations & Vector Calculus)",
+                            "ENG 203: Engineering Statics & Vector Mechanics",
+                            "ENG 205: Engineering Thermodynamics I",
+                            "ENG 207: Engineering Materials & Metallurgy",
+                            "ENG 209: Computer Programming for Engineers (Python / C / C++)",
+                            "IPE 201: Introduction to Industrial & Production Engineering Systems",
+                            "ENT 211: Entrepreneurship and Innovation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "ENG 202: Engineering Mathematics IV (Linear Algebra & Complex Variables)",
+                            "ENG 204: Strength of Materials I (Stress, Strain & Deflection)",
+                            "ENG 208: Fluid Mechanics I (Fluid Dynamics & Hydraulics)",
+                            "ENG 210: Workshop Technology & Practice II (Machining, Welding, Casting & Sheet Metal Work)",
+                            "IPE 202: Industrial Work Study, Motion & Time Study Fundamentals",
+                            "IPE 204: Accounting, Costing & Financial Management for Engineers",
+                            "GST 212: Philosophy, Logic, and Human Existence"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "300 Level (Operations Research, Manufacturing Processes, Ergonomics & SWEP)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "IPE 301: Operations Research I (Linear Programming, Transportation & Network Models)",
+                            "IPE 302: Manufacturing Processes & Machine Tool Technology (Cutting Mechanics, Turning, Milling & Grinding)",
+                            "IPE 303: Ergonomics, Work Design & Human Factors Engineering",
+                            "IPE 305: Metrology, Precision Measurement & Quality Inspection",
+                            "ENG 301: Engineering Statistics, Probability & Quality Control Foundations",
+                            "ENG 303: Electrical Machines, Electronics & Drives for Automation",
+                            "ENT 312: Venture Creation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "IPE 304: Production Planning, Scheduling & Inventory Control Systems (MRP, JIT, Lean & Kanban)",
+                            "IPE 306: Facilities Design, Plant Layout & Material Handling Engineering",
+                            "IPE 308: Operations Research II (Queuing Theory, Markov Chains, Integer & Dynamic Programming)",
+                            "IPE 310: Industrial Engineering Laboratory I (Work Study, Ergonomics & Machine Tool Operations)",
+                            "IPE 312: Students Work Experience Scheme I (SWEP / Industrial Workshop Attachment)",
+                            "GST 312: Peace Studies and Conflict Resolution"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "400 Level (Statistical Quality Control, Automation, CAD/CAM & 6-Month SIWES)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "IPE 401: Statistical Process / Quality Control & Six Sigma Methodologies",
+                            "IPE 402: Computer-Aided Design & Computer-Aided Manufacturing (CAD/CAM & CNC Machining)",
+                            "IPE 403: Tool & Die Design, Jig & Fixture Engineering",
+                            "IPE 404: Supply Chain Engineering & Logistics Management",
+                            "IPE 405: Industrial Safety, Environmental Health & Hygiene Engineering",
+                            "ENG 401: Engineering Management, Economics, Project Valuation & Law"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "IPE 499: Student Industrial Work Experience Scheme II (6-Month Industrial Attachment in Automobile Plants, FMCG Manufacturing Facilities, Assembly Industries, Breweries, or Oil & Gas Refineries)"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "500 Level (Advanced Manufacturing, System Simulation, Robotics & Capstone Thesis)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "IPE 501: Advanced Operations Research & Industrial Systems Engineering",
+                            "IPE 502: Automated Manufacturing Systems, Robotics & Flexible Manufacturing Systems (FMS / Industry 4.0)",
+                            "IPE 503: Reliability Engineering, Maintenance Management & Equipment Failure Analysis",
+                            "IPE 505: Computer Simulation of Industrial Systems (Arena / Simio / AnyLogic)",
+                            "IPE 507: Concurrent Engineering & Product Design for Manufacturability (DFM / DFA)",
+                            "IPE 597: Production Engineering Design Project I (Methodology, System Formulation & Literature Review)"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "IPE 504: Advanced Casting, Polymer Processing & Non-Traditional Machining Technologies (EDM, ECM, Laser)",
+                            "IPE 506: Industrial Systems Management, Enterprise Resource Planning (ERP) & Technology Transfer",
+                            "IPE 508: Seminar on Contemporary Advances in Production Systems & Global Supply Chains",
+                            "IPE 510: Engineering Professional Ethics & COREN Practice Regulations",
+                            "IPE 599: Production Engineering Design Project II (Detailed System/Tool Design, Economic Evaluation, HAZOP Review & Thesis Defense)"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "Marine Engineering": {
+        degree: "B.Eng. / B.Sc. Marine Engineering",
+        levels: [
+            {
+                level: "100 Level (Engineering Foundations, Natural Sciences & Mathematics)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "ENG 101: Engineering Mathematics I (Calculus & Analytical Geometry)",
+                            "ENG 103: General Physics I (Mechanics, Thermal Physics & Waves)",
+                            "ENG 105: General Chemistry I (Inorganic & Physical Chemistry)",
+                            "ENG 107: Technical Drawing I (Descriptive Geometry & Geometrical Drawing)",
+                            "ENG 109: Introduction to Engineering & Marine Profession",
+                            "GST 111: Communication in English Language",
+                            "AMS 103: Introduction to Computing & Information Technology"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "ENG 102: Engineering Mathematics II (Vector Algebra & Trigonometry)",
+                            "ENG 104: General Physics II (Electricity, Magnetism & Modern Physics)",
+                            "ENG 106: General Chemistry II (Organic Chemistry Basics & Electrochemistry)",
+                            "ENG 108: Technical Drawing II (Machine Drawing & CAD Foundations)",
+                            "ENG 110: Workshop Technology & Practice I",
+                            "HIS 101: History of Nigeria & West Africa",
+                            "GST 112: Nigerian Peoples and Culture"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "200 Level (Naval Architecture Basics, Thermodynamics, Fluid Mechanics & Programming)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "ENG 201: Engineering Mathematics III (Differential Equations & Vector Calculus)",
+                            "ENG 203: Engineering Statics & Vector Mechanics",
+                            "ENG 205: Engineering Thermodynamics I (Applied Heat Engine Cycles)",
+                            "ENG 207: Marine Materials Science & Corrosion Engineering",
+                            "ENG 209: Computer Programming for Engineers (Python / C / C++)",
+                            "MRE 201: Introduction to Marine Engineering & Ship Types",
+                            "ENT 211: Entrepreneurship and Innovation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "ENG 202: Engineering Mathematics IV (Linear Algebra & Complex Variables)",
+                            "ENG 204: Strength of Materials I (Stress, Strain & Beams)",
+                            "ENG 208: Fluid Mechanics I (Hydrostatics & Fluid Dynamics)",
+                            "MRE 202: Fundamentals of Naval Architecture (Ship Geometry, Hydrostatics & Displacement)",
+                            "ENG 210: Workshop Technology & Practice II (Machining, Pipefitting & Welding Practice)",
+                            "MRE 204: Marine Safety, IMO Regulations & Sea Survival Principles",
+                            "GST 212: Philosophy, Logic, and Human Existence"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "300 Level (Marine Propulsion, Naval Architecture, Auxiliary Machinery & SWEP)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "MRE 301: Marine Diesel Engines I (2-Stroke & 4-Stroke Engine Principles, Combustion & Fuel Injection)",
+                            "MRE 303: Naval Architecture I (Ship Stability, Trim, Flotation & Damaged Stability)",
+                            "MRE 305: Marine Auxiliary Machinery I (Pumps, Compressors, Purifiers & Heat Exchangers)",
+                            "MRE 307: Applied Marine Fluid Mechanics & Hydraulics",
+                            "ENG 301: Engineering Statistics, Probability & Numerical Analysis",
+                            "ENG 303: Electrical Engineering & Marine Power Systems",
+                            "ENT 312: Venture Creation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "MRE 302: Marine Steam Systems & Gas Turbines (Boilers, Feedwater Treatment & Turbines)",
+                            "MRE 304: Ship Resistance, Propulsion & Propeller Design",
+                            "MRE 306: Marine Refrigeration, Air Conditioning & Environmental Control",
+                            "MRE 308: Marine Engineering Laboratory I (IC Engines, Hydrodynamics & Materials Testing)",
+                            "MRE 310: Students Work Experience Scheme I (SWEP / Dockyard & Workshop Attachment)",
+                            "GST 312: Peace Studies and Conflict Resolution"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "400 Level (Shipboard Automation, Offshore Structures, STCW Standards & 6-Month SIWES)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "MRE 401: Marine Control Engineering, Instrumentation & Automation",
+                            "MRE 402: Naval Architecture II (Ship Structures, Bending Moments & Vibration Analysis)",
+                            "MRE 403: Marine Power Electronics, High Voltage Systems & Electric Propulsion",
+                            "MRE 404: Offshore & Ocean Engineering Structures (Jack-ups, Semi-submersibles & FPSOs)",
+                            "MRE 405: Marine Electrical Systems & Engine Room Simulator Practice",
+                            "ENG 401: Engineering Management, Maritime Law, Economics & IMO Safety Conventions (MARPOL / SOLAS)"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "MRE 499: Student Industrial Work Experience Scheme II (6-Month Industrial Attachment / Sea-going Cadership / Dockyard & Shipyard Training at Maritime Agencies, Shipping Lines, or Offshore Firms)"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "500 Level (Advanced Marine Machinery, Ship Design, Maintenance & Capstone Thesis)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "MRE 501: Advanced Marine Diesel Engines II (Heavy Fuel Operations, Turbocharging & Emissions Control)",
+                            "MRE 503: Ship Shafting, Stern Tube Systems & Propeller Hydrodynamics",
+                            "MRE 505: Computer-Aided Ship Design & Machinery Plant Simulation (AutoCAD Marine / Maxsurf / Rhinoceros 3D / ANSYS)",
+                            "MRE 507: Marine Maintenance Engineering, Condition Monitoring & Tribology",
+                            "MRE 509: Maritime Safety, Firefighting & Risk Assessment Management",
+                            "MRE 597: Marine Engineering Design Project I (Preliminary Ship/Plant Design, Calculation & Literature Review)"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "MRE 502: Marine Machinery Plant Design, Feasibility & System Layout",
+                            "MRE 504: Dynamic Positioning (DP) Systems & Subsea Engineering Equipment",
+                            "MRE 506: Seminar on Contemporary Advances in Marine Engineering & Green Shipping Technologies (LNG Fuel, Ammonia & Hydrogen Vessels)",
+                            "MRE 508: Engineering Professional Ethics, NIMASA Regulations & COREN Practice Standards",
+                            "MRE 599: Marine Engineering Design Project II (Detailed Machinery Design, Safety Analysis, Economic Appraisal & Thesis Defense)"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "Materials & Metallurgical Engineering": {
+        degree: "B.Eng. / B.Sc. Materials & Metallurgical Engineering",
+        levels: [
+            {
+                level: "100 Level (Engineering Foundations, Natural Sciences & Mathematics)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "ENG 101: Engineering Mathematics I (Calculus & Analytical Geometry)",
+                            "ENG 103: General Physics I (Mechanics, Thermal Physics & Waves)",
+                            "ENG 105: General Chemistry I (Inorganic & Physical Chemistry)",
+                            "ENG 107: Technical Drawing I (Descriptive Geometry & Geometrical Drawing)",
+                            "ENG 109: Introduction to Engineering & Materials Profession",
+                            "GST 111: Communication in English Language",
+                            "AMS 103: Introduction to Computing & Information Technology"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "ENG 102: Engineering Mathematics II (Vector Algebra & Trigonometry)",
+                            "ENG 104: General Physics II (Electricity, Magnetism & Modern Physics)",
+                            "ENG 106: General Chemistry II (Organic Chemistry Basics & Electrochemistry)",
+                            "ENG 108: Technical Drawing II (Machine Drawing & CAD Foundations)",
+                            "ENG 110: Workshop Technology & Practice I",
+                            "HIS 101: History of Nigeria & West Africa",
+                            "GST 112: Nigerian Peoples and Culture"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "200 Level (Materials Fundamentals, Thermodynamics, Mineral Processing & Programming)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "ENG 201: Engineering Mathematics III (Differential Equations & Vector Calculus)",
+                            "ENG 203: Engineering Statics & Applied Mechanics",
+                            "ENG 205: Metallurgical Thermodynamics I (First & Second Laws, Ellingham Diagrams)",
+                            "ENG 207: Introduction to Materials Science & Crystal Structures",
+                            "ENG 209: Computer Programming for Engineers (Python / C / C++)",
+                            "MME 201: Mineral Processing & Ore Dressing Operations (Comminution & Flotation)",
+                            "ENT 211: Entrepreneurship and Innovation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "ENG 202: Engineering Mathematics IV (Linear Algebra & Complex Variables)",
+                            "ENG 204: Strength of Materials I (Stress, Strain & Mechanical Testing)",
+                            "MME 202: Metallurgical Thermodynamics II (Solutions, Free Energy & Phase Rule)",
+                            "MME 204: Physical Metallurgy I (Crystallography, Imperfections & Phase Diagrams)",
+                            "ENG 210: Workshop Technology & Practice II (Foundry, Welding & Machine Shop)",
+                            "MME 206: Chemical Metallurgy & Corrosion Basics",
+                            "GST 212: Philosophy, Logic, and Human Existence"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "300 Level (Phase Transformations, Mechanical Metallurgy, Extraction Processes & SWEP)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "MME 301: Physical Metallurgy II (Diffusion, Phase Transformations & Heat Treatment of Steels)",
+                            "MME 303: Mechanical Metallurgy I (Plasticity, Dislocations & Strengthening Mechanisms)",
+                            "MME 305: Extraction Metallurgy I (Ironmaking, Blast Furnace & Direct Reduced Iron / DRI)",
+                            "MME 307: Non-Metallic Materials I (Polymers, Elastomers & Polymer Processing)",
+                            "ENG 301: Engineering Statistics, Probability & Experimental Design",
+                            "ENG 303: Electrical Engineering & Instrumentation for Materials Testing",
+                            "ENT 312: Venture Creation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "MME 302: Extraction Metallurgy II (Steelmaking, BOF, EAF & Non-Ferrous Extraction: Al, Cu, Zn)",
+                            "MME 304: Foundry Engineering & Casting Processes (Gating Systems, Sand Casting & Die Casting)",
+                            "MME 306: Ceramics & Refractory Materials Engineering",
+                            "MME 308: Materials & Metallurgical Engineering Laboratory I (Metallography, Hardness & Tensile Testing)",
+                            "MME 310: Students Work Experience Scheme I (SWEP / Foundry & Industrial Attachment)",
+                            "GST 312: Peace Studies and Conflict Resolution"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "400 Level (Corrosion Engineering, Welding, Characterization & 6-Month SIWES)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "MME 401: Corrosion Engineering, Degradation & Cathodic Protection Systems",
+                            "MME 402: Mechanical Metallurgy II (Fatigue, Creep, Fracture Mechanics & NDT Methods)",
+                            "MME 403: Welding & Materials Joining Technology (Arc Welding, HAZ & Brazing)",
+                            "MME 404: Materials Characterization Techniques (SEM, XRD, TEM & Optical Microscopy)",
+                            "MME 405: Materials Selection & Engineering Design Methodology",
+                            "ENG 401: Engineering Management, Economics, Industrial Law & Safety"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "MME 499: Student Industrial Work Experience Scheme II (6-Month Industrial Attachment in Steel Rolling Mills, Foundries, Oil & Gas Pipeline Firms, Manufacturing Plants, or Mining Companies)"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "500 Level (Composite Materials, Powder Metallurgy, Advanced Alloys & Capstone Thesis)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "MME 501: Composite Materials Engineering (PMC, MMC, CMC & Fabrication Techniques)",
+                            "MME 503: Powder Metallurgy & Nanomaterials Engineering (Sintering, Additive Manufacturing / 3D Printing)",
+                            "MME 505: Advanced Alloy Systems (Superalloys, Titanium Alloys & High-Entropy Alloys)",
+                            "MME 507: Failure Analysis, Quality Assurance & Forensic Engineering",
+                            "MME 509: Computer-Aided Materials Modeling & Simulation (Thermo-Calc / COMSOL / MATLAB)",
+                            "MME 597: Materials Engineering Design Project I (Problem Definition, Material Selection & Literature Review)"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "MME 502: Surface Engineering, Thin Films & Modern Coating Technologies",
+                            "MME 504: Recycling, Waste Management & Sustainable Materials Processing",
+                            "MME 506: Seminar on Contemporary Advances in Materials Science & Emerging Technologies",
+                            "MME 508: Engineering Professional Ethics & COREN Practice Regulations",
+                            "MME 599: Materials Engineering Design Project II (Experimental Execution, Testing, Failure Analysis & Thesis Defense)"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "Mechanical Engineering": {
+        degree: "B.Eng. / B.Sc. Mechanical Engineering",
+        levels: [
+            {
+                level: "100 Level (Engineering Foundations, Natural Sciences & Mathematics)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "ENG 101: Engineering Mathematics I (Calculus & Analytical Geometry)",
+                            "ENG 103: General Physics I (Mechanics, Thermal Physics & Waves)",
+                            "ENG 105: General Chemistry I (Inorganic & Physical Chemistry)",
+                            "ENG 107: Technical Drawing I (Descriptive Geometry & Geometrical Drawing)",
+                            "ENG 109: Introduction to Engineering & Mechanical Engineering Profession",
+                            "GST 111: Communication in English Language",
+                            "AMS 103: Introduction to Computing & Information Technology"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "ENG 102: Engineering Mathematics II (Vector Algebra & Trigonometry)",
+                            "ENG 104: General Physics II (Electricity, Magnetism & Modern Physics)",
+                            "ENG 106: General Chemistry II (Organic Chemistry Basics & Electrochemistry)",
+                            "ENG 108: Technical Drawing II (Machine Drawing & CAD Foundations)",
+                            "ENG 110: Workshop Technology & Practice I",
+                            "HIS 101: History of Nigeria & West Africa",
+                            "GST 112: Nigerian Peoples and Culture"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "200 Level (Engineering Mechanics, Thermodynamics, Materials Science & Programming)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "ENG 201: Engineering Mathematics III (Differential Equations & Vector Calculus)",
+                            "ENG 203: Engineering Statics & Vector Mechanics",
+                            "MEE 201: Engineering Thermodynamics I (First & Second Laws, Gas Laws & Power Cycles)",
+                            "ENG 207: Engineering Materials Science & Metallurgy",
+                            "ENG 209: Computer Programming for Engineers (Python / C / C++)",
+                            "MEE 203: Manufacturing Technology I (Machining, Welding, Casting & Sheet Metal)",
+                            "ENT 211: Entrepreneurship and Innovation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "ENG 202: Engineering Mathematics IV (Linear Algebra & Complex Variables)",
+                            "MEE 202: Strength of Materials I (Stress, Strain, Torsion & Bending Moments)",
+                            "MEE 204: Fluid Mechanics I (Fluid Statics, Hydrodynamics & Bernoulli’s Principle)",
+                            "MEE 206: Engineering Dynamics (Kinematics & Kinetics of Particles and Rigid Bodies)",
+                            "ENG 210: Workshop Technology & Practice II (Machine Shop Practice, Fitting & Welding)",
+                            "MEE 208: Applied Thermodynamics II (Steam Cycles, Boilers & Combustion)",
+                            "GST 212: Philosophy, Logic, and Human Existence"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "300 Level (Heat Transfer, Machine Design, Fluid Power & SWEP)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "MEE 301: Heat & Mass Transfer (Conduction, Convective Heat Transfer & Radiation)",
+                            "MEE 303: Machine Design I (Design of Fasteners, Shafts, Couplings, Keys & Springs)",
+                            "MEE 305: Theory of Machines I (Kinematic Chains, Linkages, Cams & Gears)",
+                            "MEE 307: Fluid Mechanics II (Viscous Flow, Boundary Layers & Dimensional Analysis)",
+                            "ENG 301: Engineering Statistics, Numerical Analysis & Experimental Design",
+                            "ENG 303: Basic Electrical Engineering & Electronics for Mechanical Systems",
+                            "ENT 312: Venture Creation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "MEE 302: Internal Combustion Engines (Otto/Diesel Cycles, Performance & Emissions)",
+                            "MEE 304: Strength of Materials II (Complex Stresses, Deflections, Columns & Pressure Vessels)",
+                            "MEE 306: Refrigeration & Air Conditioning Systems (Psychrometrics & Vapor Compression)",
+                            "MEE 308: Mechanical Engineering Laboratory I (Thermal, Fluid & Material Testing Experiments)",
+                            "MEE 310: Students Work Experience Scheme I (SWEP / Mechanical Workshop Attachment)",
+                            "GST 312: Peace Studies and Conflict Resolution"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "400 Level (Control Systems, CAD/CAM, Power Plants & 6-Month SIWES)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "MEE 401: Control Systems Engineering & Mechanical Instrumentation",
+                            "MEE 402: Computer-Aided Design & Manufacturing (CAD/CAM & CNC Machining)",
+                            "MEE 403: Theory of Machines II (Vibrations, Balancing & Governors)",
+                            "MEE 404: Machine Design II (Design of Bearings, Gears, Belts, Brakes & Clutches)",
+                            "MEE 405: Fluid Machinery & Hydraulic Power Systems (Pumps, Turbines & Hydraulics)",
+                            "ENG 401: Engineering Management, Economics, Valuation & Law"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "MEE 499: Student Industrial Work Experience Scheme II (6-Month Industrial Attachment in Manufacturing Plants, Energy Companies, Automotive Assemblies, Refineries, or Engineering Consultancies)"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "500 Level (Power Plant Engineering, Mechatronics, Advanced Thermodynamics & Capstone Thesis)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "MEE 501: Power Plant Engineering (Thermal, Gas Turbine, Hydroelectric & Nuclear Plants)",
+                            "MEE 503: Mechatronics, Robotics & Automated Manufacturing Systems",
+                            "MEE 505: Advanced Thermodynamics & Energy Conversion Systems",
+                            "MEE 507: Computational Fluid Dynamics (CFD) & Finite Element Analysis (FEA / ANSYS / SolidWorks)",
+                            "MEE 509: Industrial Safety, Maintenance Engineering & Tribology (Lubrication & Wear)",
+                            "MEE 597: Mechanical Engineering Design Project I (Methodology, Calculations, Drawings & Literature Review)"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "MEE 502: Renewable Energy Systems (Solar, Wind, Biomass & Energy Management)",
+                            "MEE 504: Building Services Engineering (HVAC Design, Piping & Fire Protection Systems)",
+                            "MEE 506: Seminar on Contemporary Advances in Mechanical Engineering",
+                            "MEE 508: Engineering Professional Ethics & COREN Practice Regulations",
+                            "MEE 599: Mechanical Engineering Design Project II (Detailed System Construction/Simulation, Testing, Economic Appraisal & Thesis Defense)"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "Mechatronics Engineering": {
+        degree: "B.Eng. / B.Sc. Mechatronics Engineering",
+        levels: [
+            {
+                level: "100 Level (Engineering Foundations, Natural Sciences & Mathematics)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "ENG 101: Engineering Mathematics I (Calculus & Analytical Geometry)",
+                            "ENG 103: General Physics I (Mechanics, Thermal Physics & Waves)",
+                            "ENG 105: General Chemistry I (Inorganic & Physical Chemistry)",
+                            "ENG 107: Technical Drawing I (Descriptive Geometry & Geometrical Drawing)",
+                            "ENG 109: Introduction to Engineering & Mechatronics Profession",
+                            "GST 111: Communication in English Language",
+                            "AMS 103: Introduction to Computing & Information Technology"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "ENG 102: Engineering Mathematics II (Vector Algebra & Trigonometry)",
+                            "ENG 104: General Physics II (Electricity, Magnetism & Modern Physics)",
+                            "ENG 106: General Chemistry II (Organic Chemistry Basics & Electrochemistry)",
+                            "ENG 108: Technical Drawing II (Machine Drawing & CAD Foundations)",
+                            "ENG 110: Workshop Technology & Practice I",
+                            "HIS 101: History of Nigeria & West Africa",
+                            "GST 112: Nigerian Peoples and Culture"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "200 Level (Mechanics, Circuit Analysis, Programming & Solid State Electronics)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "ENG 201: Engineering Mathematics III (Differential Equations & Vector Calculus)",
+                            "ENG 203: Engineering Statics & Vector Mechanics",
+                            "MCT 201: Electric Circuit Theory I (DC/AC Network Analysis & Theorems)",
+                            "ENG 207: Engineering Materials Science & Metallurgy",
+                            "ENG 209: Computer Programming for Engineers (C / C++ / Python)",
+                            "MCT 203: Fundamentals of Mechatronics Systems",
+                            "ENT 211: Entrepreneurship and Innovation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "ENG 202: Engineering Mathematics IV (Linear Algebra & Complex Variables)",
+                            "ENG 204: Strength of Materials I (Stress, Strain & Deflection)",
+                            "MCT 202: Electronic Circuits & Analog Devices (Diodes, Transistors & Op-Amps)",
+                            "MCT 204: Engineering Dynamics & Kinematics",
+                            "ENG 210: Workshop Technology & Practice II (Machining, Wiring & Fitting)",
+                            "MCT 206: Digital Logic Design & Boolean Algebra",
+                            "GST 212: Philosophy, Logic, and Human Existence"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "300 Level (Sensors, Microcontrollers, Fluid Power, Control Systems & SWEP)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "MCT 301: Sensors, Transducers & Signal Conditioning",
+                            "MCT 303: Microprocessors, Microcontrollers & Embedded Systems (Assembly & C Programming)",
+                            "MCT 305: Mechanical System Design & Machine Elements (Shafts, Gears & Linkages)",
+                            "MCT 307: Fluid Mechanics & Pneumatic/Hydraulic Control Systems",
+                            "ENG 301: Engineering Statistics, Probability & Numerical Methods",
+                            "MCT 309: Power Electronics & Electrical Machines (DC/AC Motors & Stepper Motors)",
+                            "ENT 312: Venture Creation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "MCT 302: Control Engineering I (Classical Control Theory, Transfer Functions & Root Locus)",
+                            "MCT 304: Programmable Logic Controllers (PLCs) & Industrial Automation",
+                            "MCT 306: Modeling & Simulation of Mechatronic Systems (MATLAB / Simulink)",
+                            "MCT 308: Applied Thermodynamics & Heat Transfer for Mechatronics",
+                            "MCT 310: Mechatronics Engineering Laboratory I (Robotics, PLCs & Microcontroller Projects)",
+                            "MCT 312: Students Work Experience Scheme I (SWEP / Industrial Workshop Attachment)",
+                            "GST 312: Peace Studies and Conflict Resolution"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "400 Level (Robotics, Industrial Automation, SCADA & 6-Month SIWES)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "MCT 401: Industrial Robotics Engineering (Kinematics, Dynamics & Path Planning)",
+                            "MCT 402: Computer-Aided Design & Computer-Aided Manufacturing (CAD/CAM & CNC Integration)",
+                            "MCT 403: Control Engineering II (State-Space Analysis, Modern Control & PID Tuning)",
+                            "MCT 404: Industrial Data Communications, Fieldbus Systems & SCADA",
+                            "MCT 405: Instrumentation & Process Automation",
+                            "ENG 401: Engineering Management, Economics, Project Valuation & Law"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "MCT 499: Student Industrial Work Experience Scheme II (6-Month Industrial Attachment in Automated Manufacturing, Automotive Plants, Oil & Gas Instrumentation, Robotics Laboratories, or Tech Hardware Firms)"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "500 Level (Advanced Robotics, AI/Machine Vision, Cyber-Physical Systems & Capstone Thesis)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "MCT 501: Advanced Robotics & Autonomous Systems (ROS, SLAM & Mobile Robots)",
+                            "MCT 503: Machine Vision & Digital Image Processing for Automation",
+                            "MCT 505: Artificial Intelligence & Machine Learning in Mechatronics",
+                            "MCT 507: Micro-Electro-Mechanical Systems (MEMS) & Nanotechnology",
+                            "MCT 509: Industrial Safety, Maintenance Engineering & Reliability",
+                            "MCT 597: Mechatronics Engineering Design Project I (System Architecture, Circuit Design & Literature Review)"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "MCT 502: Cyber-Physical Systems, Industrial IoT (IIoT) & Industry 4.0",
+                            "MCT 504: Embedded System Design & Real-Time Operating Systems (RTOS)",
+                            "MCT 506: Seminar on Contemporary Advances in Mechatronics & Automation",
+                            "MCT 508: Engineering Professional Ethics & COREN Practice Regulations",
+                            "MCT 599: Mechatronics Engineering Design Project II (Hardware/Software Prototyping, Testing, Economic Appraisal & Thesis Defense)"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "Mining Engineering": {
+        degree: "B.Eng. / B.Sc. Mining Engineering",
+        levels: [
+            {
+                level: "100 Level (Engineering Foundations, Natural Sciences & Mathematics)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "ENG 101: Engineering Mathematics I (Calculus & Analytical Geometry)",
+                            "ENG 103: General Physics I (Mechanics, Thermal Physics & Waves)",
+                            "ENG 105: General Chemistry I (Inorganic & Physical Chemistry)",
+                            "ENG 107: Technical Drawing I (Descriptive Geometry & Geometrical Drawing)",
+                            "ENG 109: Introduction to Engineering & Mining Profession",
+                            "GST 111: Communication in English Language",
+                            "AMS 103: Introduction to Computing & Information Technology"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "ENG 102: Engineering Mathematics II (Vector Algebra & Trigonometry)",
+                            "ENG 104: General Physics II (Electricity, Magnetism & Modern Physics)",
+                            "ENG 106: General Chemistry II (Organic Chemistry Basics & Electrochemistry)",
+                            "ENG 108: Technical Drawing II (Machine Drawing & CAD Foundations)",
+                            "ENG 110: Workshop Technology & Practice I",
+                            "HIS 101: History of Nigeria & West Africa",
+                            "GST 112: Nigerian Peoples and Culture"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "200 Level (Geology Basics, Engineering Mechanics, Fluid Mechanics & Programming)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "ENG 201: Engineering Mathematics III (Differential Equations & Vector Calculus)",
+                            "ENG 203: Engineering Statics & Applied Mechanics",
+                            "ENG 205: Engineering Thermodynamics I",
+                            "MNG 201: General Geology & Mineralogy for Mining Engineers",
+                            "ENG 209: Computer Programming for Engineers (Python / C / C++)",
+                            "MNG 203: Principles of Mining & Prospecting",
+                            "ENT 211: Entrepreneurship and Innovation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "ENG 202: Engineering Mathematics IV (Linear Algebra & Complex Variables)",
+                            "ENG 204: Strength of Materials I (Stress, Strain & Rock Testing Intro)",
+                            "ENG 208: Fluid Mechanics I (Hydrostatics & Pipe Hydraulics)",
+                            "MNG 202: Structural Geology & Stratigraphy",
+                            "MNG 204: Mine Surveying I (Surface Surveying, Topographic Mapping & Leveling)",
+                            "ENG 210: Workshop Technology & Practice II (Machine Shop & Fabrication)",
+                            "GST 212: Philosophy, Logic, and Human Existence"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "300 Level (Rock Mechanics, Surface/Underground Mining, Mineral Processing & SWEP)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "MNG 301: Rock Mechanics I (Physical & Mechanical Properties of Rocks, Stress Analysis)",
+                            "MNG 302: Surface Mining Methods (Open Pit, Quarrying, Dredging & Placer Mining)",
+                            "MNG 303: Underground Mining Methods (Room-and-Pillar, Stoping, Longwall & Shaft Sinking)",
+                            "MNG 305: Mineral Processing I (Comminution, Crushing, Grinding & Size Separation)",
+                            "MNG 307: Mine Surveying II (Underground Tunnel Correlation, Gyro-Surveying & GIS)",
+                            "ENG 301: Engineering Statistics, Probability & Numerical Methods",
+                            "ENT 312: Venture Creation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "MNG 304: Drilling and Blasting Technology (Explosives, Detonators & Blast Pattern Design)",
+                            "MNG 306: Mine Machinery, Equipment & Materials Handling Systems (Conveyors, Haulers & Hoisting)",
+                            "MNG 308: Mineral Processing II (Gravity Separation, Flotation, Magnetic & Electrostatic Beneficiation)",
+                            "MNG 310: Mining Engineering Laboratory I (Rock Testing, Mineral Dressings & Assaying)",
+                            "MNG 312: Students Work Experience Scheme I (SWEP / Geological Field Camp & Mine Attachment)",
+                            "GST 312: Peace Studies and Conflict Resolution"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "400 Level (Mine Ventilation, Mine Safety, Geostatistics & 6-Month SIWES)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "MNG 401: Mine Ventilation Engineering, Dust & Gas Control",
+                            "MNG 402: Rock Mechanics II (Strata Control, Slope Stability & Tunnel Support Design)",
+                            "MNG 403: Mine Safety, Health, Rescue Operations & Environmental Engineering",
+                            "MNG 404: Resource Reserve Estimation, Orebody Modeling & Geostatistics",
+                            "MNG 405: Mine Drainage, Dewatering & Hydraulics",
+                            "ENG 401: Engineering Management, Mining Laws, Mineral Policy & Economics"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "MNG 499: Student Industrial Work Experience Scheme II (6-Month Industrial Attachment in Quarrying Operations, Gold/Coal/Iron Ore Mines, Cement Factories, or Mineral Exploration Firms)"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "500 Level (Mine Design, Advanced Rock Engineering, Economics & Capstone Thesis)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "MNG 501: Mine Planning, Optimization & Computer-Aided Mine Design (Datamine / Surpac / Vulcan)",
+                            "MNG 503: Advanced Rock Mechanics, Excavation Engineering & Ground Control",
+                            "MNG 505: Feasibility Studies, Mine Valuation & Financial Risk Analysis",
+                            "MNG 507: Environmental Impact Assessment (EIA), Mine Reclamation & Closure",
+                            "MNG 509: Quarries & Construction Materials Engineering",
+                            "MNG 597: Mining Engineering Design Project I (Site Selection, Reserve Evaluation & Literature Review)"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "MNG 502: Sustainable Mining, Artisanal & Small-Scale Mining (ASM) Management",
+                            "MNG 504: Advanced Mineral Economics, Global Commodity Markets & Project Finance",
+                            "MNG 506: Seminar on Contemporary Advances in Green Mining & Automation Technologies",
+                            "MNG 508: Engineering Professional Ethics, COMEG Regulations & COREN Practice Standards",
+                            "MNG 599: Mining Engineering Design Project II (Detailed Mine Feasibility Layout, Equipment Selection, Safety/HAZOP Evaluation & Thesis Defense)"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "Naval Architecture & Marine Engineering": {
+        degree: "B.Eng. / B.Sc. Naval Architecture & Marine Engineering",
+        levels: [
+            {
+                level: "100 Level (Engineering Foundations, Natural Sciences & Mathematics)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "ENG 101: Engineering Mathematics I (Calculus & Analytical Geometry)",
+                            "ENG 103: General Physics I (Mechanics, Thermal Physics & Waves)",
+                            "ENG 105: General Chemistry I (Inorganic & Physical Chemistry)",
+                            "ENG 107: Technical Drawing I (Descriptive Geometry & Geometrical Drawing)",
+                            "ENG 109: Introduction to Engineering & Maritime Profession",
+                            "GST 111: Communication in English Language",
+                            "AMS 103: Introduction to Computing & Information Technology"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "ENG 102: Engineering Mathematics II (Vector Algebra & Trigonometry)",
+                            "ENG 104: General Physics II (Electricity, Magnetism & Modern Physics)",
+                            "ENG 106: General Chemistry II (Organic Chemistry Basics & Electrochemistry)",
+                            "ENG 108: Technical Drawing II (Machine Drawing & Ship Fairing Intro)",
+                            "ENG 110: Workshop Technology & Practice I",
+                            "HIS 101: History of Nigeria & West Africa",
+                            "GST 112: Nigerian Peoples and Culture"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "200 Level (Ship Geometry, Statics, Thermodynamics & Computer Programming)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "ENG 201: Engineering Mathematics III (Differential Equations & Vector Calculus)",
+                            "ENG 203: Engineering Statics & Vector Mechanics",
+                            "ENG 205: Engineering Thermodynamics I (Heat Engines & Power Cycles)",
+                            "ENG 207: Marine Materials Science, Metallurgy & Corrosion",
+                            "ENG 209: Computer Programming for Engineers (Python / C / C++)",
+                            "NAME 201: Introduction to Naval Architecture & Ship Nomenclature",
+                            "ENT 211: Entrepreneurship and Innovation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "ENG 202: Engineering Mathematics IV (Linear Algebra & Complex Variables)",
+                            "ENG 204: Strength of Materials I (Stress, Strain & Beams)",
+                            "ENG 208: Fluid Mechanics I (Hydrostatics & Pipe Flow)",
+                            "NAME 202: Ship Geometry & Lines Drawing (Fairing, Form Coefficients & Displacement Curves)",
+                            "ENG 210: Workshop Technology & Practice II (Plate Work, Welding & Machine Shop)",
+                            "NAME 204: Marine Safety, SOLAS/MARPOL Regulations & Sea Survival",
+                            "GST 212: Philosophy, Logic, and Human Existence"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "300 Level (Ship Hydrostatics, Propulsion, Marine Power Plants & SWEP)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "NAME 301: Ship Hydrostatics & Intact Stability (Bonjean Curves, Metacentric Height, Heel & Trim)",
+                            "NAME 303: Marine Diesel Engines & IC Engines (2-Stroke/4-Stroke Cycles, Fuel Systems & Scavenging)",
+                            "NAME 305: Marine Hydrodynamics I (Viscous Flow, Wave Mechanics & Potential Flow)",
+                            "NAME 307: Marine Auxiliary Machinery (Pumps, Heat Exchangers, Compressors & Oily Water Separators)",
+                            "ENG 301: Engineering Statistics, Numerical Methods & Experimental Analysis",
+                            "ENG 303: Electrical Engineering & Marine Power Systems",
+                            "ENT 312: Venture Creation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "NAME 302: Damaged Stability, Flooding & Compartmentation",
+                            "NAME 304: Ship Resistance & Propulsion (Model Testing, Propeller Geometry & Cavitation)",
+                            "NAME 306: Marine Steam Systems & Gas Turbines (Marine Boilers, Steam Turbines & Combined Plants)",
+                            "NAME 308: Marine & Naval Architecture Laboratory I (Towing Tank Testing, Engine Trials & Stability Labs)",
+                            "NAME 310: Students Work Experience Scheme I (SWEP / Dockyard & Shipyard Workshop Attachment)",
+                            "GST 312: Peace Studies and Conflict Resolution"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "400 Level (Ship Structures, Seakeeping, Automation & 6-Month SIWES)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "NAME 401: Ship Structures I (Longitudinal Strength, Bending Moments, Girder Theory & Finite Element Analysis)",
+                            "NAME 402: Ship Seakeeping & Maneuvering (Wave Motion, Rolling, Pitching, Rudder Hydrodynamics & Steering)",
+                            "NAME 403: Marine Control Systems, Instrumentation & Engine Room Automation",
+                            "NAME 404: Offshore Structures & Dynamic Positioning (Jack-ups, Semi-Submersibles, FPSOs & DP Systems)",
+                            "NAME 405: Computer-Aided Ship Design (CAD/CAM with Maxsurf, Rhinoceros 3D & AutoCAD Marine)",
+                            "ENG 401: Engineering Management, Maritime Economics, Port Logistics & Law"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "NAME 499: Student Industrial Work Experience Scheme II (6-Month Industrial Attachment in Shipyards, Naval Dockyards, Offshore Drilling Platforms, Classification Societies like ABS/DNV/Lloyds, or Maritime Agencies)"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "500 Level (Comprehensive Ship Design, Ship Production, Vibration & Capstone Thesis)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "NAME 501: Advanced Ship Design Methodology (Preliminary Design Spiral, Weight Estimation & General Arrangement)",
+                            "NAME 502: Ship Structures II (Buckling, Ultimate Strength, Fatigue & Vibration Analysis)",
+                            "NAME 503: Ship Production, Drydocking & Shipyard Management (Plate Cutting, Block Assembly & Outfit Planning)",
+                            "NAME 505: Subsea Engineering, Pipelines & Risers",
+                            "NAME 507: High-Speed Craft & Special Marine Vehicles (Hydrofoils, Hovercraft & Catamarans)",
+                            "NAME 597: Naval Architecture & Marine Design Project I (Vessel Concept, Mission Specification, Hull Lines Fairing & Hydrostatics)"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "NAME 504: Green Shipping Technologies, Decarbonization & Alternative Marine Fuels (LNG, Ammonia, Methanol & Fuel Cells)",
+                            "NAME 506: Maritime Safety Management, Risk Assessment & Classification Society Rules",
+                            "NAME 508: Seminar on Contemporary Advances in Naval Architecture & Marine Engineering",
+                            "NAME 510: Engineering Professional Ethics, NIMASA Directives & COREN Practice Regulations",
+                            "NAME 599: Naval Architecture & Marine Design Project II (Detailed Machinery Layout, Structural Drawings, Stability Booklet, Economic Feasibility & Defense)"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "Nuclear Engineering": {
+        degree: "B.Eng. / B.Sc. Nuclear Engineering",
+        levels: [
+            {
+                level: "100 Level (Engineering Foundations, Natural Sciences & Mathematics)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "ENG 101: Engineering Mathematics I (Calculus & Analytical Geometry)",
+                            "ENG 103: General Physics I (Mechanics, Thermal Physics & Waves)",
+                            "ENG 105: General Chemistry I (Inorganic & Physical Chemistry)",
+                            "ENG 107: Technical Drawing I (Descriptive Geometry & Geometrical Drawing)",
+                            "ENG 109: Introduction to Engineering & Nuclear Profession",
+                            "GST 111: Communication in English Language",
+                            "AMS 103: Introduction to Computing & Information Technology"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "ENG 102: Engineering Mathematics II (Vector Algebra & Trigonometry)",
+                            "ENG 104: General Physics II (Electricity, Magnetism & Modern Physics)",
+                            "ENG 106: General Chemistry II (Organic Chemistry Basics & Electrochemistry)",
+                            "ENG 108: Technical Drawing II (Machine Drawing & CAD Foundations)",
+                            "ENG 110: Workshop Technology & Practice I",
+                            "HIS 101: History of Nigeria & West Africa",
+                            "GST 112: Nigerian Peoples and Culture"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "200 Level (Atomic Physics, Thermodynamics, Materials & Programming)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "ENG 201: Engineering Mathematics III (Differential Equations & Vector Calculus)",
+                            "ENG 203: Engineering Statics & Vector Mechanics",
+                            "ENG 205: Engineering Thermodynamics I (Heat Engine Cycles)",
+                            "NUE 201: Fundamentals of Atomic & Nuclear Physics",
+                            "ENG 207: Materials Science for Nuclear Applications",
+                            "ENG 209: Computer Programming for Engineers (Python / C / C++)",
+                            "ENT 211: Entrepreneurship and Innovation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "ENG 202: Engineering Mathematics IV (Linear Algebra & Complex Variables)",
+                            "ENG 204: Strength of Materials I (Stress, Strain & Pressure Vessels)",
+                            "ENG 208: Fluid Mechanics I (Hydrostatics & Fluid Dynamics)",
+                            "NUE 202: Introduction to Radiation & Radioactivity Measurement",
+                            "NUE 204: Nuclear Reaction Kinematics & Cross-Sections",
+                            "ENG 210: Workshop Technology & Practice II (Machining, Pipefitting & Fabrication)",
+                            "GST 212: Philosophy, Logic, and Human Existence"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "300 Level (Reactor Physics, Thermal Hydraulics, Radiation Protection & SWEP)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "NUE 301: Introduction to Nuclear Reactor Theory (Neutron Diffusion & Slowing Down)",
+                            "NUE 303: Radiation Protection, Shielding & Dosimetry",
+                            "NUE 305: Nuclear Thermal Hydraulics I (Conductive & Convective Heat Transfer in Reactors)",
+                            "NUE 307: Nuclear Electronics & Radiation Detection Instrumentation",
+                            "ENG 301: Engineering Statistics, Probability & Numerical Analysis",
+                            "ENG 303: Electrical Machines & Control Engineering Basics",
+                            "ENT 312: Venture Creation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "NUE 302: Nuclear Reactor Kinetics & Dynamics (Point Kinetics Equations & Control Rods)",
+                            "NUE 304: Nuclear Fuel Cycle & Materials Engineering (Uranium Mining, Enrichment & Cladding)",
+                            "NUE 306: Nuclear Thermal Hydraulics II (Two-Phase Flow & Boiling Heat Transfer)",
+                            "NUE 308: Nuclear Engineering Laboratory I (Radiation Detection, Counting Statistics & Heat Transfer)",
+                            "NUE 310: Students Work Experience Scheme I (SWEP / Research Reactor & Workshop Attachment)",
+                            "GST 312: Peace Studies and Conflict Resolution"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "400 Level (Reactor Analysis, Nuclear Safety, Waste Management & 6-Month SIWES)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "NUE 401: Nuclear Reactor Analysis & Code Calculations (MCNP / Serpent / SCALE)",
+                            "NUE 402: Nuclear Power Plant Systems & Engineering (PWR, BWR, CANDU & SMRs)",
+                            "NUE 403: Radioactive Waste Management, Storage & Decommissioning",
+                            "NUE 404: Nuclear Safety, Severe Accident Analysis & Risk Assessment (PRA / PSA)",
+                            "NUE 405: Radiation Applications in Industry, Agriculture & Medicine",
+                            "ENG 401: Engineering Management, Economics, Project Valuation & Law"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "NUE 499: Student Industrial Work Experience Scheme II (6-Month Industrial Attachment at Energy Centers, Research Reactors, Radiotherapy Centers, NAEC Facilities, or Thermal Power Stations)"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "500 Level (Advanced Reactor Design, Fusion Engineering, Policy & Capstone Thesis)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "NUE 501: Advanced Reactor Physics & Computational Transport Theory",
+                            "NUE 502: Generation IV Reactor Concepts & Small Modular Reactors (SMRs)",
+                            "NUE 503: Plasma Physics & Thermonuclear Fusion Engineering",
+                            "NUE 505: Nuclear Non-Proliferation, Safeguards & International Security (IAEA Frameworks)",
+                            "NUE 507: Nuclear Power Plant Control, Automation & Instrumentation",
+                            "NUE 597: Nuclear Engineering Design Project I (Core Design, Neutronic Calculation & Literature Review)"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "NUE 504: Structural Materials Behavior Under Radiation (Swelling, Creep & Embrittlement)",
+                            "NUE 506: Seminar on Contemporary Advances in Nuclear Technology & Energy Transition",
+                            "NUE 508: Engineering Professional Ethics, NNRA Safety Regulations & COREN Practice Standards",
+                            "NUE 510: Nuclear Facility Feasibility & Environmental Impact Assessment (EIA)",
+                            "NUE 599: Nuclear Engineering Design Project II (Detailed Reactor Safety/Thermal Layout, Shielding Optimization & Thesis Defense)"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "Petroleum Engineering": {
+        degree: "B.Eng. / B.Sc. Petroleum Engineering",
+        levels: [
+            {
+                level: "100 Level (Engineering Foundations, Natural Sciences & Mathematics)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "ENG 101: Engineering Mathematics I (Calculus & Analytical Geometry)",
+                            "ENG 103: General Physics I (Mechanics, Thermal Physics & Waves)",
+                            "ENG 105: General Chemistry I (Inorganic & Physical Chemistry)",
+                            "ENG 107: Technical Drawing I (Descriptive Geometry & Geometrical Drawing)",
+                            "ENG 109: Introduction to Engineering & Petroleum Industry",
+                            "GST 111: Communication in English Language",
+                            "AMS 103: Introduction to Computing & Information Technology"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "ENG 102: Engineering Mathematics II (Vector Algebra & Trigonometry)",
+                            "ENG 104: General Physics II (Electricity, Magnetism & Modern Physics)",
+                            "ENG 106: General Chemistry II (Organic Chemistry Basics & Electrochemistry)",
+                            "ENG 108: Technical Drawing II (Machine Drawing & CAD Foundations)",
+                            "ENG 110: Workshop Technology & Practice I",
+                            "HIS 101: History of Nigeria & West Africa",
+                            "GST 112: Nigerian Peoples and Culture"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "200 Level (Petroleum Geology, Fluid Mechanics, Thermodynamics & Programming)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "ENG 201: Engineering Mathematics III (Differential Equations & Vector Calculus)",
+                            "ENG 203: Engineering Statics & Vector Mechanics",
+                            "ENG 205: Engineering Thermodynamics I (Gas Laws & Energy Equations)",
+                            "PET 201: Physical & Petroleum Geology (Sedimentology & Stratigraphy)",
+                            "ENG 207: Engineering Materials Science & Corrosion",
+                            "ENG 209: Computer Programming for Engineers (Python / C / C++)",
+                            "ENT 211: Entrepreneurship and Innovation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "ENG 202: Engineering Mathematics IV (Linear Algebra & Complex Variables)",
+                            "ENG 204: Strength of Materials I (Stress, Strain & Pipe Mechanics)",
+                            "ENG 208: Fluid Mechanics I (Hydrostatics & Pipe Flow Hydraulics)",
+                            "PET 202: Introduction to Petroleum Engineering & Subsurface Systems",
+                            "PET 204: Hydrocarbon Chemistry & Phase Thermodynamics (PVT Analysis)",
+                            "ENG 210: Workshop Technology & Practice II (Machine Shop & Pipe Fitting)",
+                            "GST 212: Philosophy, Logic, and Human Existence"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "300 Level (Drilling Engineering, Reservoir Physics, Well Logging & SWEP)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "PET 301: Reservoir Engineering I (Rock & Fluid Properties, Porosity, Permeability & Saturation)",
+                            "PET 303: Drilling Engineering I (Drilling Hydraulics, Mud Chemistry, Bits & Rig Components)",
+                            "PET 305: Petroleum Production Engineering I (Well Outflow, Lift Methods & Surface Separation)",
+                            "PET 307: Well Logging & Formation Evaluation (Resistivity, Gamma, Neutron & Density Logs)",
+                            "ENG 301: Engineering Statistics, Probability & Numerical Methods",
+                            "ENG 303: Basic Electrical Engineering & Instrumentation for Petroleum Plants",
+                            "ENT 312: Venture Creation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "PET 302: Reservoir Engineering II (Material Balance Equations & Drive Mechanisms)",
+                            "PET 304: Drilling Engineering II (Casing Design, Cementing, Well Control & Directional Drilling)",
+                            "PET 306: Natural Gas Engineering (Gas Well Testing, Processing, Compression & LNG)",
+                            "PET 308: Petroleum Engineering Laboratory I (Drilling Mud Labs, Core Analysis & PVT Testing)",
+                            "PET 310: Students Work Experience Scheme I (SWEP / Geological Field Trip & Workshop Attachment)",
+                            "GST 312: Peace Studies and Conflict Resolution"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "400 Level (Well Testing, Enhanced Oil Recovery, Reservoir Simulation & 6-Month SIWES)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "PET 401: Well Test Analysis & Pressure Transient Analysis (Buildup, Drawdown & Interference)",
+                            "PET 402: Enhanced Oil Recovery (EOR / IOR Methodologies: Thermal, Chemical & Gas Injection)",
+                            "PET 403: Petroleum Production Engineering II (Acidizing, Hydraulic Fracturing & Workover)",
+                            "PET 404: Reservoir Simulation & Subsurface Modeling (ECLIPSE / PETREL / CMG)",
+                            "PET 405: Offshore Operations & Subsea Production Systems",
+                            "ENG 401: Engineering Management, Petroleum Economics, Valuation & Law (PIA Provisions)"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "PET 499: Student Industrial Work Experience Scheme II (6-Month Industrial Attachment in Upstream IOCs/NOCs, Oilfield Service Companies, Drilling Contractors, or Refineries)"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "500 Level (Integrated Reservoir Management, Pipeline Engineering, Safety & Capstone Thesis)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "PET 501: Integrated Reservoir Management & Field Development Planning (FDP)",
+                            "PET 503: Pipeline & Transport Engineering (Multi-Phase Flow, Gathering Networks & Flow Assurance)",
+                            "PET 505: Environmental Engineering, Health, Safety & Waste Management (EIA, Oil Spill Remediation & Flare Reduction)",
+                            "PET 507: Unconventional Hydrocarbon Reservoirs (Shale Gas, Tight Oil & Coalbed Methane)",
+                            "PET 509: Computer-Aided Petroleum Production Optimization (Prosper / MBAL / GAP)",
+                            "PET 597: Petroleum Engineering Design Project I (Field Selection, Data Gathering & Literature Review)"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "PET 502: Decarbonization, Carbon Capture Utilization & Storage (CCUS) & Energy Transition",
+                            "PET 504: Advanced Petroleum Economics, Risk Analysis & Contractual Frameworks (JVs & PSCs)",
+                            "PET 506: Seminar on Contemporary Advances in Upstream Petroleum Technology",
+                            "PET 508: Engineering Professional Ethics & COREN Practice Regulations",
+                            "PET 599: Petroleum Engineering Design Project II (Detailed Field Development Design, Economics, HAZOP & Thesis Defense)"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "Polymer & Textile Engineering": {
+        degree: "B.Eng. / B.Sc. Polymer & Textile Engineering",
+        levels: [
+            {
+                level: "100 Level (Engineering Foundations, Natural Sciences & Mathematics)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "ENG 101: Engineering Mathematics I (Calculus & Analytical Geometry)",
+                            "ENG 103: General Physics I (Mechanics, Thermal Physics & Waves)",
+                            "ENG 105: General Chemistry I (Inorganic & Physical Chemistry)",
+                            "ENG 107: Technical Drawing I (Descriptive Geometry & Geometrical Drawing)",
+                            "ENG 109: Introduction to Polymer & Textile Engineering Profession",
+                            "GST 111: Communication in English Language",
+                            "AMS 103: Introduction to Computing & Information Technology"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "ENG 102: Engineering Mathematics II (Vector Algebra & Trigonometry)",
+                            "ENG 104: General Physics II (Electricity, Magnetism & Modern Physics)",
+                            "ENG 106: General Chemistry II (Organic Chemistry Basics & Electrochemistry)",
+                            "ENG 108: Technical Drawing II (Machine Drawing & CAD Foundations)",
+                            "ENG 110: Workshop Technology & Practice I",
+                            "HIS 101: History of Nigeria & West Africa",
+                            "GST 112: Nigerian Peoples and Culture"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "200 Level (Organic Chemistry, Thermodynamics, Materials & Programming)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "ENG 201: Engineering Mathematics III (Differential Equations & Vector Calculus)",
+                            "ENG 203: Engineering Statics & Vector Mechanics",
+                            "ENG 205: Engineering Thermodynamics I (Gas Laws & Energy Balance)",
+                            "PTE 201: Organic Chemistry for Polymer & Textile Engineers",
+                            "ENG 207: Materials Science & Structure of Solids",
+                            "ENG 209: Computer Programming for Engineers (Python / C / C++)",
+                            "ENT 211: Entrepreneurship and Innovation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "ENG 202: Engineering Mathematics IV (Linear Algebra & Complex Variables)",
+                            "ENG 204: Strength of Materials I (Stress, Strain & Viscoelasticity Intro)",
+                            "ENG 208: Fluid Mechanics I (Hydrostatics & Non-Newtonian Flow Intro)",
+                            "PTE 202: Introduction to Polymer Science & Polymerization Kinetics",
+                            "PTE 204: Natural & Synthetic Fiber Science & Identification",
+                            "ENG 210: Workshop Technology & Practice II (Machining, Moulding & Fabrication)",
+                            "GST 212: Philosophy, Logic, and Human Existence"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "300 Level (Polymer Synthesis, Fiber Spinning, Fabric Manufacture & SWEP)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "PTE 301: Polymer Chemistry & Synthesis (Addition, Condensation & Coordination Polymerization)",
+                            "PTE 302: Fiber Extrusion & Spinning Technology (Melt, Wet & Dry Spinning Methods)",
+                            "PTE 303: Yarn Production Technology (Carding, Combing, Drawing & Ring/Open-End Spinning)",
+                            "PTE 305: Polymer Physics, Morphology & Characterization (DSC, TGA, XRD & Rheology)",
+                            "PTE 307: Fabric Manufacture I (Weaving Preparatory, Loom Mechanics & Knit Structures)",
+                            "ENG 301: Engineering Statistics, Probability & Numerical Analysis",
+                            "ENT 312: Venture Creation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "PTE 304: Polymer Processing Technology (Extrusion, Injection Moulding, Blow Moulding & Thermoforming)",
+                            "PTE 306: Chemical Processing of Textiles I (Scouring, Bleaching, Mercerization & Pre-treatment)",
+                            "PTE 308: Rubber Technology, Elastomers & Vulcanization Chemistry",
+                            "PTE 310: Polymer & Textile Engineering Laboratory I (Fiber Testing, Polymer Characterization & Dyeing Labs)",
+                            "PTE 312: Students Work Experience Scheme I (SWEP / Textile Mill & Polymer Plant Attachment)",
+                            "GST 312: Peace Studies and Conflict Resolution"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "400 Level (Textile Dyeing/Finishing, Composites, Quality Control & 6-Month SIWES)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "PTE 401: Coloration & Textile Dyeing Technology (Acid, Reactive, Disperse & Direct Dyes)",
+                            "PTE 402: Polymer Composites Engineering & Blends (Fiber-Reinforced Plastics, Matrix Selection & Interface)",
+                            "PTE 403: Chemical Processing of Textiles II (Textile Printing, Finishing & Functional Coatings)",
+                            "PTE 404: Physical Testing, Quality Control & Standards for Polymers & Textiles (ISO / ASTM Methods)",
+                            "PTE 405: Nonwoven Fabrics & Technical Textiles (Geotextiles, Medical & Protective Fabrics)",
+                            "ENG 401: Engineering Management, Plant Layout, Economics & Industrial Law"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "PTE 499: Student Industrial Work Experience Scheme II (6-Month Industrial Attachment in Petrochemical Plants, Plastics Manufacturing, Synthetic Fiber Plants, Textile Mills, Packaging Industries, or Automotive Polymer Facilities)"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "500 Level (Advanced Processing, Polymer Rheology, Eco-Textiles & Capstone Thesis)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "PTE 501: Applied Polymer Rheology & Mould/Die Design",
+                            "PTE 502: Advanced Textile Mechanics & Structural Mechanics of Yarns and Fabrics",
+                            "PTE 503: Nanotechnology & Smart Polymers/Interactive Textiles",
+                            "PTE 505: Industrial Environmental Engineering, Waste Recycling & Sustainable Polymer Chemistry",
+                            "PTE 507: Plant Design, Process Economics & Equipment Selection for Polymer & Textile Mills",
+                            "PTE 597: Polymer & Textile Engineering Design Project I (Material Selection, Experimental Protocol & Literature Review)"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "PTE 504: Biodegradable Polymers, Bio-based Synthetic Fibers & Circular Economy",
+                            "PTE 506: Seminar on Contemporary Advances in Functional Polymers & High-Performance Fibers",
+                            "PTE 508: Engineering Professional Ethics, PIN Regulations & COREN Practice Standards",
+                            "PTE 510: Entrepreneurship & Product Development in Plastics, Rubber & Fashion Tech",
+                            "PTE 599: Polymer & Textile Engineering Design Project II (Detailed Process Design, Experimental Validation, Quality Analysis & Thesis Defense)"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "Structural Engineering": {
+        degree: "B.Eng. / B.Sc. Structural Engineering",
+        levels: [
+            {
+                level: "100 Level (Engineering Foundations, Natural Sciences & Mathematics)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "ENG 101: Engineering Mathematics I (Calculus & Analytical Geometry)",
+                            "ENG 103: General Physics I (Mechanics, Thermal Physics & Waves)",
+                            "ENG 105: General Chemistry I (Inorganic & Physical Chemistry)",
+                            "ENG 107: Technical Drawing I (Descriptive Geometry & Geometrical Drawing)",
+                            "ENG 109: Introduction to Engineering & Structural Profession",
+                            "GST 111: Communication in English Language",
+                            "AMS 103: Introduction to Computing & Information Technology"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "ENG 102: Engineering Mathematics II (Vector Algebra & Trigonometry)",
+                            "ENG 104: General Physics II (Electricity, Magnetism & Modern Physics)",
+                            "ENG 106: General Chemistry II (Organic Chemistry Basics & Electrochemistry)",
+                            "ENG 108: Technical Drawing II (Machine & Building Drawing Foundations)",
+                            "ENG 110: Workshop Technology & Practice I",
+                            "HIS 101: History of Nigeria & West Africa",
+                            "GST 112: Nigerian Peoples and Culture"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "200 Level (Mechanics, Materials, Structural Geology & Programming)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "ENG 201: Engineering Mathematics III (Differential Equations & Vector Calculus)",
+                            "ENG 203: Engineering Statics & Vector Mechanics",
+                            "STE 201: Structural Geology & Soil Mechanics Intro",
+                            "ENG 207: Civil & Structural Engineering Materials (Concrete, Steel, Timber & Masonry)",
+                            "ENG 209: Computer Programming for Engineers (Python / C / C++)",
+                            "STE 203: Engineering Surveying & Levelling",
+                            "ENT 211: Entrepreneurship and Innovation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "ENG 202: Engineering Mathematics IV (Linear Algebra & Complex Variables)",
+                            "ENG 204: Mechanics of Deformable Bodies / Strength of Materials I (Stress, Strain, Torsion & Bending)",
+                            "ENG 208: Fluid Mechanics & Hydraulics",
+                            "STE 202: Engineering Graphics & Building CAD Detailing (AutoCAD / Revit Structure)",
+                            "ENG 210: Workshop Technology & Practice II (Formwork, Rebar Bending & Fabrication)",
+                            "STE 204: Construction Technology & Building Systems",
+                            "GST 212: Philosophy, Logic, and Human Existence"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "300 Level (Determinate Structures, Reinforced Concrete, Steel Design & SWEP)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "STE 301: Structural Analysis I (Determinate Trusses, Beams, Frames & Deflections)",
+                            "STE 303: Design of Reinforced Concrete Structures I (Beams, One-way/Two-way Slabs & Columns to Eurocode 2 / BS 8110)",
+                            "STE 305: Geotechnical Engineering I (Soil Classification, Permeability, Seepage & Shear Strength)",
+                            "STE 307: Structural Steel Design I (Tension/Compression Members, Beams & Connections to Eurocode 3 / BS 5950)",
+                            "ENG 301: Engineering Statistics, Probability & Numerical Analysis",
+                            "ENG 303: Principles of Architecture & Building Environmental Services",
+                            "ENT 312: Venture Creation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "STE 302: Structural Analysis II (Indeterminate Structures, Slope-Deflection & Moment Distribution Methods)",
+                            "STE 304: Design of Reinforced Concrete Structures II (Flat Slabs, Retaining Walls, Foundations & Staircases)",
+                            "STE 306: Design of Timber and Masonry Structures",
+                            "STE 308: Structural Engineering Laboratory I (Non-Destructive Concrete Testing, Rebar Tensile Testing & Soil Testing)",
+                            "STE 310: Students Work Experience Scheme I (SWEP / Structural Field Site & Rebar Yard Attachment)",
+                            "GST 312: Peace Studies and Conflict Resolution"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "400 Level (Matrix Structural Analysis, Prestressed Concrete, Foundations & 6-Month SIWES)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "STE 401: Structural Analysis III (Matrix Methods, Stiffness/Flexibility Techniques & Finite Element Foundations)",
+                            "STE 402: Prestressed Concrete Design (Pre-tensioning, Post-tensioning & Loss Analysis)",
+                            "STE 403: Foundation Engineering (Shallow Footings, Raft Foundations & Deep Pile Foundations)",
+                            "STE 404: Structural Steel Design II (Plate Girders, Portal Frames & Composite Construction)",
+                            "STE 405: Computer-Aided Structural Design & Analysis (ProtaStructure / STAAD Pro / ETABS)",
+                            "ENG 401: Engineering Management, Civil Engineering Contracts, Specifications & Cost Estimation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "STE 499: Student Industrial Work Experience Scheme II (6-Month Industrial Attachment in Structural Engineering Consultancies, High-Rise Construction Projects, Civil Engineering Contractors, or Bridge Infrastructure Firms)"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "500 Level (Advanced Structural Analysis, Dynamics, Bridge Engineering & Capstone Thesis)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "STE 501: Advanced Structural Analysis & Plastic Design of Frames",
+                            "STE 502: Structural Dynamics, Wind & Earthquake Engineering",
+                            "STE 503: Bridge Engineering & Highway Structural Systems",
+                            "STE 505: Structural Reliability, Safety Factors & Forensic Structural Engineering",
+                            "STE 507: Structural Repair, Retrofitting & Rehabilitation of Reinforced Concrete Structures",
+                            "STE 597: Structural Engineering Design Project I (Structural Conceptualization, Load Take-off, Architectural Coordination & Literature Review)"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "STE 504: Advanced Concrete Technology, High-Performance Concrete & Sustainable Construction",
+                            "STE 506: Seminar on Contemporary Advances in Smart Structures, Tall Buildings & Structural Health Monitoring",
+                            "STE 508: Engineering Professional Ethics, NIStructE Regulations & COREN Practice Standards",
+                            "STE 510: Structural Fire Engineering & Blast Resistant Design",
+                            "STE 599: Structural Engineering Design Project II (Complete Structural Calculations, Detailed Rebar Schedules, Structural CAD Drawings, FEA Verification & Defense)"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "Systems Engineering": {
+        degree: "B.Eng. / B.Sc. Systems Engineering",
+        levels: [
+            {
+                level: "100 Level (Engineering Foundations, Natural Sciences & Mathematics)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "ENG 101: Engineering Mathematics I (Calculus & Analytical Geometry)",
+                            "ENG 103: General Physics I (Mechanics, Thermal Physics & Waves)",
+                            "ENG 105: General Chemistry I (Inorganic & Physical Chemistry)",
+                            "ENG 107: Technical Drawing I (Descriptive Geometry & Geometrical Drawing)",
+                            "ENG 109: Introduction to Engineering & Systems Profession",
+                            "GST 111: Communication in English Language",
+                            "AMS 103: Introduction to Computing & Information Technology"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "ENG 102: Engineering Mathematics II (Vector Algebra & Trigonometry)",
+                            "ENG 104: General Physics II (Electricity, Magnetism & Modern Physics)",
+                            "ENG 106: General Chemistry II (Organic Chemistry Basics & Electrochemistry)",
+                            "ENG 108: Technical Drawing II (Machine Drawing & CAD Foundations)",
+                            "ENG 110: Workshop Technology & Practice I",
+                            "HIS 101: History of Nigeria & West Africa",
+                            "GST 112: Nigerian Peoples and Culture"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "200 Level (Circuit Theory, Mechanics, Applied Thermodynamics & Object-Oriented Programming)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "ENG 201: Engineering Mathematics III (Differential Equations & Vector Calculus)",
+                            "ENG 203: Engineering Statics & Applied Mechanics",
+                            "ENG 205: Engineering Thermodynamics I (Power Cycles & Energy Balance)",
+                            "SEN 201: Fundamentals of Systems Engineering & Systems Thinking",
+                            "ENG 207: Materials Science for Systems Engineers",
+                            "ENG 209: Computer Programming for Engineers (Python / C / C++)",
+                            "ENT 211: Entrepreneurship and Innovation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "ENG 202: Engineering Mathematics IV (Linear Algebra & Complex Variables)",
+                            "ENG 204: Strength of Materials I (Stress, Strain & Mechanical Components)",
+                            "ENG 206: Electric Circuit Theory I (DC/AC Circuits & Network Theorems)",
+                            "SEN 202: Object-Oriented Programming & Data Structures (Python / Java / C++)",
+                            "ENG 208: Fluid Mechanics I (Hydrostatics & Pipe Hydraulics)",
+                            "ENG 210: Workshop Technology & Practice II (Electronics Assembly & Machining)",
+                            "GST 212: Philosophy, Logic, and Human Existence"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "300 Level (Control Systems, Signal Processing, Operations Research & SWEP)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "SEN 301: Continuous & Discrete Control Systems Engineering",
+                            "SEN 303: Signals, Systems Analysis & Digital Signal Processing (DSP)",
+                            "SEN 305: Operations Research I (Linear Programming, Network Flow & Transportation Models)",
+                            "SEN 307: Digital Logic Design & Microprocessor Architecture",
+                            "SEN 309: System Dynamics, Modeling & Simulation I (MATLAB / Simulink)",
+                            "ENG 301: Engineering Statistics, Probability & Stochastic Processes",
+                            "ENT 312: Venture Creation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "SEN 302: Advanced Control Engineering & State Space Analysis",
+                            "SEN 304: Operations Research II (Dynamic Programming, Queuing Theory & Inventory Models)",
+                            "SEN 306: Embedded Systems, Mechatronics & Robotics Engineering",
+                            "SEN 308: Database Management Systems & Information Systems Architecture",
+                            "SEN 310: Systems & Control Engineering Laboratory I",
+                            "SEN 312: Students Work Experience Scheme I (SWEP / Embedded Systems & Control Workshop Attachment)",
+                            "GST 312: Peace Studies and Conflict Resolution"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "400 Level (System Architecture, Human Factors, Machine Learning & 6-Month SIWES)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "SEN 401: Systems Architecture, Requirements Engineering & Lifecycle Management (SysML / UML)",
+                            "SEN 402: Human Factors Engineering & Ergonomics",
+                            "SEN 403: Machine Learning, Artificial Intelligence & Pattern Recognition for Systems Engineers",
+                            "SEN 404: Computer Networks, Distributed Systems & IoT Architecture",
+                            "SEN 405: Reliability, Maintainability & Risk Analysis",
+                            "ENG 401: Engineering Management, Systems Economics, Valuation & Law"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "SEN 499: Student Industrial Work Experience Scheme II (6-Month Industrial Attachment in Automation Firms, Telecom Networks, Software Engineering Labs, Robotic Systems Integration, or Industrial Processing Facilities)"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "500 Level (Optimization, Automation, Autonomous Systems & Capstone Thesis)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "SEN 501: Large-Scale Systems Optimization & Decision Analysis",
+                            "SEN 503: Industrial Automation, SCADA Systems & Programmable Logic Controllers (PLCs)",
+                            "SEN 505: Cyber-Physical Systems & Autonomous Systems Engineering (Robotics & Drones)",
+                            "SEN 507: Software Engineering, Systems Testing & Verification Methods",
+                            "SEN 509: System Safety, Security Engineering & Cyber-Security Frameworks",
+                            "SEN 597: Systems Engineering Design Project I (Problem Formulation, Architecture Design & Literature Review)"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "SEN 502: Smart Grids, Enterprise Systems & Supply Chain Engineering",
+                            "SEN 504: Seminar on Contemporary Advances in Systems Engineering, AI & Automation",
+                            "SEN 506: Engineering Professional Ethics, INCOSE Guidelines & COREN Practice Standards",
+                            "SEN 508: System Synthesis & Integrated Product Development",
+                            "SEN 599: Systems Engineering Design Project II (Detailed System Simulation, Hardware/Software Prototype Integration, Testing & Defense)"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "Water Resources & Environmental Engineering": {
+        degree: "B.Eng. / B.Sc. Water Resources & Environmental Engineering",
+        levels: [
+            {
+                level: "100 Level (Engineering Foundations, Natural Sciences & Mathematics)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "ENG 101: Engineering Mathematics I (Calculus & Analytical Geometry)",
+                            "ENG 103: General Physics I (Mechanics, Thermal Physics & Waves)",
+                            "ENG 105: General Chemistry I (Inorganic & Physical Chemistry)",
+                            "ENG 107: Technical Drawing I (Descriptive Geometry & Geometrical Drawing)",
+                            "ENG 109: Introduction to Engineering & Environmental Profession",
+                            "GST 111: Communication in English Language",
+                            "AMS 103: Introduction to Computing & Information Technology"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "ENG 102: Engineering Mathematics II (Vector Algebra & Trigonometry)",
+                            "ENG 104: General Physics II (Electricity, Magnetism & Modern Physics)",
+                            "ENG 106: General Chemistry II (Organic Chemistry Basics & Electrochemistry)",
+                            "ENG 108: Technical Drawing II (Machine Drawing & CAD Foundations)",
+                            "ENG 110: Workshop Technology & Practice I",
+                            "HIS 101: History of Nigeria & West Africa",
+                            "GST 112: Nigerian Peoples and Culture"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "200 Level (Fluid Mechanics, Environmental Chemistry, Surveying & Programming)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "ENG 201: Engineering Mathematics III (Differential Equations & Vector Calculus)",
+                            "ENG 203: Engineering Statics & Applied Mechanics",
+                            "ENG 205: Engineering Thermodynamics I (Properties of Pure Substances & Energy Balance)",
+                            "WRE 201: Environmental Chemistry & Microbiology for Engineers",
+                            "ENG 207: Materials Science for Civil & Environmental Infrastructure",
+                            "ENG 209: Computer Programming for Engineers (Python / C / C++)",
+                            "ENT 211: Entrepreneurship and Innovation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "ENG 202: Engineering Mathematics IV (Linear Algebra & Complex Variables)",
+                            "ENG 204: Strength of Materials I (Stress, Strain & Beams)",
+                            "ENG 208: Fluid Mechanics I (Hydrostatics, Kinematics & Pipe Flow)",
+                            "WRE 202: Engineering Surveying & Geomatics (Levelling, Topography & GIS Intro)",
+                            "WRE 204: Geology & Soil Mechanics for Environmental Engineers",
+                            "ENG 210: Workshop Technology & Practice II (Pipe Fitting & Metal Fabrication)",
+                            "GST 212: Philosophy, Logic, and Human Existence"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "300 Level (Hydrology, Open Channel Flow, Water Treatment & SWEP)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "WRE 301: Engineering Hydrology I (Hydrologic Cycle, Precipitation, Evapotranspiration & Runoff)",
+                            "WRE 303: Fluid Mechanics II & Hydraulics (Dimensional Analysis, Open Channel Flow & Pumps)",
+                            "WRE 305: Water Supply & Treatment Engineering (Coagulation, Flocculation, Sedimentation & Filtration)",
+                            "WRE 307: Soil Mechanics & Foundation Engineering",
+                            "ENG 301: Engineering Statistics, Probability & Numerical Analysis",
+                            "ENG 303: Basic Electrical Engineering & Hydraulic Machinery Control",
+                            "ENT 312: Venture Creation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "WRE 302: Wastewater Engineering & Sewerage System Design (Primary, Secondary & Tertiary Treatment)",
+                            "WRE 304: Hydrogeology & Groundwater Engineering (Well Hydraulics, Aquifer Testing & Contamination)",
+                            "WRE 306: Hydraulic Structures I (Dams, Spillways, Weirs & Intakes)",
+                            "WRE 308: Water & Environmental Engineering Laboratory I (Water Quality Assaying, Jar Testing & Hydraulic Flumes)",
+                            "WRE 310: Students Work Experience Scheme I (SWEP / Water Treatment Plant & Surveying Camp Attachment)",
+                            "GST 312: Peace Studies and Conflict Resolution"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "400 Level (River Engineering, Irrigation, Air Pollution & 6-Month SIWES)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "WRE 401: River Engineering, Flood Control & Coastal Protection",
+                            "WRE 402: Irrigation & Drainage Engineering (Evapotranspiration, Canal Design & Drip/Sprinkler Systems)",
+                            "WRE 403: Solid Waste Management, Hazardous Waste & Landfill Engineering",
+                            "WRE 404: Air Pollution Control & Noise Engineering",
+                            "WRE 405: Computer Applications in Water Resources (EPANET / HEC-RAS / SWMM / MODFLOW)",
+                            "ENG 401: Engineering Management, Environmental Law, Water Policies & Economics"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "WRE 499: Student Industrial Work Experience Scheme II (6-Month Industrial Attachment in State Water Boards, River Basin Development Authorities, Environmental Consultancies, Dam Construction Facilities, or Waste Management Agencies)"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "500 Level (Integrated Water Resources, EIA, Advanced Hydraulics & Capstone Thesis)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "WRE 501: Integrated Water Resources Management (IWRM) & Watershed Modeling",
+                            "WRE 503: Environmental Impact Assessment (EIA), Auditing & Risk Management",
+                            "WRE 505: Advanced Hydraulic Structures & Dam Engineering",
+                            "WRE 507: Climate Change, Water Security & Adaptation Strategies",
+                            "WRE 509: Industrial Wastewater Treatment & Process Pollution Prevention",
+                            "WRE 597: Water Resources & Environmental Design Project I (Site Selection, Data Collection & Literature Review)"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "WRE 502: GIS & Remote Sensing Applications in Environmental Systems",
+                            "WRE 504: Seminar on Contemporary Advances in Water & Environmental Engineering",
+                            "WRE 506: Engineering Professional Ethics, NSE/NIEE Guidelines & COREN Practice Standards",
+                            "WRE 508: Sustainable Water Infrastructure & Decentralized Treatment Systems",
+                            "WRE 599: Water Resources & Environmental Design Project II (Detailed Engineering Design, Hydraulic Modeling, Costing, EIA & Thesis Defense)"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "Building Technology / Building": {
+        degree: "B.Sc. Building Technology / Building",
+        levels: [
+            {
+                level: "100 Level (Environmental Sciences Foundations, Applied Sciences & Mathematics)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "BLD 101: Introduction to Building Profession & Built Environment",
+                            "MTH 101: Elementary Mathematics I (Algebra & Trigonometry)",
+                            "PHY 101: General Physics I (Mechanics & Thermal Physics)",
+                            "CHM 101: General Chemistry I (Inorganic & Physical Chemistry)",
+                            "SVG 101: Basic Surveying for Environmental Sciences",
+                            "ARC 101: Freehand Drawing & Architectural Graphics I",
+                            "GST 111: Communication in English Language",
+                            "AMS 103: Introduction to Computing & Information Technology"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "BLD 102: Building Construction I (Site Preparation, Foundations & Basic Brickwork)",
+                            "MTH 102: Elementary Mathematics II (Calculus & Analytical Geometry)",
+                            "PHY 102: General Physics II (Electricity, Magnetism & Optics)",
+                            "ARC 102: Architectural Graphics II & Descriptive Geometry",
+                            "HIS 101: History of Nigeria & West Africa",
+                            "GST 112: Nigerian Peoples and Culture"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "200 Level (Construction Technology, Building Materials, Structures & Surveying)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "BLD 201: Building Construction II (Walls, Floors, Openings & Lintels)",
+                            "BLD 203: Building Materials I (Properties & Testing of Timber, Cement, Aggregates & Bricks)",
+                            "BLD 205: Principles of Structural Mechanics & Statics",
+                            "SVG 201: Land Surveying & Site Setting-Out",
+                            "CSC 201: Computer Applications in Building Technology (AutoCAD Intro)",
+                            "ENT 211: Entrepreneurship and Innovation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "BLD 202: Building Construction III (Roofs, Stairs, Doors & Windows)",
+                            "BLD 204: Building Materials II (Metals, Plastics, Glass, Paints & Composites)",
+                            "BLD 206: Strength of Materials I (Stress, Strain, Bending & Shear in Structural Members)",
+                            "BLD 208: Building Services I (Water Supply, Drainage & Plumbing Systems)",
+                            "BLD 210: Measurement of Building Works I (Principles of Quantity Surveying & Take-Off)",
+                            "GST 212: Philosophy, Logic, and Human Existence"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "300 Level (Advanced Construction, Reinforced Concrete, Building Services & SWEP)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "BLD 301: Building Construction IV (Multi-Story Construction, Formwork & Scaffolding)",
+                            "BLD 303: Structural Analysis I (Determinate & Indeterminate Structural Systems)",
+                            "BLD 305: Reinforced Concrete Design I (Beams, Slabs & Columns to Eurocode 2 / BS 8110)",
+                            "BLD 307: Building Services II (Electrical Installations, Lighting & Air Conditioning)",
+                            "BLD 309: Soil Mechanics & Foundation Engineering",
+                            "BLD 311: Measurement of Building Works II (Bill of Quantities Preparation)",
+                            "ENT 312: Venture Creation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "BLD 302: Advanced Building Construction Technology (Precast Concrete, Industrialized Building Systems & System Formwork)",
+                            "BLD 304: Structural Steel & Timber Design (Tension/Compression Members & Trusses)",
+                            "BLD 306: Construction Economics & Estimating (Unit Rate Analysis & Tendering)",
+                            "BLD 308: Building Maintenance Technology I (Dampness, Defects & Remedial Works)",
+                            "BLD 310: Building Science & Climatology (Thermal Comfort, Daylighting & Acoustics)",
+                            "BLD 312: Students Work Experience Scheme I (SWEP / Site Surveying Camp & Craft Attachment)",
+                            "GST 312: Peace Studies and Conflict Resolution"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "400 Level (Construction Management, Site Supervision, Quality Control & 6-Month SIWES)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "BLD 401: Construction Management I (Site Organization, Planning & Production Control)",
+                            "BLD 402: Structural Analysis II & Matrix Methods in Structures",
+                            "BLD 403: Building Surveying & Pathology (Structural Surveys, Dilapidations & Inspection Protocols)",
+                            "BLD 404: Construction Law & Health/Safety Regulations (Labor Law, Safety Protocols & HAZOP)",
+                            "BLD 405: Computer-Aided Building Production (Revit Architecture / MS Project / Primavera)",
+                            "BLD 407: Building Services III (Fire Protection, Vertical Transportation / Lifts & Escalators)"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "BLD 499: Student Industrial Work Experience Scheme II (6-Month Industrial Attachment on Active Construction Sites, Contracting Firms, Building Consultancies, or Real Estate Development Works)"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "500 Level (Project Management, Advanced Maintenance, Sustainable Building & Capstone Thesis)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "BLD 501: Construction Project Management II (Cost Control, Value Engineering & Contract Administration)",
+                            "BLD 503: Advanced Structural Design & Foundation Analysis (Prestressed Concrete, Raft & Pile Foundations)",
+                            "BLD 505: Building Maintenance & Facility Management (Lifecycle Costing & Planned Preventative Maintenance)",
+                            "BLD 507: Sustainable & Green Building Construction (Energy Efficiency, Passive Solar Design & LEED Standards)",
+                            "BLD 509: Integrated Building Design & Production Management Project",
+                            "BLD 597: Building Thesis Project I (Research Methodology, Literature Review & Data Collection Framework)"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "BLD 502: Professional Practice, Ethics, NIOB/CORBON Regulations & Contractual Disputes Resolution",
+                            "BLD 504: Seminar on Contemporary Advances in Construction Technology & Automation",
+                            "BLD 506: Building Collapse Forensic Engineering & Structural Failure Analysis",
+                            "BLD 508: Entrepreneurship & Business Development in Building Construction",
+                            "BLD 599: Building Thesis Project II (Detailed Site Execution Plan, Health & Safety Plan, Complete Working Drawings, Structural/Cost Calculations & Thesis Defense)"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "Environmental Management & Toxicology": {
+        degree: "B.Sc. Environmental Management & Toxicology",
+        levels: [
+            {
+                level: "100 Level (Basic Sciences & Foundation Courses)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "EMT 101: Introduction to Environmental Science & Toxicology",
+                            "BIO 101: General Biology I (Cell Biology & Physiology)",
+                            "CHM 101: General Chemistry I (Inorganic & Physical Chemistry)",
+                            "PHY 101: General Physics I (Mechanics, Thermal Physics & Waves)",
+                            "MTH 101: Elementary Mathematics I (Algebra & Trigonometry)",
+                            "GST 111: Communication in English Language",
+                            "AMS 103: Introduction to Computing & Information Technology"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "EMT 102: Environmental Systems & Human Impact",
+                            "BIO 102: General Biology II (Organismal Biology, Systematics & Ecology)",
+                            "CHM 102: General Chemistry II (Organic Chemistry Basics)",
+                            "PHY 102: General Physics II (Electricity, Magnetism & Modern Physics)",
+                            "MTH 102: Elementary Mathematics II (Calculus & Analytical Geometry)",
+                            "HIS 101: History of Nigeria & West Africa",
+                            "GST 112: Nigerian Peoples and Culture"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "200 Level (Environmental Chemistry, Ecology, Principles of Toxicology & Statistics)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "EMT 201: Principles of Environmental Toxicology I (Dose-Response Relationships & Xenobiotics)",
+                            "EMT 203: Environmental Chemistry I (Atmospheric & Aquatic Chemistry)",
+                            "BIO 201: General Ecology & Ecosystem Dynamics",
+                            "CHM 201: Organic Chemistry I (Functional Groups & Reaction Mechanisms)",
+                            "STA 201: Statistics for Environmental & Biological Sciences",
+                            "CSC 201: Computer Applications in Environmental Data Analysis",
+                            "ENT 211: Entrepreneurship and Innovation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "EMT 202: Principles of Environmental Toxicology II (Mechanisms of Toxicity & Organ System Effects)",
+                            "EMT 204: Soil Science & Soil Chemistry",
+                            "EMT 206: Environmental Pollution & Control Measures",
+                            "CHM 202: Analytical Chemistry I (Volumetric & Gravimetric Analysis)",
+                            "BIO 202: General Microbiology for Environmental Studies",
+                            "GST 212: Philosophy, Logic, and Human Existence"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "300 Level (Ecotoxicology, Environmental Monitoring, Instrumental Analysis & Field Practical)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "EMT 301: Ecotoxicology & Ecological Risk Assessment",
+                            "EMT 303: Environmental Monitoring, Bio-indicators & Biomarkers",
+                            "EMT 305: Instrumental Methods of Environmental Analysis (AAS, HPLC, GC-MS, UV-Vis Spectroscopy)",
+                            "EMT 307: Environmental Geology, Hydrology & Water Quality Management",
+                            "EMT 309: Industrial Waste Management & Pollution Control",
+                            "ENT 312: Venture Creation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "EMT 302: Air Quality Management & Atmospheric Pollution",
+                            "EMT 304: Hazardous Waste Management, Spill Response & Remediation Tech",
+                            "EMT 306: Environmental Toxicology Laboratory Practicum",
+                            "EMT 308: Environmental Field Course & SIWES I (Practical Sampling, Environmental Auditing & Field Trip)",
+                            "GST 312: Peace Studies and Conflict Resolution"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "400 Level (EIA, Environmental Law, Health Risk & 6-Month SIWES)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "EMT 401: Environmental Impact Assessment (EIA), Auditing & Post-Impact Studies",
+                            "EMT 403: Environmental Legislation, Policy, Conventions & Ethics (NESREA, NOSDRA, FEPA Regulations)",
+                            "EMT 405: Environmental Health, Occupational Safety & Hygiene (HSE / OSHA Standards)",
+                            "EMT 407: Applied Remote Sensing & GIS in Environmental Management",
+                            "EMT 409: Molecular & Genetic Toxicology"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "EMT 499: Student Industrial Work Experience Scheme II (6-Month Attachment in Environmental Agencies, Oil & Gas Sector, Industrial Testing Labs, Regulatory Bodies, or Environmental Consultancies)"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "500 Level (Advanced Toxicology, Pollution Remediation, Seminar & Capstone Research)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "EMT 501: Bioremediation, Phytoremediation & Soil Reclamation Techniques",
+                            "EMT 503: Environmental Modeling, Fate & Transport of Pollutants",
+                            "EMT 505: Climate Change, Global Environmental Issues & Biodiversity Conservation",
+                            "EMT 507: Disaster Management, Environmental Risk Analysis & Mitigation Strategy",
+                            "EMT 597: Research Seminar in Environmental Management & Toxicology I (Proposal Defense & Literature Review)"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "EMT 502: Sustainable Resource Management & Circular Economy Principles",
+                            "EMT 504: Aquatic Toxicology & Fisheries Environmental Health",
+                            "EMT 506: Environmental Ethics, Eco-Economics & Policy Implementation",
+                            "EMT 599: B.Sc. Research Project / Thesis Defense (Independent Laboratory/Field Investigation & Report)"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "Estate Management": {
+        degree: "B.Sc. Estate Management",
+        levels: [
+            {
+                level: "100 Level (Environmental Sciences Foundations, Principles of Economics & Mathematics)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "ESM 101: Introduction to Estate Management & Built Environment",
+                            "ECN 101: Principles of Economics I (Microeconomics)",
+                            "MTH 101: Elementary Mathematics I (Algebra & Trigonometry)",
+                            "SVG 101: Basic Surveying for Environmental Sciences",
+                            "ARC 101: Freehand Drawing & Architectural Graphics I",
+                            "GST 111: Communication in English Language",
+                            "AMS 103: Introduction to Computing & Information Technology"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "ESM 102: Principles of Valuation I (Introduction to Land & Property Values)",
+                            "ECN 102: Principles of Economics II (Macroeconomics)",
+                            "BLD 102: Building Construction I (Site Preparation, Foundations & Basic Masonry)",
+                            "GEO 102: Introduction to Physical Geography & Environmental Resources",
+                            "HIS 101: History of Nigeria & West Africa",
+                            "GST 112: Nigerian Peoples and Culture"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "200 Level (Valuation Principles, Building Construction, Land Law & Statistics)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "ESM 201: Principles of Valuation II (Compounding, Discounting & Valuation Mathematics)",
+                            "ESM 203: Principles of Land Law I (Customary Land Ownership & Land Tenure Systems)",
+                            "BLD 201: Building Construction II (Walls, Floors, Roofs & Finishings)",
+                            "SVG 201: Land Surveying & Cadastral Mapping",
+                            "STA 201: Statistics for Environmental Sciences",
+                            "ENT 211: Entrepreneurship and Innovation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "ESM 202: Applied Valuation I (Methods of Valuation: Investment, Comparison & Cost Methods)",
+                            "ESM 204: Principles of Land Law II (The Land Use Act of 1978 & Rights of Occupancy)",
+                            "BLD 202: Building Construction III (Multi-Story Elements, Doors, Windows & Services)",
+                            "ESM 206: Urban & Regional Planning Principles",
+                            "CSC 201: Computer Applications in Real Estate Data Analysis",
+                            "GST 212: Philosophy, Logic, and Human Existence"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "300 Level (Advanced Valuation, Property Management, Land Economics & SWEP)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "ESM 301: Applied Valuation II (Valuation of Commercial, Industrial & Agricultural Properties)",
+                            "ESM 303: Property Management I (Residential & Commercial Property Operations, Tenancy Agreements & Rent Collection)",
+                            "ESM 305: Land Economics I (Urban Land Market, Highest and Best Use & Land Value Determinants)",
+                            "ESM 307: Building Maintenance & Pathology for Estate Surveyors",
+                            "ESM 309: Law of Contract & Property Law",
+                            "ENT 312: Venture Creation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "ESM 302: Advanced Valuation I (Statutory Valuation, Compulsory Acquisition & Compensation Valuation)",
+                            "ESM 304: Property Management II (Facility Management, Maintenance Scheduling & Asset Optimization)",
+                            "ESM 306: Land Economics II (Urban Economics, Land Conservation & Public Intervention)",
+                            "ESM 308: Construction Estimating & Quantity Surveying Basics",
+                            "ESM 310: Students Work Experience Scheme I (SWEP / Professional Practice Field Attachment)",
+                            "GST 312: Peace Studies and Conflict Resolution"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "400 Level (Real Estate Development, Rating & Taxation, GIS & 6-Month SIWES)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "ESM 401: Real Estate Development & Finance I (Feasibility & Viability Appraisal Studies)",
+                            "ESM 402: Rating & Taxation Valuation (Property Rating, Tenement Rates & Property Tax Assessments)",
+                            "ESM 403: Applied Remote Sensing & GIS in Real Estate Analysis",
+                            "ESM 404: Plant & Machinery Valuation I (Industrial Asset Identification & Depreciation Models)",
+                            "ESM 405: Arbitration, Dispute Resolution & Expert Witness Practice"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "ESM 499: Student Industrial Work Experience Scheme II (6-Month Attachment in Estate Surveying & Valuation Firms, Real Estate Development Companies, Housing Corporations, or Property Management Units)"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "500 Level (Specialized Valuation, Portfolio Management, Ethics & Capstone Thesis)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "ESM 501: Advanced Valuation II (Valuation of Specialized Assets: Petrol Stations, Hotels, Quarries & Telecommunication Infrastructure)",
+                            "ESM 503: Real Estate Investment Analysis & Portfolio Management",
+                            "ESM 505: Plant & Machinery Valuation II (Valuation of Heavy Industrial Plant, Processing Units & Marine Assets)",
+                            "ESM 507: Infrastructure & Environmental Asset Valuation",
+                            "ESM 509: Real Estate Marketing, Brokerage & Agency Practice",
+                            "ESM 597: B.Sc. Research Project I (Research Methodology, Literature Review & Field Survey Setup)"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "ESM 502: Professional Practice, Code of Ethics, NIESV/ESVARBON Regulations & Firm Administration",
+                            "ESM 504: Housing Economics, Policy & Low-Cost Housing Development",
+                            "ESM 506: Seminar on Contemporary Issues in International Real Estate & PropTech",
+                            "ESM 508: Urban Land Policy, GIS CAD & Cadastral Database Management",
+                            "ESM 599: B.Sc. Research Project II (Data Analysis, Valuation Reports, Thesis Defense & Professional Portfolio Presentation)"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "Fine & Applied Arts": {
+        degree: "B.Sc. Fine & Applied Arts",
+        levels: [
+            {
+                level: "100 Level (Foundations of Visual Arts, Basic Drawing & Humanities)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "FAA 101: Basic Drawing I (Life Drawing, Still Life & Figure Studies)",
+                            "FAA 103: Two-Dimensional Design Foundations (Color Theory & Composition)",
+                            "FAA 105: Introduction to Visual Arts & Creative Process",
+                            "FAA 107: History of Art I (Prehistoric, Ancient African & World Art)",
+                            "GST 111: Communication in English Language",
+                            "AMS 103: Introduction to Computing & Information Technology",
+                            "HIS 101: History of Nigeria & West Africa"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "FAA 102: Basic Drawing II (Perspective, Spatial Relationships & Anatomical Drawing)",
+                            "FAA 104: Three-Dimensional Design Foundations (Form, Space, Clay & Wire Studies)",
+                            "FAA 106: Materials & Techniques in Fine & Applied Arts",
+                            "FAA 108: History of Art II (Traditional Nigerian Art & Architecture: Nok, Ife, Benin & Igbo-Ukwu)",
+                            "GST 112: Nigerian Peoples and Culture",
+                            "SOC 102: Introduction to Sociology & Culture Studies"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "200 Level (Studio Explorations, Art History & Computer Graphics)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "FAA 201: General Studio Practice I (Introductory Rotation: Painting & Sculpture)",
+                            "FAA 203: General Studio Practice II (Introductory Rotation: Ceramics, Textiles & Graphics)",
+                            "FAA 205: History of African Art (Pre-Colonial to Contemporary African Movement)",
+                            "FAA 207: Intermediate Life & Figure Drawing",
+                            "CSC 201: Computer Graphics & Digital Illustration I (Adobe Illustrator & Photoshop)",
+                            "ENT 211: Entrepreneurship and Innovation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "FAA 202: History of Western Art (Renaissance to Modern Movements)",
+                            "FAA 204: Studio Experimentation in Media & Mixed Techniques",
+                            "FAA 206: Art Criticism & Appreciation",
+                            "FAA 208: Applied Arts Workshop Practice (Silk Screening, Dyeing & Hand-building Ceramics)",
+                            "GST 212: Philosophy, Logic, and Human Existence"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "300 Level (Specialization Entry, Advanced Studio, Gallery Management & Practical Attachment)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "FAA 301: Advanced Life & Structural Drawing",
+                            "FAA 303: Specialization Studio I (Choose Track: Painting / Sculpture / Ceramics / Textiles / Graphics & Photography)",
+                            "FAA 305: History of Modern & Contemporary Nigerian Art (Zaria Art Society, Oshogbo School, Nsukka School)",
+                            "FAA 307: Art Administration, Gallery Management & Exhibition Techniques",
+                            "FAA 309: Research Methodology in Visual Arts",
+                            "ENT 312: Venture Creation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "FAA 302: Specialization Studio II (Continued Advanced Track)",
+                            "FAA 304: Industrial & Studio Attachment / Practical Field Work (6-Month Attachment in Textile Mills, Graphic Design Agencies, Ceramic Workshops, Metal Foundries, or Art Galleries)",
+                            "GST 312: Peace Studies and Conflict Resolution"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "400 Level (Major Studio Specialization, Exhibition, Seminar & Capstone Thesis)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "FAA 401: Major Studio Project I (Conceptualization & Production in Chosen Specialization)",
+                            "FAA 403: Advanced Aesthetics & Philosophy of Art",
+                            "FAA 405: Art Entrepreneurship, Marketing & Copyright Law",
+                            "FAA 407: Digital Media, Motion Graphics & Visual Effects (VFX / 3D Modeling for Artists)",
+                            "FAA 497: Studio Seminar & Portfolio Presentation I"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "FAA 402: Major Studio Project II (Execution of Final Studio Body of Work)",
+                            "FAA 404: Professional Degree Exhibition (Curating, Mounting & Defending Final Body of Work)",
+                            "FAA 406: Contemporary Issues in Global Art & Curatorial Practice",
+                            "FAA 499: B.A. / B.Sc. Research Thesis & Studio Project Defense"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "Geoinformatics & Surveying": {
+        degree: "B.Sc. Geoinformatics & Surveying",
+        levels: [
+            {
+                level: "100 Level (Basic Sciences & Applied Mathematics)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "SVG 101: Introduction to Surveying & Geoinformatics Profession",
+                            "MTH 101: Elementary Mathematics I (Algebra & Trigonometry)",
+                            "PHY 101: General Physics I (Mechanics, Thermal Physics & Waves)",
+                            "CHM 101: General Chemistry I (Inorganic & Physical Chemistry)",
+                            "GEO 101: Introduction to Physical Geography",
+                            "GST 111: Communication in English Language",
+                            "AMS 103: Introduction to Computing & Information Technology"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "SVG 102: Basic Surveying Methods & Field Measurements",
+                            "MTH 102: Elementary Mathematics II (Calculus & Analytical Geometry)",
+                            "PHY 102: General Physics II (Electricity, Magnetism & Optics)",
+                            "GEO 102: Introduction to Map Reading & Spatial Analysis",
+                            "HIS 101: History of Nigeria & West Africa",
+                            "GST 112: Nigerian Peoples and Culture"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "200 Level (Basic Surveying, Technical Drawing, Spherical Trigonometry & Programming)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "SVG 201: Basic Surveying I (Chain, Compass & Leveling Surveying)",
+                            "SVG 203: Map Production & Cartographic Drafting I",
+                            "SVG 205: Spherical Trigonometry & Field Astronomy Foundations",
+                            "SVG 207: Technical Drawing & Computer Graphics",
+                            "STA 201: Statistics for Spatial Sciences",
+                            "CSC 201: Computer Programming for Surveyors (Python / C++)",
+                            "ENT 211: Entrepreneurship and Innovation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "SVG 202: Basic Surveying II (Theodolite Traversing & Tacheometry)",
+                            "SVG 204: Map Production & Cartographic Drafting II",
+                            "SVG 206: Elements of Geodesy & Earth Coordinate Systems",
+                            "SVG 208: Computer Applications in Geoinformatics (AutoCAD / QGIS Intro)",
+                            "GEO 202: Principles of Remote Sensing & Aerial Photo Interpretation",
+                            "GST 212: Philosophy, Logic, and Human Existence"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "300 Level (Control Surveying, Photogrammetry, GIS, Hydrography & Survey Camp)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "SVG 301: Control Surveying & Triangulation Methods",
+                            "SVG 303: Photogrammetry I (Aerial Photography & Stereo-Plotting)",
+                            "SVG 305: Geographic Information Systems I (GIS Spatial Data Structures & Vector/Raster Models)",
+                            "SVG 307: Geodetic Surveying I (Ellipsoidal Geometry & Map Projections)",
+                            "SVG 309: Hydrographic Surveying I (Sounding & Bathymetric Measurements)",
+                            "ENT 312: Venture Creation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "SVG 302: Cadastral Surveying I (Land Boundary Surveying & Boundary Laws)",
+                            "SVG 304: Adjustment Computations I (Theory of Errors & Least Squares Adjustment)",
+                            "SVG 306: Digital Photogrammetry & LiDAR Surveying",
+                            "SVG 308: Hydrographic Surveying II (Tidal Analysis & Marine Surveying)",
+                            "SVG 310: Survey Camp I / Practical Field Workshop (Compulsory 4-Week Intensive Field Mapping)",
+                            "GST 312: Peace Studies and Conflict Resolution"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "400 Level (Satellite Geodesy, Advanced GIS, Remote Sensing & 6-Month SIWES)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "SVG 401: Satellite Geodesy & Global Navigation Satellite Systems (GNSS / GPS Processing)",
+                            "SVG 402: Geographic Information Systems II (Spatial Analysis, Database Management & WebGIS)",
+                            "SVG 403: Remote Sensing II (Digital Image Processing & Satellite Sensor Systems)",
+                            "SVG 404: Cadastral Surveying II (Title Registration, Land Reform & Spatial Data Infrastructure)",
+                            "SVG 405: Mining & Engineering Surveying (Tunneling, Deformation Monitoring & Construction Setting-Out)"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "SVG 499: Student Industrial Work Experience Scheme II (6-Month Attachment in Surveying Consultancies, National Mapping Agencies, Oil & Gas Offshore Facilities, Geographic Information Centers, or Construction Companies)"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "500 Level (Physical Geodesy, Spatial Data Infrastructure, Ethics & Capstone Thesis)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "SVG 501: Physical Geodesy & Gravity Field Measurement (Geoid Determination)",
+                            "SVG 502: Advanced Adjustment Computations II (Matrix Algebra & Geodetic Networks)",
+                            "SVG 503: Spatial Data Infrastructure (SDI), Land Information Systems (LIS) & Cadastral Modeling",
+                            "SVG 505: Unmanned Aerial Vehicle (UAV / Drone) Mapping & Photogrammetric Processing",
+                            "SVG 507: Hydrographic Positioning & Offshore Geospatial Technology",
+                            "SVG 597: B.Sc. Research Project I (Research Methodology, Literature Review & Field Sampling Design)"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "SVG 502: Professional Practice, Code of Ethics, NIS/SURCON Regulations & Business Management",
+                            "SVG 504: Seminar on Contemporary Issues in Geoinformatics, Smart Cities & Remote Sensing",
+                            "SVG 506: Environmental & Urban Geoinformatics Applications",
+                            "SVG 508: Geospatial Artificial Intelligence (GeoAI) & Location-Based Services",
+                            "SVG 599: B.Sc. Research Project II (Data Processing, Spatial Map Generation, Thesis Defense & Professional Portfolio Presentation)"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "Quantity Surveying": {
+        degree: "B.Sc. Quantity Surveying",
+        levels: [
+            {
+                level: "100 Level (Environmental Sciences Foundations, Applied Sciences & Mathematics)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "QTS 101: Introduction to Quantity Surveying & Built Environment",
+                            "MTH 101: Elementary Mathematics I (Algebra & Trigonometry)",
+                            "PHY 101: General Physics I (Mechanics & Thermal Physics)",
+                            "CHM 101: General Chemistry I (Inorganic & Physical Chemistry)",
+                            "SVG 101: Basic Surveying for Environmental Sciences",
+                            "ARC 101: Freehand Drawing & Architectural Graphics I",
+                            "GST 111: Communication in English Language",
+                            "AMS 103: Introduction to Computing & Information Technology"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "QTS 102: Principles of Measurement I (Basic Civil & Building Elements)",
+                            "BLD 102: Building Construction I (Site Preparation, Foundations & Basic Masonry)",
+                            "ECN 102: Principles of Economics (Micro/Macro Foundations)",
+                            "MTH 102: Elementary Mathematics II (Calculus & Analytical Geometry)",
+                            "HIS 101: History of Nigeria & West Africa",
+                            "GST 112: Nigerian Peoples and Culture"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "200 Level (Measurement, Building Construction, Structural Mechanics & Economics)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "QTS 201: Measurement of Building Works I (Substructures, Masonry & Simple Roofs to BESMM)",
+                            "BLD 201: Building Construction II (Walls, Floors, Openings & Finishings)",
+                            "QTS 203: Building Science & Materials",
+                            "QTS 205: Principles of Construction Economics I",
+                            "BLD 205: Principles of Structural Mechanics",
+                            "STA 201: Statistics for Built Environment",
+                            "ENT 211: Entrepreneurship and Innovation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "QTS 202: Measurement of Building Works II (Multi-Story Substructures & Upper Floors)",
+                            "BLD 202: Building Construction III (Roofs, Stairs & Internal Fittings)",
+                            "BLD 208: Building Services I (Plumbing, Drainage & Water Supply)",
+                            "QTS 204: Construction Estimating & Rate Analysis I",
+                            "CSC 201: Computer Applications in Quantity Surveying (Basic Measurement Tools)",
+                            "GST 212: Philosophy, Logic, and Human Existence"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "300 Level (Advanced Measurement, Engineering Works, Tendering & SWEP)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "QTS 301: Measurement of Building Works III (Complex Multi-Story Elements & Finishes)",
+                            "QTS 303: Cost Planning & Control I (Cost Modeling & Budgeting)",
+                            "QTS 305: Construction Estimating & Rate Analysis II",
+                            "BLD 307: Building Services II (Electrical, HVAC & Fire Systems)",
+                            "QTS 307: Law of Contract & Tort",
+                            "BLD 305: Reinforced Concrete Design Fundamentals",
+                            "ENT 312: Venture Creation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "QTS 302: Measurement of Civil Engineering Works I (Earthworks, Roads & Drainage to CESMM)",
+                            "QTS 304: Procurement & Tendering Studies (Contract Strategy & Tender Analysis)",
+                            "QTS 306: Construction Economics II (Development Appraisal & Life Cycle Costing)",
+                            "QTS 308: Building Maintenance & Renovation Economics",
+                            "QTS 310: Students Work Experience Scheme I (SWEP / Measurement Practical Workshop)",
+                            "GST 312: Peace Studies and Conflict Resolution"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "400 Level (BIM Cost Modeling, Commercial Management, Contracts & 6-Month SIWES)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "QTS 401: Measurement of Heavy Civil Engineering & Heavy Industrial Works",
+                            "QTS 402: Computer-Aided Quantity Surveying & BIM (CostX / Glodon / Cubicost)",
+                            "QTS 403: Construction Contract Law & Administration (JCT / FIDIC / Standard Forms)",
+                            "QTS 404: Financial Management & Accounting for Construction",
+                            "QTS 405: Valuation & Final Account Preparation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "QTS 499: Student Industrial Work Experience Scheme II (6-Month Attachment in Quantity Surveying Consultancies, Contracting Firms, Real Estate Developers, or Government Ministries)"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "500 Level (Project Management, Dispute Resolution, Claims & Capstone Thesis)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "QTS 501: Advanced Cost Management & Value Engineering",
+                            "QTS 503: Construction Project Management & Operations Research",
+                            "QTS 505: Contract Claims, Arbitration & Dispute Resolution",
+                            "QTS 507: Risk Management in Construction & International Construction Procurement",
+                            "QTS 509: Industrialized Building Systems & Off-Site Construction Economics",
+                            "QTS 597: B.Sc. Research Project I (Research Methodology & Literature Review)"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "QTS 502: Professional Practice, Code of Ethics, NIQS/QSRBN Regulations & Firm Administration",
+                            "QTS 504: Seminar on Contemporary Issues in Quantity Surveying, Sustainable Construction & PropTech",
+                            "QTS 506: Facilities Management Economics & Asset Valuation",
+                            "QTS 508: Entrepreneurship & Business Development in Quantity Surveying Practice",
+                            "QTS 599: B.Sc. Research Project II (Data Analysis, Bill of Quantities Generation, Thesis Defense & Professional Portfolio Presentation)"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "Surveying & Geoinformatics": {
+        degree: "B.Sc. Surveying & Geoinformatics",
+        levels: [
+            {
+                level: "100 Level (Basic Sciences & Applied Mathematics)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "SVG 101: Introduction to Surveying & Geoinformatics Profession",
+                            "MTH 101: Elementary Mathematics I (Algebra & Trigonometry)",
+                            "PHY 101: General Physics I (Mechanics, Thermal Physics & Waves)",
+                            "CHM 101: General Chemistry I (Inorganic & Physical Chemistry)",
+                            "GEO 101: Introduction to Physical Geography",
+                            "GST 111: Communication in English Language",
+                            "AMS 103: Introduction to Computing & Information Technology"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "SVG 102: Basic Surveying Methods & Field Measurements",
+                            "MTH 102: Elementary Mathematics II (Calculus & Analytical Geometry)",
+                            "PHY 102: General Physics II (Electricity, Magnetism & Optics)",
+                            "GEO 102: Introduction to Map Reading & Spatial Analysis",
+                            "HIS 101: History of Nigeria & West Africa",
+                            "GST 112: Nigerian Peoples and Culture"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "200 Level (Basic Surveying, Technical Drawing, Spherical Trigonometry & Programming)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "SVG 201: Basic Surveying I (Chain, Compass & Leveling Surveying)",
+                            "SVG 203: Map Production & Cartographic Drafting I",
+                            "SVG 205: Spherical Trigonometry & Field Astronomy Foundations",
+                            "SVG 207: Technical Drawing & Computer Graphics",
+                            "STA 201: Statistics for Spatial Sciences",
+                            "CSC 201: Computer Programming for Surveyors (Python / C++)",
+                            "ENT 211: Entrepreneurship and Innovation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "SVG 202: Basic Surveying II (Theodolite Traversing & Tacheometry)",
+                            "SVG 204: Map Production & Cartographic Drafting II",
+                            "SVG 206: Elements of Geodesy & Earth Coordinate Systems",
+                            "SVG 208: Computer Applications in Geoinformatics (AutoCAD / QGIS Intro)",
+                            "GEO 202: Principles of Remote Sensing & Aerial Photo Interpretation",
+                            "GST 212: Philosophy, Logic, and Human Existence"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "300 Level (Control Surveying, Photogrammetry, GIS, Hydrography & Survey Camp)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "SVG 301: Control Surveying & Triangulation Methods",
+                            "SVG 303: Photogrammetry I (Aerial Photography & Stereo-Plotting)",
+                            "SVG 305: Geographic Information Systems I (GIS Spatial Data Structures & Vector/Raster Models)",
+                            "SVG 307: Geodetic Surveying I (Ellipsoidal Geometry & Map Projections)",
+                            "SVG 309: Hydrographic Surveying I (Sounding & Bathymetric Measurements)",
+                            "ENT 312: Venture Creation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "SVG 302: Cadastral Surveying I (Land Boundary Surveying & Boundary Laws)",
+                            "SVG 304: Adjustment Computations I (Theory of Errors & Least Squares Adjustment)",
+                            "SVG 306: Digital Photogrammetry & LiDAR Surveying",
+                            "SVG 308: Hydrographic Surveying II (Tidal Analysis & Marine Surveying)",
+                            "SVG 310: Survey Camp I / Practical Field Workshop (Compulsory 4-Week Intensive Field Mapping)",
+                            "GST 312: Peace Studies and Conflict Resolution"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "400 Level (Satellite Geodesy, Advanced GIS, Remote Sensing & 6-Month SIWES)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "SVG 401: Satellite Geodesy & Global Navigation Satellite Systems (GNSS / GPS Processing)",
+                            "SVG 402: Geographic Information Systems II (Spatial Analysis, Database Management & WebGIS)",
+                            "SVG 403: Remote Sensing II (Digital Image Processing & Satellite Sensor Systems)",
+                            "SVG 404: Cadastral Surveying II (Title Registration, Land Reform & Spatial Data Infrastructure)",
+                            "SVG 405: Mining & Engineering Surveying (Tunneling, Deformation Monitoring & Construction Setting-Out)"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "SVG 499: Student Industrial Work Experience Scheme II (6-Month Attachment in Surveying Consultancies, National Mapping Agencies, Oil & Gas Offshore Facilities, Geographic Information Centers, or Construction Companies)"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "500 Level (Physical Geodesy, Spatial Data Infrastructure, Ethics & Capstone Thesis)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "SVG 501: Physical Geodesy & Gravity Field Measurement (Geoid Determination)",
+                            "SVG 502: Advanced Adjustment Computations II (Matrix Algebra & Geodetic Networks)",
+                            "SVG 503: Spatial Data Infrastructure (SDI), Land Information Systems (LIS) & Cadastral Modeling",
+                            "SVG 505: Unmanned Aerial Vehicle (UAV / Drone) Mapping & Photogrammetric Processing",
+                            "SVG 507: Hydrographic Positioning & Offshore Geospatial Technology",
+                            "SVG 597: B.Sc. Research Project I (Research Methodology, Literature Review & Field Sampling Design)"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "SVG 502: Professional Practice, Code of Ethics, NIS/SURCON Regulations & Business Management",
+                            "SVG 504: Seminar on Contemporary Issues in Geoinformatics, Smart Cities & Remote Sensing",
+                            "SVG 506: Environmental & Urban Geoinformatics Applications",
+                            "SVG 508: Geospatial Artificial Intelligence (GeoAI) & Location-Based Services",
+                            "SVG 599: B.Sc. Research Project II (Data Processing, Spatial Map Generation, Thesis Defense & Professional Portfolio Presentation)"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "Urban & Regional Planning": {
+        degree: "B.Sc. Urban & Regional Planning",
+        levels: [
+            {
+                level: "100 Level (Environmental Sciences Foundations, Applied Sciences & Design)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "URP 101: Introduction to Urban & Regional Planning",
+                            "URP 103: Environmental Design Graphics I (Freehand Drawing & Lettering)",
+                            "GEO 101: Introduction to Physical Geography",
+                            "MTH 101: Elementary Mathematics I (Algebra & Trigonometry)",
+                            "SOC 101: Introduction to Sociology",
+                            "GST 111: Communication in English Language",
+                            "AMS 103: Introduction to Computing & Information Technology"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "URP 102: Evolution of Human Settlements (Ancient, Medieval & Modern Cities)",
+                            "URP 104: Environmental Design Graphics II (Model Making & Orthographic Projections)",
+                            "GEO 102: Introduction to Human Geography & Population Dynamics",
+                            "ECN 102: Principles of Economics (Micro & Macro Foundations)",
+                            "HIS 101: History of Nigeria & West Africa",
+                            "GST 112: Nigerian Peoples and Culture"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "200 Level (Planning Studio, Basic Surveying, Land Law & Urban Economics)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "URP 201: Planning Studio I (Neighborhood Planning & Site Layout Design)",
+                            "URP 203: Urban Environmental Management & Ecology",
+                            "URP 205: Planning Theories & Philosophy I",
+                            "SVG 201: Basic Surveying & Mapping for Planners",
+                            "STA 201: Statistics for Environmental Sciences & Spatial Analysis",
+                            "ENT 211: Entrepreneurship and Innovation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "URP 202: Planning Studio II (Residential Area Design & Subdivision Layouts)",
+                            "URP 204: Elements of Land Law & Planning Legislation (The Nigerian Urban & Regional Planning Law - Decree 88 of 1992)",
+                            "URP 206: Urban Economics & Real Estate Development Principles",
+                            "CSC 201: Computer-Aided Design (CAD) in Urban Planning (AutoCAD / SketchUp)",
+                            "GEO 202: Introductory Remote Sensing & Aerial Photo Interpretation",
+                            "GST 212: Philosophy, Logic, and Human Existence"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "300 Level (Master Planning, Transport Systems, GIS & SWEP)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "URP 301: Planning Studio III (Commercial & Industrial District Planning)",
+                            "URP 303: Transportation Planning & Traffic Engineering Basics",
+                            "URP 305: Geographic Information Systems (GIS) in Urban Planning",
+                            "URP 307: Urban Renewal, Slum Upgrading & Conservation",
+                            "URP 309: Research Methods in Urban & Regional Planning",
+                            "ENT 312: Venture Creation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "URP 302: Planning Studio IV (Master Planning & Urban Structure Plans)",
+                            "URP 304: Housing Economics, Policy & Finance",
+                            "URP 306: Regional Development Planning & Spatial Analysis",
+                            "URP 308: Infrastructure & Public Utilities Planning (Water, Energy, Waste Management)",
+                            "URP 310: Students Work Experience Scheme I (SWEP / Field Survey Workshop)",
+                            "GST 312: Peace Studies and Conflict Resolution"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "400 Level (Regional Planning Studio, EIA, Disaster Management & 6-Month SIWES)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "URP 401: Planning Studio V (Regional Plan Formulation & Rural Settlement Development)",
+                            "URP 402: Environmental Impact Assessment (EIA) & Auditing",
+                            "URP 403: Disaster Risk Management & Climate Change Adaptation in Built Environment",
+                            "URP 404: Public Finance & Project Evaluation in Planning",
+                            "URP 405: Planning Politics, Public Participation & Community Development"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "URP 499: Student Industrial Work Experience Scheme II (6-Month Attachment in Urban Planning Consultancies, Ministries of Physical Planning & Urban Development, Capital Territory Administrations, Housing Authorities, or Environment Agencies)"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "500 Level (Advanced Planning Studio, Professional Ethics & Capstone Thesis)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "URP 501: Planning Studio VI (Comprehensive Master Plan Defense & National Development Framework)",
+                            "URP 503: Advanced Regional Planning & Growth Pole Policies",
+                            "URP 505: Planning Administration, Governance & Development Control",
+                            "URP 507: Smart Cities, PropTech & Urban Data Analytics",
+                            "URP 509: Contemporary Issues in Global Urbanization & Sustainable Development Goals (SDG 11)",
+                            "URP 597: B.Sc. Research Project I (Research Methodology & Field Survey Setup)"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "URP 502: Professional Practice, Code of Ethics, NITP/TOPREC Regulations & Planning Consultancy Management",
+                            "URP 504: Coastal Zone Management, Tourism Planning & Sustainable Land Use",
+                            "URP 506: Metropolitan Governance & Regional Spatial Data Infrastructure (RSDI)",
+                            "URP 599: B.Sc. Research Project II (Data Analysis, Master Plan Rendering, Thesis Defense & Professional Portfolio Presentation)"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "Commercial & Property Law": {
+        degree: "LL.B. Commercial & Property Law",
+        levels: [
+            {
+                level: "100 Level (Legal Foundations, Humanities & Social Sciences)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "PPL 101: Legal Method I (Sources of Law, Legal Reasoning & Judicial Precedent)",
+                            "PPL 103: Nigerian Legal System I (Structure of Nigerian Courts & History of Law)",
+                            "SOC 101: Introduction to Sociology",
+                            "POS 101: Introduction to Political Science",
+                            "GST 111: Communication in English Language",
+                            "AMS 103: Introduction to Computing & Information Technology",
+                            "HIS 101: History of Nigeria & West Africa"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "PPL 102: Legal Method II (Statutory Interpretation, Legal Writing & Research)",
+                            "PPL 104: Nigerian Legal System II (Customary Law, Islamic Law & Alternative Dispute Resolution)",
+                            "POS 102: Nigerian Constitutional Development & Government",
+                            "ECN 102: Principles of Economics (Micro & Macro Foundations)",
+                            "GST 112: Nigerian Peoples and Culture",
+                            "SOC 102: Introduction to Social Anthropology"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "200 Level (Core Law Foundations: Constitutional Law, Law of Contract & Customary Land Law)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "CML 201: Law of Contract I (Offer, Acceptance, Consideration & Intention to Create Legal Relations)",
+                            "PPL 201: Constitutional Law I (Separation of Powers, Rule of Law & Supremacy of the Constitution)",
+                            "PPL 203: Customary Land Law & Indigenous Tenure Systems",
+                            "PPL 205: Nigerian Criminal Law I (General Principles of Criminal Responsibility)",
+                            "ENT 211: Entrepreneurship and Innovation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "CML 202: Law of Contract II (Vitiating Elements, Discharge of Contract & Remedies for Breach)",
+                            "PPL 202: Constitutional Law II (Fundamental Human Rights & Enforcement Procedures)",
+                            "PPL 204: Nigerian Land Law I (Historical Evolution, Ownership vs. Possession & Native Authority Laws)",
+                            "PPL 206: Nigerian Criminal Law II (Specific Offences: Offences against Persons & Property)",
+                            "GST 212: Philosophy, Logic, and Human Existence"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "300 Level (Commercial Law, Land Use Act, Equity & Torts)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "CML 301: Commercial Law I (Sale of Goods Act & Agency Law)",
+                            "PPL 301: Land Law II (The Land Use Act of 1978, Rights of Occupancy & Governor's Consent)",
+                            "PPL 303: Law of Torts I (Negligence, Nuisance & Defamation)",
+                            "PPL 305: Equity & Trusts I (Origins of Equity, Maxims of Equity & Charitable Trusts)",
+                            "ENT 312: Venture Creation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "CML 302: Commercial Law II (Hire Purchase, Contract of Carriage & Consumer Protection Law)",
+                            "PPL 302: Property Law & Conveyancing Foundations (Mortgages, Leases & Assignments)",
+                            "PPL 304: Law of Torts II (Vicarious Liability, Trespass to Land & Economic Torts)",
+                            "PPL 306: Equity & Trusts II (Private Trusts, Trustees' Duties & Fiduciary Relations)",
+                            "GST 312: Peace Studies and Conflict Resolution"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "400 Level (Company Law, Intellectual Property, Banking & Oil and Gas Law)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "CML 401: Company Law I (CAMA 2020: Incorporation, Corporate Personality & Corporate Governance)",
+                            "CML 403: Intellectual Property Law I (Copyright & Industrial Designs)",
+                            "CML 405: Banking & Negotiable Instruments Law (Promissory Notes, Cheques & Central Bank Regulations)",
+                            "PPL 401: Law of Evidence I (Relevancy, Admissibility & Burden of Proof)",
+                            "PPL 403: Jurisprudence & Legal Theory I (Natural Law, Positivism & Historical Schools of Thought)"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "CML 402: Company Law II (Shares, Debentures, Directors' Duties, Winding-Up & Insolvency)",
+                            "CML 404: Intellectual Property Law II (Patents, Trademarks & Passing Off Actions)",
+                            "CML 406: Oil and Gas Law / Natural Resources Law (Petroleum Industry Act & Mineral Title Leases)",
+                            "PPL 402: Law of Evidence II (Hearsay Evidence, Estoppel & Documentary Evidence)",
+                            "PPL 404: Jurisprudence & Legal Theory II (Sociological Jurisprudence, Realism & Pure Theory of Law)"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "500 Level (Conveyancing, Practice, Arbitration & Capstone Project)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "PPL 501: Conveyancing & Drafting Practice I (Drafting Deeds, Mortgages & Power of Attorney)",
+                            "CML 501: International Trade Law & Shipping Law (Incoterms, Letters of Credit & Admiralty Jurisdiction)",
+                            "CML 503: Tax Law & Revenue Practice (Companies Income Tax, Stamp Duties & Capital Gains Tax on Land)",
+                            "PPL 503: Alternative Dispute Resolution (ADR) & Commercial Arbitration",
+                            "PPL 505: Conflict of Laws / Private International Law",
+                            "LL.B 597: LL.B Long Essay / Legal Research Project I (Research Proposal & Chapter Framework)"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "PPL 502: Conveyancing & Drafting Practice II (Search Reports, Completion of Title & Registration of Instruments)",
+                            "CML 502: Insurance Law & Real Estate Risk Management",
+                            "CML 504: Competition Law, Mergers & Acquisitions",
+                            "PPL 504: Professional Ethics, Legal Practice Management & Bar Clinic",
+                            "LL.B 599: LL.B Long Essay / Legal Research Project II (Final Thesis Defense & Portfolio Submission)"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "Common & Civil Law": {
+        degree: "LL.B. Common & Civil Law",
+        levels: [
+            {
+                level: "100 Level (Legal Foundations, Language & Humanities)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "PPL 101: Legal Method I (Sources of Law, Legal Reasoning & Judicial Precedent)",
+                            "PPL 103: Nigerian Legal System I (Structure of Nigerian Courts & History of Law)",
+                            "CVL 101: Introduction to Civil Law Traditions & Roman Law Foundations",
+                            "FRE 101: Legal French / French Language for Jurists I",
+                            "GST 111: Communication in English Language",
+                            "AMS 103: Introduction to Computing & Information Technology",
+                            "HIS 101: History of Nigeria & West Africa"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "PPL 102: Legal Method II (Statutory Interpretation, Legal Writing & Research)",
+                            "PPL 104: Nigerian Legal System II (Customary Law, Sharia & Alternative Dispute Resolution)",
+                            "CVL 102: History of Codification & Comparative Legal Systems",
+                            "FRE 102: Legal French / French Language for Jurists II",
+                            "POS 102: Nigerian Constitutional Development & Government",
+                            "GST 112: Nigerian Peoples and Culture"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "200 Level (Core Law Foundations: Constitutional Law, Law of Contract, Civil Obligations & Criminal Law)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "CML 201: Law of Contract I (Common Law Principles: Offer, Acceptance & Consideration)",
+                            "CVL 201: Civil Law of Obligations I (Roman-Dutch & French Civil Code Principles of Contract)",
+                            "PPL 201: Constitutional Law I (Separation of Powers, Rule of Law & Judicial Review)",
+                            "PPL 203: Customary & Indigenous Land Law Systems",
+                            "PPL 205: Nigerian Criminal Law I (General Principles of Criminal Responsibility)",
+                            "ENT 211: Entrepreneurship and Innovation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "CML 202: Law of Contract II (Vitiating Elements, Discharge & Common Law Remedies)",
+                            "CVL 202: Civil Law of Obligations II (Delicts, Quasi-Contracts & Civil Law Remedies)",
+                            "PPL 202: Constitutional Law II (Fundamental Human Rights & Comparative Constitutionalism)",
+                            "PPL 204: Nigerian Land Law I (Historical Evolution & Statutory Tenure)",
+                            "PPL 206: Nigerian Criminal Law II (Specific Offences: Crimes against Persons & Property)",
+                            "GST 212: Philosophy, Logic, and Human Existence"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "300 Level (Land Law, Commercial Law, Torts/Delicts & Equity)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "CML 301: Commercial Law I (Sale of Goods & Agency Law)",
+                            "PPL 301: Land Law II (The Land Use Act of 1978, Rights of Occupancy & Consent)",
+                            "PPL 303: Law of Torts I (Common Law Negligence, Nuisance & Defamation)",
+                            "CVL 301: Civil Law Property & Real Rights (Usufructs, Servitudes & Mortgages in Civil Codes)",
+                            "PPL 305: Equity & Trusts I (Origins, Maxims & Trusts Foundations)",
+                            "ENT 312: Venture Creation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "CML 302: Commercial Law II (Hire Purchase, Carriage of Goods & Consumer Protection)",
+                            "PPL 302: Comparative Property Law & Conveyancing Foundations",
+                            "PPL 304: Law of Torts II (Vicarious Liability & Economic Torts)",
+                            "CVL 302: Comparative Law of Delicts & Civil Liability",
+                            "PPL 306: Equity & Trusts II (Private Trusts, Fiduciary Relations & Constructive Trusts)",
+                            "GST 312: Peace Studies and Conflict Resolution"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "400 Level (Company Law, Evidence, Jurisprudence & Public International Law)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "CML 401: Company Law I (CAMA 2020: Incorporation, Corporate Personality & Governance)",
+                            "PPL 401: Law of Evidence I (Relevancy, Admissibility & Burden of Proof)",
+                            "PPL 403: Jurisprudence & Legal Theory I (Natural Law, Positivism & Historical Schools)",
+                            "PIL 401: Public International Law I (Sources, Subjects & State Sovereignty)",
+                            "CVL 401: Comparative Legal Systems: Common Law vs. Civil Law Systems"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "CML 402: Company Law II (Shares, Directors' Duties, Liquidation & Corporate Insolvency)",
+                            "PPL 402: Law of Evidence II (Hearsay, Estoppel & Documentary Evidence)",
+                            "PPL 404: Jurisprudence & Legal Theory II (Sociological Jurisprudence, Realism & Pure Theory of Law)",
+                            "PIL 402: Public International Law II (International Treaties, Human Rights & Settlement of Disputes)",
+                            "CVL 402: Harmonization of Business Laws in Africa (OHADA Law & CFTA Frameworks)"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "500 Level (Private International Law, Conflict of Laws, Legal Practice & Capstone Project)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "PPL 501: Legal Drafting & Practice I (Common Law Drafting & Civil Code Instrument Preparation)",
+                            "PPL 503: Alternative Dispute Resolution (ADR) & International Commercial Arbitration",
+                            "PPL 505: Conflict of Laws / Private International Law I (Jurisdiction & Choice of Law)",
+                            "CML 501: International Trade Law & Shipping Law",
+                            "LL.B 597: LL.B Long Essay / Research Project I (Research Proposal & Theoretical Framework)"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "PPL 502: Legal Drafting & Practice II (Conveyancing, Pleadings & Civil Procedure)",
+                            "PPL 504: Professional Ethics, Bar Practice Clinic & Law Firm Management",
+                            "PPL 506: Conflict of Laws / Private International Law II (Foreign Judgments Enforcement)",
+                            "CML 502: Comparative Corporate Governance & Investment Laws",
+                            "LL.B 599: LL.B Long Essay / Research Project II (Final Thesis Defense & Portfolio Submission)"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "International Law & Jurisprudence": {
+        degree: "LL.B. International Law & Jurisprudence",
+        levels: [
+            {
+                level: "100 Level (Legal Foundations, Humanities & Social Sciences)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "PPL 101: Legal Method I (Sources of Law, Legal Reasoning & Judicial Precedent)",
+                            "PPL 103: Nigerian Legal System I (Structure of Nigerian Courts & History of Law)",
+                            "POS 101: Introduction to Political Science & International Relations",
+                            "SOC 101: Introduction to Sociology",
+                            "GST 111: Communication in English Language",
+                            "AMS 103: Introduction to Computing & Information Technology",
+                            "HIS 101: History of Nigeria & West Africa"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "PPL 102: Legal Method II (Statutory Interpretation, Legal Writing & Legal Research)",
+                            "PPL 104: Nigerian Legal System II (Customary Law, Sharia & Alternative Dispute Resolution)",
+                            "POS 102: Nigerian Constitutional Development & Government",
+                            "ECN 102: Principles of Economics (Micro & Macro Foundations)",
+                            "GST 112: Nigerian Peoples and Culture",
+                            "SOC 102: Introduction to Social Anthropology"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "200 Level (Core Law Foundations: Constitutional Law, Law of Contract & Customary Law)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "CML 201: Law of Contract I (Offer, Acceptance, Consideration & Intention to Create Legal Relations)",
+                            "PPL 201: Constitutional Law I (Separation of Powers, Rule of Law & Supremacy of the Constitution)",
+                            "PPL 203: Customary Land Law & Indigenous Tenure Systems",
+                            "PPL 205: Nigerian Criminal Law I (General Principles of Criminal Responsibility)",
+                            "ENT 211: Entrepreneurship and Innovation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "CML 202: Law of Contract II (Vitiating Elements, Discharge of Contract & Remedies for Breach)",
+                            "PPL 202: Constitutional Law II (Fundamental Human Rights & Enforcement Procedures)",
+                            "PPL 204: Nigerian Land Law I (Historical Evolution & Statutory Tenure Systems)",
+                            "PPL 206: Nigerian Criminal Law II (Specific Offences: Crimes against Persons & Property)",
+                            "GST 212: Philosophy, Logic, and Human Existence"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "300 Level (Commercial Law, Torts, Equity & International Law Foundations)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "PIL 301: Public International Law I (Nature, Sources, Subjects of International Law & State Sovereignty)",
+                            "CML 301: Commercial Law I (Sale of Goods Act & Agency Law)",
+                            "PPL 301: Land Law II (The Land Use Act of 1978, Rights of Occupancy & Consent)",
+                            "PPL 303: Law of Torts I (Negligence, Nuisance & Defamation)",
+                            "PPL 305: Equity & Trusts I (Origins of Equity, Maxims & Trusts Foundations)",
+                            "ENT 312: Venture Creation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "PIL 302: Public International Law II (Law of Treaties, Recognition of States & Territorial Jurisdiction)",
+                            "CML 302: Commercial Law II (Hire Purchase, Carriage of Goods & Consumer Protection)",
+                            "PPL 302: Property Law & Conveyancing Foundations",
+                            "PPL 304: Law of Torts II (Vicarious Liability & Economic Torts)",
+                            "PPL 306: Equity & Trusts II (Private Trusts, Fiduciary Relations & Constructive Trusts)",
+                            "GST 312: Peace Studies and Conflict Resolution"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "400 Level (Company Law, Jurisprudence I, International Human Rights & Evidence)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "JUR 401: Jurisprudence & Legal Theory I (Nature of Law, Natural Law School, Legal Positivism & Analytical School)",
+                            "PIL 401: International Human Rights Law I (UN Charter, Universal Declaration of Human Rights & Regional Charters)",
+                            "CML 401: Company Law I (CAMA 2020: Incorporation, Corporate Personality & Governance)",
+                            "PPL 401: Law of Evidence I (Relevancy, Admissibility & Burden of Proof)",
+                            "PIL 403: Diplomatic & Consular Law (Vienna Conventions, Immunities & Privileges)"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "JUR 402: Jurisprudence & Legal Theory II (Historical, Pure Theory, Sociological Jurisprudence & American/Scandinavian Realism)",
+                            "PIL 402: International Human Rights Law II (African Charter on Human and Peoples' Rights & Enforcement Mechanisms)",
+                            "CML 402: Company Law II (Shares, Directors' Duties, Liquidation & Corporate Insolvency)",
+                            "PPL 402: Law of Evidence II (Hearsay, Estoppel & Documentary Evidence)",
+                            "PIL 404: International Humanitarian Law (Geneva Conventions, Law of Armed Conflict & Protection of Civilians)"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "500 Level (International Criminal Law, Conflict of Laws, Legal Ethics & Capstone Project)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "PIL 501: International Criminal Law & International Courts (ICC Rome Statute, War Crimes, Genocide & Crimes against Humanity)",
+                            "PIL 503: Conflict of Laws / Private International Law I (Jurisdiction, Choice of Law & Domicile)",
+                            "PIL 505: Law of the Sea & Environmental Law (UNCLOS, Maritime Boundaries, EEZ & Marine Protection)",
+                            "PPL 501: Legal Drafting & Conveyancing Practice I",
+                            "LL.B 597: LL.B Long Essay / Legal Research Project I (Research Methodology, Proposal & Chapter 1 Framework)"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "PIL 502: International Economic Law & Trade Law (WTO Framework, GATT, Bilateral Investment Treaties & ICSID Arbitration)",
+                            "PIL 504: Conflict of Laws / Private International Law II (Recognition & Enforcement of Foreign Judgments)",
+                            "PIL 506: International Organizations & Global Governance (UN System, African Union, ECOWAS Law & Judicial Bodies)",
+                            "PPL 504: Professional Ethics, Legal Practice Management & Law Clinic",
+                            "LL.B 599: LL.B Long Essay / Legal Research Project II (Final Thesis Defense & Portfolio Submission)"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "Islamic / Sharia & Common Law": {
+        degree: "LL.B. Islamic / Sharia & Common Law",
+        levels: [
+            {
+                level: "100 Level (Legal Foundations, Arabic Language & Islamic Studies)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "PPL 101: Legal Method I (Sources of Law, Legal Reasoning & Judicial Precedent)",
+                            "PPL 103: Nigerian Legal System I (Structure of Nigerian Courts & History of Law)",
+                            "ISL 101: Introduction to Sharia & Islamic Legal History",
+                            "ARA 101: Elementary Arabic for Law Students I (Grammar & Legal Terminology)",
+                            "GST 111: Communication in English Language",
+                            "AMS 103: Introduction to Computing & Information Technology",
+                            "HIS 101: History of Nigeria & West Africa"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "PPL 102: Legal Method II (Statutory Interpretation, Legal Writing & Legal Research)",
+                            "PPL 104: Nigerian Legal System II (Sharia Court of Appeal Structure, Customary Law & ADR)",
+                            "ISL 102: Principles of Islamic Jurisprudence I (Usul al-Fiqh: Quran & Sunnah as Primary Sources)",
+                            "ARA 102: Elementary Arabic for Law Students II (Textual Analysis of Legal Verses/Hadith)",
+                            "POS 102: Nigerian Constitutional Development & Government",
+                            "GST 112: Nigerian Peoples and Culture"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "200 Level (Core Law Foundations: Contract, Constitutional Law, Islamic Law of Persons & Family)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "CML 201: Law of Contract I (Common Law: Offer, Acceptance, Consideration & Intention)",
+                            "ISL 201: Islamic Law of Contract & Transactions I (Fiqh al-Mu'amalat: Offer, Acceptance & Riba Prohibition)",
+                            "PPL 201: Constitutional Law I (Separation of Powers, Rule of Law & Supremacy of the Constitution)",
+                            "ISL 203: Islamic Family Law I (Ahkam al-Usrah: Marriage, Mahr, Capacity & Conditions)",
+                            "PPL 205: Common Law Criminal Law I (General Principles of Criminal Responsibility)",
+                            "ENT 211: Entrepreneurship and Innovation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "CML 202: Law of Contract II (Vitiating Elements, Discharge & Common Law Remedies)",
+                            "ISL 202: Islamic Law of Contract & Transactions II (Gharar, Jahalah, Sale Contracts & Options)",
+                            "PPL 202: Constitutional Law II (Fundamental Human Rights & Sharia Jurisdiction under the Constitution)",
+                            "ISL 204: Islamic Family Law II (Dissolution of Marriage: Talaq, Khul', Faskh, Iddah & Maintenance)",
+                            "PPL 206: Common Law Criminal Law II (Specific Offences against Persons & Property)",
+                            "GST 212: Philosophy, Logic, and Human Existence"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "300 Level (Land Law, Commercial Law, Islamic Law of Succession & Torts)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "PPL 301: Land Law I (Common Law Property & The Land Use Act of 1978)",
+                            "ISL 301: Islamic Law of Property & Succession I (Mirath: Fixed Shares, Heirs & Disqualifications)",
+                            "CML 301: Commercial Law I (Sale of Goods Act & Agency Law)",
+                            "PPL 303: Law of Torts I (Negligence, Nuisance & Defamation)",
+                            "PPL 305: Equity & Trusts I (Origins of Equity, Maxims & Charitable Trusts)",
+                            "ENT 312: Venture Creation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "PPL 302: Land Law II (Rights of Occupancy, Governor's Consent, Mortgages & Leases)",
+                            "ISL 302: Islamic Law of Property & Succession II (Wasiyyah / Wills, Waqf / Endowments & Hiba / Gifts)",
+                            "CML 302: Commercial Law II (Hire Purchase, Carriage of Goods & Consumer Protection)",
+                            "PPL 304: Law of Torts II (Vicarious Liability & Economic Torts)",
+                            "PPL 306: Equity & Trusts II (Private Trusts, Trustees' Duties & Fiduciary Relations)",
+                            "GST 312: Peace Studies and Conflict Resolution"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "400 Level (Islamic Penal Law, Company Law, Jurisprudence & Evidence)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "ISL 401: Islamic Criminal Law I (Uqubat: Offences of Hudud - Theft, Armed Robbery, Adultery, Defamation)",
+                            "CML 401: Company Law I (CAMA 2020: Incorporation, Corporate Personality & Governance)",
+                            "PPL 401: Law of Evidence I (Common Law Rules of Relevancy, Admissibility & Burden of Proof)",
+                            "PPL 403: Jurisprudence & Legal Theory I (Natural Law, Positivism & Analytical School)",
+                            "ISL 403: Advanced Principles of Islamic Jurisprudence (Usul al-Fiqh: Ijma', Qiyas, Ijtihad & Istihsan)"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "ISL 402: Islamic Criminal Law II (Qisas / Retaliation, Diyyah / Blood Money & Ta'zir / Discretionary Punishment)",
+                            "CML 402: Company Law II (Shares, Directors' Duties, Liquidation & Corporate Insolvency)",
+                            "PPL 402: Law of Evidence II (Comparative Analysis with Islamic Law of Evidence - Bayyinah, Yamin & Witnesses)",
+                            "PPL 404: Jurisprudence & Legal Theory II (Sociological Jurisprudence, Realism & Comparative Legal Theories)",
+                            "ISL 404: Islamic Judicial System & Law of Procedure (Adab al-Qadi & Practice in Sharia Courts)"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "500 Level (Islamic Banking, Conveyancing, Conflict of Laws & Capstone Project)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "ISL 501: Islamic Law of Banking, Finance & Insurance (Sukuk, Takaful, Murabahah & Mudarabah)",
+                            "PPL 501: Conveyancing & Drafting Practice I (Common Law & Sharia Property Documentation)",
+                            "PIL 503: Conflict of Laws / Private International Law I (Jurisdiction & Choice of Law)",
+                            "PPL 503: Alternative Dispute Resolution (ADR) & Islamic Arbitration (Tahkim)",
+                            "LL.B 597: LL.B Long Essay / Legal Research Project I (Research Methodology, Proposal & Chapter 1 Framework)"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "ISL 502: Human Rights in Islamic Law & Comparative Constitutionalism",
+                            "PPL 502: Conveyancing & Drafting Practice II (Search Reports, Registrations & Sharia Court Procedure)",
+                            "PIL 504: Conflict of Laws / Private International Law II (Enforcement of Judgments across Jurisdictions)",
+                            "PPL 504: Professional Ethics, Legal Practice Management & Bar Clinic",
+                            "LL.B 599: LL.B Long Essay / Legal Research Project II (Final Thesis Defense & Comparative Legal Analysis)"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "Law / Public Law": {
+        degree: "LL.B. Law / Public Law",
+        levels: [
+            {
+                level: "100 Level (Legal Foundations, Humanities & Social Sciences)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "PPL 101: Legal Method I (Sources of Law, Legal Reasoning & Judicial Precedent)",
+                            "PPL 103: Nigerian Legal System I (Structure of Nigerian Courts & History of Law)",
+                            "POS 101: Introduction to Political Science & Government",
+                            "SOC 101: Introduction to Sociology",
+                            "GST 111: Communication in English Language",
+                            "AMS 103: Introduction to Computing & Information Technology",
+                            "HIS 101: History of Nigeria & West Africa"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "PPL 102: Legal Method II (Statutory Interpretation, Legal Writing & Legal Research)",
+                            "PPL 104: Nigerian Legal System II (Customary Law, Sharia & Alternative Dispute Resolution)",
+                            "POS 102: Nigerian Constitutional Development & Government",
+                            "ECN 102: Principles of Economics (Micro & Macro Foundations)",
+                            "GST 112: Nigerian Peoples and Culture",
+                            "SOC 102: Introduction to Social Anthropology"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "200 Level (Core Law Foundations: Constitutional Law, Law of Contract & Customary Law)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "PPL 201: Constitutional Law I (Separation of Powers, Rule of Law & Supremacy of the Constitution)",
+                            "CML 201: Law of Contract I (Offer, Acceptance, Consideration & Intention to Create Legal Relations)",
+                            "PPL 203: Customary Land Law & Indigenous Tenure Systems",
+                            "PPL 205: Nigerian Criminal Law I (General Principles of Criminal Responsibility)",
+                            "ENT 211: Entrepreneurship and Innovation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "PPL 202: Constitutional Law II (Fundamental Human Rights, Enforcement Procedures & Citizenship)",
+                            "CML 202: Law of Contract II (Vitiating Elements, Discharge of Contract & Remedies for Breach)",
+                            "PPL 204: Nigerian Land Law I (Historical Evolution & Statutory Tenure Systems)",
+                            "PPL 206: Nigerian Criminal Law II (Specific Offences: Crimes against Persons, State & Property)",
+                            "GST 212: Philosophy, Logic, and Human Existence"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "300 Level (Administrative Law, Land Law, Commercial Law & Torts)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "PPL 301: Administrative Law I (Nature, Scope, Delegated Legislation & Executive Powers)",
+                            "PPL 303: Land Law II (The Land Use Act of 1978, Rights of Occupancy & Governor's Consent)",
+                            "CML 301: Commercial Law I (Sale of Goods Act & Agency Law)",
+                            "PPL 305: Law of Torts I (Negligence, Nuisance & Defamation)",
+                            "PPL 307: Equity & Trusts I (Origins of Equity, Maxims & Charitable Trusts)",
+                            "ENT 312: Venture Creation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "PPL 302: Administrative Law II (Judicial Review, Natural Justice, Remedies & Ombudsman/Public Complaints Commission)",
+                            "PPL 304: Property Law & Conveyancing Foundations",
+                            "CML 302: Commercial Law II (Hire Purchase, Carriage of Goods & Consumer Protection)",
+                            "PPL 306: Law of Torts II (Vicarious Liability & Economic Torts)",
+                            "PPL 308: Equity & Trusts II (Private Trusts, Fiduciary Relations & Constructive Trusts)",
+                            "GST 312: Peace Studies and Conflict Resolution"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "400 Level (Public International Law, Company Law, Jurisprudence & Evidence)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "PIL 401: Public International Law I (Nature, Sources, Subjects of International Law & State Sovereignty)",
+                            "CML 401: Company Law I (CAMA 2020: Incorporation, Corporate Personality & Governance)",
+                            "PPL 401: Law of Evidence I (Relevancy, Admissibility & Burden of Proof)",
+                            "PPL 403: Jurisprudence & Legal Theory I (Nature of Law, Natural Law School, Legal Positivism & Analytical School)",
+                            "PIL 403: Human Rights Law I (UN Charter, Universal Declaration of Human Rights & Regional Systems)"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "PIL 402: Public International Law II (Law of Treaties, State Responsibility, Recognition & Peaceful Settlement of Disputes)",
+                            "CML 402: Company Law II (Shares, Directors' Duties, Liquidation & Corporate Insolvency)",
+                            "PPL 402: Law of Evidence II (Hearsay, Estoppel & Documentary Evidence)",
+                            "PPL 404: Jurisprudence & Legal Theory II (Historical, Pure Theory, Sociological Jurisprudence & American/Scandinavian Realism)",
+                            "PIL 404: Human Rights Law II (African Charter on Human and Peoples' Rights & Enforcement Mechanisms in Nigeria)"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "500 Level (Public Revenue Law, Environmental Law, Local Government Law & Capstone Project)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "PPL 501: Public Revenue & Tax Law I (Constitutional Power to Tax, Direct vs. Indirect Taxation & Companies Income Tax)",
+                            "PPL 503: Environmental Law I (Ecological Protection, Pollution Control & Federal Environmental Legislation)",
+                            "PPL 505: Local Government Law & Municipal Governance",
+                            "PIL 503: Conflict of Laws / Private International Law I (Jurisdiction & Choice of Law)",
+                            "PPL 507: Legal Drafting & Conveyancing Practice I",
+                            "LL.B 597: LL.B Long Essay / Legal Research Project I (Research Methodology, Proposal & Chapter 1 Framework)"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "PPL 502: Public Revenue & Tax Law II (Personal Income Tax, Value Added Tax, Petroleum Profits Tax & Tax Appeals)",
+                            "PPL 504: Environmental Law II (Environmental Impact Assessment, Climate Change Governance & Marine Pollution)",
+                            "PPL 506: Comparative Constitutional Law & Judicial Review",
+                            "PIL 504: Conflict of Laws / Private International Law II (Recognition & Enforcement of Foreign Judgments)",
+                            "PPL 508: Professional Ethics, Legal Practice Management & Law Clinic",
+                            "LL.B 599: LL.B Long Essay / Legal Research Project II (Final Thesis Defense & Portfolio Submission)"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "Private & Business Law": {
+        degree: "LL.B. Private & Business Law",
+        levels: [
+            {
+                level: "100 Level (Legal Foundations, Humanities & Social Sciences)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "PPL 101: Legal Method I (Sources of Law, Legal Reasoning & Judicial Precedent)",
+                            "PPL 103: Nigerian Legal System I (Structure of Nigerian Courts & History of Law)",
+                            "SOC 101: Introduction to Sociology",
+                            "POS 101: Introduction to Political Science",
+                            "GST 111: Communication in English Language",
+                            "AMS 103: Introduction to Computing & Information Technology",
+                            "HIS 101: History of Nigeria & West Africa"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "PPL 102: Legal Method II (Statutory Interpretation, Legal Writing & Legal Research)",
+                            "PPL 104: Nigerian Legal System II (Customary Law, Sharia & Alternative Dispute Resolution)",
+                            "POS 102: Nigerian Constitutional Development & Government",
+                            "ECN 102: Principles of Economics (Micro & Macro Foundations)",
+                            "GST 112: Nigerian Peoples and Culture",
+                            "SOC 102: Introduction to Social Anthropology"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "200 Level (Core Law Foundations: Contract, Constitutional Law, Family Law & Criminal Law)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "CML 201: Law of Contract I (Offer, Acceptance, Consideration & Intention to Create Legal Relations)",
+                            "PPL 201: Constitutional Law I (Separation of Powers, Rule of Law & Supremacy of the Constitution)",
+                            "PPL 203: Family Law I (Marriage Systems: Statutory vs. Customary Marriage, Capacity & Formalities)",
+                            "PPL 205: Customary Land Law & Indigenous Tenure Systems",
+                            "PPL 207: Nigerian Criminal Law I (General Principles of Criminal Responsibility)",
+                            "ENT 211: Entrepreneurship and Innovation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "CML 202: Law of Contract II (Vitiating Elements, Discharge of Contract & Remedies for Breach)",
+                            "PPL 202: Constitutional Law II (Fundamental Human Rights & Enforcement Procedures)",
+                            "PPL 204: Family Law II (Matrimonial Causes: Dissolution, Maintenance, Custody & Property Rights)",
+                            "PPL 206: Nigerian Land Law I (Historical Evolution & Statutory Tenure Systems)",
+                            "PPL 208: Nigerian Criminal Law II (Specific Offences against Persons & Property)",
+                            "GST 212: Philosophy, Logic, and Human Existence"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "300 Level (Commercial Law, Land Law, Torts & Equity)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "CML 301: Commercial Law I (Sale of Goods Act & Agency Law)",
+                            "PPL 301: Land Law II (The Land Use Act of 1978, Rights of Occupancy & Governor's Consent)",
+                            "PPL 303: Law of Torts I (Negligence, Nuisance & Defamation)",
+                            "PPL 305: Equity & Trusts I (Origins of Equity, Maxims & Charitable Trusts)",
+                            "CML 303: Consumer Protection & Product Liability Law",
+                            "ENT 312: Venture Creation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "CML 302: Commercial Law II (Hire Purchase, Contract of Carriage & Equipment Leasing)",
+                            "PPL 302: Property Law & Conveyancing Foundations",
+                            "PPL 304: Law of Torts II (Vicarious Liability & Economic Torts)",
+                            "PPL 306: Equity & Trusts II (Private Trusts, Fiduciary Relations & Constructive Trusts)",
+                            "CML 304: Business Associations & Unincorporated Bodies (Partnerships & Business Names)",
+                            "GST 312: Peace Studies and Conflict Resolution"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "400 Level (Company Law, Intellectual Property, Banking & Evidence)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "CML 401: Company Law I (CAMA 2020: Incorporation, Corporate Personality & Corporate Governance)",
+                            "CML 403: Intellectual Property Law I (Copyright & Industrial Designs)",
+                            "CML 405: Banking & Negotiable Instruments Law (Promissory Notes, Cheques & CBN Regulations)",
+                            "PPL 401: Law of Evidence I (Relevancy, Admissibility & Burden of Proof)",
+                            "PPL 403: Jurisprudence & Legal Theory I (Nature of Law, Natural Law School & Legal Positivism)"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "CML 402: Company Law II (Shares, Debentures, Directors' Duties, Winding-Up & Corporate Insolvency)",
+                            "CML 404: Intellectual Property Law II (Patents, Trademarks & Passing Off Actions)",
+                            "CML 406: Corporate Finance & Securities Regulation (SEC Regulations & Capital Markets)",
+                            "PPL 402: Law of Evidence II (Hearsay, Estoppel & Documentary Evidence)",
+                            "PPL 404: Jurisprudence & Legal Theory II (Sociological Jurisprudence, Realism & Pure Theory of Law)"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "500 Level (Conveyancing Practice, Taxation, Arbitration & Capstone Project)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "PPL 501: Conveyancing & Drafting Practice I (Drafting Contracts of Sale, Deeds & Mortgages)",
+                            "CML 501: Corporate Insolvency & Business Rescue Practice",
+                            "CML 503: Business Taxation & Revenue Law (Companies Income Tax, Stamp Duties & Capital Gains Tax)",
+                            "PPL 503: Alternative Dispute Resolution (ADR) & Commercial Arbitration",
+                            "PIL 503: Conflict of Laws / Private International Law I (Jurisdiction & Choice of Law)",
+                            "LL.B 597: LL.B Long Essay / Legal Research Project I (Research Methodology, Proposal & Chapter 1 Framework)"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "PPL 502: Conveyancing & Drafting Practice II (Search Reports, Completion of Title & Registration of Instruments)",
+                            "CML 502: International Commercial Transactions & Trade Law (Incoterms & Letters of Credit)",
+                            "CML 504: Competition Law, Mergers & Acquisitions",
+                            "PPL 504: Professional Ethics, Legal Practice Management & Law Clinic",
+                            "PIL 504: Conflict of Laws / Private International Law II (Enforcement of Foreign Judgments & Arbitral Awards)",
+                            "LL.B 599: LL.B Long Essay / Legal Research Project II (Final Thesis Defense & Portfolio Submission)"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "Dentistry / Dental Surgery": {
+        degree: "B.DS / B.D.S. Dentistry / Dental Surgery",
+        levels: [
+            {
+                level: "100 Level (Basic Sciences Foundations)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "CHM 101: General Chemistry I (Physical & Inorganic Chemistry)",
+                            "PHY 101: General Physics I (Mechanics, Thermal Physics & Waves)",
+                            "BIO 101: General Biology I (Cell Biology & Genetics)",
+                            "MTH 101: Elementary Mathematics I (Algebra & Calculus)",
+                            "GST 111: Communication in English Language",
+                            "AMS 103: Introduction to Computing & Information Technology"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "CHM 102: General Chemistry II (Organic Chemistry Foundations)",
+                            "PHY 102: General Physics II (Electricity, Magnetism & Modern Physics)",
+                            "BIO 102: General Biology II (Organismal Biology & Ecology)",
+                            "GST 112: Nigerian Peoples and Culture",
+                            "GST 113: History and Philosophy of Science"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "200 Level (Pre-Clinical Basic Medical Sciences I)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "ANA 201: Human Anatomy I (Gross Anatomy of Upper Limb, Thorax & Abdomen)",
+                            "ANA 203: General Histology & Embryology",
+                            "PIO 201: Human Physiology I (Blood, Cardiovascular & Respiratory Systems)",
+                            "BCH 201: General Biochemistry I (Biomolecules, Enzymes & Bioenergetics)",
+                            "ENT 211: Entrepreneurship and Innovation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "ANA 202: Human Anatomy II (Gross Anatomy of Head & Neck, Neuroanatomy)",
+                            "DEN 202: Oral Anatomy, Tooth Morphology & Physiology",
+                            "PIO 202: Human Physiology II (Renal, Gastrointestinal & Endocrine Systems)",
+                            "BCH 202: General Biochemistry II (Metabolic Pathways & Molecular Biology)",
+                            "GST 212: Philosophy, Logic, and Human Existence"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "300 Level (Pre-Clinical Basic Medical Sciences II & 1st Professional BDS Exams)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "DEN 301: Oral Histology, Embryology & Dental Embryogenesis",
+                            "DEN 303: Dental Materials & Technology (Biomaterials, Impression Materials & Resins)",
+                            "ANA 301: Advanced Head and Neck Anatomy & Craniofacial Osteology",
+                            "PIO 301: Neurophysiology, Pain Mechanisms & Masticatory Mechanics",
+                            "BCH 301: Oral Biochemistry (Biochemistry of Saliva, Plaque & Enamel Remineralization)"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "DEN 302: Pre-Clinical Operative Dentistry & Phantom Head Simulation Lab",
+                            "DEN 304: Pre-Clinical Prosthetic Dentistry (Complete & Partial Denture Fabrication)",
+                            "BDS 399: First Professional B.D.S. Examination (Anatomy, Physiology & Biochemistry)"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "400 Level (Paraclinical Pathology, Pharmacology & General Medicine/Surgery)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "PAT 401: General Pathology (Cellular Injury, Inflammation, Neoplasia & Hemodynamics)",
+                            "MCB 401: General & Medical Microbiology (Bacteriology, Virology, Mycology & Immunology)",
+                            "PHA 401: General Pharmacology & Therapeutics (Autonomic, CNS & Cardiovascular Drugs)",
+                            "DEN 401: Oral Pathology & Microbiology I (Odontogenic Cysts, Tumors & Caries Etiology)",
+                            "ENT 312: Venture Creation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "MED 402: General Medicine for Dental Students (Systemic Diseases, Cardiology, Endocrinology)",
+                            "SUR 402: General Surgery for Dental Students (Principles of Surgery, Shock, Wound Healing & Anesthesia)",
+                            "DEN 402: Oral Pathology & Microbiology II (Salivary Gland Disorders, Mucosal Lesions & Histopathology)",
+                            "BDS 499: Second Professional B.D.S. Examination (General Pathology, Microbiology, Pharmacology, General Medicine & General Surgery)"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "500 Level (Clinical Dental Specialties I & Junior Clerkship)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "DEN 501: Child Dental Health I (Pediatric Dentistry & Preventive Dentistry)",
+                            "DEN 503: Preventive & Community Dentistry I (Oral Epidemiology, Fluoridation & Dental Public Health)",
+                            "DEN 505: Restorative Dentistry I (Operative Dentistry, Endodontics & Cariology)",
+                            "DEN 507: Prosthetic Dentistry I (Removable & Fixed Prosthodontics)",
+                            "DEN 509: Oral & Maxillofacial Surgery I (Local Anesthesia, Exodontia & Surgical Principles)",
+                            "DEN 511: Periodontology I (Etiology, Pathology & Diagnosis of Periodontal Diseases)"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "DEN 502: Orthodontics I (Craniofacial Growth, Occlusion & Malocclusion Classification)",
+                            "DEN 504: Oral Medicine & Oral Radiology I (Diagnostic Imaging, Radiographic Interpretation & Oral Manifestations of Systemic Disease)",
+                            "DEN 506: Clinical Dental Clerkship & Outpatient Rotations",
+                            "BDS 599: Third Professional B.D.S. Examination (Oral Pathology & Oral Medicine/Radiology)"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "600 Level (Clinical Dental Specialties II, Senior Clerkship & Final Professional BDS Exams)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "DEN 601: Oral & Maxillofacial Surgery II (Traumatology, Orthognathic Surgery, Cleft Lip/Palate & Maxillofacial Oncology)",
+                            "DEN 603: Restorative Dentistry II (Complex Endodontics, Esthetic Dentistry & Dental Implants)",
+                            "DEN 605: Prosthetic Dentistry II (Maxillofacial Prosthetics & Fixed Partial Dentures)",
+                            "DEN 607: Child Dental Health II & Orthodontics II (Interceptive Orthodontics & Pediatric Trauma)",
+                            "DEN 609: Periodontology II (Surgical Periodontics & Implant Periodontics)",
+                            "DEN 611: Preventive & Community Dentistry II (Field Surveys, Dental Ethics & Practice Management)"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "DEN 602: Senior Clinical Rotations & Comprehensive Patient Care",
+                            "BDS 699: Final Professional B.D.S. Examination (Part I: Oral & Maxillofacial Surgery, Oral Medicine; Part II: Restorative Dentistry, Periodontics; Part III: Child Dental Health, Orthodontics, Preventive Dentistry)"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "Medicine & Surgery": {
+        degree: "MBBS / MBChB Medicine & Surgery",
+        levels: [
+            {
+                level: "100 Level (Basic Sciences Foundations)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "CHM 101: General Chemistry I (Physical & Inorganic Chemistry)",
+                            "PHY 101: General Physics I (Mechanics, Thermal Physics & Waves)",
+                            "BIO 101: General Biology I (Cell Biology & Genetics)",
+                            "MTH 101: Elementary Mathematics I (Algebra & Calculus)",
+                            "GST 111: Communication in English Language",
+                            "AMS 103: Introduction to Computing & Information Technology"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "CHM 102: General Chemistry II (Organic Chemistry Foundations)",
+                            "PHY 102: General Physics II (Electricity, Magnetism & Modern Physics)",
+                            "BIO 102: General Biology II (Organismal Biology & Ecology)",
+                            "GST 112: Nigerian Peoples and Culture",
+                            "GST 113: History and Philosophy of Science"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "200 Level (Pre-Clinical Basic Medical Sciences I)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "ANA 201: Gross Anatomy I (Upper Limb, Lower Limb, Thorax & Abdomen)",
+                            "ANA 203: Histology I (General Cytology & Basic Tissue Microanatomy)",
+                            "ANA 205: Embryology I (General Embryology & Teratology)",
+                            "PIO 201: Human Physiology I (Blood, Excitable Tissues & Cardiovascular System)",
+                            "BCH 201: Medical Biochemistry I (Biomolecules, Enzymes & Bioenergetics)",
+                            "ENT 211: Entrepreneurship and Innovation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "ANA 202: Gross Anatomy II (Head & Neck, Neuroanatomy, Pelvis & Perineum)",
+                            "ANA 204: Histology II (Systemic Histology & Organ Microanatomy)",
+                            "PIO 202: Human Physiology II (Renal, Respiration, Gastrointestinal & Endocrine Systems)",
+                            "BCH 202: Medical Biochemistry II (Metabolism of Carbohydrates, Lipids, Proteins & Molecular Biology)",
+                            "GST 212: Philosophy, Logic, and Human Existence"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "300 Level (Pre-Clinical Basic Medical Sciences II & 1st Professional MBBS Exams)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "ANA 301: Advanced Neuroanatomy & Cross-Sectional Imaging Anatomy",
+                            "PIO 301: Applied Physiology, Special Senses, Exercise & Environmental Physiology",
+                            "BCH 301: Clinical Biochemistry, Nutrition, Inborn Errors of Metabolism & Endocrinology",
+                            "MED 301: Introduction to Clinical Methods, History Taking & Physical Examination"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "ANA 302: Advanced Histology, Embryology & Surface Anatomy",
+                            "PIO 302: Clinical Integrative Physiology & Neurophysiology",
+                            "BCH 302: Advanced Molecular Biology, Recombinant DNA & Medical Genetics",
+                            "MBBS 399: First Professional M.B.B.S. Examination (Anatomy, Physiology & Medical Biochemistry)"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "400 Level (Paraclinical Sciences & 2nd Professional MBBS Exams)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "PAT 401: General & Systemic Pathology (Histopathology, Chemical Pathology, Hematology & Blood Transfusion)",
+                            "MCB 401: Medical Microbiology & Parasitology (Bacteriology, Virology, Mycology, Parasitology & Immunology)",
+                            "PHA 401: Pharmacology & Therapeutics I (General Principles, Autonomic, CNS & Cardiovascular Drugs)",
+                            "ENT 312: Venture Creation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "PAT 402: Forensic Medicine, Toxicology & Autopsy Pathology",
+                            "PHA 402: Pharmacology & Therapeutics II (Chemotherapy, Endocrine & Clinical Pharmacology)",
+                            "COM 402: Community Medicine & Public Health I (Epidemiology, Biostatistics & Environmental Health)",
+                            "MBBS 499: Second Professional M.B.B.S. Examination (Pathology, Medical Microbiology, Pharmacology & Forensic Medicine)"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "500 Level (Clinical Specialties I & 3rd Professional MBBS Exams)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "PED 501: Paediatrics & Child Health I (Neonatology, Growth & Development, Pediatric Infections)",
+                            "OBG 501: Obstetrics & Gynaecology I (Antenatal Care, Normal Labor, Basic Gynaecology)",
+                            "COM 501: Community Medicine & Public Health II (Primary Health Care, Health Management & Field Postings)"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "PED 502: Paediatrics & Child Health II (Pediatric Specialties, Emergency Pediatrics & Preventive Pediatrics)",
+                            "OBG 502: Obstetrics & Gynaecology II (High-Risk Obstetrics, Operative Obstetrics, Reproductive Health)",
+                            "COM 502: Community Medicine & Public Health III (Occupational Health, Global Health & Urban/Rural Postings)",
+                            "MBBS 599: Third Professional M.B.B.S. Examination (Paediatrics, Obstetrics & Gynaecology, Community Medicine)"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "600 Level (Clinical Specialties II & Final Professional MBBS Exams)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "MED 601: Medicine I (Cardiology, Pulmonology, Gastroenterology, Nephrology, Neurology, Endocrinology)",
+                            "SUR 601: Surgery I (General Surgery, Urology, Orthopaedics, Traumatology, Neurosurgery)",
+                            "PSY 601: Psychiatry & Behavioral Sciences (Clinical Psychiatry, Psychopathology, Addictive Disorders)",
+                            "CLI 601: Surgical Specialties (Otorhinolaryngology/ENT, Ophthalmology, Anesthesia & Intensive Care)"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "MED 602: Senior Medicine Clerkship, Dermatology, Rheumatology & Emergency Medicine",
+                            "SUR 602: Senior Surgery Clerkship, Pediatric Surgery, Plastic Surgery & Cardiothoracic Surgery",
+                            "MBBS 699: Final (4th) Professional M.B.B.S. Examination (Part I: Medicine & Psychiatry; Part II: Surgery & Surgical Specialties)"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "Bachelor of Pharmacy": {
+        degree: "B.Pharm. Bachelor of Pharmacy",
+        levels: [
+            {
+                level: "100 Level (Basic Sciences Foundations)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "CHM 101: General Chemistry I (Physical & Inorganic Chemistry)",
+                            "PHY 101: General Physics I (Mechanics, Thermal Physics & Waves)",
+                            "BIO 101: General Biology I (Cell Biology & Genetics)",
+                            "MTH 101: Elementary Mathematics I (Algebra & Calculus)",
+                            "GST 111: Communication in English Language",
+                            "AMS 103: Introduction to Computing & Information Technology"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "CHM 102: General Chemistry II (Organic Chemistry Foundations)",
+                            "PHY 102: General Physics II (Electricity, Magnetism & Modern Physics)",
+                            "BIO 102: General Biology II (Organismal Biology & Ecology)",
+                            "GST 112: Nigerian Peoples and Culture",
+                            "GST 113: History and Philosophy of Science"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "200 Level (Pre-Clinical & Introductory Pharmaceutical Sciences)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "PCH 201: Pharmaceutical Chemistry I (Organic Chemistry for Pharmacy & Functional Groups)",
+                            "PCE 201: Pharmaceutics & Pharmaceutical Technology I (Calculations, Solutions & Dispensing Principles)",
+                            "PCO 201: Pharmacognosy I (Introductory Phytochemistry & Plant Morphology)",
+                            "ANA 201: Human Anatomy for Pharmacy Students (Gross Anatomy & Histology)",
+                            "PIO 201: Human Physiology I (Cell, Blood, Cardiovascular & Respiratory Systems)",
+                            "BCH 201: General Biochemistry I (Biomolecules, Enzymes & Bioenergetics)",
+                            "ENT 211: Entrepreneurship and Innovation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "PCH 202: Pharmaceutical Chemistry II (Inorganic Pharmaceutical Chemistry & Drug Analysis Foundations)",
+                            "PCE 202: Pharmaceutics II (Unit Operations, Fluid Flow & Powder Technology)",
+                            "PCO 202: Pharmacognosy II (Secondary Metabolites: Alkaloids, Glycosides & Tannins)",
+                            "PIO 202: Human Physiology II (Renal, Endocrine, Gastrointestinal & Neurophysiology)",
+                            "BCH 202: General Biochemistry II (Metabolic Pathways & Molecular Biology)",
+                            "GST 212: Philosophy, Logic, and Human Existence"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "300 Level (Core Pharmaceutical Sciences)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "PCH 301: Pharmaceutical Chemistry III (Instrumental Methods of Analysis: UV-Vis, IR, NMR & Chromatography)",
+                            "PCE 301: Pharmaceutics III (Liquid Dosage Forms, Suspensions, Emulsions & Semi-Solids)",
+                            "PHA 301: Pharmacology & Therapeutics I (General Principles, Autonomic & CNS Pharmacology)",
+                            "PMB 301: Pharmaceutical Microbiology I (Microbial Physiology, Sterilization & Disinfection)",
+                            "PCP 301: Clinical Pharmacy & Pharmacy Practice I (Patient Communication & Medical Terminology)",
+                            "ENT 312: Venture Creation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "PCH 302: Medicinal Chemistry I (Structure-Activity Relationships: Anti-infectives & Autacoids)",
+                            "PCE 302: Pharmaceutical Technology I (Solid Dosage Forms: Tablets, Capsules & Granulation)",
+                            "PHA 302: Pharmacology & Therapeutics II (Cardiovascular, Renal & Gastrointestinal Pharmacology)",
+                            "PMB 302: Pharmaceutical Microbiology II (Antimicrobial Agents, Assays & Resistance Mechanisms)",
+                            "PCO 302: Plant Medicine & Complementary/Alternative Medicine (CAM)",
+                            "GST 312: Peace Studies and Conflict Resolution"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "400 Level (Advanced Pharmacology, Formulations & Clinical Training)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "PCH 401: Medicinal Chemistry II (Synthetic Drugs: CNS, Cardiovascular & Endocrine Agents)",
+                            "PCE 401: Biopharmaceutics & Pharmacokinetics (ADME Processes, Bioavailability & Bioequivalence)",
+                            "PHA 401: Pharmacology & Therapeutics III (Endocrine, Respiratory & Chemotherapeutic Agents)",
+                            "PCP 401: Clinical Pharmacy II (Pathophysiology & Therapeutics of Major Diseases)",
+                            "PMB 401: Industrial Microbiology & Biotechnology (Fermentation & Biological Products)"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "PCH 402: Drug Design & Molecular Modeling",
+                            "PCE 402: Novel Drug Delivery Systems (Sustained Release, Liposomes & Nanotechnology)",
+                            "PHA 402: Neuropharmacology & Toxicology (Mechanisms of Toxicity & Antidotes)",
+                            "PCP 402: Clinical Pharmacy III (Hospital & Community Pharmacy Practice Rotations)",
+                            "PJU 402: Pharmacy Law, Ethics & Jurisprudence (PCN Regulations, NAFDAC & Poison Acts)"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "500 Level (Advanced Clinical Pharmacy, Management & Capstone Project)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "PCP 501: Clinical Pharmacy IV (Advanced Pharmacotherapeutics: Oncology, Psychiatry & Critical Care)",
+                            "PCP 503: Public Health Pharmacy, Pharmacoepidemiology & Pharmacovigilance",
+                            "PMA 501: Pharmacy Management, Marketing & Accounting",
+                            "PCO 501: Standardization & Quality Control of Herbal Products",
+                            "FAR 597: Research Project / Dissertation I (Literature Review & Experimental Setup)"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "PCP 502: Pharmacoeconomics & Drug Information Services",
+                            "PCE 502: Industrial Pharmacy & Quality Assurance (GMP, Quality Control & Regulatory Affairs)",
+                            "PCP 504: Hospital Clerkship & Institutional Clinical Rotations",
+                            "FAR 599: Research Project / Dissertation II (Data Analysis, Thesis Defense & Submission)"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "Doctor of Pharmacy": {
+        degree: "Pharm.D. Doctor of Pharmacy",
+        levels: [
+            {
+                level: "100 Level (Basic Sciences Foundations)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "CHM 101: General Chemistry I (Physical & Inorganic Chemistry)",
+                            "PHY 101: General Physics I (Mechanics, Thermal Physics & Waves)",
+                            "BIO 101: General Biology I (Cell Biology & Genetics)",
+                            "MTH 101: Elementary Mathematics I (Algebra & Calculus)",
+                            "GST 111: Communication in English Language",
+                            "AMS 103: Introduction to Computing & Information Technology"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "CHM 102: General Chemistry II (Organic Chemistry Foundations)",
+                            "PHY 102: General Physics II (Electricity, Magnetism & Modern Physics)",
+                            "BIO 102: General Biology II (Organismal Biology & Ecology)",
+                            "GST 112: Nigerian Peoples and Culture",
+                            "GST 113: History and Philosophy of Science"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "200 Level (Pre-Clinical Medical Sciences & Basic Pharmaceutical Sciences)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "PCH 201: Pharmaceutical Chemistry I (Organic Chemistry for Pharmacy)",
+                            "PCE 201: Pharmaceutics I (Calculations, Solutions & Dispensing Principles)",
+                            "PCO 201: Pharmacognosy I (Plant Morphology & Phytochemistry)",
+                            "ANA 201: Human Anatomy I (Gross Anatomy & Basic Histology)",
+                            "PIO 201: Human Physiology I (Cellular, Blood & Cardiovascular Physiology)",
+                            "BCH 201: Medical Biochemistry I (Biomolecules, Enzymes & Bioenergetics)",
+                            "ENT 211: Entrepreneurship and Innovation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "PCH 202: Pharmaceutical Chemistry II (Inorganic Chemistry & Volumetric Analysis)",
+                            "PCE 202: Pharmaceutics II (Unit Operations & Powder Technology)",
+                            "PCO 202: Pharmacognosy II (Alkaloids, Glycosides & Plant Metabolites)",
+                            "ANA 202: Human Anatomy II (Neuroanatomy & Organ Systems)",
+                            "PIO 202: Human Physiology II (Renal, Endocrine & Gastrointestinal Physiology)",
+                            "BCH 202: Medical Biochemistry II (Metabolic Pathways & Molecular Biology)",
+                            "GST 212: Philosophy, Logic, and Human Existence"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "300 Level (Core Pharmaceutical Sciences, Pathology & Introductory Clinical Pharmacy)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "PCH 301: Pharmaceutical Chemistry III (Instrumental Methods of Analysis: UV-Vis, IR, NMR, HPLC)",
+                            "PCE 301: Pharmaceutics III (Liquid Dosage Forms, Suspensions & Emulsions)",
+                            "PHA 301: Pharmacology & Therapeutics I (General Principles, Autonomic & CNS Pharmacology)",
+                            "PMB 301: Pharmaceutical Microbiology I (Microbial Physiology, Sterilization & Disinfection)",
+                            "PAT 301: General Pathology (Cell Injury, Inflammation & Neoplasia)",
+                            "PCP 301: Introductory Clinical Pharmacy & Medical Terminology",
+                            "ENT 312: Venture Creation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "PCH 302: Medicinal Chemistry I (Structure-Activity Relationships: Anti-infectives & Autacoids)",
+                            "PCE 302: Pharmaceutical Technology (Solid Dosage Forms: Granulation & Tableting)",
+                            "PHA 302: Pharmacology & Therapeutics II (Cardiovascular, Renal & Endocrine Pharmacology)",
+                            "PMB 302: Pharmaceutical Microbiology II (Antimicrobial Agents & Assays)",
+                            "PCP 302: Physical Assessment & Clinical Communication Skills",
+                            "GST 312: Peace Studies and Conflict Resolution"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "400 Level (Advanced Pharmacology, Biopharmaceutics & Disease State Management)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "PCH 401: Medicinal Chemistry II (Synthetic Drugs: CNS, Cardiovascular & Chemotherapeutic Agents)",
+                            "PCE 401: Biopharmaceutics & Pharmacokinetics (ADME Processes, Bioavailability & Bioequivalence)",
+                            "PHA 401: Pharmacology & Therapeutics III (Chemotherapeutics, Respiratory & GI Pharmacology)",
+                            "PCP 401: Pharmacotherapy I (Cardiovascular, Renal & Respiratory Disorders)",
+                            "PMB 401: Industrial Microbiology & Biotechnology"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "PCE 402: Advanced Biopharmaceutics & Clinical Pharmacokinetics (Therapeutic Drug Monitoring)",
+                            "PHA 402: Neuropharmacology & Toxicology (Mechanisms of Toxicity, Poison Management & Antidotes)",
+                            "PCP 402: Pharmacotherapy II (Endocrine, Gastrointestinal & Rheumatic Disorders)",
+                            "PCO 402: Clinical Complementary & Alternative Medicine",
+                            "PJU 402: Pharmacy Law, Ethics & Jurisprudence (PCN, NAFDAC & Poison Acts)"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "500 Level (Advanced Pharmacotherapy, Public Health & Hospital Clerkships)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "PCP 501: Pharmacotherapy III (Infectious Diseases, Oncology & Immunology)",
+                            "PCP 503: Advanced Clinical Pharmacy Practice & Bedside Patient Care",
+                            "PCP 505: Public Health Pharmacy, Pharmacoepidemiology & Pharmacovigilance",
+                            "PMA 501: Health Care Management, Marketing & Pharmacoeconomics",
+                            "PRJ 597: Pharm.D. Research Project / Dissertation I (Proposal & Methodology)"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "PCP 502: Pharmacotherapy IV (Neurological, Psychiatric & Gynecological Disorders)",
+                            "PCP 504: Clinical Toxicology & Emergency Medicine",
+                            "PCP 506: Drug Information Services, Clinical Literature Evaluation & Evidence-Based Medicine",
+                            "PCE 502: Industrial Pharmacy & Novel Drug Delivery Systems",
+                            "PRJ 599: Pharm.D. Research Project / Dissertation II (Data Analysis & Defense)"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "600 Level (Advanced Pharmacy Practice Experiences / APPE Clinical Rotations)",
+                semesters: [
+                    {
+                        semester: "First Semester (Hospital & Bedside Clinical Clerkship Postings I)",
+                        courses: [
+                            "CLR 601: Internal Medicine Clinical Clerkship Rotation",
+                            "CLR 603: Surgery & Anesthesia Clinical Clerkship Rotation",
+                            "CLR 605: Paediatrics & Child Health Clinical Clerkship Rotation",
+                            "CLR 607: Obstetrics & Gynaecology Clinical Clerkship Rotation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester (Specialized Clinical Postings, Community/Industrial Practice & Final Board Examinations)",
+                        courses: [
+                            "CLR 602: Psychiatry & Behavioral Health Clinical Rotation",
+                            "CLR 604: Critical Care, Emergency Medicine & Intensive Care Rotation",
+                            "CLR 606: Advanced Community Pharmacy & Ambulatory Care Rotation",
+                            "CLR 608: Industrial Pharmacy Practice & Regulatory Affairs Rotation",
+                            "PHD 699: Final Professional Pharm.D. Examinations & Clinical Board Oral Defense (OSCE)"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "Applied Biochemistry": {
+        degree: "B.Sc. Applied Biochemistry",
+        levels: [
+            {
+                level: "100 Level (Basic Sciences Foundations)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "CHM 101: General Chemistry I (Physical & Inorganic Chemistry)",
+                            "BIO 101: General Biology I (Cell Biology, Genetics & Microbiology Foundations)",
+                            "PHY 101: General Physics I (Mechanics, Thermal Physics & Waves)",
+                            "MTH 101: Elementary Mathematics I (Algebra & Calculus)",
+                            "GST 111: Communication in English Language",
+                            "AMS 103: Introduction to Computing & Information Technology"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "CHM 102: General Chemistry II (Organic Chemistry Foundations)",
+                            "BIO 102: General Biology II (Organismal Biology, Ecology & Diversity)",
+                            "PHY 102: General Physics II (Electricity, Magnetism & Modern Physics)",
+                            "MTH 102: Elementary Mathematics II (Vectors, Geometry & Introductory Statistics)",
+                            "GST 112: Nigerian Peoples and Culture",
+                            "GST 113: History and Philosophy of Science"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "200 Level (Core Biochemistry Foundations & Physical Chemistry)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "BCH 201: General Biochemistry I (Structure and Chemistry of Carbohydrates, Lipids & Nucleic Acids)",
+                            "BCH 203: Functional Amino Acids, Proteins & Bioenergetics",
+                            "CHM 201: Organic Chemistry I (Aliphatic & Aromatic Hydrocarbons, Stereochemistry)",
+                            "CHM 203: Physical Chemistry I (Thermodynamics, Chemical Kinetics & Electrochemistry)",
+                            "MCB 201: General Microbiology I",
+                            "ENT 211: Entrepreneurship and Innovation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "BCH 202: General Biochemistry II (Metabolism of Carbohydrates, Lipids & Amino Acids)",
+                            "BCH 204: Introductory Enzymology & Membrane Biochemistry",
+                            "BCH 206: Biochemical Techniques & Instrumentation I (Spectrophotometry, Centrifugation & pH Metry)",
+                            "CHM 202: Organic Chemistry II (Functional Groups, Heterocyclic Compounds & Natural Products)",
+                            "COS 202: Scientific Computing & Data Analysis for Life Sciences",
+                            "GST 212: Philosophy, Logic, and Human Existence"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "300 Level (Applied Biochemistry, Biotechnology & SIWES Internship)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "BCH 301: Enzymology & Enzyme Kinetics (Michaelis-Menten Kinetics, Inhibition & Allosteric Enzymes)",
+                            "BCH 303: Molecular Biology & Recombinant DNA Technology (DNA Replication, Transcription, Translation & PCR)",
+                            "BCH 305: Industrial & Fermentation Biochemistry (Microbial Growth, Bioreactors & Enzyme Immobilization)",
+                            "BCH 307: Plant Biochemistry & Photosynthesis",
+                            "BCH 309: Biochemical Reasoning & Experimental Design",
+                            "ENT 312: Venture Creation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "BCH 399: Students' Industrial Work Experience Scheme (SIWES / Industrial Training - 6 Months) (Hands-on training in industrial laboratories, food & beverage processing plants, pharmaceutical companies, or research institutes)"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "400 Level (Advanced Applied Biochemistry, Clinical Diagnostics & Capstone Thesis)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "BCH 401: Advanced Enzymology & Industrial Applications",
+                            "BCH 403: Medical & Clinical Biochemistry (Pathological States, Liver/Kidney Function Tests & Diagnostic Biomarkers)",
+                            "BCH 405: Biochemical Toxicology & Environmental Biochemistry (Xenobiotic Metabolism, Heavy Metals & Bioremediation)",
+                            "BCH 407: Food & Nutritional Biochemistry (Food Analysis, Preservation, Anti-nutritional Factors & Fortification)",
+                            "BCH 409: Pharmacological Biochemistry & Drug Development (ADME Processes & Receptor Interaction)",
+                            "BCH 497: Research Project / Senior Thesis I (Proposal, Literature Review & Laboratory Design)"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "BCH 402: Advanced Molecular Biology, Genomics & Bioinformatics",
+                            "BCH 404: Applied Biotechnology & Tissue Culture (Plant/Animal Cell Culture, CRISPR & Gene Therapy)",
+                            "BCH 406: Immunology & Immunochemistry (Antibodies, Monoclonal Antibodies & Immunoassays)",
+                            "BCH 408: Quality Control & Regulatory Affairs in Bioprocessing (Standards, NAFDAC/SON Regulations & GMP)",
+                            "BCH 499: Research Project / Senior Thesis II (Data Analysis, Dissertation Defense & Submission)"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "Applied Chemistry": {
+        degree: "B.Sc. Applied Chemistry",
+        levels: [
+            {
+                level: "100 Level (Basic Sciences Foundations)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "CHM 101: General Chemistry I (Physical & Inorganic Chemistry)",
+                            "PHY 101: General Physics I (Mechanics, Thermal Physics & Waves)",
+                            "BIO 101: General Biology I (Cell Biology & Genetics)",
+                            "MTH 101: Elementary Mathematics I (Algebra & Calculus)",
+                            "GST 111: Communication in English Language",
+                            "AMS 103: Introduction to Computing & Information Technology"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "CHM 102: General Chemistry II (Organic Chemistry Foundations)",
+                            "PHY 102: General Physics II (Electricity, Magnetism & Modern Physics)",
+                            "BIO 102: General Biology II (Organismal Biology & Ecology)",
+                            "MTH 102: Elementary Mathematics II (Vectors, Geometry & Introductory Statistics)",
+                            "GST 112: Nigerian Peoples and Culture",
+                            "GST 113: History and Philosophy of Science"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "200 Level (Core Chemistry Foundations & Physical/Analytical Methods)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "CHM 201: Organic Chemistry I (Aliphatic Hydrocarbons, Stereochemistry & Functional Groups)",
+                            "CHM 203: Inorganic Chemistry I (Periodic Trends, Chemical Bonding & Main Group Chemistry)",
+                            "CHM 205: Physical Chemistry I (Chemical Thermodynamics, Phase Equilibria & Solutions)",
+                            "CHM 207: Analytical Chemistry I (Gravimetric & Volumetric Analysis)",
+                            "PHY 201: Modern Physics & Electronics for Chemists",
+                            "ENT 211: Entrepreneurship and Innovation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "CHM 202: Organic Chemistry II (Aromatic Hydrocarbons & Heterocyclic Compounds)",
+                            "CHM 204: Inorganic Chemistry II (Coordination Chemistry & Transition Metals)",
+                            "CHM 206: Physical Chemistry II (Chemical Kinetics, Electrochemistry & Surface Chemistry)",
+                            "CHM 208: Applied Spectroscopy & Chemical Structure Elucidation (UV-Vis, IR, NMR)",
+                            "COS 202: Scientific Computing & Data Analysis",
+                            "GST 212: Philosophy, Logic, and Human Existence"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "300 Level (Industrial Processes, Chemical Technology & SIWES Internship)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "CHM 301: Industrial Chemical Technology & Unit Operations (Mass Transfer, Heat Transfer & Distillation)",
+                            "CHM 303: Polymer Chemistry & Technology (Polymerization Kinetics, Plastics & Elastomers)",
+                            "CHM 305: Applied Analytical Chemistry & Instrumental Methods (Atomic Absorption, HPLC & Gas Chromatography)",
+                            "CHM 307: Petroleum Chemistry, Refining & Petrochemicals",
+                            "CHM 309: Quality Control, Sampling & Chemical Safety Regulations",
+                            "ENT 312: Venture Creation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "CHM 399: Students' Industrial Work Experience Scheme (SIWES / Industrial Training - 6 Months) (Practical work experience in chemical manufacturing plants, refineries, pharmaceutical firms, food & beverage industries, or standards organizations like SON/NAFDAC)"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "400 Level (Advanced Applied Chemistry, Agrochemicals, Materials & Capstone Project)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "CHM 401: Environmental Chemistry & Industrial Waste Management (Water/Air Pollution & Bioremediation)",
+                            "CHM 403: Agrochemicals, Pesticides & Fertilizer Technology",
+                            "CHM 405: Materials Chemistry, Catalysis & Corrosion Technology",
+                            "CHM 407: Pharmaceutical Chemistry & Medicinal Formulations",
+                            "CHM 409: Applied Organic Synthesis & Fine Chemicals",
+                            "CHM 497: Research Project / Senior Thesis I (Proposal, Literature Review & Experimental Setup)"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "CHM 402: Soap, Detergent, Cosmetics & Toiletries Technology",
+                            "CHM 404: Paints, Inks, Dyes & Pigments Technology",
+                            "CHM 406: Food Chemistry & Beverage Processing Technology",
+                            "CHM 408: Process Economics, Plant Design & Chemical Entrepreneurship",
+                            "CHM 499: Research Project / Senior Thesis II (Data Analysis, Dissertation Defense & Submission)"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "Applied Geophysics": {
+        degree: "B.Sc. Applied Geophysics",
+        levels: [
+            {
+                level: "100 Level (Basic Sciences & Mathematical Foundations)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "GPY 101: Introduction to Earth History & Physical Geology",
+                            "PHY 101: General Physics I (Mechanics, Thermal Physics & Waves)",
+                            "CHM 101: General Chemistry I (Physical & Inorganic Chemistry)",
+                            "MTH 101: Elementary Mathematics I (Algebra & Calculus)",
+                            "GST 111: Communication in English Language",
+                            "AMS 103: Introduction to Computing & Information Technology"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "GPY 102: Introduction to Geophysics & Earth Structure",
+                            "PHY 102: General Physics II (Electricity, Magnetism & Modern Physics)",
+                            "CHM 102: General Chemistry II (Organic Chemistry Foundations)",
+                            "MTH 102: Elementary Mathematics II (Vectors, Geometry & Calculus)",
+                            "GST 112: Nigerian Peoples and Culture",
+                            "GST 113: History and Philosophy of Science"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "200 Level (Core Geological & Geophysical Principles)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "GPY 201: Physical Geology & Mineralogy (Crystalline Structures & Rock-Forming Minerals)",
+                            "GPY 203: Structural Geology I (Faults, Folds, Joints & Tectonic Stress)",
+                            "GPY 205: Principles of Geophysics I (Gravity & Magnetic Methods)",
+                            "PHY 201: Classical Mechanics & Vector Analysis for Geoscientists",
+                            "MTH 201: Mathematical Methods I (Differential Equations & Complex Numbers)",
+                            "ENT 211: Entrepreneurship and Innovation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "GPY 202: Petrology (Igneous, Metamorphic & Sedimentary Rocks)",
+                            "GPY 204: Sedimentology & Stratigraphy (Depositional Environments & Basin Analysis)",
+                            "GPY 206: Principles of Geophysics II (Electrical & Electromagnetic Methods)",
+                            "GPY 208: Geological Field Mapping Techniques & Geological Map Interpretation",
+                            "COS 202: Computational Geoscience & Scientific Programming",
+                            "GST 212: Philosophy, Logic, and Human Existence"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "300 Level (Advanced Geophysical Exploration, Signal Processing & SIWES Internship)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "GPY 301: Seismic Exploration I (Refraction & Reflection Theory, Wave Propagation)",
+                            "GPY 303: Electrical & Electromagnetic Prospecting (Resistivity, Induced Polarization & IP Surveys)",
+                            "GPY 305: Gravity & Magnetic Prospecting (Instrumentation, Data Corrections & Anomaly Interpretation)",
+                            "GPY 307: Borehole Geophysics & Well Logging (Gamma Ray, Resistivity, Sonic & Density Logs)",
+                            "GPY 309: Geophysical Time Series & Signal Processing (Fourier Analysis, Filtering & Deconvolution)",
+                            "ENT 312: Venture Creation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "GPY 399: Students' Industrial Work Experience Scheme (SIWES / Field Geology & Geophysical Training - 6 Months) (Fieldwork and industrial placement in oil and gas companies, geophysical survey firms, mineral exploration agencies, or water resources institutes)"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "400 Level (Reservoir Evaluation, Environmental Geophysics & Capstone Project)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "GPY 401: Seismic Data Processing & Interpretation (2D/3D Seismic Horizon Picking & Attribute Analysis)",
+                            "GPY 403: Hydrogeophysics & Environmental Geophysics (Groundwater Mapping & Pollution Monitoring)",
+                            "GPY 405: Engineering Geophysics & Geotechnical Site Investigation (Foundation Assessment & Cavity Detection)",
+                            "GPY 407: Petroleum Geology & Basin Evaluation (Source Rocks, Reservoir Dynamics & Trapping Mechanisms)",
+                            "GPY 409: Mining & Solid Minerals Geophysics (Ore Body Modeling & Aeromagnetic Interpretation)",
+                            "GPY 497: Research Project / Senior Thesis I (Proposal, Field/Synthetic Data Collection & Methodology)"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "GPY 402: Global Tectonics, Geodynamics & Seismology",
+                            "GPY 404: Radiometric & Geothermal Exploration Methods",
+                            "GPY 406: Reservoir Geophysics & Characterization (AVO Analysis & Seismic Inversion)",
+                            "GPY 408: Geographic Information Systems (GIS) & Remote Sensing in Geophysics",
+                            "GPY 499: Research Project / Senior Thesis II (Data Inversion, Anomaly Mapping, Thesis Defense & Submission)"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "Biochemistry": {
+        degree: "B.Sc. Biochemistry",
+        levels: [
+            {
+                level: "100 Level (Basic Sciences Foundations)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "CHM 101: General Chemistry I (Physical & Inorganic Chemistry)",
+                            "BIO 101: General Biology I (Cell Biology, Genetics & Microbiology Foundations)",
+                            "PHY 101: General Physics I (Mechanics, Thermal Physics & Waves)",
+                            "MTH 101: Elementary Mathematics I (Algebra & Calculus)",
+                            "GST 111: Communication in English Language",
+                            "AMS 103: Introduction to Computing & Information Technology"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "CHM 102: General Chemistry II (Organic Chemistry Foundations)",
+                            "BIO 102: General Biology II (Organismal Biology, Ecology & Diversity)",
+                            "PHY 102: General Physics II (Electricity, Magnetism & Modern Physics)",
+                            "MTH 102: Elementary Mathematics II (Vectors, Geometry & Introductory Statistics)",
+                            "GST 112: Nigerian Peoples and Culture",
+                            "GST 113: History and Philosophy of Science"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "200 Level (Core Biochemistry Foundations & Organic Chemistry)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "BCH 201: General Biochemistry I (Structure, Properties & Chemistry of Carbohydrates, Lipids & Nucleic Acids)",
+                            "BCH 203: Chemistry of Amino Acids, Peptides & Proteins",
+                            "CHM 201: Organic Chemistry I (Aliphatic Hydrocarbons, Stereochemistry & Reactions)",
+                            "CHM 203: Physical Chemistry I (Thermodynamics, Chemical Kinetics & Solutions)",
+                            "MCB 201: General Microbiology I",
+                            "ENT 211: Entrepreneurship and Innovation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "BCH 202: General Biochemistry II (Metabolism of Carbohydrates & Bioenergetics)",
+                            "BCH 204: Metabolism of Lipids, Amino Acids & Nucleotides",
+                            "BCH 206: Biochemical Techniques & Instrumentation I (Spectrophotometry, Centrifugation, Chromatography & pH Metry)",
+                            "CHM 202: Organic Chemistry II (Aromatic Compounds, Heterocycles & Reaction Mechanisms)",
+                            "COS 202: Scientific Computing & Data Analysis for Life Sciences",
+                            "GST 212: Philosophy, Logic, and Human Existence"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "300 Level (Enzymology, Molecular Biology & SIWES Internship)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "BCH 301: Enzymology (Michaelis-Menten Kinetics, Enzyme Inhibition, Allosteric Regulation & Coenzymes)",
+                            "BCH 303: Molecular Biology I (DNA Replication, Repair, Transcription & Translation Mechanics)",
+                            "BCH 305: Plant & Environmental Biochemistry (Photosynthesis, Nitrogen Fixation & Secondary Metabolites)",
+                            "BCH 307: Bioenergetics & Electron Transport Chain (Oxidative Phosphorylation & ATP Synthesis)",
+                            "BCH 309: Analytical Biochemistry & Separation Techniques (HPLC, Electrophoresis, Western Blotting & Immunoassays)",
+                            "ENT 312: Venture Creation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "BCH 399: Students' Industrial Work Experience Scheme (SIWES / Industrial Training - 6 Months) (Practical work experience in medical diagnostics labs, research institutes, pharmaceutical companies, food & beverage processing plants, or biotechnology centers)"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "400 Level (Advanced Metabolism, Clinical & Recombinant DNA Technology, Capstone Thesis)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "BCH 401: Advanced Enzymology & Metabolic Regulation (Multienzyme Complexes & Metabolic Control Theory)",
+                            "BCH 403: Clinical & Medical Biochemistry (Inborn Errors of Metabolism, Liver/Kidney Function Tests & Biomarkers)",
+                            "BCH 405: Biochemical Pharmacology & Toxicology (Xenobiotic Metabolism, Cytochrome P450 System & Drug Receptors)",
+                            "BCH 407: Recombinant DNA Technology & Genetic Engineering (Restriction Enzymes, Cloning Vectors & PCR)",
+                            "BCH 409: Food & Nutritional Biochemistry (Vitamins, Minerals, Malnutrition & Food Preservation)",
+                            "BCH 497: Research Project / Senior Thesis I (Proposal, Literature Review & Experimental Design)"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "BCH 402: Molecular Biology II, Genomics & Bioinformatics (Gene Regulation, Sequencing & Computational Biology)",
+                            "BCH 404: Immunology & Immunochemistry (Immune Responses, Monoclonal Antibodies & Diagnostic Serology)",
+                            "BCH 406: Industrial & Fermentation Biochemistry (Upstream/Downstream Processing & Microbial Enzymes)",
+                            "BCH 408: Neurochemistry & Endocrine Biochemistry (Hormone Action, Signal Transduction & Neurotransmitters)",
+                            "BCH 499: Research Project / Senior Thesis II (Data Analysis, Dissertation Defense & Oral Examination)"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "Bioinformatics": {
+        degree: "B.Sc. Bioinformatics",
+        levels: [
+            {
+                level: "100 Level (Basic Sciences, Computing & Mathematics Foundations)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "BIO 101: General Biology I (Cell Biology, Genetics & Molecular Foundations)",
+                            "COS 101: Introduction to Computing Sciences & Algorithms",
+                            "CHM 101: General Chemistry I (Physical & Inorganic Chemistry)",
+                            "MTH 101: Elementary Mathematics I (Algebra & Calculus)",
+                            "PHY 101: General Physics I (Mechanics, Thermal Physics & Waves)",
+                            "GST 111: Communication in English Language"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "BIO 102: General Biology II (Organismal Biology & Biological Diversity)",
+                            "COS 102: Problem Solving & Object-Oriented Programming (Python / C++)",
+                            "CHM 102: General Chemistry II (Organic Chemistry Foundations)",
+                            "MTH 102: Elementary Mathematics II (Vectors, Geometry & Calculus)",
+                            "GST 112: Nigerian Peoples and Culture",
+                            "GST 113: History and Philosophy of Science"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "200 Level (Molecular Biology, Data Structures & Biostatistics)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "BIN 201: Introduction to Bioinformatics & Biological Databases (NCBI, GenBank, UniProt & Ensembl)",
+                            "BCH 201: General Biochemistry I (Structure & Chemistry of Biomolecules)",
+                            "COS 201: Data Structures & Algorithms",
+                            "STA 201: Statistics for Life & Computing Sciences (Probability, Distributions & Hypothesis Testing)",
+                            "MCB 201: General Microbiology & Microbial Genetics",
+                            "ENT 211: Entrepreneurship and Innovation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "BIN 202: Pairwise Sequence Alignment & Searching Algorithms (BLAST, FASTA, Needleman-Wunsch & Smith-Waterman)",
+                            "BIN 204: Molecular Biology & Gene Expression (Replication, Transcription & Translation Mechanics)",
+                            "COS 202: Database Management Systems & SQL for Biological Data",
+                            "COS 204: Object-Oriented Programming in Python & R for Data Science",
+                            "GST 212: Philosophy, Logic, and Human Existence"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "300 Level (Genomics, Structural Bioinformatics & SIWES Internship)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "BIN 301: Multiple Sequence Alignment & Phylogenetics (Clustal Omega, Tree Building & Evolutionary Models)",
+                            "BIN 303: Structural Bioinformatics & Molecular Modeling (PDB, Protein Folding, Secondary/Tertiary Structure Prediction)",
+                            "BIN 305: Computational Genomics & Next-Generation Sequencing (NGS Assembly, Variant Calling & Annotation)",
+                            "BIN 307: Scripting & Automation for Bioinformatics (Biopython, BioPerl, Linux Command Line & Bash Scripting)",
+                            "STA 301: Biostatistics & R Programming for High-Dimensional Biological Data",
+                            "ENT 312: Venture Creation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "BIN 399: Students' Industrial Work Experience Scheme (SIWES / Industrial Training - 6 Months) (Practical placement in genomics laboratories, medical research institutes, biotechnology hubs, pharmaceutical firms, or computational biology centers)"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "400 Level (Systems Biology, Machine Learning, Computer-Aided Drug Design & Capstone Thesis)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "BIN 401: Machine Learning & Artificial Intelligence in Bioinformatics (Supervised/Unsupervised Learning, Neural Networks for Genomics)",
+                            "BIN 403: Computer-Aided Drug Design (CADD) & Molecular Docking (Virtual Screening, Ligand-Receptor Interaction & AutoDock)",
+                            "BIN 405: Systems Biology, Metabolic Networks & Pathway Analysis (KEGG, Reactome & Network Modeling)",
+                            "BIN 407: Functional Genomics, Transcriptomics & Proteomics (RNA-Seq, Microarray & Mass Spectrometry Data Processing)",
+                            "BIN 409: Bioethics, Intellectual Property & Data Privacy in Genomics",
+                            "BIN 497: Research Project / Senior Thesis I (Proposal, Algorithm Design, Literature Review & Pipeline Setup)"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "BIN 402: Computational Immunology & Immunoinformatics (Epitope Prediction, Vaccine Design & HLA Binding)",
+                            "BIN 404: Metagenomics, Microbiome Analysis & Environmental Genomics",
+                            "BIN 406: High-Performance Computing (HPC) & Cloud Architecture for Omics Data (Docker, Workflow Engines like Nextflow/Snakemake)",
+                            "BIN 499: Research Project / Senior Thesis II (Pipeline Execution, Benchmarking Data, Thesis Defense & Submission)"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "B.Sc. Biology": {
+        degree: "B.Sc. Biology",
+        levels: [
+            {
+                level: "100 Level (Basic Sciences Foundations)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "BIO 101: General Biology I (Cell Biology, Genetics & Molecular Foundations)",
+                            "CHM 101: General Chemistry I (Physical & Inorganic Chemistry)",
+                            "PHY 101: General Physics I (Mechanics, Thermal Physics & Waves)",
+                            "MTH 101: Elementary Mathematics I (Algebra & Calculus)",
+                            "GST 111: Communication in English Language",
+                            "AMS 103: Introduction to Computing & Information Technology"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "BIO 102: General Biology II (Organismal Biology, Diversity & Systematics)",
+                            "CHM 102: General Chemistry II (Organic Chemistry Foundations)",
+                            "PHY 102: General Physics II (Electricity, Magnetism & Modern Physics)",
+                            "MTH 102: Elementary Mathematics II (Vectors, Geometry & Introductory Statistics)",
+                            "GST 112: Nigerian Peoples and Culture",
+                            "GST 113: History and Philosophy of Science"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "200 Level (Core Biological Diversity, Ecology & Genetics)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "BIO 201: General Genetics I (Mendelian Genetics, Chromosomal Basis of Inheritance)",
+                            "BOT 201: Seedless Plants & Lower Invertebrates (Morphology & Anatomy)",
+                            "ZOO 201: Lower Invertebrates & Chordate Anatomy",
+                            "CHM 201: Organic Chemistry I (Aliphatic Hydrocarbons & Functional Groups)",
+                            "MCB 201: General Microbiology I",
+                            "ENT 211: Entrepreneurship and Innovation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "BIO 202: Introductory Ecology & Environmental Biology",
+                            "BIO 204: Biological Techniques & Microscopy",
+                            "BOT 202: Seed Plants (Spermatophytes Morphology, Taxonomy & Adaptation)",
+                            "ZOO 202: Vertebrate Zoology & Comparative Anatomy",
+                            "COS 202: Biostatistics & Scientific Computing for Life Sciences",
+                            "GST 212: Philosophy, Logic, and Human Existence"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "300 Level (Advanced Physiology, Molecular Biology & SIWES Internship)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "BIO 301: Molecular Biology I (DNA Structure, Replication, Transcription & Translation)",
+                            "BIO 303: General Physiology (Cellular Transport, Homeostasis & Metabolic Mechanisms)",
+                            "BIO 305: Biostatistics & Research Methodology",
+                            "BOT 301: Plant Physiology & Water Relations",
+                            "ZOO 301: Animal Physiology & Endocrinology",
+                            "ENT 312: Venture Creation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "BIO 399: Students' Industrial Work Experience Scheme (SIWES / Industrial Training - 6 Months) (Field research, practical laboratory work in environmental protection agencies, medical/biological research institutes, agricultural institutes, or biotechnology centers)"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "400 Level (Advanced Biology, Applied Biotechnology & Capstone Thesis)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "BIO 401: Advanced Genetics & Developmental Biology (Gene Expression, Epigenetics & Embryology)",
+                            "BIO 403: Population Genetics & Evolutionary Biology",
+                            "BIO 405: Environmental Biology, Conservation & Biodiversity",
+                            "BIO 407: Applied Biotechnology & Tissue Culture",
+                            "BIO 409: Parasitology & Vector Biology",
+                            "BIO 497: Research Project / Senior Thesis I (Proposal, Field/Lab Sampling & Methodology)"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "BIO 402: Cytogenetics & Plant/Animal Breeding",
+                            "BIO 404: Soil Science & Applied Hydrobiology/Limnology",
+                            "BIO 406: Biosystematics & Evolutionary Taxonomy",
+                            "BIO 408: Bioethics, Biosafety & Environmental Impact Assessment (EIA)",
+                            "BIO 499: Research Project / Senior Thesis II (Data Analysis, Dissertation Defense & Oral Examination)"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "Biotechnology": {
+        degree: "B.Sc. Biotechnology",
+        levels: [
+            {
+                level: "100 Level (Basic Sciences Foundations)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "BIO 101: General Biology I (Cell Biology, Genetics & Molecular Foundations)",
+                            "CHM 101: General Chemistry I (Physical & Inorganic Chemistry)",
+                            "PHY 101: General Physics I (Mechanics, Thermal Physics & Waves)",
+                            "MTH 101: Elementary Mathematics I (Algebra & Calculus)",
+                            "GST 111: Communication in English Language",
+                            "AMS 103: Introduction to Computing & Information Technology"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "BIO 102: General Biology II (Organismal Biology, Diversity & Systematics)",
+                            "CHM 102: General Chemistry II (Organic Chemistry Foundations)",
+                            "PHY 102: General Physics II (Electricity, Magnetism & Modern Physics)",
+                            "MTH 102: Elementary Mathematics II (Vectors, Geometry & Introductory Statistics)",
+                            "GST 112: Nigerian Peoples and Culture",
+                            "GST 113: History and Philosophy of Science"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "200 Level (Core Molecular Biology, Microbiology & Biochemistry)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "BTG 201: Introduction to Biotechnology & Molecular Concepts",
+                            "BCH 201: General Biochemistry I (Structure & Chemistry of Biomolecules)",
+                            "MCB 201: General Microbiology I (Microbial Morphology, Physiology & Genetics)",
+                            "BIO 201: General Genetics I (Mendelian Genetics & Chromosomal Mechanics)",
+                            "CHM 201: Organic Chemistry I (Aliphatic Hydrocarbons & Reactions)",
+                            "ENT 211: Entrepreneurship and Innovation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "BTG 202: Cell & Tissue Culture Techniques (Plant & Animal Cell Culture Principles)",
+                            "BCH 202: General Biochemistry II (Metabolic Pathways & Bioenergetics)",
+                            "MCB 202: General Microbiology II (Microbial Cultivation & Sterilization Methods)",
+                            "BTG 204: Laboratory Instrumentation & Biotechnological Techniques",
+                            "COS 202: Biostatistics & Computational Data Analysis",
+                            "GST 212: Philosophy, Logic, and Human Existence"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "300 Level (Genetic Engineering, Bioprocessing & SIWES Internship)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "BTG 301: Recombinant DNA Technology I (Restriction Enzymes, Vectors, Cloning & PCR)",
+                            "BTG 303: Industrial & Fermentation Biotechnology (Bioreactor Design, Fermentation Kinetics & Downstream Processing)",
+                            "BTG 305: Agricultural & Plant Biotechnology (Crop Improvement, Transgenic Plants & Micropropagation)",
+                            "BTG 307: Environmental Biotechnology (Bioremediation, Waste Treatment & Bioenergy)",
+                            "BTG 309: Molecular Diagnostics & Immunology (ELISA, Immunoassays & Monoclonal Antibodies)",
+                            "ENT 312: Venture Creation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "BTG 399: Students' Industrial Work Experience Scheme (SIWES / Industrial Training - 6 Months) (Practical work experience in biotechnology research centers, pharmaceutical plants, food/beverage industries, agricultural research institutes, or medical diagnostic hubs)"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "400 Level (Advanced Genomics, Medical Biotech, Biosafety & Capstone Thesis)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "BTG 401: Recombinant DNA Technology II & Gene Editing (CRISPR/Cas9, Gene Silencing & Vector Engineering)",
+                            "BTG 403: Medical & Pharmaceutical Biotechnology (Stem Cell Therapy, Vaccines, Biopharmaceuticals & Gene Therapy)",
+                            "BTG 405: Functional Genomics, Proteomics & Bioinformatics (NGS Data, Sequence Alignment & Structure Modeling)",
+                            "BTG 407: Biosafety, Bioethics & Intellectual Property Rights (Patents, GMO Regulations & Biosafety Protocols)",
+                            "BTG 409: Animal Biotechnology & Reproductive Technologies (Transgenic Animals, In Vitro Fertilization & Cloning)",
+                            "BTG 497: Research Project / Senior Thesis I (Proposal, Methodology & Experimental Setup)"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "BTG 402: Applied Nanobiotechnology & Biosensors",
+                            "BTG 404: Food & Enzyme Biotechnology (Enzyme Immobilization, Fermented Foods & Single-Cell Protein)",
+                            "BTG 406: Bioprocess Engineering, Scaling & Quality Assurance (GMP, Quality Control & Commercialization)",
+                            "BTG 408: Biobusiness, Entrepreneurship & Innovation Management",
+                            "BTG 499: Research Project / Senior Thesis II (Data Analysis, Dissertation Defense & Oral Examination)"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "Botany / Plant Science & Biotechnology": {
+        degree: "B.Sc. Botany / Plant Science & Biotechnology",
+        levels: [
+            {
+                level: "100 Level (Basic Sciences Foundations)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "BIO 101: General Biology I (Cell Biology, Genetics & Molecular Foundations)",
+                            "CHM 101: General Chemistry I (Physical & Inorganic Chemistry)",
+                            "PHY 101: General Physics I (Mechanics, Thermal Physics & Waves)",
+                            "MTH 101: Elementary Mathematics I (Algebra & Calculus)",
+                            "GST 111: Communication in English Language",
+                            "AMS 103: Introduction to Computing & Information Technology"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "BIO 102: General Biology II (Organismal Biology, Diversity & Systematics)",
+                            "CHM 102: General Chemistry II (Organic Chemistry Foundations)",
+                            "PHY 102: General Physics II (Electricity, Magnetism & Modern Physics)",
+                            "MTH 102: Elementary Mathematics II (Vectors, Geometry & Introductory Statistics)",
+                            "GST 112: Nigerian Peoples and Culture",
+                            "GST 113: History and Philosophy of Science"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "200 Level (Plant Morphology, Anatomy, Taxonomy & Ecology)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "BOT 201: Morphology & Anatomy of Seedless Plants (Algae, Bryophytes & Pteridophytes)",
+                            "BOT 203: Plant Anatomy & Histology (Cell Types, Secondary Growth & Meristems)",
+                            "BIO 201: General Genetics I (Mendelian Genetics & Chromosomal Inheritance)",
+                            "CHM 201: Organic Chemistry I (Aliphatic Hydrocarbons & Reactions)",
+                            "MCB 201: General Microbiology I",
+                            "ENT 211: Entrepreneurship and Innovation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "BOT 202: Morphology, Taxonomy & Systematics of Seed Plants (Gymnosperms & Angiosperms)",
+                            "BOT 204: Plant Ecology & Environmental Biology (Ecosystem Dynamics, Vegetation Types & Adaptation)",
+                            "BOT 206: Biological Techniques, Microscopy & Herbarium Preparation",
+                            "COS 202: Biostatistics & Scientific Computing for Life Sciences",
+                            "GST 212: Philosophy, Logic, and Human Existence"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "300 Level (Plant Physiology, Tissue Culture & SIWES Internship)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "BOT 301: Plant Physiology & Water Relations (Photosynthesis, Respiration, Transpiration & Mineral Nutrition)",
+                            "BOT 303: Plant Tissue Culture & Micropropagation (Callus Induction, Organogenesis & Somatic Embryogenesis)",
+                            "BOT 305: Plant Pathology & Mycology (Fungal/Bacterial/Viral Diseases, Host-Pathogen Interactions)",
+                            "BOT 307: Plant Molecular Biology & Biotechnology (DNA Extraction, PCR & Genetic Transformation Vectors)",
+                            "BOT 309: Economic Botany & Ethnobotany (Medicinal Plants, Fiber Crops & Phytochemistry)",
+                            "ENT 312: Venture Creation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "BOT 399: Students' Industrial Work Experience Scheme (SIWES / Industrial Training - 6 Months) (Practical placement in agricultural research institutes, botanical gardens, tissue culture labs, forestry research agencies, or biotechnology companies)"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "400 Level (Advanced Genetic Engineering, Crop Breeding & Capstone Thesis)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "BOT 401: Advanced Plant Breeding & Cytogenetics (Polyploidy, Mutation Breeding & Hybridization)",
+                            "BOT 403: Genetic Engineering of Crops (Transgenic Plants, Abiotic/Biotic Stress Resistance & CRISPR in Agriculture)",
+                            "BOT 405: Plant Biochemistry & Secondary Metabolites (Alkaloids, Flavonoids, Terpenes & Biosynthetic Pathways)",
+                            "BOT 407: Post-Harvest Physiology, Food Preservation & Storage Technology",
+                            "BOT 409: Environmental Plant Biotechnology & Phytoremediation (Pollution Abatement & Bioenergy Crops)",
+                            "BOT 497: Research Project / Senior Thesis I (Proposal, Field/Laboratory Experimental Setup)"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "BOT 402: Plant Growth Regulators & Developmental Biology (Auxins, Cytokinins, Gibberellins & Flowering)",
+                            "BOT 404: Biosystematics, Molecular Taxonomy & Phylogenetics (DNA Barcoding & Cladistics)",
+                            "BOT 406: Bioethics, Biosafety Protocols & GMO Regulations",
+                            "BOT 408: Seed Science & Nursery Management Technology",
+                            "BOT 499: Research Project / Senior Thesis II (Data Analysis, Dissertation Defense & Oral Examination)"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "B.Sc. Chemistry": {
+        degree: "B.Sc. Chemistry",
+        levels: [
+            {
+                level: "100 Level (Basic Sciences Foundations)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "CHM 101: General Chemistry I (Atomic Structure, Bonding, Stoichiometry & Energetics)",
+                            "CHM 107: General Chemistry Practical I (Qualitative & Quantitative Volumetric Analysis)",
+                            "PHY 101: General Physics I (Mechanics, Thermal Physics & Waves)",
+                            "PHY 107: General Physics Practical I",
+                            "MTH 101: Elementary Mathematics I (Algebra & Calculus)",
+                            "BIO 101: General Biology I (Cell Biology & Physiology)",
+                            "GST 111: Communication in English",
+                            "COS 101: Introduction to Computing Sciences"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "CHM 102: General Chemistry II (Organic Functional Groups, Chemical Equilibrium & Kinetics)",
+                            "CHM 108: General Chemistry Practical II (Qualitative Organic Analysis & Physical Measurements)",
+                            "PHY 102: General Physics II (Electricity, Magnetism & Optics)",
+                            "PHY 108: General Physics Practical II",
+                            "MTH 102: Elementary Mathematics II (Vectors, Geometry & Calculus)",
+                            "GST 112: Philosophy, Logic, and Human Existence"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "200 Level (Core Sub-Disciplines & Analytical Techniques)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "CHM 210: Physical Chemistry I (Chemical Thermodynamics, Phase Equilibria & Gas Laws)",
+                            "CHM 211: Organic Chemistry I (Stereochemistry, Aliphatic Hydrocarbons & Reaction Mechanisms)",
+                            "CHM 212: Inorganic Chemistry I (Periodicity, Main Group Chemistry & Nuclear Chemistry)",
+                            "CHM 207: Experimental Chemistry I / Practical III (Titrimetric & Physical Determinations)",
+                            "STA 202: Statistics for Physical Sciences & Engineering",
+                            "ENT 211: Entrepreneurship and Innovation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "CHM 213: Analytical Chemistry I (Gravimetric, Volumetric & Separation Methods)",
+                            "CHM 214: Structure and Bonding (Quantum Concepts, Molecular Orbital Theory & Coordination)",
+                            "CHM 208: Experimental Chemistry II / Practical IV (Organic Preparations & Identification)",
+                            "CHM 216: Applied / Industrial Chemistry Concepts (Petroleum, Polymers & Chemical Processing)",
+                            "GST 212: Nigerian Peoples and Culture"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "300 Level (Advanced Spectroscopy, Reaction Dynamics & SIWES Internship)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "CHM 301: Physical Chemistry II (Quantum Chemistry, Surface Chemistry & Electrochemistry)",
+                            "CHM 303: Organic Chemistry II (Aromaticity, Heterocyclic Compounds & Polyfunctional Molecules)",
+                            "CHM 305: Inorganic Chemistry II (Transition Metal Chemistry, Ligand Field Theory & Organometallics)",
+                            "CHM 307: Instrumental Methods of Analysis (UV-Vis, IR Spectroscopy, Atomic Absorption & Chromatography)",
+                            "CHM 309: Molecular Structure & Symmetry (Group Theory & Crystallography)",
+                            "ENT 312: Venture Creation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "CHM 399: Students' Industrial Work Experience Scheme (SIWES / Industrial Training - 6 Months)(Practical industrial exposure in chemical manufacturing plants, quality assurance laboratories, petroleum refineries, pharmaceutical companies, or research institutes)"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "400 Level (Specialized Chemistry, Industrial Synthesis & Capstone Thesis)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "CHM 401: Advanced Organic Chemistry (Organic Synthesis, Photochemistry & Reaction Kinetics)",
+                            "CHM 403: Advanced Physical Chemistry (Statistical Thermodynamics, Chemical Kinetics & Catalysis)",
+                            "CHM 405: Advanced Analytical Chemistry (NMR, Mass Spectrometry, Electroanalytical & Thermal Techniques)",
+                            "CHM 407: Coordination & Bioinorganic Chemistry (Metalloenzymes, Inorganic Reaction Mechanisms)",
+                            "CHM 409: Environmental & Toxicological Chemistry (Pollution Control, Effluent Treatment & Environmental Standards)",
+                            "CHM 497: Research Project / Senior Thesis I (Literature Review, Methodology & Practical Laboratory Work)"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "CHM 402: Advanced Inorganic Chemistry (Organometallic Catalysis, Solid State & Material Chemistry)",
+                            "CHM 404: Polymer Chemistry & Technology (Polymerization Kinetics, Rheology & Plastics Processing)",
+                            "CHM 406: Petroleum & Petrochemical Technology (Refining Processes, Cracking & Fine Chemical Synthesis)",
+                            "CHM 408: Natural Products Chemistry (Alkaloids, Terpenes, Steroids & Medicinal Extraction)",
+                            "CHM 499: Research Project / Senior Thesis II (Data Processing, Dissertation Defense & Oral Examination)"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "Environmental Biology": {
+        degree: "B.Sc. Environmental Biology",
+        levels: [
+            {
+                level: "100 Level (Basic Sciences Foundations)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "BIO 101: General Biology I (Cell Biology, Genetics & Molecular Foundations)",
+                            "CHM 101: General Chemistry I (Physical & Inorganic Chemistry)",
+                            "PHY 101: General Physics I (Mechanics, Thermal Physics & Waves)",
+                            "MTH 101: Elementary Mathematics I (Algebra & Calculus)",
+                            "GST 111: Communication in English",
+                            "COS 101: Introduction to Computing Sciences"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "BIO 102: General Biology II (Organismal Biology, Diversity & Systematics)",
+                            "CHM 102: General Chemistry II (Organic Chemistry Foundations)",
+                            "PHY 102: General Physics II (Electricity, Magnetism & Modern Physics)",
+                            "MTH 102: Elementary Mathematics II (Vectors, Geometry & Introductory Statistics)",
+                            "GST 112: Philosophy, Logic, and Human Existence",
+                            "GST 113: History and Philosophy of Science"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "200 Level (Core Ecology, Environmental Chemistry & Biodiversity)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "EVB 201: Principles of Environmental Biology & Ecology",
+                            "BIO 201: General Genetics I (Mendelian Genetics & Chromosomal Mechanics)",
+                            "BOT 201: Seedless Plants & Lower Invertebrates",
+                            "CHM 201: Organic Chemistry I (Aliphatic Hydrocarbons & Reactions)",
+                            "MCB 201: General Microbiology I (Microbial Physiology & Ecology)",
+                            "ENT 211: Entrepreneurship and Innovation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "EVB 202: Introductory Environmental Toxicology & Pollution",
+                            "EVB 204: Hydrobiology & Aquatic Ecosystems (Limnology & Oceanography)",
+                            "BOT 202: Seed Plants & Vegetation Sampling Methods",
+                            "ZOO 202: Vertebrate Zoology & Adaptation Biology",
+                            "STA 202: Biostatistics & Scientific Computing for Life Sciences",
+                            "GST 212: Nigerian Peoples and Culture"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "300 Level (Applied Toxicology, EIA, GIS & SIWES Internship)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "EVB 301: Environmental Toxicology & Ecotoxicology (Bioaccumulation, Biomagnification & Biomarkers)",
+                            "EVB 303: Environmental Impact Assessment (EIA) & Auditing Principles",
+                            "EVB 305: Geographic Information Systems (GIS) & Remote Sensing in Ecology",
+                            "EVB 307: Soil Biology, Degradation & Remediation",
+                            "EVB 309: Air, Water & Solid Waste Management Technologies",
+                            "ENT 312: Venture Creation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "EVB 399: Students' Industrial Work Experience Scheme (SIWES / Industrial Training - 6 Months) (Field research, industrial placement in Ministries of Environment, NESREA, oil and gas environmental units, waste management agencies, or environmental consulting firms)"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "400 Level (Conservation Biology, Climate Change & Capstone Thesis)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "EVB 401: Biodiversity Conservation & Wildlife Management",
+                            "EVB 403: Bioremediation & Phytoremediation Technologies (Pollution Abatement)",
+                            "EVB 405: Climate Change, Global Warming & Ecosystem Adaptation",
+                            "EVB 407: Applied Limnology & Marine Environmental Protection",
+                            "EVB 409: Environmental Law, Policy & International Conventions",
+                            "EVB 497: Research Project / Senior Thesis I (Proposal, Field Sampling & Methodology)"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "EVB 402: Ecological Restoration & Landscape Management",
+                            "EVB 404: Environmental Biotechnology & Bioenergy",
+                            "EVB 406: Public Health, Vector Control & Occupational Hygiene",
+                            "EVB 408: Environmental Risk Assessment & Resource Economics",
+                            "EVB 499: Research Project / Senior Thesis II (Data Analysis, Dissertation Defense & Oral Examination)"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "Fisheries & Hydrobiology": {
+        degree: "B.Sc. Fisheries & Hydrobiology",
+        levels: [
+            {
+                level: "100 Level (Basic Sciences Foundations)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "BIO 101: General Biology I (Cell Biology, Genetics & Molecular Foundations)",
+                            "CHM 101: General Chemistry I (Physical & Inorganic Chemistry)",
+                            "PHY 101: General Physics I (Mechanics, Thermal Physics & Waves)",
+                            "MTH 101: Elementary Mathematics I (Algebra & Calculus)",
+                            "GST 111: Communication in English",
+                            "COS 101: Introduction to Computing Sciences"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "BIO 102: General Biology II (Organismal Biology, Diversity & Systematics)",
+                            "CHM 102: General Chemistry II (Organic Chemistry Foundations)",
+                            "PHY 102: General Physics II (Electricity, Magnetism & Modern Physics)",
+                            "MTH 102: Elementary Mathematics II (Vectors, Geometry & Introductory Statistics)",
+                            "GST 112: Philosophy, Logic, and Human Existence",
+                            "GST 113: History and Philosophy of Science"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "200 Level (Invertebrate Biology, Aquatic Chemistry & Ichthyology)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "FHB 201: Introduction to Fisheries & Aquatic Sciences",
+                            "ZOO 201: Lower Invertebrates & Chordate Anatomy",
+                            "BIO 201: General Genetics I (Mendelian Genetics & Chromosomal Mechanics)",
+                            "CHM 201: Organic Chemistry I (Aliphatic Hydrocarbons & Reactions)",
+                            "MCB 201: General Microbiology I",
+                            "ENT 211: Entrepreneurship and Innovation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "FHB 202: Systematic Ichthyology & Fish Taxonomy",
+                            "FHB 204: Introductory Hydrobiology & Aquatic Ecology (Limnology & Oceanography)",
+                            "FHB 206: Aquatic Environment & Water Quality Chemistry",
+                            "ZOO 202: Vertebrate Zoology & Adaptation Biology",
+                            "STA 202: Biostatistics & Scientific Computing for Life Sciences",
+                            "GST 212: Nigerian Peoples and Culture"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "300 Level (Fish Physiology, Aquaculture, Gear Tech & SIWES Internship)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "FHB 301: Fish Biology, Anatomy & Physiology (Reproductive, Digestive & Osmoregulatory Systems)",
+                            "FHB 303: Aquaculture Principles & Hatchery Management (Induced Breeding, Seed Production & Pond Construction)",
+                            "FHB 305: Fish Nutrition & Feed Technology (Nutrient Requirements, Formulation & Pelleting)",
+                            "FHB 307: Fishing Gear Technology, Navigation & Craft Construction",
+                            "FHB 309: Aquatic Pollution, Ecotoxicology & Conservation",
+                            "ENT 312: Venture Creation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "FHB 399: Students' Industrial Work Experience Scheme (SIWES / Industrial Training - 6 Months) (Hands-on placement in commercial fish farms, federal/state fisheries departments, marine/freshwater research institutes, or fish feed processing plants)"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "400 Level (Advanced Aquaculture, Fish Diseases, Post-Harvest & Capstone Thesis)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "FHB 401: Advanced Aquaculture Systems & Fish Genetics (Recirculating Aquaculture Systems [RAS], Polyculture & Selective Breeding)",
+                            "FHB 403: Fish Health, Pathology & Parasitology (Bacterial, Viral, Fungal Diseases & Treatments)",
+                            "FHB 405: Fisheries Population Dynamics, Stock Assessment & Management",
+                            "FHB 407: Post-Harvest Technology, Fish Processing & Quality Control (Smoking, Drying, Freezing & HACCP)",
+                            "FHB 409: Fisheries Economics, Extension & Policy Management",
+                            "FHB 497: Research Project / Senior Thesis I (Proposal, Methodology & Field/Lab Setup)"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "FHB 402: Coastal, Brackish Water & Estuarine Ecology",
+                            "FHB 404: Shellfish Culture & Crustacean/Molluscan Biology",
+                            "FHB 406: Reservoir & Inland Fisheries Management",
+                            "FHB 408: Bioethics, Environmental Impact Assessment (EIA) & Water Resource Law",
+                            "FHB 499: Research Project / Senior Thesis II (Data Analysis, Dissertation Defense & Oral Examination)"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "Forensic Science": {
+        degree: "B.Sc. Forensic Science",
+        levels: [
+            {
+                level: "100 Level (Basic Sciences & Legal Foundations)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "FSC 101: Introduction to Forensic Science & Criminalistics",
+                            "BIO 101: General Biology I (Cell Biology, Genetics & Molecular Foundations)",
+                            "CHM 101: General Chemistry I (Physical & Inorganic Chemistry)",
+                            "PHY 101: General Physics I (Mechanics, Thermal Physics & Waves)",
+                            "MTH 101: Elementary Mathematics I (Algebra & Calculus)",
+                            "GST 111: Communication in English",
+                            "COS 101: Introduction to Computing Sciences"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "BIO 102: General Biology II (Organismal Biology, Diversity & Systematics)",
+                            "CHM 102: General Chemistry II (Organic Chemistry Foundations)",
+                            "PHY 102: General Physics II (Electricity, Magnetism & Modern Physics)",
+                            "MTH 102: Elementary Mathematics II (Vectors, Geometry & Introductory Statistics)",
+                            "GST 112: Philosophy, Logic, and Human Existence",
+                            "GST 113: History and Philosophy of Science"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "200 Level (Crime Scene Management, Criminology & Analytical Methods)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "FSC 201: Crime Scene Management, Documentation & Photography",
+                            "FSC 203: Introduction to Criminology, Criminal Law & Rules of Evidence",
+                            "ANA 201: Human Anatomy & Physiology for Forensic Science",
+                            "CHM 201: Organic Chemistry I (Aliphatic Hydrocarbons & Reactions)",
+                            "BCH 201: General Biochemistry I (Structure & Function of Biomolecules)",
+                            "ENT 211: Entrepreneurship and Innovation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "FSC 202: Dactyloscopy & Fingerprint Analysis (Pattern Identification & Latent Prints)",
+                            "FSC 204: Trace Evidence & Physical Analysis (Hair, Fibers, Paint & Glass Analysis)",
+                            "CHM 213: Analytical Chemistry & Instrumental Methods I",
+                            "MCB 201: General Microbiology & Pathology Principles",
+                            "STA 202: Statistics & Scientific Data Handling for Forensics",
+                            "GST 212: Nigerian Peoples and Culture"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "300 Level (Forensic Toxicology, DNA Serology & SIWES Internship)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "FSC 301: Forensic Serology & DNA Profiling I (Biological Fluids, STR Analysis & Genotyping)",
+                            "FSC 303: Forensic Toxicology & Drug Analysis (Poisons, Narcotics, Blood Alcohol & LC-MS)",
+                            "FSC 305: Forensic Ballistics & Firearms Identification (GSR, Bullet Trajectory & Toolmarks)",
+                            "FSC 307: Questioned Documents & Handwriting Examination",
+                            "FSC 309: Digital Forensics, Cybercrime & Network Evidence",
+                            "ENT 312: Venture Creation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "FSC 399: Students' Industrial Work Experience Scheme (SIWES / Industrial Internship - 6 Months)(Practical work experience in police forensic laboratories, anti-corruption agency labs [EFCC/ICPC], law enforcement agencies, cyber-forensic firms, or medical examiner offices)"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "400 Level (Advanced Pathology, Cyber Forensics & Capstone Thesis)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "FSC 401: Advanced DNA & Molecular Forensics (Mitochondrial DNA, Y-STR & NGS)",
+                            "FSC 403: Forensic Pathology, Autopsy & Death Investigation",
+                            "FSC 405: Forensic Anthropology & Odontology (Skeletal Analysis & Dental Identification)",
+                            "FSC 407: Forensic Chemistry & Arson/Explosives Investigation",
+                            "FSC 409: Quality Assurance, Chain of Custody & Ethics in Forensic Practice",
+                            "FSC 497: Research Project / Senior Thesis I (Proposal, Methodology & Case Design)"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "FSC 402: Advanced Digital & Mobile Device Forensics",
+                            "FSC 404: Environmental & Occupational Forensics",
+                            "FSC 406: Expert Testimony, Courtroom Psychology & Moot Court Simulation",
+                            "FSC 408: Forensic Entomology & Decomposition Ecology",
+                            "FSC 499: Research Project / Senior Thesis II (Data Analysis, Dissertation Defense & Oral Examination)"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "Geology & Mineral Sciences": {
+        degree: "B.Sc. Geology & Mineral Sciences",
+        levels: [
+            {
+                level: "100 Level (Basic Sciences Foundations)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "GEL 101: Physical Geology (Earth Structure, Materials & Surface Processes)",
+                            "CHM 101: General Chemistry I (Physical & Inorganic Chemistry)",
+                            "PHY 101: General Physics I (Mechanics, Thermal Physics & Waves)",
+                            "MTH 101: Elementary Mathematics I (Algebra & Calculus)",
+                            "GST 111: Communication in English Language",
+                            "COS 101: Introduction to Computing Sciences"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "GEL 102: Historical Geology & Earth Resources (Stratigraphy, Fossils & Energy Resources)",
+                            "CHM 102: General Chemistry II (Organic Chemistry Foundations)",
+                            "PHY 102: General Physics II (Electricity, Magnetism & Modern Physics)",
+                            "MTH 102: Elementary Mathematics II (Vectors, Geometry & Introductory Statistics)",
+                            "GST 112: Philosophy, Logic, and Human Existence",
+                            "GST 113: History and Philosophy of Science"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "200 Level (Crystallography, Mineralogy, Petrology & Structural Geology)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "GEL 201: Crystallography & Systematic Mineralogy (Crystal Systems, Optics & Mineral Chemistry)",
+                            "GEL 203: Invertebrate Paleontology (Fossil Classification, Evolution & Paleoecology)",
+                            "GEL 205: Sedimentology & Stratigraphy I (Sedimentary Processes, Structures & Environments)",
+                            "CHM 201: Organic Chemistry I",
+                            "PHY 201: Modern Physics & Earth Dynamics",
+                            "ENT 211: Entrepreneurship and Innovation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "GEL 202: Igneous & Metamorphic Petrology I (Magmatic Processes, Rock Textures & Metamorphism)",
+                            "GEL 204: Structural Geology I (Deformation Mechanisms, Folds, Faults & Joints)",
+                            "GEL 206: Geological Field Mapping & Techniques I (Compass Clinometer Use, Mapping Methods & Report Writing)",
+                            "STA 202: Statistics for Physical Sciences & Engineering",
+                            "GST 212: Nigerian Peoples and Culture"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "300 Level (Economic Minerals, Geophysics, Exploration & SIWES Internship)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "GEL 301: Igneous & Metamorphic Petrology II (Petrogenesis, Phase Diagrams & Tectonic Settings)",
+                            "GEL 303: Structural Geology II & Global Tectonics (Plate Tectonics, Orogeny & Structural Analysis)",
+                            "GEL 305: Applied Geophysics (Seismic, Electrical, Magnetic & Gravity Exploration Methods)",
+                            "GEL 307: Economic Mineral Deposits & Ore Geology (Ore Genesis, Metallic & Industrial Minerals)",
+                            "GEL 309: Hydrogeology & Groundwater Resources (Aquifer Properties, Well Hydraulics & Water Quality)",
+                            "GEL 311: Geological Field Mapping Mapping II (Independent Fieldwork & Geological Map Production)",
+                            "ENT 312: Venture Creation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "GEL 399: Students' Industrial Work Experience Scheme (SIWES / Industrial Training - 6 Months) (Practical field and laboratory experience in petroleum exploration companies, solid mineral mining firms, water resource agencies, geotechnical consulting firms, or geological survey institutes)"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "400 Level (Petroleum Geology, Geochemistry, Environmental Geology & Capstone Thesis)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "GEL 401: Petroleum Geology & Basin Analysis (Source Rocks, Reservoirs, Traps & Petroleum Systems)",
+                            "GEL 403: Exploration Geochemistry & Isotope Geology (Geochemical Sampling, Anomalies & Radiometric Dating)",
+                            "GEL 405: Engineering Geology & Geotechnics (Rock/Soil Mechanics, Slope Stability & Foundations)",
+                            "GEL 407: Micropaleontology & Palynology (Microfossils, Biostratigraphy & Hydrocarbon Correlation)",
+                            "GEL 409: Remote Sensing & GIS in Geology (Satellite Imagery, Photogeology & Spatial Analysis)",
+                            "GEL 497: Research Project / Senior Thesis I (Proposal, Field/Laboratory Sampling & Analytical Setup)"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "GEL 402: Mining Geology & Mineral Exploration (Reserve Estimation, Drilling & Quarrying)",
+                            "GEL 404: Environmental Geology & Hazards (Landslides, Soil Erosion, Pollution & Environmental Impact Assessment)",
+                            "GEL 406: Geology of Nigeria & Africa (Basement Complex, Sedimentary Basins & Tectonic History)",
+                            "GEL 408: Well Logging & Subsurface Geological Methods (Wireline Logs, Formation Evaluation & Seismic Interpretation)",
+                            "GEL 499: Research Project / Senior Thesis II (Data Processing, Dissertation Defense & Oral Examination)"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "Geophysics": {
+        degree: "B.Sc. Geophysics",
+        levels: [
+            {
+                level: "100 Level (Basic Sciences & Mathematical Foundations)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "GPH 101: Physical Geology & Earth History",
+                            "PHY 101: General Physics I (Mechanics, Thermal Physics & Waves)",
+                            "PHY 107: General Physics Practical I",
+                            "MTH 101: Elementary Mathematics I (Algebra & Differential Calculus)",
+                            "CHM 101: General Chemistry I (Physical & Inorganic Chemistry)",
+                            "GST 111: Communication in English",
+                            "COS 101: Introduction to Computing Sciences"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "GPH 102: Introduction to Geophysics & General Geodynamics",
+                            "PHY 102: General Physics II (Electricity, Magnetism & Modern Physics)",
+                            "PHY 108: General Physics Practical II",
+                            "MTH 102: Elementary Mathematics II (Integral Calculus, Vectors & Coordinate Geometry)",
+                            "CHM 102: General Chemistry II (Organic Chemistry Foundations)",
+                            "GST 112: Philosophy, Logic, and Human Existence",
+                            "GST 113: History and Philosophy of Science"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "200 Level (Core Physics, Vector Calculus & Geophysical Methods)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "GPH 201: Gravity & Magnetic Exploration Methods (Instruments, Anomaly Analysis & Field Surveys)",
+                            "GPH 203: Structural Geology I (Faults, Folds, Joints & Rock Mechanics)",
+                            "GPH 205: Crystallography & Mineralogy",
+                            "PHY 201: Classical Mechanics & Vector Analysis",
+                            "MTH 201: Mathematical Methods I (Ordinary Differential Equations & Vector Calculus)",
+                            "ENT 211: Entrepreneurship and Innovation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "GPH 202: Electrical & Electromagnetic Prospecting Methods (Resistivity, Self-Potential & IP Surveys)",
+                            "GPH 204: Igneous, Metamorphic & Sedimentary Petrology",
+                            "GPH 206: Field Mapping Techniques & Geological Map Interpretation",
+                            "PHY 202: Electromagnetism & Circuit Theory",
+                            "MTH 202: Mathematical Methods II (Partial Differential Equations & Complex Analysis)",
+                            "GST 212: Nigerian Peoples and Culture"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "300 Level (Seismic Theory, Signal Processing, Well Logging & SIWES Internship)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "GPH 301: Seismic Exploration I (Wave Propagation, Reflection/Refraction Theory & Ray Tracing)",
+                            "GPH 303: Borehole Geophysics & Wireline Well Logging (Gamma Ray, Resistivity, Sonic & Density Logs)",
+                            "GPH 305: Geophysical Signal Processing & Time Series Analysis (Fourier Transforms, Filtering & Deconvolution)",
+                            "GPH 307: Radiometric & Geothermal Prospecting Methods",
+                            "GPH 309: Computational Geophysics & Scientific Programming (Python/MATLAB for Geophysical Inversion)",
+                            "ENT 312: Venture Creation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "GPH 399: Students' Industrial Work Experience Scheme (SIWES / Industrial Training - 6 Months) (Hands-on field, processing, and interpretation experience in oil & gas exploration companies, geophysical service contractors, groundwater agencies, or mineral exploration firms)"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "400 Level (Reservoir Evaluation, Environmental Geophysics & Capstone Thesis)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "GPH 401: Seismic Data Processing & 2D/3D Structural Interpretation (Horizon Mapping, Seismic Attributes & AVO)",
+                            "GPH 403: Petroleum Geology & Sedimentary Basin Analysis (Source/Reservoir Dynamics & Trapping Systems)",
+                            "GPH 405: Hydrogeophysics & Environmental Geophysics (Groundwater Mapping, Contaminant Plumes & Saline Intrusion)",
+                            "GPH 407: Engineering & Geotechnical Geophysics (Cavity Detection, Dam Site Testing & Foundation Integrity)",
+                            "GPH 409: Remote Sensing & GIS in Geophysics (Satellite Photogeology & Spatial Analysis)",
+                            "GPH 497: Research Project / Senior Thesis I (Proposal, Synthetic/Field Data Acquisition & Processing Methodology)"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "GPH 402: Reservoir Geophysics & Characterization (Seismic Inversion, Porosity/Fluid Saturation Modeling)",
+                            "GPH 404: Global Seismology, Earth Dynamics & Earthquake Geophysics",
+                            "GPH 406: Solid Minerals & Mining Geophysics (Ore Body Inversion & Aeromagnetic Modeling)",
+                            "GPH 408: Geophysical Data Inversion Theory & Optimization",
+                            "GPH 499: Research Project / Senior Thesis II (Data Inversion, Modeling, Dissertation Defense & Submission)"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "Industrial Chemistry": {
+        degree: "B.Sc. Industrial Chemistry",
+        levels: [
+            {
+                level: "100 Level (Basic Sciences Foundations)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "ICH 101: Introduction to Industrial Chemistry & Process Concepts",
+                            "CHM 101: General Chemistry I (Physical & Inorganic Chemistry)",
+                            "CHM 107: General Chemistry Practical I",
+                            "PHY 101: General Physics I (Mechanics, Thermal Physics & Waves)",
+                            "MTH 101: Elementary Mathematics I (Algebra & Differential Calculus)",
+                            "GST 111: Communication in English",
+                            "COS 101: Introduction to Computing Sciences"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "ICH 102: Basic Industrial Chemical Calculations & Stoichiometry",
+                            "CHM 102: General Chemistry II (Organic Chemistry Foundations)",
+                            "CHM 108: General Chemistry Practical II",
+                            "PHY 102: General Physics II (Electricity, Magnetism & Modern Physics)",
+                            "MTH 102: Elementary Mathematics II (Integral Calculus, Vectors & Geometry)",
+                            "GST 112: Philosophy, Logic, and Human Existence",
+                            "GST 113: History and Philosophy of Science"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "200 Level (Chemical Unit Operations, Analytical Chemistry & Kinetics)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "ICH 201: Industrial Chemical Processes I (Heavy Inorganic Chemicals, Acids & Alkalis)",
+                            "CHM 201: Organic Chemistry I (Aliphatic Hydrocarbons & Reaction Mechanisms)",
+                            "CHM 203: Physical Chemistry I (Thermodynamics, Phase Equilibria & Solutions)",
+                            "CHM 205: Inorganic Chemistry I (Periodic Trends, Chemical Bonding & Main Group Elements)",
+                            "CHM 213: Analytical Chemistry I (Volumetric, Gravimetric & Basic Instrumentations)",
+                            "ENT 211: Entrepreneurship and Innovation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "ICH 202: Unit Operations in Chemical Engineering I (Fluid Flow, Heat Transfer & Mixing)",
+                            "ICH 204: Industrial Chemical Raw Materials & Water Technology (Water Treatment, Desalination & Boiler Feed)",
+                            "CHM 202: Organic Chemistry II (Aromatic Compounds, Stereochemistry & Functional Groups)",
+                            "CHM 204: Physical Chemistry II (Chemical Kinetics, Catalysis & Electroochemistry)",
+                            "STA 202: Statistics for Physical & Chemical Sciences",
+                            "GST 212: Nigerian Peoples and Culture"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "300 Level (Polymers, Petrochemicals, Quality Control & SIWES Internship)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "ICH 301: Unit Operations in Chemical Engineering II (Mass Transfer, Distillation, Absorption & Extraction)",
+                            "ICH 303: Polymer Chemistry & Technology (Polymerization Kinetics, Plastics, Rubbers & Resins)",
+                            "ICH 305: Petrochemical Technology & Petroleum Refining (Cracking, Reforming, Fuel & Lubricants)",
+                            "ICH 307: Industrial Analytical Methods & Quality Assurance (HPLC, GC-MS, AAS & Spectroscopy)",
+                            "ICH 309: Agrochemicals, Fertilizers & Pesticide Formulations",
+                            "ENT 312: Venture Creation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "ICH 399: Students' Industrial Work Experience Scheme (SIWES / Industrial Training - 6 Months) (Practical work experience in manufacturing industries: refineries, polymer production plants, beverage plants, pharmaceutical companies, soap/detergent factories, or quality control laboratories)"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "400 Level (Plant Design, Environmental Management & Capstone Thesis)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "ICH 401: Chemical Process Design, Economics & Plant Safety (P&ID, Cost Estimation & Corrosion Control)",
+                            "ICH 403: Pharmaceutical & Fine Chemicals Technology (API Synthesis, Formulation & Cosmetics)",
+                            "ICH 405: Food & Fermentation Chemistry (Food Processing, Preservation, Oils, Fats & Brewing)",
+                            "ICH 407: Environmental Chemistry & Industrial Waste Management (Effluent Treatment, ETP & EME)",
+                            "ICH 409: Industrial Catalysis & Reaction Kinetics",
+                            "ICH 497: Research Project / Senior Thesis I (Proposal, Material Sourcing & Laboratory Experimental Setup)"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "ICH 402: Advanced Applied Polymer Science & Biomaterials",
+                            "ICH 404: Soap, Detergent & Surfactant Technology",
+                            "ICH 406: Cement, Glass, Ceramics & Refractory Technology",
+                            "ICH 408: Regulatory Standards, ISO Compliance & Patent Law in Chemical Industry",
+                            "ICH 499: Research Project / Senior Thesis II (Data Processing, Product Analysis, Dissertation Defense & Submission)"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "Industrial Mathematics": {
+        degree: "B.Sc. Industrial Mathematics",
+        levels: [
+            {
+                level: "100 Level (Foundational Mathematics & Computing)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "MTH 101: Elementary Mathematics I (Algebra & Trigonometry)",
+                            "MTH 103: Elementary Mathematics III (Vectors, Geometry & Dynamics)",
+                            "COS 101: Introduction to Computing Sciences",
+                            "COS 102: Problem Solving & Algorithmic Thinking",
+                            "PHY 101: General Physics I (Mechanics, Thermal Physics & Waves)",
+                            "STA 111: Introduction to Statistics & Probability I",
+                            "GST 111: Communication in English Language"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "MTH 102: Elementary Mathematics II (Differential & Integral Calculus)",
+                            "COS 103: Computer Programming I (Structured Programming in Python/C)",
+                            "PHY 102: General Physics II (Electricity, Magnetism & Modern Physics)",
+                            "STA 112: Introduction to Statistics & Probability II",
+                            "GST 112: Philosophy, Logic, and Human Existence",
+                            "GST 113: History and Philosophy of Science"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "200 Level (Linear Algebra, Differential Equations & Numerical Analysis)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "MTH 201: Mathematical Methods I (Advanced Calculus & Multiple Integrals)",
+                            "MTH 203: Linear Algebra I (Vector Spaces, Matrices & Linear Transformations)",
+                            "MTH 205: Sets, Logic & Mathematical Structure",
+                            "MTH 207: Numerical Analysis I (Root Finding, Interpolation & Finite Differences)",
+                            "COS 201: Data Structures & Algorithms",
+                            "ENT 211: Entrepreneurship and Innovation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "MTH 202: Ordinary Differential Equations (First & Second Order ODEs, Laplace Transforms)",
+                            "MTH 204: Linear Algebra II (Eigenvalues, Eigenvectors & Canonical Forms)",
+                            "MTH 206: Real Analysis I (Sequences, Series & Metric Spaces)",
+                            "MTH 208: Vector & Tensor Analysis",
+                            "STA 202: Probability Distributions & Mathematical Statistics",
+                            "GST 212: Nigerian Peoples and Culture"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "300 Level (Operations Research, Mathematical Modeling & SIWES Internship)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "MTH 301: Operations Research I (Linear Programming, Simplex Method & Sensitivity Analysis)",
+                            "MTH 303: Mathematical Modeling I (Mechanics, Population Dynamics & Systems Biology)",
+                            "MTH 305: Numerical Analysis II (Numerical Linear Algebra, Numerical ODEs)",
+                            "MTH 307: Partial Differential Equations (Fourier Series, Separation of Variables & Boundary Value Problems)",
+                            "MTH 309: Fluid Mechanics & Continuum Dynamics",
+                            "ENT 312: Venture Creation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "MTH 399: Students' Industrial Work Experience Scheme (SIWES / Industrial Training - 6 Months) (Practical application of quantitative modeling, optimization, data analytics, or software engineering in fintech firms, logistics companies, manufacturing plants, data consultancies, or research institutes)"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "400 Level (Optimization Theory, Financial Mathematics & Capstone Thesis)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "MTH 401: Operations Research II (Dynamic Programming, Queuing Theory, Game Theory & Inventory Control)",
+                            "MTH 403: Mathematical Modeling II (Industrial Systems, Network Flows & Nonlinear Dynamics)",
+                            "MTH 405: Financial Mathematics & Actuarial Models (Option Pricing, Black-Scholes Model & Portfolio Theory)",
+                            "MTH 407: Computational Mathematics & Scientific Computing (MATLAB/Python Numerical Solvers)",
+                            "MTH 409: Applied Control Theory & System Optimization",
+                            "MTH 497: Research Project / Senior Thesis I (Problem Formulation, Literature Review & Mathematical Formulation)"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "MTH 402: Optimization Theory & Nonlinear Programming (Convex Optimization & Constrained Minimization)",
+                            "MTH 404: Stochastic Processes & Time Series Analysis (Markov Chains, Random Walks & ARIMA Models)",
+                            "MTH 406: Finite Element Methods & Computational Fluid Dynamics (CFD)",
+                            "MTH 408: Data Mining & Applied Machine Learning Mathematics",
+                            "MTH 499: Research Project / Senior Thesis II (Model Validation, Simulation Results, Dissertation Defense & Submission)"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "Industrial Physics": {
+        degree: "B.Sc. Industrial Physics",
+        levels: [
+            {
+                level: "100 Level (Basic Sciences & Mathematical Foundations)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "PHY 101: General Physics I (Mechanics, Thermal Physics & Waves)",
+                            "PHY 107: General Physics Practical I",
+                            "MTH 101: Elementary Mathematics I (Algebra & Differential Calculus)",
+                            "CHM 101: General Chemistry I (Physical & Inorganic Chemistry)",
+                            "COS 101: Introduction to Computing Sciences",
+                            "COS 102: Problem Solving & Algorithmic Thinking",
+                            "GST 111: Communication in English"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "PHY 102: General Physics II (Electricity, Magnetism & Optics)",
+                            "PHY 108: General Physics Practical II",
+                            "MTH 102: Elementary Mathematics II (Integral Calculus, Vectors & Coordinate Geometry)",
+                            "CHM 102: General Chemistry II (Organic & Physical Chemistry Foundations)",
+                            "GST 112: Philosophy, Logic, and Human Existence",
+                            "GST 113: History and Philosophy of Science"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "200 Level (Analog Electronics, Thermodynamics & Vector Calculus)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "PHY 201: Classical Mechanics & Special Relativity",
+                            "PHY 203: Electric Circuits & Analog Electronics I (Diodes, Transistors & Operational Amplifiers)",
+                            "PHY 205: Thermal Physics & Statistical Thermodynamics",
+                            "MTH 201: Mathematical Methods I (Advanced Calculus & Vector Analysis)",
+                            "COS 201: Programming Languages (C++ / Python for Physical Simulations)",
+                            "ENT 211: Entrepreneurship and Innovation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "PHY 202: Electromagnetism & Electromagnetic Waves",
+                            "PHY 204: Modern Physics & Introductory Quantum Mechanics",
+                            "PHY 206: Digital Electronics & Microprocessor Systems",
+                            "PHY 208: Optics & Optical Instrumentation",
+                            "MTH 202: Mathematical Methods II (Ordinary & Partial Differential Equations)",
+                            "GST 212: Nigerian Peoples and Culture"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "300 Level (Instrumentation, Solid State Physics & SIWES Internship)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "PHY 301: Solid State Physics I (Crystal Structures, Band Theory & Semiconductor Physics)",
+                            "PHY 303: Industrial Instrumentation & Measurement Systems (Sensors, Transducers & Data Acquisition)",
+                            "PHY 305: Quantum Mechanics I",
+                            "PHY 307: Vacuum Physics, Thin Film Technology & Surface Analysis",
+                            "PHY 309: Materials Science & Applied Crystallography (Metals, Ceramics & Polymers)",
+                            "ENT 312: Venture Creation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "PHY 399: Students' Industrial Work Experience Scheme (SIWES / Industrial Training - 6 Months) (Practical engineering and technical experience in electronics manufacturing, telecommunications firms, oil & gas service companies, renewable energy firms, calibration laboratories, or research institutes)"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "400 Level (Semiconductor Devices, Energy Systems & Capstone Thesis)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "PHY 401: Semiconductor Physics & Device Fabrication (FETs, Optoelectronics & Photovoltaics)",
+                            "PHY 403: Non-Destructive Testing (NDT) & Quality Control (Ultrasonic, Radiographic & Eddy Current Methods)",
+                            "PHY 405: Applied Nuclear Physics & Radiation Protection (Dosimetry, Detectors & Industrial Isotopes)",
+                            "PHY 407: Microcontrollers, Embedded Systems & Industrial Automation (PLCs & Robotics)",
+                            "PHY 409: Renewable Energy Physics & Energy Conversion Technologies",
+                            "PHY 497: Research Project / Senior Thesis I (Proposal, Circuit/Material Design & Setup Construction)"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "PHY 402: Solid State Physics II & Nanotechnology",
+                            "PHY 404: Telecommunications Physics & Fiber Optics",
+                            "PHY 406: Computational Physics, Finite Element Analysis & Signal Processing",
+                            "PHY 408: Environmental Physics & Industrial Safety Engineering",
+                            "PHY 499: Research Project / Senior Thesis II (Experimental Testing, Data Processing, Dissertation Defense & Submission)"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "Marine Biology & Oceanography": {
+        degree: "B.Sc. Marine Biology & Oceanography",
+        levels: [
+            {
+                level: "100 Level (Basic Sciences Foundations)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "MBO 101: Introduction to Marine Science & Aquatic Biology",
+                            "BIO 101: General Biology I (Cell Biology & Molecular Foundations)",
+                            "CHM 101: General Chemistry I (Physical & Inorganic Chemistry)",
+                            "PHY 101: General Physics I (Mechanics, Thermal Physics & Waves)",
+                            "MTH 101: Elementary Mathematics I (Algebra & Calculus)",
+                            "GST 111: Communication in English",
+                            "COS 101: Introduction to Computing Sciences"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "MBO 102: Earth's Climate & Ocean Dynamics (Meteorology & Marine Environments)",
+                            "BIO 102: General Biology II (Organismal Biology, Diversity & Systematics)",
+                            "CHM 102: General Chemistry II (Organic Chemistry Foundations)",
+                            "PHY 102: General Physics II (Electricity, Magnetism & Optics)",
+                            "MTH 102: Elementary Mathematics II (Vectors, Geometry & Statistics)",
+                            "GST 112: Philosophy, Logic, and Human Existence",
+                            "GST 113: History and Philosophy of Science"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "200 Level (Invertebrate/Vertebrate Marine Life & Ocean Dynamics)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "MBO 201: Marine Invertebrate Zoology (Taxonomy, Morphology & Adaptation)",
+                            "MBO 203: Physical Oceanography (Waves, Tides, Currents & Thermohaline Circulation)",
+                            "MBO 205: Chemical Oceanography (Seawater Composition, Salinity & Nutrient Cycling)",
+                            "BIO 201: General Genetics I",
+                            "CHM 213: Analytical Chemistry for Environmental Sciences",
+                            "ENT 211: Entrepreneurship and Innovation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "MBO 202: Marine Vertebrate Zoology (Biology of Fishes, Reptiles, Mammals & Seabirds)",
+                            "MBO 204: Biological Oceanography & Planktonology (Phytoplankton, Zooplankton & Primary Production)",
+                            "MBO 206: Geological Oceanography & Coastal Geomorphology (Seafloor Spreading, Sediments & Bathymetry)",
+                            "MCB 201: General Microbiology & Marine Microbes",
+                            "STA 202: Biostatistics & Biological Data Handling",
+                            "GST 212: Nigerian Peoples and Culture"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "300 Level (Estuarine Ecology, Fisheries Science & SIWES Internship)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "MBO 301: Estuarine, Mangrove & Brackish Water Ecology (Lagoon Systems & Tidal Swamps)",
+                            "MBO 303: Marine Ecology & Benthic Communities (Coral Reefs, Rocky Shores & Abyssal Ecology)",
+                            "MBO 305: Marine Pollution, Ecotoxicology & Effluent Control (Oil Spills, Heavy Metals & Plastics)",
+                            "MBO 307: Fisheries Biology, Dynamics & Stock Assessment",
+                            "MBO 309: Aquaculture & Mariculture Techniques",
+                            "ENT 312: Venture Creation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "MBO 399: Students' Industrial Work Experience Scheme (SIWES / Industrial Training - 6 Months)(Practical field experience at marine research institutes [e.g., NIOMR], environmental protection agencies [NESREA/Ministry of Environment], maritime safety agencies [NIMASA], offshore energy consultancies, or commercial mariculture farms)"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "400 Level (Coastal Zone Management, Marine Biotechnology & Capstone Thesis)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "MBO 401: Integrated Coastal Zone Management (ICZM) & Environmental Impact Assessment (EIA)",
+                            "MBO 403: Marine Biotechnology & Natural Products Chemistry (Bioactive Compounds & Marine Enzymes)",
+                            "MBO 405: Marine Navigation, Oceanographic Instrumentation & Sampling Techniques",
+                            "MBO 407: Applied Remote Sensing & GIS in Oceanography (Satellite Altimetry & Chlorophyll Mapping)",
+                            "MBO 409: Deep-Sea Biology & Extreme Environments (Hydrothermal Vents & Trench Biology)",
+                            "MBO 497: Research Project / Senior Thesis I (Proposal, Sampling Design & Field Operations)"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "MBO 402: Marine Conservation Biology, Protected Areas (MPAs) & Biodiversity",
+                            "MBO 404: Global Climate Change, Ocean Acidification & Sea Level Dynamics",
+                            "MBO 406: Law of the Sea (UNCLOS), Marine Policy & Fisheries Governance",
+                            "MBO 408: Marine Parasitology & Aquatic Pathology",
+                            "MBO 499: Research Project / Senior Thesis II (Data Analysis, Thesis Defense & Oral Examination)"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "B.Sc. Mathematics": {
+        degree: "B.Sc. Mathematics",
+        levels: [
+            {
+                level: "100 Level (Basic Sciences & Foundational Mathematics)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "MTH 101: Elementary Mathematics I (Algebra & Trigonometry)",
+                            "MTH 103: Elementary Mathematics III (Vectors, Geometry & Dynamics)",
+                            "COS 101: Introduction to Computing Sciences",
+                            "COS 102: Problem Solving & Algorithmic Thinking (Python / C)",
+                            "PHY 101: General Physics I (Mechanics, Thermal Physics & Waves)",
+                            "PHY 107: General Physics Practical I",
+                            "GST 111: Communication in English Language"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "MTH 102: Elementary Mathematics II (Differential & Integral Calculus)",
+                            "PHY 102: General Physics II (Electricity, Magnetism & Optics)",
+                            "PHY 108: General Physics Practical II",
+                            "STA 112: Introduction to Probability & Statistics",
+                            "GST 112: Philosophy, Logic, and Human Existence",
+                            "GST 113: History and Philosophy of Science"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "200 Level (Abstract Algebra, Real Analysis & Differential Equations)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "MTH 201: Mathematical Methods I (Advanced Calculus, Multiple Integrals & Gamma Functions)",
+                            "MTH 203: Linear Algebra I (Vector Spaces, Subspaces, Matrices & Linear Maps)",
+                            "MTH 205: Sets, Logic & Axiomatic Systems",
+                            "MTH 207: Numerical Analysis I (Root Finding, Interpolation & Difference Equations)",
+                            "COS 201: Data Structures & Algorithms",
+                            "ENT 211: Entrepreneurship and Innovation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "MTH 202: Ordinary Differential Equations I (First & Second Order ODEs, Power Series Solutions)",
+                            "MTH 204: Linear Algebra II (Inner Product Spaces, Eigenvalues & Diagonalization)",
+                            "MTH 206: Real Analysis I (Metric Spaces, Limits, Continuity & Sequences)",
+                            "MTH 208: Vector & Tensor Analysis",
+                            "STA 202: Mathematical Statistics & Probability Distributions",
+                            "GST 212: Nigerian Peoples and Culture"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "300 Level (Complex Analysis, Topology, PDE & SIWES Internship)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "MTH 301: Real Analysis II (Riemann Integration, Uniform Convergence & Infinite Series)",
+                            "MTH 303: Abstract Algebra I (Group Theory, Permutation Groups & Isomorphism Theorems)",
+                            "MTH 305: Complex Analysis I (Analytic Functions, Cauchy-Riemann Equations & Contour Integration)",
+                            "MTH 307: Partial Differential Equations (Fourier Series, Separation of Variables & Wave/Heat Equations)",
+                            "MTH 309: General Topology (Topological Spaces, Basis, Compactness & Connectedness)",
+                            "ENT 312: Venture Creation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "MTH 399: Students' Industrial Work Experience Scheme (SIWES / Industrial Training - 6 Months) (Practical application of mathematical modeling, quantitative analytics, algorithm engineering, or software development in fintech firms, technology hubs, research institutes, data consultancies, or statistical agencies)"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "400 Level (Functional Analysis, Measure Theory, Differential Geometry & Capstone Thesis)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "MTH 401: Abstract Algebra II (Ring Theory, Field Extensions, Ideals & Galois Theory)",
+                            "MTH 403: Functional Analysis (Banach & Hilbert Spaces, Bounded Operators, Dual Spaces)",
+                            "MTH 405: Measure Theory & Integration (Lebesgue Measure, Measurable Functions & Lebesgue Integration)",
+                            "MTH 407: Mathematical Modeling & Dynamical Systems",
+                            "MTH 409: Differential Geometry (Curves, Surfaces, Curvature & Tensors)",
+                            "MTH 497: Research Project / Senior Thesis I (Problem Formulation, Literature Review & Proof Framework)"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "MTH 402: Complex Analysis II (Laurent Series, Residue Theorem & Conformal Mapping)",
+                            "MTH 404: Ordinary Differential Equations II (Existence/Uniqueness Theorems, Stability Theory & Phase Plane Analysis)",
+                            "MTH 406: Numerical Analysis II (Numerical PDEs, Finite Element/Difference Methods)",
+                            "MTH 408: Fluid Dynamics & Continuum Mechanics",
+                            "MTH 499: Research Project / Senior Thesis II (Mathematical Proofs, Model Testing, Dissertation Defense & Submission)"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "Microbiology": {
+        degree: "B.Sc. Microbiology",
+        levels: [
+            {
+                level: "100 Level (Basic Sciences Foundations)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "BIO 101: General Biology I (Cell Biology, Genetics & Molecular Foundations)",
+                            "CHM 101: General Chemistry I (Physical & Inorganic Chemistry)",
+                            "PHY 101: General Physics I (Mechanics, Thermal Physics & Waves)",
+                            "MTH 101: Elementary Mathematics I (Algebra & Calculus)",
+                            "GST 111: Communication in English Language",
+                            "AMS 103: Introduction to Computing & Information Technology"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "BIO 102: General Biology II (Organismal Biology, Diversity & Systematics)",
+                            "CHM 102: General Chemistry II (Organic Chemistry Foundations)",
+                            "PHY 102: General Physics II (Electricity, Magnetism & Modern Physics)",
+                            "MTH 102: Elementary Mathematics II (Vectors, Geometry & Introductory Statistics)",
+                            "GST 112: Nigerian Peoples and Culture",
+                            "GST 113: History and Philosophy of Science"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "200 Level (Core Microbiology, Microbial Ecology & Biochemistry)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "MCB 201: General Microbiology I (Microbial Structure, Isolation, Cultivation & Staining Techniques)",
+                            "BCH 201: General Biochemistry I (Structure & Function of Biomolecules)",
+                            "BIO 201: General Genetics I (Mendelian Genetics & Chromosomal Inheritance)",
+                            "CHM 201: Organic Chemistry I (Aliphatic Hydrocarbons & Reactions)",
+                            "COS 201: Computer Programming for Biological Sciences",
+                            "ENT 211: Entrepreneurship and Innovation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "MCB 202: General Microbiology II (Microbial Nutrition, Growth Kinetics, Control & Sterilization)",
+                            "MCB 204: Introductory Microbial Ecology & Diversity (Soil, Water & Air Microorganisms)",
+                            "BCH 202: General Biochemistry II (Metabolism & Bioenergetics)",
+                            "STA 202: Biostatistics & Scientific Computing for Life Sciences",
+                            "GST 212: Philosophy, Logic, and Human Existence"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "300 Level (Medical Microbiology, Virology, Immunology & SIWES Internship)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "MCB 301: Microbial Genetics & Molecular Biology (Gene Transfer, Mutations, Plasmids & DNA Technology)",
+                            "MCB 303: Immunology & Immunochemistry (Innate/Adaptive Immunity, Antibodies, Antigens & Serology)",
+                            "MCB 305: General Virology (Viral Replication, Structure, Bacteriophages & Animal/Plant Viruses)",
+                            "MCB 307: Mycology & Phycology (Fungal Taxonomy, Physiology & Algal Biology)",
+                            "MCB 309: Food Microbiology (Food Spoilage, Preservation, Foodborne Pathogens & Quality Standards)",
+                            "ENT 312: Venture Creation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "MCB 399: Students' Industrial Work Experience Scheme (SIWES / Industrial Training - 6 Months) (Practical work experience in hospital pathology labs, medical diagnostic hubs, pharmaceutical manufacturing, food/beverage industries, or research institutes)"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "400 Level (Pathogenic Bacteriology, Industrial Fermentation & Capstone Thesis)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "MCB 401: Pathogenic Bacteriology (Bacterial Diseases, Virulence Factors & Diagnostic Microbiology)",
+                            "MCB 403: Industrial Microbiology & Biotechnology (Fermentation Kinetics, Bioreactors & Secondary Metabolites)",
+                            "MCB 405: Environmental Microbiology & Bioremediation (Waste Treatment, Biodegradation & Bioenergy)",
+                            "MCB 407: Pharmaceutical Microbiology & Antimicrobials (Antibiotics, Mechanism of Action & Drug Resistance)",
+                            "MCB 409: Diagnostic Medical Mycology & Parasitology",
+                            "MCB 497: Research Project / Senior Thesis I (Proposal, Methodology & Laboratory Experimental Setup)"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "MCB 402: Applied Medical Virology & Epidemiology (Viral Diagnostics, Vaccines & Public Health)",
+                            "MCB 404: Petroleum Microbiology & Microbial Corrosion",
+                            "MCB 406: Quality Control, Biosafety Protocols & Bioethics in Microbiology",
+                            "MCB 408: Analytical Microbiology & Quality Assurance Standards",
+                            "MCB 499: Research Project / Senior Thesis II (Data Processing, Dissertation Defense & Oral Examination)"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "Nuclear Science": {
+        degree: "B.Sc. Nuclear Science",
+        levels: [
+            {
+                level: "100 Level (Basic Sciences & Mathematical Foundations)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "NUC 101: Introduction to Nuclear Science & Technology",
+                            "PHY 101: General Physics I (Mechanics, Thermal Physics & Waves)",
+                            "PHY 107: General Physics Practical I",
+                            "MTH 101: Elementary Mathematics I (Algebra & Differential Calculus)",
+                            "CHM 101: General Chemistry I (Physical & Inorganic Chemistry)",
+                            "COS 101: Introduction to Computing Sciences",
+                            "GST 111: Communication in English"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "PHY 102: General Physics II (Electricity, Magnetism & Modern Physics)",
+                            "PHY 108: General Physics Practical II",
+                            "MTH 102: Elementary Mathematics II (Integral Calculus, Vectors & Coordinate Geometry)",
+                            "CHM 102: General Chemistry II (Organic & Physical Chemistry Foundations)",
+                            "GST 112: Philosophy, Logic, and Human Existence",
+                            "GST 113: History and Philosophy of Science"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "200 Level (Quantum Foundations, Electromagnetism & Radiochemistry)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "NUC 201: Fundamentals of Nuclear Science & Atomic Structure",
+                            "PHY 201: Classical Mechanics & Special Relativity",
+                            "PHY 203: Electric Circuits & Analog Electronics",
+                            "PHY 205: Thermal Physics & Statistical Thermodynamics",
+                            "MTH 201: Mathematical Methods I (Advanced Calculus & Vector Analysis)",
+                            "ENT 211: Entrepreneurship and Innovation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "NUC 202: Introductory Radiochemistry & Isotope Science",
+                            "PHY 202: Electromagnetism & Wave Optics",
+                            "PHY 204: Modern Physics & Introductory Quantum Mechanics",
+                            "PHY 206: Digital Electronics & Radiation Instrumentation Interfaces",
+                            "MTH 202: Mathematical Methods II (Differential Equations)",
+                            "GST 212: Nigerian Peoples and Culture"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "300 Level (Nuclear Reactor Physics, Radiation Measurement & SIWES Internship)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "NUC 301: Nuclear Physics I (Nuclear Properties, Binding Energy & Nuclear Models)",
+                            "NUC 303: Radiation Detection & Measurement Systems (Geiger Counters, Scintillators & Semiconductor Detectors)",
+                            "NUC 305: Nuclear Reactor Physics & Neutron Transport Theory",
+                            "NUC 307: Health Physics, Radiation Protection & Dosimetry",
+                            "PHY 305: Quantum Mechanics I",
+                            "ENT 312: Venture Creation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "NUC 399: Students' Industrial Work Experience Scheme (SIWES / Industrial Training - 6 Months) (Practical technical experience at nuclear research centers [e.g., CERT Zaria, Sheda Science and Technology Complex - SHESTCO], radiation protection agencies [NNRA], radiotherapy/medical physics centers in teaching hospitals, or industrial calibration laboratories)"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "400 Level (Nuclear Power Engineering, Accelerator Physics & Capstone Thesis)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "NUC 401: Advanced Nuclear Physics II (Nuclear Reactions, Fission & Fusion Physics)",
+                            "NUC 403: Nuclear Power Engineering & Thermal-Hydraulics (PWR, BWR & Advanced Reactor Systems)",
+                            "NUC 405: Particle Accelerators & Beam Physics (Synchrotrons, Cyclotrons & Linacs)",
+                            "NUC 407: Industrial Applications of Radioisotopes & Non-Destructive Testing (Radiography & Tracers)",
+                            "NUC 409: Nuclear Materials & Radiation Effects on Solids",
+                            "NUC 497: Research Project / Senior Thesis I (Proposal, Mathematical/Computational Setup & Experimental Design)"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "NUC 402: Medical Physics, Radiotherapy & Nuclear Medicine (CT, PET, SPECT & Linac Treatment)",
+                            "NUC 404: Radioactive Waste Management, Decommissioning & Environmental Radiometry",
+                            "NUC 406: Nuclear Security, Safeguards, Non-Proliferation & Policy",
+                            "NUC 408: Computational Nuclear Engineering & Monte Carlo Simulation (MCNP / Geant4)",
+                            "NUC 499: Research Project / Senior Thesis II (Data Processing, Simulation/Experimental Defense & Thesis Submission)"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "Parasitology & Entomology": {
+        degree: "B.Sc. Parasitology & Entomology",
+        levels: [
+            {
+                level: "100 Level (Basic Sciences Foundations)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "PAE 101: Introduction to Parasitology & Entomology",
+                            "BIO 101: General Biology I (Cell Biology, Genetics & Molecular Foundations)",
+                            "CHM 101: General Chemistry I (Physical & Inorganic Chemistry)",
+                            "PHY 101: General Physics I (Mechanics, Thermal Physics & Waves)",
+                            "MTH 101: Elementary Mathematics I (Algebra & Calculus)",
+                            "GST 111: Communication in English Language",
+                            "COS 101: Introduction to Computing Sciences"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "BIO 102: General Biology II (Organismal Biology, Plant & Animal Diversity)",
+                            "CHM 102: General Chemistry II (Organic Chemistry Foundations)",
+                            "PHY 102: General Physics II (Electricity, Magnetism & Optics)",
+                            "MTH 102: Elementary Mathematics II (Vectors, Geometry & Introductory Statistics)",
+                            "GST 112: Nigerian Peoples and Culture",
+                            "GST 113: History and Philosophy of Science"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "200 Level (Invertebrate Biology, Insect Morphology & Parasite Systematics)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "PAE 201: General Parasitology I (Protozoology & Helminthology Foundations)",
+                            "PAE 203: General Entomology I (Insect Morphology, Anatomy & Physiology)",
+                            "BIO 201: General Genetics I",
+                            "CHM 201: Organic Chemistry I (Aliphatic Hydrocarbons)",
+                            "COS 201: Computer Programming for Biological Sciences",
+                            "ENT 211: Entrepreneurship and Innovation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "PAE 202: Insect Systematics & Taxonomy (Classification & Identification Keys)",
+                            "PAE 204: Parasite Ecology & Transmission Biology (Host-Parasite Co-evolution)",
+                            "MCB 201: General Microbiology & Parasitic Microbes",
+                            "STA 202: Biostatistics & Biological Data Handling",
+                            "GST 212: Philosophy, Logic, and Human Existence"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "300 Level (Medical Entomology, Helminthology & SIWES Internship)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "PAE 301: Medical Parasitology (Plasmodium, Trypanosoma, Leishmania & Amoebae)",
+                            "PAE 303: Medical & Veterinary Entomology (Mosquitoes, Tsetse Flies, Ticks, Mites & Lice)",
+                            "PAE 305: Helminthology (Nematodes, Trematodes & Cestodes)",
+                            "PAE 307: Agricultural & Stored Product Entomology (Crop Pests, Weevils & Post-Harvest Losses)",
+                            "PAE 309: Immunology of Parasitic Infections (Host Defense Mechanisms & Serology)",
+                            "ENT 312: Venture Creation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "PAE 399: Students' Industrial Work Experience Scheme (SIWES / Industrial Training - 6 Months) (Practical clinical and field experience in disease control agencies [e.g., NCDC, Ministry of Health], vector control units, agricultural research institutes [IITA, NIHORT], veterinary clinics, or medical diagnostic laboratories)"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "400 Level (Vector Control, Pest Management & Capstone Thesis)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "PAE 401: Integrated Pest & Vector Management (Chemical, Biological & Insecticide Resistance)",
+                            "PAE 403: Epidemiology & Control of Vector-Borne Diseases (Malaria, Filariasis, Arboviruses & Onchocerciasis)",
+                            "PAE 405: Molecular Parasitology & Diagnostic Techniques (PCR, ELISA & Biomarkers)",
+                            "PAE 407: Veterinary Parasitology & Livestock Pest Control",
+                            "PAE 409: Environmental Physiology of Insects & Parasites",
+                            "PAE 497: Research Project / Senior Thesis I (Proposal, Sampling Design & Experimental Setup)"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "PAE 402: Forensic Entomology & Applied Ecology",
+                            "PAE 404: Toxicology of Insecticides & Environmental Safety Protocols",
+                            "PAE 406: Public Health Administration, Field Techniques & Survey Methods",
+                            "PAE 408: Bio-Informatics & Spatial Mapping of Disease Vectors (GIS in Parasitology)",
+                            "PAE 499: Research Project / Senior Thesis II (Data Analysis, Thesis Defense & Oral Examination)"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "B.Sc. Physics": {
+        degree: "B.Sc. Physics",
+        levels: [
+            {
+                level: "100 Level (Basic Sciences & Mathematical Foundations)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "PHY 101: General Physics I (Mechanics, Thermal Physics & Waves)",
+                            "PHY 107: General Physics Practical I",
+                            "MTH 101: Elementary Mathematics I (Algebra & Differential Calculus)",
+                            "CHM 101: General Chemistry I (Physical & Inorganic Chemistry)",
+                            "COS 101: Introduction to Computing Sciences",
+                            "COS 102: Problem Solving & Algorithmic Thinking",
+                            "GST 111: Communication in English Language"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "PHY 102: General Physics II (Electricity, Magnetism & Optics)",
+                            "PHY 108: General Physics Practical II",
+                            "MTH 102: Elementary Mathematics II (Integral Calculus, Vectors & Coordinate Geometry)",
+                            "CHM 102: General Chemistry II (Organic & Physical Chemistry Foundations)",
+                            "GST 112: Philosophy, Logic, and Human Existence",
+                            "GST 113: History and Philosophy of Science"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "200 Level (Classical Mechanics, Electromagnetism & Modern Physics)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "PHY 201: Classical Mechanics I & Special Relativity",
+                            "PHY 203: Electric Circuits & Analog Electronics I",
+                            "PHY 205: Thermal Physics & Statistical Thermodynamics",
+                            "PHY 207: Experimental Physics I (Laboratory Optics & Electricity)",
+                            "MTH 201: Mathematical Methods I (Advanced Calculus & Vector Analysis)",
+                            "ENT 211: Entrepreneurship and Innovation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "PHY 202: Electromagnetism & Electromagnetic Waves",
+                            "PHY 204: Modern Physics & Introductory Quantum Mechanics",
+                            "PHY 206: Digital Electronics & Microprocessors",
+                            "PHY 208: Optics & Wave Phenomena",
+                            "MTH 202: Mathematical Methods II (Differential Equations)",
+                            "GST 212: Nigerian Peoples and Culture"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "300 Level (Quantum Mechanics, Analytical Mechanics & SIWES Internship)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "PHY 301: Quantum Mechanics I (Wave-Particle Duality, Schrödinger Equation & Operators)",
+                            "PHY 303: Analytical Mechanics II (Lagrangian & Hamiltonian Formulations)",
+                            "PHY 305: Solid State Physics I (Crystal Structures, Lattice Vibrations & Free Electron Theory)",
+                            "PHY 307: Mathematical Physics I (Complex Variables, Special Functions & Differential Equations)",
+                            "PHY 309: Experimental Physics II (Advanced Laboratory Techniques)",
+                            "ENT 312: Venture Creation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "PHY 399: Students' Industrial Work Experience Scheme (SIWES / Industrial Training - 6 Months) (Practical technical experience in research institutes [e.g., NASRDA, SHESTCO, CERT], telecommunications companies, meteorology agencies [NiMet], energy and power facilities, or calibration/testing laboratories)"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "400 Level (Advanced Quantum Mechanics, Atomic Physics & Capstone Thesis)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "PHY 401: Quantum Mechanics II (Angular Momentum, Perturbation Theory & Scattering)",
+                            "PHY 403: Solid State Physics II (Band Theory, Semiconductors, Magnetism & Superconductivity)",
+                            "PHY 405: Atomic & Molecular Spectroscopy",
+                            "PHY 407: Nuclear & Particle Physics I (Nuclear Properties, Decay & Particle Interactions)",
+                            "PHY 409: Computational Physics & Numerical Modeling (Python / C / MATLAB Simulations)",
+                            "PHY 497: Research Project / Senior Thesis I (Proposal, Theoretical Formulation & Setup Design)"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "PHY 402: Electromagnetic Theory II (Maxwell's Equations, Radiation & Waveguides)",
+                            "PHY 404: Statistical Mechanics & Phase Transitions",
+                            "PHY 406: Relativity & Elementary Astrophysics / Cosmology",
+                            "PHY 408: Seminar in Contemporary Physics",
+                            "PHY 499: Research Project / Senior Thesis II (Data Computation, Theoretical Modeling, Defense & Submission)"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "Physics with Electronics": {
+        degree: "B.Sc. Physics with Electronics",
+        levels: [
+            {
+                level: "100 Level (Basic Sciences & Mathematical Foundations)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "PHE 101: General Physics I (Mechanics, Thermal Physics & Waves)",
+                            "PHE 107: General Physics Practical I",
+                            "MTH 101: Elementary Mathematics I (Algebra & Differential Calculus)",
+                            "CHM 101: General Chemistry I (Physical & Inorganic Chemistry)",
+                            "COS 101: Introduction to Computing Sciences",
+                            "COS 102: Problem Solving & Algorithmic Thinking",
+                            "GST 111: Communication in English Language"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "PHE 102: General Physics II (Electricity, Magnetism & Circuit Fundamentals)",
+                            "PHE 108: General Physics Practical II",
+                            "MTH 102: Elementary Mathematics II (Integral Calculus, Vectors & Coordinate Geometry)",
+                            "CHM 102: General Chemistry II (Organic & Physical Chemistry Foundations)",
+                            "GST 112: Philosophy, Logic, and Human Existence",
+                            "GST 113: History and Philosophy of Science"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "200 Level (Circuit Analysis, Analog/Digital Electronics & Mechanics)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "PHE 201: Classical Mechanics I & Special Relativity",
+                            "PHE 203: Analog Electronics I (Diodes, BJT/FET Transistors & Biasing Networks)",
+                            "PHE 205: Thermal Physics & Statistical Thermodynamics",
+                            "PHE 207: Circuit Theory I (DC/AC Network Analysis, Kirchhoff's Laws & Theorems)",
+                            "MTH 201: Mathematical Methods I (Advanced Calculus & Vector Analysis)",
+                            "ENT 211: Entrepreneurship and Innovation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "PHE 202: Electromagnetism & Electromagnetic Field Theory",
+                            "PHE 204: Digital Electronics I (Logic Gates, Boolean Algebra & Combinational Logic)",
+                            "PHE 206: Modern Physics & Introductory Quantum Mechanics",
+                            "PHE 208: Optics & Wave Phenomena",
+                            "MTH 202: Mathematical Methods II (Differential Equations & Laplace Transforms)",
+                            "GST 212: Nigerian Peoples and Culture"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "300 Level (Microprocessors, Instrumentation, Semiconductors & SIWES Internship)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "PHE 301: Microprocessor Systems & Assembly Language Programming (8085/8086 & Architecture)",
+                            "PHE 303: Solid State Physics & Semiconductor Devices (Band Theory, PN Junctions & Transistor Physics)",
+                            "PHE 305: Industrial Instrumentation & Measurement Systems (Sensors, Transducers & Signal Conditioning)",
+                            "PHE 307: Analog Electronics II (Operational Amplifiers, Oscillators & Active Filters)",
+                            "PHE 309: Digital Electronics II (Sequential Logic, Flip-Flops, Counters & Registers)",
+                            "ENT 312: Venture Creation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "PHE 399: Students' Industrial Work Experience Scheme (SIWES / Industrial Training - 6 Months) (Practical engineering and technical placement in telecommunications companies, electronics assembly/repair firms, power distribution entities, broadcasting stations, or industrial automation setups)"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "400 Level (Embedded Systems, Telecommunications, Signal Processing & Capstone Thesis)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "PHE 401: Microcontroller Units (MCU) & Embedded Systems Design (PIC, AVR, Arduino & ARM)",
+                            "PHE 403: Telecommunication Principles & Wireless Systems (Modulation, Transmission Lines & Antennas)",
+                            "PHE 405: Control Systems & Industrial Automation (PLC Programming, PID Controllers & Feedback)",
+                            "PHE 407: Quantum Mechanics & Atomic Spectroscopy",
+                            "PHE 409: Computational Physics & Electronic Circuit Simulation (SPICE / Proteus / MATLAB)",
+                            "PHE 497: Research Project / Senior Thesis I (Proposal, Hardware Circuit Design & Fabrication Plan)"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "PHE 402: Digital Signal Processing (DSP) & Filters (Fourier Transforms, Z-Transforms & FIR/IIR)",
+                            "PHE 404: Optoelectronics & Fiber Optics Communication",
+                            "PHE 406: Power Electronics & Renewable Energy Systems (Inverters, Converters & Solar PV Systems)",
+                            "PHE 408: VLSI Design & Integrated Circuit Fabrication Technology",
+                            "PHE 499: Research Project / Senior Thesis II (Hardware Construction, Testing, Defense & Submission)"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "Pure & Applied Mathematics": {
+        degree: "B.Sc. Pure & Applied Mathematics",
+        levels: [
+            {
+                level: "100 Level (Basic Sciences & Foundational Mathematics)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "PAM 101: Elementary Mathematics I (Algebra & Trigonometry)",
+                            "PAM 103: Elementary Mathematics III (Vectors, Geometry & Dynamics)",
+                            "COS 101: Introduction to Computing Sciences",
+                            "COS 102: Problem Solving & Algorithmic Thinking (Python / C)",
+                            "PHY 101: General Physics I (Mechanics, Thermal Physics & Waves)",
+                            "PHY 107: General Physics Practical I",
+                            "GST 111: Communication in English Language"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "PAM 102: Elementary Mathematics II (Differential & Integral Calculus)",
+                            "PHY 102: General Physics II (Electricity, Magnetism & Optics)",
+                            "PHY 108: General Physics Practical II",
+                            "STA 112: Introduction to Probability & Statistics",
+                            "GST 112: Philosophy, Logic, and Human Existence",
+                            "GST 113: History and Philosophy of Science"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "200 Level (Linear Algebra, Real Analysis & Differential Equations)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "PAM 201: Mathematical Methods I (Advanced Calculus, Multiple Integrals & Gamma Functions)",
+                            "PAM 203: Linear Algebra I (Vector Spaces, Subspaces, Matrices & Linear Transformations)",
+                            "PAM 205: Sets, Logic & Mathematical Structures",
+                            "PAM 207: Numerical Analysis I (Root Finding, Interpolation & Finite Differences)",
+                            "PAM 209: Classical Mechanics I (Kinematics, Dynamics & Central Force Motion)",
+                            "ENT 211: Entrepreneurship and Innovation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "PAM 202: Ordinary Differential Equations I (First & Second Order ODEs, Power Series Solutions)",
+                            "PAM 204: Linear Algebra II (Inner Product Spaces, Eigenvalues & Diagonalization)",
+                            "PAM 206: Real Analysis I (Metric Spaces, Limits, Continuity & Sequences)",
+                            "PAM 208: Vector & Tensor Analysis",
+                            "STA 202: Probability Distributions & Mathematical Statistics",
+                            "GST 212: Nigerian Peoples and Culture"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "300 Level (Abstract Algebra, Complex Analysis, PDE & SIWES Internship)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "PAM 301: Real Analysis II (Riemann Integration, Uniform Convergence & Infinite Series)",
+                            "PAM 303: Abstract Algebra I (Group Theory, Permutation Groups & Isomorphism Theorems)",
+                            "PAM 305: Complex Analysis I (Analytic Functions, Cauchy-Riemann Equations & Contour Integration)",
+                            "PAM 307: Partial Differential Equations (Fourier Series, Separation of Variables & Wave/Heat Equations)",
+                            "PAM 309: Fluid Mechanics I (Continuity Equation, Navier-Stokes & Potential Flow)",
+                            "ENT 312: Venture Creation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "PAM 399: Students' Industrial Work Experience Scheme (SIWES / Industrial Training - 6 Months)(Practical application of mathematical modeling, quantitative analytics, algorithm engineering, or software development in fintech firms, technology hubs, research institutes, data consultancies, or statistical agencies)"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "400 Level (Functional Analysis, Optimization, Topology & Capstone Thesis)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "PAM 401: Abstract Algebra II (Ring Theory, Field Extensions & Galois Theory)",
+                            "PAM 403: Functional Analysis (Banach & Hilbert Spaces, Bounded Operators & Dual Spaces)",
+                            "PAM 405: Measure Theory & Integration (Lebesgue Measure & Lebesgue Integration)",
+                            "PAM 407: Applied Mathematical Modeling & Dynamical Systems",
+                            "PAM 409: General Topology (Topological Spaces, Compactness & Connectedness)",
+                            "PAM 497: Research Project / Senior Thesis I (Problem Formulation, Literature Review & Analytical Setup)"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "PAM 402: Optimization Theory & Nonlinear Programming (Convex Analysis & Constrained Minimization)",
+                            "PAM 404: Complex Analysis II (Laurent Series, Residue Theorem & Conformal Mapping)",
+                            "PAM 406: Numerical Analysis II (Numerical PDEs, Finite Element & Difference Methods)",
+                            "PAM 408: Differential Geometry & Tensor Calculus",
+                            "PAM 499: Research Project / Senior Thesis II (Mathematical Proofs, Computational Simulations, Defense & Submission)"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "Statistics": {
+        degree: "B.Sc. Statistics",
+        levels: [
+            {
+                level: "100 Level (Basic Sciences & Foundational Mathematics)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "STA 101: Introductory Statistics I (Descriptive Statistics, Measures of Location & Dispersion)",
+                            "MTH 101: Elementary Mathematics I (Algebra & Differential Calculus)",
+                            "MTH 103: Elementary Mathematics III (Vectors, Geometry & Coordinate Systems)",
+                            "COS 101: Introduction to Computing Sciences",
+                            "COS 102: Problem Solving & Algorithmic Thinking (Python / R Foundations)",
+                            "GST 111: Communication in English Language",
+                            "PHY 101: General Physics I (Mechanics & Thermal Physics)"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "STA 102: Introductory Statistics II (Probability Concepts, Random Variables & Intro to Estimation)",
+                            "MTH 102: Elementary Mathematics II (Integral Calculus & Infinite Series)",
+                            "STA 112: Probability Theory I (Combinatorics, Sample Spaces & Discrete Distributions)",
+                            "GST 112: Philosophy, Logic, and Human Existence",
+                            "GST 113: History and Philosophy of Science",
+                            "PHY 102: General Physics II (Electricity & Magnetism)"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "200 Level (Probability Distributions, Linear Algebra & Statistical Computing)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "STA 201: Probability Theory II (Continuous Random Variables, Joint Distributions & Expectations)",
+                            "STA 203: Statistical Inference I (Point & Interval Estimation, Hypothesis Testing Principles)",
+                            "STA 205: Statistical Computing I (Data Analysis using R / SPSS / Python)",
+                            "MTH 201: Mathematical Methods I (Advanced Calculus & Vector Analysis)",
+                            "MTH 203: Linear Algebra I (Vector Spaces, Matrices & Systems of Linear Equations)",
+                            "ENT 211: Entrepreneurship and Innovation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "STA 202: Sampling Techniques I (Simple Random, Stratified & Systematic Sampling)",
+                            "STA 204: Design & Analysis of Experiments I (ANOVA, CRD, RCBD & Latin Square Designs)",
+                            "MTH 202: Ordinary Differential Equations I",
+                            "MTH 204: Linear Algebra II (Eigenvalues, Quadratic Forms & Matrix Inversion)",
+                            "STA 206: Demography & Social Statistics (Life Tables, Mortality & Fertility Measures)",
+                            "GST 212: Nigerian Peoples and Culture"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "300 Level (Regression Analysis, Stochastic Processes & SIWES Internship)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "STA 301: Statistical Inference II (Neyman-Pearson Lemma, Likelihood Ratio Tests & Maximum Likelihood Estimation)",
+                            "STA 303: Regression Analysis & Correlation (Simple & Multiple Linear Regression, Diagnostics)",
+                            "STA 305: Stochastic Processes I (Markov Chains, Poisson Processes & Random Walks)",
+                            "STA 307: Non-Parametric Statistical Methods (Mann-Whitney, Kruskal-Wallis & Chi-Square Tests)",
+                            "STA 309: Operations Research I (Linear Programming, Simplex Method & Transportation Models)",
+                            "ENT 312: Venture Creation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "STA 399: Students' Industrial Work Experience Scheme (SIWES / Industrial Training - 6 Months) (Practical application of quantitative data analysis, data science, risk modeling, and statistical reporting in fintech firms, market research agencies, National Bureau of Statistics [NBS], banks, or research institutes)"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "400 Level (Multivariate Analysis, Time Series, Data Science & Capstone Thesis)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "STA 401: Multivariate Statistical Methods (Principal Component Analysis, Factor Analysis & MANOVA)",
+                            "STA 403: Time Series Analysis & Forecasting (ARIMA Models, Stationarity & Spectral Analysis)",
+                            "STA 405: Bayesian Inference & Decision Theory (Prior/Posterior Distributions & Bayes Risk)",
+                            "STA 407: Sampling Techniques II (Cluster Sampling, Multi-Stage Sampling & Ratio/Regression Estimators)",
+                            "STA 409: Econometrics & Financial Statistics (Panel Data, Heteroscedasticity & Autocorrelation)",
+                            "STA 497: Research Project / Senior Thesis I (Problem Statement, Data Collection Strategy & Methodology Design)"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "STA 402: Design & Analysis of Experiments II (Factorial Experiments, Fractional Factorials & Response Surface Methodology)",
+                            "STA 404: Data Mining, Machine Learning & Statistical Learning",
+                            "STA 406: Quality Control & Reliability Theory (Control Charts, Acceptance Sampling & Survival Analysis)",
+                            "STA 408: Operations Research II (Queuing Theory, Inventory Control & Dynamic Programming)",
+                            "STA 499: Research Project / Senior Thesis II (Data Modeling, Computational Analysis, Thesis Defense & Oral Examination)"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "Water, Sanitation and Hygiene (WASH)": {
+        degree: "B.Sc. Water, Sanitation and Hygiene (WASH)",
+        levels: [
+            {
+                level: "100 Level (Basic Sciences & Foundation Courses)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "WSH 101: Introduction to Water, Sanitation and Hygiene (WASH)",
+                            "BIO 101: General Biology I (Cell Biology & Genetics)",
+                            "CHM 101: General Chemistry I (Inorganic & Physical Chemistry)",
+                            "PHY 101: General Physics I (Mechanics, Thermal Physics & Waves)",
+                            "MTH 101: Elementary Mathematics I (Algebra & Calculus)",
+                            "COS 101: Introduction to Computing Sciences",
+                            "GST 111: Communication in English Language"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "WSH 102: Fundamentals of Environmental Health & Hygiene",
+                            "BIO 102: General Biology II (Organismal Biology & Ecology)",
+                            "CHM 102: General Chemistry II (Organic Chemistry & Fundamentals)",
+                            "PHY 102: General Physics II (Electricity, Magnetism & Optics)",
+                            "MTH 102: Elementary Mathematics II (Vectors & Geometry)",
+                            "GST 112: Philosophy, Logic, and Human Existence",
+                            "GST 113: History and Philosophy of Science"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "200 Level (Water Chemistry, Sanitation Systems & Environmental Microbiology)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "WSH 201: Water Quality Chemistry & Analysis",
+                            "WSH 203: Fundamentals of Sanitation & Waste Management",
+                            "WSH 205: Environmental Microbiology & Parasitology",
+                            "WSH 207: Elements of Hydrology & Hydrogeology",
+                            "STA 201: Biostatistics & Biological Data Handling",
+                            "ENT 211: Entrepreneurship and Innovation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "WSH 202: Hygiene Promotion & Behavior Change Communication",
+                            "WSH 204: Fluid Mechanics & Hydraulic Systems",
+                            "WSH 206: Soil Mechanics & Earthworks for Sanitation",
+                            "WSH 208: Community Health & Epidemiology of WASH Diseases",
+                            "SOC 202: Sociology of Community Engagement & Development",
+                            "GST 212: Nigerian Peoples and Culture"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "300 Level (Water Treatment, WASH in Emergencies & SIWES Internship)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "WSH 301: Water Treatment Technologies & Distribution Systems",
+                            "WSH 303: On-Site & Off-Site Sanitation Technology Design",
+                            "WSH 305: WASH in Institutional Settings (Schools, Healthcare Facilities & Workplaces)",
+                            "WSH 307: Solid & Hazardous Waste Management",
+                            "WSH 309: Environmental Impact Assessment (EIA) & Risk Analysis",
+                            "ENT 312: Venture Creation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "WSH 399: Students' Industrial Work Experience Scheme (SIWES / Industrial Training - 6 Months)(Practical technical experience in water board corporations, environmental protection agencies [e.g., NESREA, State RUWASSA], public health ministries, UNICEF/NGO WASH programs, or water testing laboratories)"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "400 Level (Emergency Response, Policy, Governance & Capstone Thesis)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "WSH 401: WASH in Emergencies & Humanitarian Contexts (Disaster Response & Refuges)",
+                            "WSH 403: WASH Infrastructure Design, Maintenance & Rural Water Supply",
+                            "WSH 405: Water & Sanitation Policy, Governance, Law & Financing",
+                            "WSH 407: Climate Change, Water Security & Sustainable Resource Management",
+                            "WSH 409: GIS & Remote Sensing Applications in WASH Mapping",
+                            "WSH 497: Research Project / Senior Thesis I (Proposal & Fieldwork Design)"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "WSH 402: Integrated Urban & Rural Sanitation Planning",
+                            "WSH 404: Fecal Sludge Management & Resource Recovery",
+                            "WSH 406: WASH Program Monitoring, Evaluation & Learning (MEL)",
+                            "WSH 408: Gender, Social Inclusion & Equity in WASH Programming",
+                            "WSH 499: Research Project / Senior Thesis II (Data Analysis, Field Report, Thesis Defense & Submission)"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "Zoology / Animal & Environmental Biology": {
+        degree: "B.Sc. Zoology / Animal & Environmental Biology",
+        levels: [
+            {
+                level: "100 Level (Basic Sciences Foundations)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "ZEB 101: Introduction to Animal & Environmental Biology",
+                            "BIO 101: General Biology I (Cell Biology, Genetics & Molecular Foundations)",
+                            "CHM 101: General Chemistry I (Physical & Inorganic Chemistry)",
+                            "PHY 101: General Physics I (Mechanics, Thermal Physics & Waves)",
+                            "MTH 101: Elementary Mathematics I (Algebra & Calculus)",
+                            "COS 101: Introduction to Computing Sciences",
+                            "GST 111: Communication in English Language"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "BIO 102: General Biology II (Organismal Biology, Plant & Animal Diversity)",
+                            "CHM 102: General Chemistry II (Organic & Physical Chemistry Foundations)",
+                            "PHY 102: General Physics II (Electricity, Magnetism & Optics)",
+                            "MTH 102: Elementary Mathematics II (Vectors & Geometry)",
+                            "GST 112: Nigerian Peoples and Culture",
+                            "GST 113: History and Philosophy of Science"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "200 Level (Invertebrate/Vertebrate Zoology, Histology & Animal Physiology)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "ZEB 201: Invertebrate Zoology (Protozoa to Echinodermata Morphology & Systematics)",
+                            "ZEB 203: Animal Histology & Organology",
+                            "BIO 201: General Genetics I",
+                            "CHM 201: Organic Chemistry I (Aliphatic Hydrocarbons)",
+                            "COS 201: Computer Programming for Biological Sciences",
+                            "ENT 211: Entrepreneurship and Innovation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "ZEB 202: Vertebrate Zoology (Agnatha to Mammalia Comparative Anatomy)",
+                            "ZEB 204: Introductory Animal Physiology (Digestion, Excretion & Respiration)",
+                            "ZEB 206: Basic Ecology & Environmental Biology",
+                            "STA 202: Biostatistics & Biological Data Handling",
+                            "GST 212: Philosophy, Logic, and Human Existence"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "300 Level (Comparative Embryology, Entomology, Hydrobiology & SIWES Internship)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "ZEB 301: Comparative Animal Physiology & Endocrinology",
+                            "ZEB 303: Chordate Embryology & Developmental Biology",
+                            "ZEB 305: Applied Entomology & Pest Management",
+                            "ZEB 307: Hydrobiology, Fisheries & Aquatic Biology",
+                            "ZEB 309: Parasitology & Vector Biology",
+                            "ENT 312: Venture Creation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "ZEB 399: Students' Industrial Work Experience Scheme (SIWES / Industrial Training - 6 Months) (Practical technical experience in wildlife conservation parks, environmental protection agencies [e.g., NESREA, State Ministries of Environment], fisheries and aquaculture centers, medical research institutes, or forestry research institutes [FRIN])"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "400 Level (Ecotoxicology, Environmental Impact Assessment & Capstone Thesis)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "ZEB 401: Environmental Toxicology & Pollution Biology (Bioaccumulation & Biomarkers)",
+                            "ZEB 403: Wildlife Ecology, Management & Biodiversity Conservation",
+                            "ZEB 405: Environmental Impact Assessment (EIA) & Environmental Auditing",
+                            "ZEB 407: Evolutionary Biology, Systematics & Zoogeography",
+                            "ZEB 409: Molecular Biology, Biotechnology & Genomics in Zoology",
+                            "ZEB 497: Research Project / Senior Thesis I (Proposal, Sampling Design & Experimental Setup)"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "ZEB 402: Animal Behavior (Ethology) & Behavioral Ecology",
+                            "ZEB 404: Principles of Conservation Biology & Protected Area Management",
+                            "ZEB 406: Mammalogy, Ornithology & Herpetology (Advanced Vertebrate Biology)",
+                            "ZEB 408: Environmental Management & Bio-Resource Conservation",
+                            "ZEB 499: Research Project / Senior Thesis II (Data Analysis, Field/Lab Report, Defense & Submission)"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "Criminology & Security Studies": {
+        degree: "B.Sc. Criminology & Security Studies",
+        levels: [
+            {
+                level: "100 Level (Foundational Social Sciences & Criminology)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "CSS 101: Introduction to Criminology I (Theoretical Foundations & Patterns of Crime)",
+                            "CSS 103: Introduction to Security Studies & Security Architecture",
+                            "SOC 101: Elements of Sociology I",
+                            "PSY 101: Introduction to Psychology",
+                            "POS 101: Elements of Political Science",
+                            "COS 101: Introduction to Computing Sciences",
+                            "GST 111: Communication in English Language"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "CSS 102: Introduction to Criminology II (Crime Types, Measurement & Official Statistics)",
+                            "CSS 104: Development of Security & Intelligence Systems",
+                            "SOC 102: Elements of Sociology II (Social Institutions & Structure)",
+                            "POS 102: Introduction to Nigerian Government and Politics",
+                            "GST 112: Philosophy, Logic, and Human Existence",
+                            "GST 113: History and Philosophy of Science"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "200 Level (Criminal Justice, Delinquency & Research Methods)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "CSS 201: Theories of Crime & Delinquency (Biological, Psychological & Sociological Theories)",
+                            "CSS 203: Criminal Justice System I (Police Systems, Law Enforcement & Functions)",
+                            "CSS 205: Sociology of Deviant Behavior",
+                            "CSS 207: Psychology of Crime & Criminal Profiling",
+                            "SOC 201: Social Research Methods I (Qualitative & Quantitative Design)",
+                            "ENT 211: Entrepreneurship and Innovation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "CSS 202: Criminal Justice System II (Courts, Judicial Administration & Legal Processes)",
+                            "CSS 204: Penology & Correctional Systems (Prisons, Probation, Parole & Rehabilitation)",
+                            "CSS 206: Juvenile Delinquency & Youth Justice",
+                            "CSS 208: Human Rights & the Administration of Justice",
+                            "STA 201: Statistics for Social Sciences",
+                            "GST 212: Nigerian Peoples and Culture"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "300 Level (Forensics, Intelligence, Cybercrime & SIWES Internship)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "CSS 301: Criminal Law & Procedure for Security Studies",
+                            "CSS 303: Introduction to Forensic Science & Criminalistics (Fingerprinting, Ballistics & DNA)",
+                            "CSS 305: Cybercrime, Digital Forensics & Information Security",
+                            "CSS 307: Intelligence Gathering, Analysis & Counter-Intelligence",
+                            "CSS 309: Victimology, Victim Assistance & Restorative Justice",
+                            "ENT 312: Venture Creation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "CSS 399: Students' Industrial Work Experience Scheme / Attachment (SIWES - 6 Months) (Practical field placement at law enforcement agencies [e.g., NPF, EFCC, ICPC, NDLEA, DSS, NSCDC], private security firms, correctional centers, or legal research institutes)"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "400 Level (Terrorism, Industrial Security & Capstone Thesis)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "CSS 401: Terrorism, Insurgency & Counter-Terrorism Operations",
+                            "CSS 403: Organized, White-Collar & Transnational Crime (Money Laundering, Trafficking)",
+                            "CSS 405: Corporate & Industrial Security Management (Risk Assessment & Asset Protection)",
+                            "CSS 407: Conflict Management, Peacebuilding & Mediation",
+                            "CSS 409: Border Security, Maritime & Aviation Security Management",
+                            "CSS 497: Research Project / Senior Thesis I (Proposal, Field Methodology & Instrument Design)"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "CSS 402: Crime Prevention, Community Policing & Security Strategies",
+                            "CSS 404: Critical Infrastructure Protection & Emergency/Disaster Management",
+                            "CSS 406: Comparative Criminal Justice Systems",
+                            "CSS 408: Gender, Crime & Security",
+                            "CSS 499: Research Project / Senior Thesis II (Data Collection, Statistical/Thematic Analysis, Defense & Submission)"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "Demography & Social Statistics": {
+        degree: "B.Sc. Demography & Social Statistics",
+        levels: [
+            {
+                level: "100 Level (Foundational Social Sciences & Quantitative Tools)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "DSS 101: Introduction to Demography & Population Studies I",
+                            "DSS 103: Introduction to Social Statistics I (Descriptive Statistics & Measures of Central Tendency)",
+                            "SOC 101: Elements of Sociology I",
+                            "MTH 101: Elementary Mathematics I (Algebra & Calculus)",
+                            "COS 101: Introduction to Computing Sciences",
+                            "COS 102: Problem Solving & Algorithmic Thinking",
+                            "GST 111: Communication in English Language"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "DSS 102: Introduction to Demography & Population Studies II (Population Growth & Distribution)",
+                            "DSS 104: Introduction to Social Statistics II (Probability & Elementary Sampling)",
+                            "SOC 102: Elements of Sociology II (Social Institutions & Structure)",
+                            "MTH 102: Elementary Mathematics II (Vectors & Geometry)",
+                            "GST 112: Philosophy, Logic, and Human Existence",
+                            "GST 113: History and Philosophy of Science"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "200 Level (Demographic Techniques, Data Collection & Social Research)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "DSS 201: Demographic Data Collection Systems (Censuses, Civil Registration & Sample Surveys)",
+                            "DSS 203: Measures of Population Dynamics (Fertility, Mortality & Nuptiality Rates)",
+                            "DSS 205: Social Research Methods I (Qualitative & Quantitative Survey Designs)",
+                            "STA 201: Probability Distributions for Social Sciences",
+                            "ECN 201: Principles of Microeconomics",
+                            "ENT 211: Entrepreneurship and Innovation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "DSS 202: Life Table Analysis & Survival Models",
+                            "DSS 204: Migration & Urbanization Studies (Internal & International Movements)",
+                            "DSS 206: Social Statistics Methods (Hypothesis Testing, ANOVA & Chi-Square Tests)",
+                            "SOC 202: Social Structure of Contemporary Africa",
+                            "STA 202: Sampling Techniques for Demography",
+                            "GST 212: Nigerian Peoples and Culture"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "300 Level (Population Analysis, Computer Data Analytics & SIWES Internship)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "DSS 301: Direct & Indirect Estimation Techniques in Demography (Brass Methods & Model Life Tables)",
+                            "DSS 303: Population Projections & Forecasting Methods",
+                            "DSS 305: Computer Applications in Demographic & Social Analysis (SPSS, Stata, R & CSPro)",
+                            "DSS 307: Population, Environment & Sustainable Development",
+                            "DSS 309: Gender, Reproductive Health & Population Policies",
+                            "ENT 312: Venture Creation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "DSS 399: Students' Industrial Work Experience Scheme / Attachment (SIWES - 6 Months) (Practical field and analytic placement at national demographic agencies [e.g., National Population Commission - NPC, National Bureau of Statistics - NBS], public health institutes, UN agencies [UNFPA, UNICEF], state planning commissions, or research consultancies)"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "400 Level (Advanced Demographic Models, Policy & Capstone Thesis)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "DSS 401: Advanced Demographic Analysis & Mathematical Demography",
+                            "DSS 403: Population Policies, Development Planning & Program Evaluation",
+                            "DSS 405: Economic Demography & Labor Force Analysis (Demographic Dividend & Workforce)",
+                            "DSS 407: Multivariate Statistical Methods for Social Data (Multiple Regression & Factor Analysis)",
+                            "DSS 409: Spatial Demography & GIS Applications in Population Mapping",
+                            "DSS 497: Research Project / Senior Thesis I (Proposal, Sampling Design & Field Instrument Design)"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "DSS 402: Bio-Demography, Mortality Analysis & Public Health",
+                            "DSS 404: Nuptiality, Family Dynamics & Household Structure",
+                            "DSS 406: Applied Social Statistics & Big Data Analytics in Social Science",
+                            "DSS 408: Demography of Aging & Social Security Systems",
+                            "DSS 499: Research Project / Senior Thesis II (Data Processing, Econometric/Demographic Modeling, Defense & Submission)"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "Development Studies": {
+        degree: "B.Sc. Development Studies",
+        levels: [
+            {
+                level: "100 Level (Foundational Social Sciences & Development Concepts)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "DVS 101: Introduction to Development Studies I (Concepts, Theories & Evolution of Development)",
+                            "DVS 103: History of World Economic & Social Development",
+                            "SOC 101: Elements of Sociology I",
+                            "POS 101: Elements of Political Science",
+                            "ECN 101: Principles of Economics I",
+                            "COS 101: Introduction to Computing Sciences",
+                            "GST 111: Communication in English Language"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "DVS 102: Introduction to Development Studies II (Indicators, Metrics & Human Development Index)",
+                            "DVS 104: Global Globalization & Sustainable Development",
+                            "SOC 102: Elements of Sociology II (Social Institutions & Structure)",
+                            "ECN 102: Principles of Economics II",
+                            "GST 112: Philosophy, Logic, and Human Existence",
+                            "GST 113: History and Philosophy of Science"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "200 Level (Theories of Development, Governance & Research Methods)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "DVS 201: Classical & Modern Theories of Development (Modernization, Dependency & World-Systems)",
+                            "DVS 203: Poverty, Inequality & Wealth Distribution in Developing Nations",
+                            "DVS 205: State, Governance & Institutional Development",
+                            "ECN 201: Principles of Microeconomics",
+                            "SOC 201: Social Research Methods I (Qualitative & Quantitative Design)",
+                            "ENT 211: Entrepreneurship and Innovation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "DVS 202: Rural Development, Land Reform & Agrarian Transformation",
+                            "DVS 204: Urbanization, Cities & Infrastructure Development",
+                            "DVS 206: Gender, Culture & Social Inclusion in Development",
+                            "ECN 202: Principles of Macroeconomics",
+                            "STA 201: Statistics for Social Sciences",
+                            "GST 212: Nigerian Peoples and Culture"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "300 Level (Policy Analysis, Project Management & SIWES Internship)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "DVS 301: Development Planning, Public Policy Analysis & Implementation",
+                            "DVS 303: Project Cycle Management, Monitoring & Evaluation (M&E / Logical Frameworks)",
+                            "DVS 305: International Trade, Finance & Foreign Direct Investment (FDI)",
+                            "DVS 307: Foreign Aid, International Agencies & Non-Governmental Organizations (NGOs)",
+                            "DVS 309: Environmental Economics & Climate Change Adaptation",
+                            "ENT 312: Venture Creation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "DVS 399: Students' Industrial Work Experience Scheme / Attachment (SIWES - 6 Months) (Practical field placement at international development organizations [e.g., UNDP, World Bank, USAID], Federal/State Ministries of Budget and National Planning, civil society groups, social enterprises, or development research consultancies)"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "400 Level (Global Political Economy, Sustainable Goals & Capstone Thesis)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "DVS 401: Global Political Economy & Structural Adjustment Policies",
+                            "DVS 403: Sustainable Development Goals (SDGs) & Agenda 2063 Analysis",
+                            "DVS 405: Conflict, Post-Conflict Reconstruction & Peacebuilding in Development",
+                            "DVS 407: Human Capital Development (Education, Public Health & Social Protection)",
+                            "DVS 409: Resource Governance, Extractives & the Resource Curse",
+                            "DVS 497: Research Project / Senior Thesis I (Proposal, Methodology & Instrument Design)"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "DVS 402: Microfinance, Financial Inclusion & Community-Based Development",
+                            "DVS 404: Technology, Innovation & Digital Economy in the Global South",
+                            "DVS 406: Migration, Remittances & Diasporic Contributions to Development",
+                            "DVS 408: Advanced Policy Evaluation & Impact Assessment",
+                            "DVS 499: Research Project / Senior Thesis II (Fieldwork Data Processing, Policy Framework Analysis, Defense & Submission)"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "B.Sc. Economics": {
+        degree: "B.Sc. Economics",
+        levels: [
+            {
+                level: "100 Level (Foundational Social Sciences & Introductory Economics)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "ECN 101: Principles of Economics I (Microeconomics Foundations & Price Theory)",
+                            "ECN 103: Introductory Mathematics for Economists I (Algebra, Sets & Linear Equations)",
+                            "ACC 101: Principles of Accounting I",
+                            "BUS 101: Introduction to Business I",
+                            "COS 101: Introduction to Computing Sciences",
+                            "POS 101: Elements of Political Science",
+                            "GST 111: Communication in English Language"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "ECN 102: Principles of Economics II (Macroeconomics Foundations & National Income)",
+                            "ECN 104: Introductory Mathematics for Economists II (Calculus & Functions)",
+                            "ACC 102: Principles of Accounting II",
+                            "SOC 101: Elements of Sociology I",
+                            "GST 112: Philosophy, Logic, and Human Existence",
+                            "GST 113: History and Philosophy of Science"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "200 Level (Intermediate Micro/Macro, Statistics & Economic History)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "ECN 201: Intermediate Microeconomic Theory I (Consumer Behavior, Utility & Production Function)",
+                            "ECN 203: Intermediate Macroeconomic Theory I (IS-LM Framework, Aggregate Demand & Supply)",
+                            "ECN 205: Statistics for Economists I (Probability Theory & Probability Distributions)",
+                            "ECN 207: Structure of the Nigerian Economy I (Agriculture, Energy & Mineral Sector)",
+                            "ECN 209: Mathematics for Economists (Matrix Algebra & Optimization Models)",
+                            "ENT 211: Entrepreneurship and Innovation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "ECN 202: Intermediate Microeconomic Theory II (Market Structures, General Equilibrium & Welfare)",
+                            "ECN 204: Intermediate Macroeconomic Theory II (Inflation, Unemployment & Open Economy Macro)",
+                            "ECN 206: Statistics for Economists II (Sampling, Hypothesis Testing & Correlation)",
+                            "ECN 208: Structure of the Nigerian Economy II (Services, Financial Sector & Foreign Trade)",
+                            "ECN 210: History of Economic Thought (Adam Smith to Keynesian & Modern School)",
+                            "GST 212: Nigerian Peoples and Culture"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "300 Level (Econometrics, Monetary Economics, Public Finance & SIWES Internship)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "ECN 301: Advanced Microeconomic Theory (Game Theory, Information Asymmetry & General Equilibrium)",
+                            "ECN 303: Advanced Macroeconomic Theory (Dynamic Macro, Growth Models & Rational Expectations)",
+                            "ECN 305: Introductory Econometrics I (Ordinary Least Squares - OLS & Classical Linear Model)",
+                            "ECN 307: Monetary Economics I (Money Supply, Demand for Money & Central Banking)",
+                            "ECN 309: Public Sector Economics / Public Finance (Taxation, Fiscal Policy & Public Expenditure)",
+                            "ENT 312: Venture Creation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "ECN 399: Students' Industrial Work Experience Scheme / Attachment (SIWES - 6 Months) (Practical analytic and policy placement at commercial/investment banks, Central Bank of Nigeria [CBN], Ministry of Finance, National Bureau of Statistics [NBS], research institutes, or corporate financial advisory firms)"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "400 Level (Applied Econometrics, Development Economics & Capstone Thesis)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "ECN 401: Advanced Econometrics II (Multicollinearity, Heteroskedasticity, Autocorrelation & Time Series)",
+                            "ECN 403: Development Economics I (Growth Theories, Structural Change & Institutional Economics)",
+                            "ECN 405: International Trade & Finance I (Ricardian, Heckscher-Ohlin Theories & Trade Tariffs)",
+                            "ECN 407: Applied Statistics & Applied Econometrics (STATA, R & EViews Software)",
+                            "ECN 409: Mathematical Economics (Dynamic Optimization & Input-Output Analysis)",
+                            "ECN 497: Research Project / Senior Thesis I (Proposal, Methodology & Data Identification)"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "ECN 402: Monetary Economics II (Monetary Policy Transmission & Financial Intermediation)",
+                            "ECN 404: Development Economics II (Poverty, Inequality & International Debt Dynamics)",
+                            "ECN 406: International Trade & Finance II (Exchange Rates, Balance of Payments & IMF Systems)",
+                            "ECN 408: Petroleum & Energy Economics (OPEC Dynamics, Energy Transition & Natural Resources)",
+                            "ECN 499: Research Project / Senior Thesis II (Empirical Modeling, Econometric Estimation, Defense & Submission)"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "Geography / Geography & Environmental Management": {
+        degree: "B.Sc. Geography / Geography & Environmental Management",
+        levels: [
+            {
+                level: "100 Level (Foundational Earth Systems & Human Geography)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "GEO 101: Introduction to Physical Geography I (Geomorphology, Climatology & Hydrology)",
+                            "GEO 103: Introduction to Human Geography I (Population, Settlement & Cultural Patterns)",
+                            "GEO 105: Practical Geography I (Map Reading, Map Analysis & Topographical Surveying)",
+                            "BIO 101: General Biology I",
+                            "CHM 101: General Chemistry I",
+                            "COS 101: Introduction to Computing Sciences",
+                            "GST 111: Communication in English Language"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "GEO 102: Introduction to Physical Geography II (Biogeography, Pedology & Oceanography)",
+                            "GEO 104: Introduction to Human Geography II (Economic, Political & Spatial Organization)",
+                            "GEO 106: Practical Geography II (Surveying Techniques & Cartographic Representation)",
+                            "BIO 102: General Biology II",
+                            "GST 112: Philosophy, Logic, and Human Existence",
+                            "GST 113: History and Philosophy of Science"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "200 Level (Spatial Analysis, Climatology, Geomorphology & Biogeography)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "GEO 201: Spatial Organization & Human Ecology",
+                            "GEO 203: Geomorphology (Weathering, Fluvial, Coastal & Karst Landscapes)",
+                            "GEO 205: Climatology & Meteorology (Atmospheric Processes & Weather Systems)",
+                            "GEO 207: Biogeography & Ecosystem Studies",
+                            "GEO 209: Quantitative Techniques in Geography I (Spatial Data & Parametric Statistics)",
+                            "ENT 211: Entrepreneurship and Innovation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "GEO 202: Soil Geography & Pedology (Soil Formation, Profiles & Classification)",
+                            "GEO 204: Hydrology & Water Resources Management",
+                            "GEO 206: Urban Geography & Settlement Systems",
+                            "GEO 208: Map Analysis, Elementary Cartography & Field Surveying",
+                            "STA 201: Statistics for Environmental Sciences",
+                            "GST 212: Nigerian Peoples and Culture"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "300 Level (GIS, Remote Sensing, Environmental Management & SIWES Internship)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "GEO 301: Fundamentals of Geographic Information Systems (GIS)",
+                            "GEO 303: Principles of Remote Sensing & Aerial Photo Interpretation",
+                            "GEO 305: Environmental Hazards, Disasters & Risk Management (Erosion, Flooding & Desertification)",
+                            "GEO 307: Population, Migration & Settlement Dynamics",
+                            "GEO 309: Research Methods in Geography & Field Techniques",
+                            "ENT 312: Venture Creation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "GEO 399: Students' Industrial Work Experience Scheme / Attachment (SIWES - 6 Months) (Practical spatial and environmental placement at GIS consultancies, Ministry of Environment, National Space Research and Development Agency [NASRDA], NESREA, survey firms, or urban planning agencies)"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "400 Level (Advanced Spatial Analytics, EIA & Capstone Thesis)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "GEO 401: Advanced GIS & Spatial Data Infrastructure (ArcGIS, QGIS & Spatial Analysis)",
+                            "GEO 403: Environmental Impact Assessment (EIA) & Environmental Auditing",
+                            "GEO 405: Climate Change, Global Warming & Adaptation Strategies",
+                            "GEO 407: Land Resource Evaluation, Use & Rural Development",
+                            "GEO 409: Environmental Law, Policy & Sustainability Governance",
+                            "GEO 497: Research Project / Senior Thesis I (Proposal, Sampling Design & Field Instrument Setup)"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "GEO 402: Urban Planning, Regional Development & Environmental Planning",
+                            "GEO 404: Coastal & Marine Resources Management",
+                            "GEO 406: Applied Climatology & Agrometeorology",
+                            "GEO 408: Waste Management, Pollution Control & Ecotoxicology",
+                            "GEO 499: Research Project / Senior Thesis II (Spatial Analysis, Fieldwork Data Analysis, Defense & Submission)"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "Intelligence & Security Studies": {
+        degree: "B.Sc. Intelligence & Security Studies",
+        levels: [
+            {
+                level: "100 Level (Foundational Social Sciences & Security Architecture)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "ISS 101: Introduction to Intelligence & Security Studies I",
+                            "ISS 103: History of National & Global Security Architecture",
+                            "SOC 101: Elements of Sociology I",
+                            "POS 101: Elements of Political Science",
+                            "PSY 101: Introduction to Psychology",
+                            "COS 101: Introduction to Computing Sciences",
+                            "GST 111: Communication in English Language"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "ISS 102: Introduction to Intelligence & Security Studies II (The Intelligence Cycle & Tradecraft)",
+                            "ISS 104: Evolution of Intelligence Agencies (Global & National Systems)",
+                            "SOC 102: Elements of Sociology II (Social Institutions & Structure)",
+                            "POS 102: Introduction to Nigerian Government and Politics",
+                            "GST 112: Philosophy, Logic, and Human Existence",
+                            "GST 113: History and Philosophy of Science"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "200 Level (Intelligence Analysis, Criminal Justice & Research Methods)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "ISS 201: Fundamentals of Intelligence Analysis & Structured Analytic Techniques",
+                            "ISS 203: Human Intelligence (HUMINT) & Signals Intelligence (SIGINT) Foundations",
+                            "ISS 205: Theories of Crime, Deviance & Criminality",
+                            "CSS 203: Criminal Justice System & Law Enforcement",
+                            "SOC 201: Social Research Methods I (Qualitative & Quantitative Design)",
+                            "ENT 211: Entrepreneurship and Innovation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "ISS 202: Counter-Intelligence & Counter-Espionage Operations",
+                            "ISS 204: Physical, Industrial & Corporate Security Management",
+                            "ISS 206: Psychology of Security & Profiling Techniques",
+                            "ISS 208: Human Rights, Civil Liberties & Intelligence Governance",
+                            "STA 201: Statistics for Social Sciences",
+                            "GST 212: Nigerian Peoples and Culture"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "300 Level (Cyber-Intelligence, Strategic Threat & SIWES Internship)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "ISS 301: Cyber-Intelligence, Digital Surveillance & Open-Source Intelligence (OSINT)",
+                            "ISS 303: National Security Law, Criminal Procedure & Evidence",
+                            "ISS 305: Strategic Threat Assessment & Early Warning Systems",
+                            "ISS 307: Geopolitics, International Security & Conflict Analysis",
+                            "ISS 309: Covert Action, Reconnaissance & Special Operations",
+                            "ENT 312: Venture Creation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "ISS 399: Students' Industrial Work Experience Scheme / Attachment (SIWES - 6 Months) (Practical field placement at intelligence agencies [e.g., DSS, NIA, DIA], law enforcement [NPF, EFCC, NDLEA, NSCDC], military intelligence units, border security agencies, or corporate risk consultancy firms)"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "400 Level (Counter-Terrorism, Strategic Leadership & Capstone Thesis)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "ISS 401: Terrorism, Counter-Terrorism & Insurgency Analysis",
+                            "ISS 403: Organized Crime, Money Laundering & Transnational Threats",
+                            "ISS 405: Critical Infrastructure Protection & Emergency/Disaster Management",
+                            "ISS 407: Border, Maritime & Aviation Security Intelligence",
+                            "ISS 409: Strategic Intelligence & Decision-Making for Policy Makers",
+                            "ISS 497: Research Project / Senior Thesis I (Proposal, Methodology & Instrument Design)"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "ISS 402: Global Counter-Intelligence, Espionage & Security Analysis",
+                            "ISS 404: Conflict Resolution, Peacebuilding & Security Sector Reform (SSR)",
+                            "ISS 406: Intelligence Ethics, Oversight & Democratic Accountability",
+                            "ISS 408: Comparative Intelligence Systems (US, UK, Israel, Russia & Africa)",
+                            "ISS 499: Research Project / Senior Thesis II (Fieldwork Analysis, Operational Report, Defense & Submission)"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "International Relations & Strategic Studies": {
+        degree: "B.Sc. International Relations & Strategic Studies",
+        levels: [
+            {
+                level: "100 Level (Foundational Social Sciences & Global Politics)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "IRS 101: Introduction to International Relations I (Concepts, Actors & Evolution of the International System)",
+                            "IRS 103: Introduction to Strategic Studies I (War, Peace & National Power)",
+                            "POS 101: Elements of Political Science",
+                            "HIS 101: North-South Relations & World History since 1914",
+                            "SOC 101: Elements of Sociology I",
+                            "COS 101: Introduction to Computing Sciences",
+                            "GST 111: Communication in English Language"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "IRS 102: Introduction to International Relations II (Foreign Policy & Statecraft)",
+                            "IRS 104: Evolution of the Modern International System (Westphalia to Post-Cold War)",
+                            "POS 102: Introduction to Nigerian Government and Politics",
+                            "ECN 101: Principles of Economics I",
+                            "GST 112: Philosophy, Logic, and Human Existence",
+                            "GST 113: History and Philosophy of Science"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "200 Level (Theories, Diplomacy, Strategic Thought & Research Methods)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "IRS 201: Theories of International Relations (Realism, Liberalism, Constructivism & Marxism)",
+                            "IRS 203: History of Strategic Thought (Sun Tzu, Clausewitz, Machiavelli to Modern Theorists)",
+                            "IRS 205: Structure & Functions of International Organizations (UN, AU, ECOWAS, EU)",
+                            "POS 201: Foreign Policy Analysis I (Decision-Making Models & National Interest)",
+                            "SOC 201: Social Research Methods I (Qualitative & Quantitative Design)",
+                            "ENT 211: Entrepreneurship and Innovation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "IRS 202: Diplomacy: Theory, Practice & Protocol",
+                            "IRS 204: Nigerian Foreign Policy (Principles, Evolution & Contemporary Issues)",
+                            "IRS 206: International Law & Legal Systems (Treaties, Jurisdiction & Law of the Sea)",
+                            "IRS 208: Human Rights in International Relations",
+                            "STA 201: Statistics for Social Sciences",
+                            "GST 212: Nigerian Peoples and Culture"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "300 Level (Global Political Economy, Security, Conflict & SIWES Internship)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "IRS 301: Global Political Economy (International Trade, Finance, IMF/World Bank Dynamics)",
+                            "IRS 303: International Security, Arms Control & Disarmament (Nuclear Proliferation & Deterrence)",
+                            "IRS 305: Conflict Resolution, Peacekeeping & Peacebuilding Operations",
+                            "IRS 307: Geopolitics & Great Power Politics (US, China, Russia, EU Dynamics)",
+                            "IRS 309: Research Methods in International Relations & Qualitative Data Analysis",
+                            "ENT 312: Venture Creation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "IRS 399: Students' Industrial Work Experience Scheme / Attachment (SIWES - 6 Months) (Practical field placement at the Ministry of Foreign Affairs, foreign embassies/consulates, international NGOs, research institutes [e.g., NIIA], think tanks, or international media organizations)"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "400 Level (Strategic Defense Analysis, Terrorism & Capstone Thesis)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "IRS 401: Advanced Strategic Studies & Military Strategy (Conventional & Unconventional Warfare)",
+                            "IRS 403: Terrorism, Transnational Crime & Asymmetric Threats",
+                            "IRS 405: Foreign Policies of Major Powers (US, China, UK, Russia)",
+                            "IRS 407: African International Relations & Regional Integration",
+                            "IRS 409: Environmental Politics, Climate Change & Global Resource Governance",
+                            "IRS 497: Research Project / Senior Thesis I (Proposal, Analytical Framework & Methodology Design)"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "IRS 402: Crisis Management, Intelligence & Counter-Intelligence in Foreign Policy",
+                            "IRS 404: Gender, Globalization & International Relations",
+                            "IRS 406: The Global South in International Politics (Non-Aligned Movement & BRICS+)",
+                            "IRS 408: Contemporary Issues in Global Security & Diplomacy",
+                            "IRS 499: Research Project / Senior Thesis II (Data Analysis, Case Study Defense & Final Submission)"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "Islamic Economics & Finance": {
+        degree: "B.Sc. Islamic Economics & Finance",
+        levels: [
+            {
+                level: "100 Level (Foundational Economics, Finance & Shariah Principles)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "IEF 101: Introduction to Islamic Economics I (Foundations & Principles)",
+                            "IEF 103: Introduction to Islamic Jurisprudence (Fiqh al-Mu'amalat I)",
+                            "ECN 101: Principles of Economics I (Microeconomics)",
+                            "ACC 101: Principles of Accounting I",
+                            "BUS 101: Introduction to Business Administration",
+                            "COS 101: Introduction to Computing Sciences",
+                            "GST 111: Communication in English Language"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "IEF 102: Introduction to Islamic Economics II (Resource Allocation & Ownership)",
+                            "IEF 104: Arabic Language for Islamic Studies & Finance I",
+                            "ECN 102: Principles of Economics II (Macroeconomics)",
+                            "ACC 102: Principles of Accounting II",
+                            "MTH 102: Mathematics for Social & Management Sciences",
+                            "GST 112: Philosophy, Logic, and Human Existence",
+                            "GST 113: History and Philosophy of Science"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "200 Level (Islamic Financial Contracts, Commercial Law & Quantitative Methods)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "IEF 201: Islamic Commercial Contracts I (Murabahan, Ijarah, Salam, Istisna')",
+                            "IEF 203: History of Islamic Economic Thought",
+                            "IEF 205: Principles of Islamic Banking",
+                            "ECN 201: Microeconomic Theory I",
+                            "ECN 203: Quantitative Techniques in Economics (Calculus & Matrix Algebra)",
+                            "ENT 211: Entrepreneurship and Innovation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "IEF 202: Islamic Commercial Contracts II (Mudarabah, Musharakah, Wakalah)",
+                            "IEF 204: Arabic Language for Islamic Studies & Finance II",
+                            "IEF 206: Legal & Regulatory Framework for Islamic Financial Institutions",
+                            "ECN 202: Macroeconomic Theory I",
+                            "STA 201: Statistics for Social & Management Sciences",
+                            "GST 212: Nigerian Peoples and Culture"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "300 Level (Islamic Capital Markets, Accounting, Risk Management & SIWES Internship)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "IEF 301: Islamic Capital Markets & Investment Analysis (Sukuk, Equity Screening & Funds)",
+                            "IEF 303: Accounting for Islamic Financial Institutions (AAOIFI Standards)",
+                            "IEF 305: Islamic Social Finance (Zakat, Waqf, Sadaqah & Poverty Alleviation)",
+                            "IEF 307: Risk Management in Islamic Financial Institutions",
+                            "IEF 309: Research Methods in Islamic Economics & Quantitative Analysis",
+                            "ENT 312: Venture Creation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "IEF 399: Students' Industrial Work Experience Scheme / Attachment (SIWES - 6 Months) (Practical placement at non-interest banks [e.g., Jaiz Bank, TajBank, Lotus Bank], Islamic windows of conventional banks, Takaful firms, Islamic fund management companies, regulatory bodies [CBN, SEC], or Shariah advisory consultancies)"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "400 Level (Advanced Islamic Macroeconomics, Shariah Governance & Capstone Thesis)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "IEF 401: Islamic Macroeconomics, Monetary Policy & Central Banking",
+                            "IEF 403: Takaful (Islamic Insurance) & Re-Takaful Principles and Operations",
+                            "IEF 405: Shariah Governance, Audit & Compliance in Islamic Financial Institutions",
+                            "IEF 407: Financial Technology (Fintech) & Innovation in Islamic Finance",
+                            "IEF 409: Econometrics for Islamic Economic Research",
+                            "IEF 497: Research Project / Senior Thesis I (Proposal, Shariah Evaluation & Research Design)"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "IEF 402: Comparative Economic Systems (Islamic vs. Capitalist & Socialist Systems)",
+                            "IEF 404: Financial Engineering & Product Structuring in Islamic Finance",
+                            "IEF 406: Islamic Wealth Management, Inheritance (Mawarith) & Estate Planning",
+                            "IEF 408: Contemporary Issues & Case Studies in Global Islamic Finance",
+                            "IEF 499: Research Project / Senior Thesis II (Data Analysis, Shariah Analysis, Defense & Submission)"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "Peace, Conflict & Resolution Studies": {
+        degree: "B.Sc. Peace, Conflict & Resolution Studies",
+        levels: [
+            {
+                level: "100 Level (Foundational Social Sciences & Peace Concepts)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "PCR 101: Introduction to Peace & Conflict Studies I",
+                            "PCR 103: History of Global & African Conflicts",
+                            "POS 101: Elements of Political Science",
+                            "SOC 101: Elements of Sociology I",
+                            "PSY 101: Introduction to Psychology",
+                            "COS 101: Introduction to Computing Sciences",
+                            "GST 111: Communication in English Language"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "PCR 102: Introduction to Peace & Conflict Studies II (Concepts of War, Violence & Non-violence)",
+                            "PCR 104: Culture, Ethnicity & Social Conflicts in Africa",
+                            "POS 102: Introduction to Nigerian Government and Politics",
+                            "SOC 102: Elements of Sociology II",
+                            "GST 112: Philosophy, Logic, and Human Existence",
+                            "GST 113: History and Philosophy of Science"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "200 Level (Conflict Analysis, ADR & Research Methods)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "PCR 201: Theories of Peace, War & Conflict Behavior",
+                            "PCR 203: Alternative Dispute Resolution (ADR) I: Negotiation & Mediation",
+                            "PCR 205: Human Rights, Social Justice & Peacebuilding",
+                            "PCR 207: Psychology of Conflict & Group Dynamics",
+                            "SOC 201: Social Research Methods I (Qualitative & Quantitative Design)",
+                            "ENT 211: Entrepreneurship and Innovation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "PCR 202: Alternative Dispute Resolution (ADR) II: Arbitration & Conciliation",
+                            "PCR 204: Gender, Youth & Vulnerable Groups in Conflict & Peacebuilding",
+                            "PCR 206: Environmental Conflicts & Resource Governance (Land, Water & Oil)",
+                            "PCR 208: Community-Based Conflict Resolution & Traditional Peace Systems",
+                            "STA 201: Statistics for Social Sciences",
+                            "GST 212: Nigerian Peoples and Culture"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "300 Level (Early Warning, Peacekeeping & SIWES Internship)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "PCR 301: Conflict Early Warning & Early Response Systems",
+                            "PCR 303: International Peacekeeping, Peace Enforcement & Humanitarian Intervention",
+                            "PCR 305: Arms Control, Proliferation & Disarmament",
+                            "PCR 307: Media, Propaganda & Peace Journalism",
+                            "PCR 309: Research Methods in Peace & Conflict Studies",
+                            "ENT 312: Venture Creation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "PCR 399: Students' Industrial Work Experience Scheme / Attachment (SIWES - 6 Months) (Practical field placement at peace & conflict research centers [e.g., IPCR], human rights commissions [NHRC], civil society organizations, international NGOs [e.g., Red Cross, UN agencies], dispute resolution centers, or government security ministries)"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "400 Level (Post-Conflict Reconstruction, Security Architecture & Capstone Thesis)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "PCR 401: Post-Conflict Reconstruction, Rehabilitation & Development",
+                            "PCR 403: Terrorism, Insurgency & Transnational Crime",
+                            "PCR 405: Peace Education, Non-Violent Movements & Social Transformation",
+                            "PCR 407: International Law, Humanitarian Law & War Crimes",
+                            "PCR 409: Border Security, Migration & Refugee Studies",
+                            "PCR 497: Research Project / Senior Thesis I (Proposal, Analytical Framework & Methodology Design)"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "PCR 402: Dialogue, Reconciliation & Transitional Justice (Truth Commissions & Reparations)",
+                            "PCR 404: Security Sector Reform (SSR) & Governance in Post-Conflict States",
+                            "PCR 406: Climate Change, Food Security & Security Threats",
+                            "PCR 408: Contemporary Issues in Global & Regional Security",
+                            "PCR 499: Research Project / Senior Thesis II (Data Analysis, Case Study Defense & Final Submission)"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "B.Sc. Political Science": {
+        degree: "B.Sc. Political Science",
+        levels: [
+            {
+                level: "100 Level (Foundational Social Sciences & Political Concepts)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "POS 101: Elements of Political Science I",
+                            "POS 103: Introduction to African Politics",
+                            "SOC 101: Elements of Sociology I",
+                            "ECN 101: Principles of Economics I",
+                            "PSY 101: Introduction to Psychology",
+                            "COS 101: Introduction to Computing Sciences",
+                            "GST 111: Communication in English Language"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "POS 102: Elements of Political Science II",
+                            "POS 104: Introduction to Nigerian Government and Politics",
+                            "SOC 102: Elements of Sociology II",
+                            "ECN 102: Principles of Economics II",
+                            "GST 112: Philosophy, Logic, and Human Existence",
+                            "GST 113: History and Philosophy of Science"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "200 Level (Political Thought, Comparative Politics & Research Methods)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "POS 201: History of Political Thought I (Ancient to Early Modern: Plato, Aristotle, Machiavelli)",
+                            "POS 203: Introduction to Comparative Politics",
+                            "POS 205: Introduction to Public Administration",
+                            "POS 207: Political Ideas & Ideologies (Liberalism, Socialism, Fascism, Anarchism)",
+                            "SOC 201: Social Research Methods I (Qualitative & Quantitative Design)",
+                            "ENT 211: Entrepreneurship and Innovation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "POS 202: History of Political Thought II (Modern Political Thought: Hobbes, Locke, Rousseau, Marx)",
+                            "POS 204: Nigerian Constitutional Development & Political History",
+                            "POS 206: Introduction to International Relations",
+                            "POS 208: State, Economy & Society in the Third World",
+                            "STA 201: Statistics for Social Sciences",
+                            "GST 212: Nigerian Peoples and Culture"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "300 Level (Political Analysis, Political Economy & SIWES Internship)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "POS 301: Political Analysis & Methodology",
+                            "POS 303: Contemporary Political Theory",
+                            "POS 305: Political Economy of Nigeria",
+                            "POS 307: Public Policy Analysis & Process",
+                            "POS 309: Military and Politics in Developing Nations",
+                            "ENT 312: Venture Creation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "POS 399: Students' Industrial Work Experience Scheme / Attachment (SIWES - 6 Months) (Practical field placement at legislative assemblies, electoral commissions [INEC], civil society organisations, political party secretariats, research institutes [NIPSS, NIIA], or public service ministries)"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "400 Level (Advanced Political Thought, Foreign Policy & Capstone Thesis)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "POS 401: Development Administration & Planning",
+                            "POS 403: Third World and Globalization",
+                            "POS 405: Nigerian Foreign Policy",
+                            "POS 407: Politics of International Economic Relations",
+                            "POS 409: Marxist Political Economy",
+                            "POS 497: Research Project / Senior Thesis I (Proposal, Analytical Framework & Methodology Design)"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "POS 402: State & Social Movements in Africa",
+                            "POS 404: Comparative Federalism (Nigeria, US, India, Canada)",
+                            "POS 406: Political Behavior, Parties & Pressure Groups",
+                            "POS 408: Public Financial Management & Local Government Governance",
+                            "POS 499: Research Project / Senior Thesis II (Data Analysis, Defense & Final Submission)"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "Psychology": {
+        degree: "B.Sc. Psychology",
+        levels: [
+            {
+                level: "100 Level (Foundational Social & Biological Sciences)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "PSY 101: Introduction to Psychology I (Historical Foundations, Learning & Perception)",
+                            "BIO 101: General Biology I (Cell Biology & Genetics)",
+                            "SOC 101: Elements of Sociology I",
+                            "POS 101: Elements of Political Science",
+                            "COS 101: Introduction to Computing Sciences",
+                            "MTH 101: Elementary Mathematics I",
+                            "GST 111: Communication in English Language"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "PSY 102: Introduction to Psychology II (Personality, Motivation, Emotion & Social Behavior)",
+                            "BIO 102: General Biology II (Organismal Biology & Physiology)",
+                            "SOC 102: Elements of Sociology II",
+                            "ECN 101: Principles of Economics I",
+                            "GST 112: Philosophy, Logic, and Human Existence",
+                            "GST 113: History and Philosophy of Science"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "200 Level (Experimental Methods, Developmental & Biological Psychology)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "PSY 201: Developmental Psychology I (Childhood & Adolescent Development)",
+                            "PSY 203: Physiological Psychology I (Neuroanatomy & Nervous System)",
+                            "PSY 205: Experimental Psychology I (Laboratory Methods & Experimental Design)",
+                            "PSY 207: Social Psychology I (Social Cognition, Attitudes & Group Behavior)",
+                            "STA 201: Statistics for Behavioral Sciences I",
+                            "ENT 211: Entrepreneurship and Innovation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "PSY 202: Developmental Psychology II (Adulthood, Aging & Gerontology)",
+                            "PSY 204: Physiological Psychology II (Brain Function, Sensory Systems & Endocrine System)",
+                            "PSY 206: Psychology of Personality & Individual Differences",
+                            "PSY 208: Cognitive Psychology (Memory, Attention, Problem-Solving & Language)",
+                            "STA 202: Statistics for Behavioral Sciences II",
+                            "GST 212: Nigerian Peoples and Culture"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "300 Level (Psychometrics, Abnormal Behavior, Clinical & SIWES Internship)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "PSY 301: Psychometric Theory, Psychological Testing & Test Construction",
+                            "PSY 303: Abnormal Psychology I (Psychopathology & Diagnostic Criteria)",
+                            "PSY 305: Clinical Psychology Foundations & Assessment",
+                            "PSY 307: Industrial & Organizational Psychology I (Workplace Behavior & Motivation)",
+                            "PSY 309: Research Methods in Psychology & Qualitative/Quantitative Design",
+                            "ENT 312: Venture Creation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "PSY 399: Students' Industrial Work Experience Scheme / Practicum (SIWES - 6 Months) (Practical clinical, organizational, or research placement at psychiatric hospitals, corporate HR departments, rehabilitation centers, non-governmental organizations, correctional facilities, or research institutes)"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "400 Level (Advanced Diagnostics, Counseling, Forensic & Capstone Thesis)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "PSY 401: Abnormal Psychology II (Severe Mental Disorders & Neurodevelopmental Conditions)",
+                            "PSY 403: Counseling & Psychotherapy Theories and Techniques",
+                            "PSY 405: Health Psychology & Stress Management",
+                            "PSY 407: Forensic & Criminal Psychology (Criminal Profiling & Legal Psychology)",
+                            "PSY 409: Environmental & Community Psychology",
+                            "PSY 497: Research Project / Senior Thesis I (Proposal, Hypotheses & Experimental Design)"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "PSY 402: Industrial & Organizational Psychology II (Organizational Development & Ergonomics)",
+                            "PSY 404: Neuropsychology & Cognitive Neuroscience",
+                            "PSY 406: Cross-Cultural Psychology & African Perspectives in Psychology",
+                            "PSY 408: Ethics & Professional Issues in Psychology",
+                            "PSY 499: Research Project / Senior Thesis II (Data Collection, Statistical Analysis, Defense & Submission)"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "Social Work": {
+        degree: "B.Sc. Social Work",
+        levels: [
+            {
+                level: "100 Level (Foundational Social & Behavioral Sciences)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "BSW 101: Introduction to Social Work I (Origins, Fields & Principles)",
+                            "BSW 103: History & Philosophy of Social Work and Social Welfare",
+                            "SOC 101: Elements of Sociology I",
+                            "PSY 101: Introduction to Psychology",
+                            "POS 101: Elements of Political Science",
+                            "COS 101: Introduction to Computing Sciences",
+                            "GST 111: Communication in English Language"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "BSW 102: Introduction to Social Work II (Methods & Practice Settings)",
+                            "BSW 104: Social Welfare Systems & Services in Nigeria",
+                            "SOC 102: Elements of Sociology II (Social Institutions)",
+                            "ECN 101: Principles of Economics I",
+                            "GST 112: Philosophy, Logic, and Human Existence",
+                            "GST 113: History and Philosophy of Science"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "200 Level (Human Behavior, Intervention Methods & Social Research)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "BSW 201: Human Behavior & Social Environment I (Childhood & Adolescence)",
+                            "BSW 203: Social Work Methods I: Working with Individuals (Social Casework)",
+                            "BSW 205: Social Work & Social Problems (Poverty, Crime & Substance Abuse)",
+                            "SOC 201: Social Research Methods I (Qualitative & Quantitative Design)",
+                            "PSY 201: Developmental Psychology",
+                            "ENT 211: Entrepreneurship and Innovation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "BSW 202: Human Behavior & Social Environment II (Adulthood, Aging & Family Dynamics)",
+                            "BSW 204: Social Work Methods II: Working with Groups (Social Group Work)",
+                            "BSW 206: Social Policy & Social Legislation in Nigeria",
+                            "BSW 208: Medical & Health Social Work",
+                            "STA 201: Statistics for Social Sciences",
+                            "GST 212: Nigerian Peoples and Culture"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "300 Level (Community Work, Clinical Social Work & SIWES Practicum)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "BSW 301: Social Work Methods III: Community Organization & Development",
+                            "BSW 303: Family, Child & Youth Welfare Services",
+                            "BSW 305: Social Work Practice in Psychiatric & Mental Health Settings",
+                            "BSW 307: Disability Studies & Rehabilitation Social Work",
+                            "BSW 309: Research Methods in Social Work",
+                            "ENT 312: Venture Creation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "BSW 399: Students' Industrial Work Experience Scheme / Supervised Fieldwork Practicum (SIWES - 6 Months) (Direct supervised clinical and field practice at social welfare agencies, psychiatric units, rehabilitation centers, correctional institutions, NGOs, or community development organizations)"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "400 Level (Administration, Advanced Practice & Capstone Thesis)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "BSW 401: Administration & Management of Social Welfare Agencies",
+                            "BSW 403: Gerontological Social Work (Aging & Elderly Care)",
+                            "BSW 405: School Social Work & Educational Intervention",
+                            "BSW 407: Gender, Human Rights & Social Justice Advocacy",
+                            "BSW 409: Disaster Management, Migration & Refugee Social Work",
+                            "BSW 497: Research Project / Senior Thesis I (Proposal, Methodology & Instrument Design)"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "BSW 402: Social Work Practice in Correctional Settings & Criminal Justice",
+                            "BSW 404: Social Work Ethics, Values & Professional Standards",
+                            "BSW 406: International & Comparative Social Work",
+                            "BSW 408: Rural & Urban Social Work Interventions",
+                            "BSW 499: Research Project / Senior Thesis II (Data Analysis, Practice Evaluation, Defense & Submission)"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "Sociology & Anthropology": {
+        degree: "B.Sc. Sociology & Anthropology",
+        levels: [
+            {
+                level: "100 Level (Foundational Social & Behavioral Sciences)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "SAN 101: Introduction to Sociology I (Social Structure, Culture & Socialization)",
+                            "SAN 103: Introduction to Anthropology I (Physical Anthropology & Human Evolution)",
+                            "SOC 101: Elements of Social Organization",
+                            "POS 101: Elements of Political Science",
+                            "PSY 101: Introduction to Psychology",
+                            "COS 101: Introduction to Computing Sciences",
+                            "GST 111: Communication in English Language"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "SAN 102: Introduction to Sociology II (Social Institutions, Groups & Stratification)",
+                            "SAN 104: Introduction to Anthropology II (Cultural & Social Anthropology)",
+                            "SOC 102: Introduction to Nigerian Society",
+                            "ECN 101: Principles of Economics I",
+                            "GST 112: Philosophy, Logic, and Human Existence",
+                            "GST 113: History and Philosophy of Science"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "200 Level (Sociological & Anthropological Theories, Research Methods)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "SAN 201: History of Sociological Thought I (Classical Theorists: Comte, Durkheim, Marx, Weber)",
+                            "SAN 203: History of Anthropological Thought I (Evolutionism, Functionalism & Structuralism)",
+                            "SAN 205: Social Research Methods I (Qualitative & Quantitative Design)",
+                            "SAN 207: Physical Anthropology & Human Genetics",
+                            "SOC 201: Social Structure of Contemporary Africa",
+                            "ENT 211: Entrepreneurship and Innovation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "SAN 202: History of Sociological Thought II (Contemporary & Modern Theories)",
+                            "SAN 204: Ethnography & African Cultural Systems",
+                            "SAN 206: Sociology of Deviant Behavior & Crime",
+                            "SAN 208: Kinship, Marriage & Family Systems",
+                            "STA 201: Statistics for Social Sciences",
+                            "GST 212: Nigerian Peoples and Culture"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "300 Level (Urban Sociology, Medical Anthropology & SIWES Internship)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "SAN 301: Qualitative Research Methods & Ethnographic Fieldwork Techniques",
+                            "SAN 303: Medical Sociology & Anthropology (Health, Disease & Healing Systems)",
+                            "SAN 305: Urban Sociology & Ecology",
+                            "SAN 307: Sociology of Religion & Belief Systems",
+                            "SAN 309: Political & Legal Anthropology",
+                            "ENT 312: Venture Creation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "SAN 399: Students' Industrial Work Experience Scheme / Practicum (SIWES - 6 Months) (Practical field research and community placement at social research institutes, NGOs, cultural/heritage agencies, public health organizations, or urban development agencies)"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "400 Level (Advanced Theory, Applied Anthropology & Capstone Thesis)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "SAN 401: Advanced Sociological & Anthropological Theory",
+                            "SAN 403: Applied Anthropology & Community Development",
+                            "SAN 405: Gender, Culture & Society",
+                            "SAN 407: Sociology of Industrial Relations & Work",
+                            "SAN 409: Demography, Population & Society",
+                            "SAN 497: Research Project / Senior Thesis I (Proposal, Analytical Framework & Field Instrument Design)"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "SAN 402: Social Change, Globalization & Modernization",
+                            "SAN 404: Economic Anthropology & Resource Distribution",
+                            "SAN 406: Conflict, Ethnicity & Nationalism in Africa",
+                            "SAN 408: Visual & Forensic Anthropology",
+                            "SAN 499: Research Project / Senior Thesis II (Fieldwork Data Processing, Ethnographic Analysis, Defense & Submission)"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "Doctor of Veterinary Medicine": {
+        degree: "D.V.M. Doctor of Veterinary Medicine",
+        levels: [
+            {
+                level: "100 Level (Pre-Veterinary Science Foundation)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "CHM 101: General Chemistry I",
+                            "PHY 101: General Physics I",
+                            "BIO 101: General Biology I (Cell Biology & Genetics)",
+                            "MTH 101: Elementary Mathematics I",
+                            "COS 101: Introduction to Computing Sciences",
+                            "GST 111: Communication in English Language"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "CHM 102: General Chemistry II",
+                            "PHY 102: General Physics II",
+                            "BIO 102: General Biology II (Organismal Biology & Physiology)",
+                            "GST 112: Philosophy, Logic, and Human Existence",
+                            "GST 113: History and Philosophy of Science"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "200 Level (Pre-Clinical: Pre-Vet Medical Foundations)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "VAN 201: Gross Veterinary Anatomy I (Osteology, Myology & Arthrology)",
+                            "VPH 201: Veterinary Physiology I (Cellular, Cardiovascular & Respiratory Physiology)",
+                            "VBC 201: Veterinary Biochemistry I (Biomolecules & Enzymology)",
+                            "ANP 201: Animal Production & Management I (Ruminant Nutrition & Management)",
+                            "ENT 211: Entrepreneurship and Innovation"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "VAN 202: Gross Veterinary Anatomy II (Splanchnology & Neuroanatomy)",
+                            "VAN 204: Veterinary Histology & Embryology",
+                            "VPH 202: Veterinary Physiology II (Renal, Endocrine & Reproductive Physiology)",
+                            "VBC 202: Veterinary Biochemistry II (Metabolism & Integration)",
+                            "ANP 202: Animal Production & Management II (Monogastric & Poultry Production)",
+                            "GST 212: Nigerian Peoples and Culture"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "300 Level (Para-Clinical: Mechanisms of Animal Disease)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "VPT 301: Veterinary General Pathology",
+                            "VMP 301: Veterinary Microbiology I (General Bacteriology & Mycology)",
+                            "VPAR 301: Veterinary Parasitology I (Helminthology)",
+                            "VPCT 301: Veterinary Pharmacology I (Autonomic & Central Nervous System Drugs)",
+                            "ANP 301: Animal Breeding & Genetics"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "VPT 302: Veterinary Systemic Pathology",
+                            "VMP 302: Veterinary Virology & Immunology",
+                            "VPAR 302: Veterinary Parasitology II (Entomology & Protozoology)",
+                            "VPCT 302: Veterinary Pharmacology II & Therapeutics (Chemotherapy & Toxicology)",
+                            "VET 399: Farm Practice / Industrial Field Experience (SIWES)"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "400 Level (Para-Clinical / Intro-Clinical: Disease Investigation & Public Health)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "VPT 401: Veterinary Clinical Pathology & Hematology",
+                            "VPH 401: Veterinary Public Health, Zoonoses & Food Hygiene I",
+                            "VPH 403: Veterinary Epidemiology & Preventive Medicine",
+                            "VSR 401: General Veterinary Surgery & Anaesthesiology",
+                            "VMD 401: Veterinary Clinical Examinations & Diagnostic Methods"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "VPH 402: Veterinary Public Health II (Meat & Milk Hygiene, Environmental Health)",
+                            "VSR 402: Large Animal Surgery & Diagnostic Imaging",
+                            "VMD 402: Ruminant Medicine & Health Management",
+                            "VOB 401: Veterinary Theriogenology & Reproductive Health I",
+                            "ENT 312: Venture Creation"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "500 Level (Clinical Practice: Species-Specific Medicine & Surgery)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "VMD 501: Avian Medicine & Health Management",
+                            "VMD 503: Small Animal Medicine (Canine & Feline Medicine)",
+                            "VMD 505: Porcine, Equine & Wildlife Medicine",
+                            "VSR 501: Small Animal Surgery & Orthopedics",
+                            "VOB 501: Veterinary Theriogenology & Reproductive Health II (Obstetrics & Assisted Reproduction)"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "VMD 502: Aquatic Animal Medicine & Fish Health",
+                            "VSR 502: Soft Tissue & Ophthalmic Surgery",
+                            "VPH 502: Veterinary Jurisprudence, Ethics & Practice Management",
+                            "VET 599: Clinical Rotations & Ambulatory Clinic I (24/7 On-Call Rotations across Small Animal, Large Animal, Poultry, and Surgery Clinics)"
+                        ]
+                    }
+                ]
+            },
+            {
+                level: "600 Level (Clinical Internship & Capstone Research)",
+                semesters: [
+                    {
+                        semester: "First Semester",
+                        courses: [
+                            "VET 601: Advanced Clinical Rotations I (Emergency Medicine, Intensive Care & Diagnostic Pathology)",
+                            "VET 603: Ambulatory & Field Clinical Practice I (Livestock & Poultry Farm Visits)",
+                            "VET 697: Veterinary Research Project / Thesis I (Experimental Design, Ethics & Field/Lab Work)"
+                        ]
+                    },
+                    {
+                        semester: "Second Semester",
+                        courses: [
+                            "VET 602: Advanced Clinical Rotations II (Final Practical Case Defenses across Surgery, Medicine & Reproduction)",
+                            "VET 604: Ambulatory & Field Clinical Practice II",
+                            "VET 699: Veterinary Research Project / Thesis II (Data Analysis, Final Defense & Submission)"
                         ]
                     }
                 ]

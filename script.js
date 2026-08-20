@@ -165,54 +165,49 @@ function initSidebarTabs() {
     pastQuestionsTab.addEventListener('click', () => selectTab('past-questions'));
 }
 
-// If we're on the Master-Note view of topic.html, show the catalog by default,
-// or the matching note / "coming soon" message when a topic code is in the URL.
-function initMasterNoteRouting() {
-    const catalog = document.getElementById('masterNoteCatalog');
-    const detail = document.getElementById('masterNoteDetail');
-    if (!catalog || !detail) return;
+// If we're on the Master-Note view of topic.html: with no topic code in the
+// URL, show the "pick a topic" placeholder; otherwise fetch that topic's
+// note from the backend (GET /api/notes?code=...) and show it, or a
+// "coming soon" message if it hasn't been written yet.
+async function initMasterNoteRouting() {
+    const empty = document.getElementById('mnEmpty');
+    const noteContainer = document.getElementById('mnNoteContainer');
+    const unavailable = document.getElementById('mnUnavailable');
+    if (!empty || !noteContainer || !unavailable) return;
+
+    const sidebarTopicsList = document.getElementById('sidebarTopicsList');
+    if (sidebarTopicsList) sidebarTopicsList.innerHTML = '';
+
+    function showOnly(which) {
+        empty.style.display = which === 'empty' ? '' : 'none';
+        noteContainer.style.display = which === 'note' ? '' : 'none';
+        unavailable.style.display = which === 'unavailable' ? '' : 'none';
+    }
 
     const params = new URLSearchParams(window.location.search);
     const code = (params.get('code') || '').trim();
     const title = params.get('title') || '';
 
-    const sidebarTopicsList = document.getElementById('sidebarTopicsList');
-    if (sidebarTopicsList) sidebarTopicsList.innerHTML = '';
-
     if (!code) {
-        catalog.style.display = '';
-        detail.style.display = 'none';
+        showOnly('empty');
         return;
     }
 
-    catalog.style.display = 'none';
-    detail.style.display = '';
-
-    const notes = detail.querySelectorAll('.mn-note');
-    const unavailable = document.getElementById('mnUnavailable');
-    let found = null;
-
-    notes.forEach(note => {
-        if (note.dataset.code === code) {
-            found = note;
-            note.style.display = '';
-        } else {
-            note.style.display = 'none';
+    try {
+        const response = await fetch(`${API_BASE}/notes?code=${encodeURIComponent(code)}`);
+        if (response.status === 404) throw new Error('Note not found');
+        if (!response.ok) throw new Error('Failed to load master note');
+        const data = await response.json();
+        noteContainer.innerHTML = data.content;
+        showOnly('note');
+        initMasterNoteSections(noteContainer);
+    } catch (err) {
+        const unavailableText = document.getElementById('mnUnavailableText');
+        if (unavailableText) {
+            const label = title ? `${code}: ${title}` : code;
+            unavailableText.textContent = `We haven't written the master note for "${label}" yet. Check back soon — new notes are being added regularly.`;
         }
-    });
-
-    if (found) {
-        if (unavailable) unavailable.style.display = 'none';
-        initMasterNoteSections(found);
-    } else {
-        if (unavailable) {
-            unavailable.style.display = '';
-            const unavailableText = document.getElementById('mnUnavailableText');
-            if (unavailableText) {
-                const label = title ? `${code}: ${title}` : code;
-                unavailableText.textContent = `We haven't written the master note for "${label}" yet. Check back soon — new notes are being added regularly.`;
-            }
-        }
+        showOnly('unavailable');
     }
 }
 

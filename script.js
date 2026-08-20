@@ -163,9 +163,57 @@ function initSidebarTabs() {
     pastQuestionsTab.addEventListener('click', () => selectTab('past-questions'));
 }
 
+// If we're on the Master-Note view of topic.html, show the catalog by default,
+// or the matching note / "coming soon" message when a topic code is in the URL.
+function initMasterNoteRouting() {
+    const catalog = document.getElementById('masterNoteCatalog');
+    const detail = document.getElementById('masterNoteDetail');
+    if (!catalog || !detail) return;
+
+    const params = new URLSearchParams(window.location.search);
+    const code = (params.get('code') || '').trim();
+    const title = params.get('title') || '';
+
+    if (!code) {
+        catalog.style.display = '';
+        detail.style.display = 'none';
+        return;
+    }
+
+    catalog.style.display = 'none';
+    detail.style.display = '';
+
+    const notes = detail.querySelectorAll('.mn-note');
+    const unavailable = document.getElementById('mnUnavailable');
+    let found = null;
+
+    notes.forEach(note => {
+        if (note.dataset.code === code) {
+            found = note;
+            note.style.display = '';
+        } else {
+            note.style.display = 'none';
+        }
+    });
+
+    if (found) {
+        if (unavailable) unavailable.style.display = 'none';
+    } else {
+        if (unavailable) {
+            unavailable.style.display = '';
+            const unavailableText = document.getElementById('mnUnavailableText');
+            if (unavailableText) {
+                const label = title ? `${code}: ${title}` : code;
+                unavailableText.textContent = `We haven't written the master note for "${label}" yet. Check back soon — new notes are being added regularly.`;
+            }
+        }
+    }
+}
+
 function initMainPage() {
     initHeader();
     initSidebarTabs();
+    initMasterNoteRouting();
 
     document.querySelectorAll('.course-card').forEach(card => {
         card.addEventListener('click', async function(e) {

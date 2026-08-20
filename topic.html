@@ -19,6 +19,7 @@
             <button class="sidebar-tab" id="pastQuestionsTab" data-tab="past-questions">Past-Questions</button>
         </div>
         <div class="sidebar-section-heading" id="sidebarTopicsHeading">Topics</div>
+        <div class="sidebar-topics-list" id="sidebarTopicsList"></div>
     </div>
 
     <div class="main-content">
@@ -34,38 +35,11 @@
         <div class="master-note-view" id="masterNoteView">
             <div class="master-note-detail" id="masterNoteDetail" style="display: none;">
                 <div class="mn-note" data-code="ACC 101">
-                    <a href="topic.html" class="mn-back-link"><i class="fas fa-arrow-left"></i> Back to all topics</a>
                     <article class="master-note-article">
     <div class="mn-article-header">
         <div class="mn-article-eyebrow">Master Note · Accountancy / Accounting</div>
         <h1>ACC 101: Introduction to Financial Accounting I</h1>
-        <p>A complete, exam-ready study guide covering the full 100-level introductory financial accounting syllabus taught across Nigerian universities (UNILAG, UI, OAU, UNN, ABU, UNIBEN, Covenant, LASU, and others follow essentially the same core curriculum, drawn from standard texts such as Frank Wood's Business Accounting, Igben's Financial Accounting, and ICAN Foundation materials). Read it top to bottom once, then use the table of contents to revisit weak spots before your exam.</p>
-    </div>
-
-    <div class="mn-toc">
-        <h3>Contents</h3>
-        <ol>
-            <li><a href="#mn-s1">Introduction to Accounting</a></li>
-            <li><a href="#mn-s2">Accounting Concepts &amp; Conventions</a></li>
-            <li><a href="#mn-s3">The Accounting Equation</a></li>
-            <li><a href="#mn-s4">Double Entry Bookkeeping</a></li>
-            <li><a href="#mn-s5">Source Documents</a></li>
-            <li><a href="#mn-s6">Books of Original Entry</a></li>
-            <li><a href="#mn-s7">The Ledger</a></li>
-            <li><a href="#mn-s8">The Cash Book</a></li>
-            <li><a href="#mn-s9">Trial Balance &amp; Errors</a></li>
-            <li><a href="#mn-s10">Bank Reconciliation Statements</a></li>
-            <li><a href="#mn-s11">Control Accounts</a></li>
-            <li><a href="#mn-s12">Depreciation of Fixed Assets</a></li>
-            <li><a href="#mn-s13">Bad Debts &amp; Provision for Doubtful Debts</a></li>
-            <li><a href="#mn-s14">Accruals &amp; Prepayments</a></li>
-            <li><a href="#mn-s15">Capital &amp; Revenue Expenditure</a></li>
-            <li><a href="#mn-s16">Final Accounts of a Sole Trader</a></li>
-            <li><a href="#mn-s17">Exam Technique &amp; Common Mistakes</a></li>
-            <li><a href="#mn-s18">Practice Questions with Full Solutions</a></li>
-            <li><a href="#mn-s19">Glossary of Key Terms</a></li>
-            <li><a href="#mn-s20">Quick-Revision Summary</a></li>
-        </ol>
+        <p>A complete, exam-ready study guide covering the full 100-level introductory financial accounting syllabus taught across Nigerian universities (UNILAG, UI, OAU, UNN, ABU, UNIBEN, Covenant, LASU, and others follow essentially the same core curriculum, drawn from standard texts such as Frank Wood's Business Accounting, Igben's Financial Accounting, and ICAN Foundation materials). Work through it one section at a time, using the topics list in the sidebar or the buttons below to move between sections.</p>
     </div>
 
     <!-- ================= SECTION 1 ================= -->
@@ -1051,7 +1025,23 @@
         <p style="margin-top: 24px; font-style: italic; color: #666;">Master every worked example above by redoing it yourself without looking, not just reading it — that is what will actually get you through the ACC 101 exam.</p>
     </section>
 
-    <a href="#top" class="mn-back-to-top" onclick="document.querySelector('.master-note-article').scrollIntoView({behavior:'smooth'}); return false;"><i class="fas fa-arrow-up"></i> Back to top</a>
+    <div class="mn-pager" id="mnPager">
+        <button type="button" class="mn-pager-btn mn-pager-prev" id="mnPagerPrev">
+            <i class="fas fa-arrow-left"></i>
+            <span class="mn-pager-btn-text">
+                <small>Previous</small>
+                <span class="mn-pager-btn-title" id="mnPagerPrevTitle"></span>
+            </span>
+        </button>
+        <div class="mn-pager-position" id="mnPagerPosition"></div>
+        <button type="button" class="mn-pager-btn mn-pager-next" id="mnPagerNext">
+            <span class="mn-pager-btn-text">
+                <small>Next</small>
+                <span class="mn-pager-btn-title" id="mnPagerNextTitle"></span>
+            </span>
+            <i class="fas fa-arrow-right"></i>
+        </button>
+    </div>
 </article>
 
                 </div>

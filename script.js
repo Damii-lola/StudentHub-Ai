@@ -147,6 +147,7 @@ function initSidebarTabs() {
     const masterNoteView = document.getElementById('masterNoteView');
     const pastQuestionsView = document.getElementById('pastQuestionsView');
     const sidebarTopicsHeading = document.getElementById('sidebarTopicsHeading');
+    const sidebarTopicsList = document.getElementById('sidebarTopicsList');
 
     if (!masterNoteTab || !pastQuestionsTab) return;
 
@@ -157,6 +158,7 @@ function initSidebarTabs() {
         if (masterNoteView) masterNoteView.style.display = isMasterNote ? '' : 'none';
         if (pastQuestionsView) pastQuestionsView.style.display = isMasterNote ? 'none' : '';
         if (sidebarTopicsHeading) sidebarTopicsHeading.style.display = isMasterNote ? '' : 'none';
+        if (sidebarTopicsList) sidebarTopicsList.style.display = isMasterNote ? '' : 'none';
     }
 
     masterNoteTab.addEventListener('click', () => selectTab('master-note'));
@@ -173,6 +175,9 @@ function initMasterNoteRouting() {
     const params = new URLSearchParams(window.location.search);
     const code = (params.get('code') || '').trim();
     const title = params.get('title') || '';
+
+    const sidebarTopicsList = document.getElementById('sidebarTopicsList');
+    if (sidebarTopicsList) sidebarTopicsList.innerHTML = '';
 
     if (!code) {
         catalog.style.display = '';
@@ -198,6 +203,7 @@ function initMasterNoteRouting() {
 
     if (found) {
         if (unavailable) unavailable.style.display = 'none';
+        initMasterNoteSections(found);
     } else {
         if (unavailable) {
             unavailable.style.display = '';
@@ -208,6 +214,70 @@ function initMasterNoteRouting() {
             }
         }
     }
+}
+
+// Book-style navigation through one master note: shows a single section at a
+// time, lists every section in the sidebar under "Topics", and wires the
+// Previous/Next buttons at the bottom of the section.
+function initMasterNoteSections(noteEl) {
+    const sections = Array.from(noteEl.querySelectorAll('.mn-section'));
+    if (sections.length === 0) return;
+
+    const sidebarTopicsList = document.getElementById('sidebarTopicsList');
+    const pagerPrev = document.getElementById('mnPagerPrev');
+    const pagerNext = document.getElementById('mnPagerNext');
+    const pagerPrevTitle = document.getElementById('mnPagerPrevTitle');
+    const pagerNextTitle = document.getElementById('mnPagerNextTitle');
+    const pagerPosition = document.getElementById('mnPagerPosition');
+
+    const titles = sections.map(section => {
+        const heading = section.querySelector('h2');
+        return heading ? heading.textContent.trim() : '';
+    });
+
+    let sidebarLinks = [];
+    if (sidebarTopicsList) {
+        sidebarTopicsList.innerHTML = '';
+        sidebarLinks = titles.map((sectionTitle, i) => {
+            const link = document.createElement('button');
+            link.type = 'button';
+            link.className = 'sidebar-topic-link';
+            link.textContent = sectionTitle;
+            link.addEventListener('click', () => showSection(i));
+            sidebarTopicsList.appendChild(link);
+            return link;
+        });
+    }
+
+    let currentIndex = 0;
+
+    function showSection(index, options) {
+        const scroll = !options || options.scroll !== false;
+        currentIndex = Math.max(0, Math.min(index, sections.length - 1));
+
+        sections.forEach((section, i) => {
+            section.style.display = i === currentIndex ? '' : 'none';
+        });
+
+        sidebarLinks.forEach((link, i) => {
+            link.classList.toggle('active', i === currentIndex);
+        });
+
+        if (pagerPrev) pagerPrev.disabled = currentIndex === 0;
+        if (pagerNext) pagerNext.disabled = currentIndex === sections.length - 1;
+        if (pagerPrevTitle) pagerPrevTitle.textContent = currentIndex > 0 ? titles[currentIndex - 1] : '';
+        if (pagerNextTitle) pagerNextTitle.textContent = currentIndex < sections.length - 1 ? titles[currentIndex + 1] : '';
+        if (pagerPosition) pagerPosition.textContent = `Section ${currentIndex + 1} of ${sections.length}`;
+
+        if (scroll) {
+            noteEl.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+    }
+
+    if (pagerPrev) pagerPrev.addEventListener('click', () => showSection(currentIndex - 1));
+    if (pagerNext) pagerNext.addEventListener('click', () => showSection(currentIndex + 1));
+
+    showSection(0, { scroll: false });
 }
 
 function initMainPage() {

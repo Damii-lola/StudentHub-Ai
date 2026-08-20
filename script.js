@@ -146,6 +146,7 @@ function initSidebarTabs() {
     const pastQuestionsTab = document.getElementById('pastQuestionsTab');
     const masterNoteView = document.getElementById('masterNoteView');
     const pastQuestionsView = document.getElementById('pastQuestionsView');
+    const sidebarTopicsHeading = document.getElementById('sidebarTopicsHeading');
 
     if (!masterNoteTab || !pastQuestionsTab) return;
 
@@ -155,6 +156,7 @@ function initSidebarTabs() {
         pastQuestionsTab.classList.toggle('active', !isMasterNote);
         if (masterNoteView) masterNoteView.style.display = isMasterNote ? '' : 'none';
         if (pastQuestionsView) pastQuestionsView.style.display = isMasterNote ? 'none' : '';
+        if (sidebarTopicsHeading) sidebarTopicsHeading.style.display = isMasterNote ? '' : 'none';
     }
 
     masterNoteTab.addEventListener('click', () => selectTab('master-note'));

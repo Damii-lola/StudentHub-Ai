@@ -167,6 +167,38 @@ app.get('/api/courses/topics', async (req, res) => {
     }
 });
 
+// ========================
+// MASTER NOTES (one row per topic, looked up by course code)
+// ========================
+
+// Fetch one topic's master note by its course code (e.g. "ACC 101").
+// Uses a query param for the same reason as /api/courses/topics — codes
+// contain "/" and spaces that don't survive as a single route segment.
+app.get('/api/notes', async (req, res) => {
+    const { code } = req.query;
+    if (!code) {
+        return res.status(400).json({ error: 'code query parameter is required' });
+    }
+
+    try {
+        const { data, error } = await supabase
+            .from('master_notes')
+            .select('code, title, content')
+            .eq('code', code)
+            .maybeSingle();
+
+        if (error) throw error;
+        if (!data) {
+            return res.status(404).json({ error: 'Master note not found' });
+        }
+
+        res.status(200).json(data);
+    } catch (error) {
+        console.error('Get master note error:', error.message);
+        res.status(400).json({ error: error.message });
+    }
+});
+
 // Health check
 app.get('/api/health', (req, res) => {
     res.status(200).json({ status: 'OK', timestamp: new Date().toISOString() });
